@@ -17,6 +17,7 @@ import PremiumFeaturesModal from '../../../components/premium/PremiumFeaturesMod
 import { usePremiumFeatures } from '../../../hooks/usePremiumFeatures';
 import { PageGuide, GUIDES } from '../../../components/PageGuide';
 import { WorkflowPicker } from '../../../components/council/WorkflowPicker';
+import councilPacketApi from '../../../services/CouncilPacketService';
 
 // =============================================================================
 // TYPES
@@ -61,6 +62,15 @@ interface AgentResponse {
   response: string;
   duration: number;
   isStreaming?: boolean;
+  timestamp?: number; // When the response was received (ms since epoch)
+  reactions?: Record<string, number>; // emoji -> count
+}
+
+interface UserMessage {
+  id: string;
+  content: string;
+  timestamp: number;
+  targetAgentId?: string; // If replying to specific agent
 }
 
 interface CrossExamination {
@@ -82,6 +92,7 @@ interface QueryResult {
   agents: { id: string; name: string }[];
   agentResponses: AgentResponse[]; // Individual agent responses
   crossExaminations: CrossExamination[]; // Cross-examination threads
+  userMessages: UserMessage[]; // Human user interjections
   answeredAt: Date;
   mode: 'quick' | 'deliberation';
   currentPhase?: string;
@@ -1366,6 +1377,7 @@ export const CouncilPage: React.FC = () => {
           agents: [],
           agentResponses: [],
           crossExaminations: [],
+          userMessages: [],
           answeredAt: new Date(),
           mode: 'deliberation',
           currentPhase: 'initial_analysis',
@@ -1415,6 +1427,8 @@ export const CouncilPage: React.FC = () => {
                         response: '',
                         duration: 0,
                         isStreaming: true,
+                        timestamp: Date.now(),
+                        reactions: {},
                       },
                     ],
                     agents: [...d.agents, { id: agent.id, name: agent.name }],
@@ -1614,9 +1628,11 @@ export const CouncilPage: React.FC = () => {
               agentRole: result.agent.role,
               response: result.response,
               duration: result.duration,
+              timestamp: Date.now(),
             },
           ],
           crossExaminations: [],
+          userMessages: [],
           answeredAt: new Date(),
           mode: 'quick',
         };
@@ -2079,6 +2095,113 @@ export const CouncilPage: React.FC = () => {
                       compact
                     />
                   ))}
+              </div>
+            )}
+          </div>
+        )}
+
+        {/* Legal Agents - Collapsible */}
+        {allAgents.filter(
+          (a) => !a.premium && !a.isCustom && 
+            ['prosecutor', 'defense-attorney', 'judge', 'juror-skeptic', 'juror-emotional', 'juror-analytical', 'juror-foreperson', 
+             'matter-lead', 'research-counsel', 'contract-counsel', 'risk-counsel', 'litigation-strategist', 
+             'regulatory-specialist', 'privilege-officer', 'evidence-officer', 'ip-specialist', 'employment-specialist', 
+             'opposing-counsel', 'commercial-advisor'].includes(a.code)
+        ).length > 0 && (
+          <div className="mb-4">
+            <button
+              onClick={() => toggleAgentSection('legal')}
+              className={cn(
+                "w-full flex items-center gap-2 p-3 rounded-lg transition-colors",
+                searchParams.get('vertical') === 'legal'
+                  ? "bg-gradient-to-r from-blue-50 to-indigo-50 hover:from-blue-100 hover:to-indigo-100 border border-blue-300"
+                  : "bg-neutral-50 hover:bg-neutral-100"
+              )}
+            >
+              <span className={cn(
+                'transition-transform',
+                searchParams.get('vertical') === 'legal' ? 'text-blue-500' : 'text-neutral-400',
+                expandedAgentSections.legal && 'rotate-90'
+              )}>▶</span>
+              <span className="text-lg">⚖️</span>
+              <span className={cn(
+                "text-xs font-semibold uppercase tracking-wider",
+                searchParams.get('vertical') === 'legal' ? "text-blue-700" : "text-neutral-600"
+              )}>
+                Legal AI Agents
+              </span>
+              <span className="text-xs text-neutral-400">
+                ({allAgents.filter(a => !a.premium && !a.isCustom && 
+                  ['prosecutor', 'defense-attorney', 'judge', 'juror-skeptic', 'juror-emotional', 'juror-analytical', 'juror-foreperson', 
+                   'matter-lead', 'research-counsel', 'contract-counsel', 'risk-counsel', 'litigation-strategist', 
+                   'regulatory-specialist', 'privilege-officer', 'evidence-officer', 'ip-specialist', 'employment-specialist', 
+                   'opposing-counsel', 'commercial-advisor'].includes(a.code)).length})
+              </span>
+              <div className="flex-1" />
+              {searchParams.get('vertical') === 'legal' && (
+                <span className="text-[10px] bg-blue-500 text-white px-2 py-0.5 rounded-full font-medium">
+                  Active Vertical
+                </span>
+              )}
+            </button>
+            {(expandedAgentSections.legal || searchParams.get('vertical') === 'legal') && (
+              <div className="mt-3 pl-6">
+                {/* Courtroom Roles */}
+                <div className="mb-3">
+                  <span className="text-[10px] font-semibold text-neutral-400 uppercase tracking-wider">Courtroom</span>
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mt-2">
+                    {allAgents
+                      .filter((a) => !a.premium && !a.isCustom && 
+                        ['prosecutor', 'defense-attorney', 'judge'].includes(a.code))
+                      .map((agent) => (
+                        <AgentCard
+                          key={agent.id}
+                          agent={agent}
+                          isSelected={selectedAgents.includes(agent.id)}
+                          onSelect={() => toggleAgentSelection(agent.id)}
+                          compact
+                        />
+                      ))}
+                  </div>
+                </div>
+                {/* Jury */}
+                <div className="mb-3">
+                  <span className="text-[10px] font-semibold text-neutral-400 uppercase tracking-wider">Jury Panel</span>
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mt-2">
+                    {allAgents
+                      .filter((a) => !a.premium && !a.isCustom && 
+                        ['juror-skeptic', 'juror-emotional', 'juror-analytical', 'juror-foreperson'].includes(a.code))
+                      .map((agent) => (
+                        <AgentCard
+                          key={agent.id}
+                          agent={agent}
+                          isSelected={selectedAgents.includes(agent.id)}
+                          onSelect={() => toggleAgentSelection(agent.id)}
+                          compact
+                        />
+                      ))}
+                  </div>
+                </div>
+                {/* Practice Specialists */}
+                <div className="mb-3">
+                  <span className="text-[10px] font-semibold text-neutral-400 uppercase tracking-wider">Practice Specialists</span>
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mt-2">
+                    {allAgents
+                      .filter((a) => !a.premium && !a.isCustom && 
+                        ['matter-lead', 'research-counsel', 'contract-counsel', 'risk-counsel', 'litigation-strategist', 
+                         'regulatory-specialist', 'privilege-officer', 'evidence-officer', 'ip-specialist', 
+                         'employment-specialist', 'opposing-counsel', 'commercial-advisor'].includes(a.code))
+                      .map((agent) => (
+                        <AgentCard
+                          key={agent.id}
+                          agent={agent}
+                          isSelected={selectedAgents.includes(agent.id)}
+                          onSelect={() => toggleAgentSelection(agent.id)}
+                          compact
+                        />
+                      ))}
+                  </div>
+                </div>
               </div>
             )}
           </div>
@@ -3098,6 +3221,51 @@ export const CouncilPage: React.FC = () => {
                   </div>
                 </div>
 
+                {/* Sticky Agent Progress Tracker */}
+                {result.agentResponses && result.agentResponses.length > 0 && (
+                  <div className="sticky top-[72px] z-10 -mx-6 px-6 py-3 bg-neutral-900/95 backdrop-blur-sm border-b border-neutral-700 mb-4">
+                    <div className="flex items-center gap-2 mb-2">
+                      <span className="text-xs text-neutral-400 font-medium">Agent Progress:</span>
+                      <span className="text-xs text-neutral-500">
+                        {result.agentResponses.filter(ar => !ar.isStreaming && ar.response).length}/{result.agentResponses.length} complete
+                      </span>
+                    </div>
+                    <div className="flex items-center gap-1 flex-wrap">
+                      {result.agentResponses.map((ar, idx) => (
+                        <button
+                          key={ar.agentId}
+                          onClick={() => {
+                            // Scroll to agent response
+                            const el = document.getElementById(`agent-response-${result.id}-${ar.agentId}`);
+                            if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                          }}
+                          className={cn(
+                            'flex items-center gap-1.5 px-2 py-1 rounded-lg text-xs transition-all cursor-pointer',
+                            ar.isStreaming
+                              ? 'bg-green-900/50 text-green-400 ring-2 ring-green-500 ring-offset-1 ring-offset-neutral-900 animate-pulse'
+                              : ar.response
+                                ? 'bg-neutral-700 text-neutral-200 hover:bg-neutral-600'
+                                : 'bg-neutral-800 text-neutral-500'
+                          )}
+                          title={`${ar.agentName} - ${ar.agentRole || 'Council Member'}`}
+                        >
+                          <span 
+                            className="w-5 h-5 rounded flex items-center justify-center text-[10px]"
+                            style={{ backgroundColor: ar.agentColor || '#6366F1' }}
+                          >
+                            {ar.agentAvatar || '🤖'}
+                          </span>
+                          <span className="font-medium max-w-[80px] truncate">
+                            {ar.agentName?.split(' ')[0] || `Agent ${idx + 1}`}
+                          </span>
+                          {ar.isStreaming && <span className="w-1.5 h-1.5 bg-green-400 rounded-full" />}
+                          {!ar.isStreaming && ar.response && <span className="text-green-400">✓</span>}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
                 {/* User Question */}
                 <div className="flex items-start gap-4 mb-6">
                   <div className="w-10 h-10 rounded-full bg-neutral-700 flex items-center justify-center text-sm text-white font-medium">
@@ -3118,200 +3286,339 @@ export const CouncilPage: React.FC = () => {
                   </div>
                 )}
 
-                {/* C) Progressive Disclosure - Answer First, Then Debate */}
+                {/* C) Conversational Flow - Chat-style deliberation */}
                 <div className="space-y-4">
-                  {/* TOP SECTION: Council Recommendation (shown first, always visible) */}
-                  {result.response && (
-                    <div className="bg-gradient-to-r from-primary-900/30 to-emerald-900/30 rounded-xl p-5 border border-primary-700/50">
-                      <div className="flex items-center gap-3 mb-4">
-                        <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary-500 to-emerald-600 flex items-center justify-center text-xl">
-                          🎯
-                        </div>
-                        <div>
-                          <h4 className="text-lg font-semibold text-white">
-                            Council Recommendation
-                          </h4>
-                          <span className="text-xs text-primary-400">
-                            Synthesized from {result.agentResponses?.length || 0} expert analyses
-                          </span>
-                        </div>
-                      </div>
-                      <div className="bg-neutral-900/50 rounded-lg p-4 border-l-4 border-primary-500">
-                        <p className="text-neutral-200 whitespace-pre-wrap leading-relaxed">
-                          {result.response}
-                        </p>
-                      </div>
-
-                      {/* Quick Action Bullets */}
-                      <div className="mt-4 grid grid-cols-2 gap-3">
-                        <div className="bg-neutral-800/50 rounded-lg p-3">
-                          <div className="text-xs text-amber-400 font-semibold mb-2">
-                            ⚠️ Risks & Constraints
-                          </div>
-                          <ul className="text-xs text-neutral-400 space-y-1">
-                            <li>• Review assumptions before proceeding</li>
-                            <li>• Consider resource availability</li>
-                          </ul>
-                        </div>
-                        <div className="bg-neutral-800/50 rounded-lg p-3">
-                          <div className="text-xs text-emerald-400 font-semibold mb-2">
-                            ✓ Next Actions
-                          </div>
-                          <ul className="text-xs text-neutral-400 space-y-1">
-                            <li>☐ Assign decision owner</li>
-                            <li>☐ Set review deadline</li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  )}
-
-                  {/* COLLAPSIBLE: Agent Analyses */}
+                  {/* INLINE: Agent Responses as Chat Messages */}
                   {result.agentResponses && result.agentResponses.length > 0 && (
-                    <div className="border border-neutral-700 rounded-xl overflow-hidden">
-                      <button
-                        onClick={() => toggleSection(result.id, 'agents')}
-                        className="w-full flex items-center justify-between px-4 py-3 bg-neutral-800 hover:bg-neutral-750 transition-colors"
-                      >
-                        <div className="flex items-center gap-3">
-                          <span className="text-lg">🧠</span>
-                          <span className="font-medium text-white">Agent Analyses</span>
-                          <span className="px-2 py-0.5 bg-neutral-700 rounded text-xs text-neutral-400">
-                            {result.agentResponses.length} responses
-                          </span>
-                        </div>
-                        <span className="text-neutral-400 text-lg">
-                          {isSectionExpanded(result.id, 'agents') ? '▼' : '▶'}
-                        </span>
-                      </button>
-                      {isSectionExpanded(result.id, 'agents') && (
-                        <div className="p-4 space-y-4 bg-neutral-900/50">
-                          {result.agentResponses.map((agentResp) => (
-                            <div key={agentResp.agentId} className="flex items-start gap-4">
-                              <div className="flex flex-col items-center gap-1 min-w-[50px]">
-                                <div
-                                  className={cn(
-                                    'w-10 h-10 rounded-lg flex items-center justify-center text-xl',
-                                    agentResp.isStreaming &&
-                                      'ring-2 ring-green-500 ring-offset-2 ring-offset-neutral-900'
-                                  )}
-                                  style={{ backgroundColor: agentResp.agentColor }}
-                                >
-                                  {agentResp.agentAvatar}
-                                </div>
-                                <span className="text-[10px] text-neutral-500 font-medium text-center">
-                                  {agentResp.agentName.split(' ')[0]}
-                                </span>
-                              </div>
-                              <div className="flex-1">
-                                <div className="flex items-center gap-2 mb-2">
-                                  <span
-                                    className={cn(
-                                      'text-xs font-mono',
-                                      agentResp.isStreaming ? 'text-green-400' : 'text-neutral-400'
-                                    )}
-                                  >
-                                    {agentResp.agentName}{' '}
-                                    {agentResp.isStreaming ? 'analyzing...' : 'completed'}
-                                  </span>
-                                  {agentResp.isStreaming && (
-                                    <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
-                                  )}
-                                  {!agentResp.isStreaming && agentResp.duration > 0 && (
-                                    <span className="text-xs text-neutral-600">
-                                      ({Math.round(agentResp.duration / 1000)}s)
-                                    </span>
-                                  )}
-                                </div>
-                                <div
-                                  className={cn(
-                                    'bg-neutral-800 rounded-lg px-4 py-4 border-l-2',
-                                    agentResp.isStreaming && 'border-green-500'
-                                  )}
-                                  style={{
-                                    borderColor: agentResp.isStreaming
-                                      ? undefined
-                                      : agentResp.agentColor,
-                                  }}
-                                >
-                                  <p className="text-neutral-200 whitespace-pre-wrap leading-relaxed text-sm">
-                                    {agentResp.response || (agentResp.isStreaming ? '▌' : '')}
-                                  </p>
-                                </div>
-                              </div>
+                    <div className="space-y-4">
+                      {result.agentResponses.map((agentResp, idx) => (
+                        <div 
+                          key={agentResp.agentId} 
+                          id={`agent-response-${result.id}-${agentResp.agentId}`}
+                          className={cn(
+                            'flex items-start gap-3 scroll-mt-32 transition-all group',
+                            agentResp.isStreaming && 'animate-in fade-in slide-in-from-bottom-2'
+                          )}
+                        >
+                          {/* Agent Avatar with Online Indicator */}
+                          <div className="flex-shrink-0 relative">
+                            <div
+                              className={cn(
+                                'w-10 h-10 rounded-full flex items-center justify-center text-lg shadow-lg transition-transform',
+                                agentResp.isStreaming && 'ring-2 ring-green-500 ring-offset-2 ring-offset-neutral-900 scale-105'
+                              )}
+                              style={{ backgroundColor: agentResp.agentColor || '#6366F1' }}
+                              title={`${agentResp.agentName} - ${agentResp.agentRole || 'Council Member'}`}
+                            >
+                              {agentResp.agentAvatar || '🤖'}
                             </div>
-                          ))}
-                        </div>
-                      )}
-                    </div>
-                  )}
-
-                  {/* COLLAPSIBLE: Cross-Examination */}
-                  {result.crossExaminations && result.crossExaminations.length > 0 && (
-                    <div className="border border-neutral-700 rounded-xl overflow-hidden">
-                      <button
-                        onClick={() => toggleSection(result.id, 'crossExam')}
-                        className="w-full flex items-center justify-between px-4 py-3 bg-neutral-800 hover:bg-neutral-750 transition-colors"
-                      >
-                        <div className="flex items-center gap-3">
-                          <span className="text-lg">⚔️</span>
-                          <span className="font-medium text-white">Cross-Examination</span>
-                          <span className="px-2 py-0.5 bg-yellow-900/50 text-yellow-400 rounded text-xs">
-                            {result.crossExaminations.length} exchanges
-                          </span>
-                        </div>
-                        <span className="text-neutral-400 text-lg">
-                          {isSectionExpanded(result.id, 'crossExam') ? '▼' : '▶'}
-                        </span>
-                      </button>
-                      {isSectionExpanded(result.id, 'crossExam') && (
-                        <div className="p-4 space-y-4 bg-neutral-900/50">
-                          {result.crossExaminations.map((ce, idx) => (
-                            <div key={idx} className="space-y-3">
-                              {/* Challenge */}
-                              <div className="flex items-start gap-4 ml-4">
-                                <div className="flex flex-col items-center gap-1 min-w-[40px]">
-                                  <div
-                                    className="w-8 h-8 rounded-lg flex items-center justify-center text-sm"
-                                    style={{ backgroundColor: ce.challengerColor }}
-                                  >
-                                    {ce.challengerAvatar}
-                                  </div>
-                                </div>
-                                <div className="flex-1">
-                                  <div className="flex items-center gap-2 mb-1">
-                                    <span className="text-xs text-yellow-400 font-mono">
-                                      {ce.challengerName} challenges {ce.targetName}
+                            {/* Online/Active indicator */}
+                            <div className={cn(
+                              'absolute -bottom-0.5 -right-0.5 w-3 h-3 rounded-full border-2 border-neutral-900',
+                              agentResp.isStreaming ? 'bg-green-500 animate-pulse' : 
+                              agentResp.response ? 'bg-emerald-500' : 'bg-neutral-500'
+                            )} />
+                          </div>
+                          
+                          {/* Message Bubble */}
+                          <div className="flex-1 min-w-0">
+                            {/* Agent Name, Role & Timestamp */}
+                            <div className="flex items-center gap-2 mb-1.5">
+                              <span className="text-sm font-semibold text-white">
+                                {agentResp.agentName}
+                              </span>
+                              <span className="text-[11px] text-neutral-500 px-1.5 py-0.5 bg-neutral-800 rounded">
+                                {agentResp.agentRole || 'Council Member'}
+                              </span>
+                              {/* Real Timestamp */}
+                              <span className="text-[10px] text-neutral-600">
+                                {agentResp.isStreaming ? 'now' : 
+                                  agentResp.timestamp ? (() => {
+                                    const elapsed = Math.floor((Date.now() - agentResp.timestamp) / 1000);
+                                    if (elapsed < 5) return 'just now';
+                                    if (elapsed < 60) return `${elapsed}s ago`;
+                                    if (elapsed < 3600) return `${Math.floor(elapsed / 60)}m ago`;
+                                    return new Date(agentResp.timestamp).toLocaleTimeString();
+                                  })() : 'just now'}
+                              </span>
+                              {agentResp.isStreaming && (
+                                <span className="flex items-center gap-1.5 text-xs text-green-400 ml-auto">
+                                  <span className="flex gap-0.5">
+                                    <span className="w-1 h-1 bg-green-400 rounded-full animate-bounce" style={{ animationDelay: '0ms' }} />
+                                    <span className="w-1 h-1 bg-green-400 rounded-full animate-bounce" style={{ animationDelay: '150ms' }} />
+                                    <span className="w-1 h-1 bg-green-400 rounded-full animate-bounce" style={{ animationDelay: '300ms' }} />
+                                  </span>
+                                  typing
+                                </span>
+                              )}
+                            </div>
+                            
+                            {/* Message Content */}
+                            <div
+                              className={cn(
+                                'rounded-2xl rounded-tl-sm px-4 py-3 max-w-[95%] relative',
+                                agentResp.isStreaming 
+                                  ? 'bg-green-900/30 border border-green-700/50' 
+                                  : 'bg-neutral-800 hover:bg-neutral-750 transition-colors'
+                              )}
+                              style={{
+                                borderLeftColor: !agentResp.isStreaming ? agentResp.agentColor : undefined,
+                                borderLeftWidth: !agentResp.isStreaming ? '3px' : undefined,
+                              }}
+                            >
+                              <p className="text-neutral-200 whitespace-pre-wrap leading-relaxed text-sm">
+                                {agentResp.response || (agentResp.isStreaming ? '▌' : '')}
+                              </p>
+                              
+                              {/* Message Footer: Duration + Reactions */}
+                              {!agentResp.isStreaming && agentResp.response && (
+                                <div className="flex items-center justify-between mt-2 pt-2 border-t border-neutral-700/50">
+                                  <div className="flex items-center gap-2">
+                                    <span className="text-[10px] text-neutral-500">
+                                      ⏱️ {agentResp.duration > 0 ? `${(agentResp.duration / 1000).toFixed(1)}s` : '< 1s'}
                                     </span>
-                                  </div>
-                                  <div className="bg-yellow-900/20 rounded-lg px-3 py-2 border-l-2 border-yellow-500">
-                                    <p className="text-neutral-300 text-sm whitespace-pre-wrap">
-                                      {ce.challenge}
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-                              {/* Rebuttal */}
-                              {ce.rebuttal && (
-                                <div className="flex items-start gap-4 ml-12">
-                                  <div className="flex-1">
-                                    <div className="flex items-center gap-2 mb-1">
-                                      <span className="text-xs text-cyan-400 font-mono">
-                                        {ce.targetName} responds
+                                    {/* Show existing reactions */}
+                                    {agentResp.reactions && Object.entries(agentResp.reactions).filter(([, count]) => count > 0).map(([emoji, count]) => (
+                                      <span key={emoji} className="px-1.5 py-0.5 bg-neutral-700 rounded text-xs flex items-center gap-1">
+                                        {emoji} <span className="text-neutral-400">{count}</span>
                                       </span>
-                                    </div>
-                                    <div className="bg-cyan-900/20 rounded-lg px-3 py-2 border-l-2 border-cyan-500">
-                                      <p className="text-neutral-300 text-sm whitespace-pre-wrap">
-                                        {ce.rebuttal}
-                                      </p>
-                                    </div>
+                                    ))}
+                                  </div>
+                                  {/* Quick Reactions - Functional */}
+                                  <div className="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                                    {['👍', '🤔', '💡', '⚠️'].map((emoji) => (
+                                      <button 
+                                        key={emoji}
+                                        onClick={() => {
+                                          setRecentDecisions(prev => prev.map(d => {
+                                            if (d.id !== result.id) return d;
+                                            return {
+                                              ...d,
+                                              agentResponses: d.agentResponses.map(ar => {
+                                                if (ar.agentId !== agentResp.agentId) return ar;
+                                                const reactions = { ...(ar.reactions || {}) };
+                                                reactions[emoji] = (reactions[emoji] || 0) + 1;
+                                                return { ...ar, reactions };
+                                              })
+                                            };
+                                          }));
+                                        }}
+                                        className={cn(
+                                          'p-1 hover:bg-neutral-700 rounded text-xs transition-transform hover:scale-110',
+                                          agentResp.reactions?.[emoji] && 'bg-neutral-700'
+                                        )} 
+                                        title={emoji === '👍' ? 'Helpful' : emoji === '🤔' ? 'Needs review' : emoji === '💡' ? 'Key insight' : 'Flag concern'}
+                                      >
+                                        {emoji}
+                                      </button>
+                                    ))}
                                   </div>
                                 </div>
                               )}
                             </div>
-                          ))}
+                            
+                            {/* Read receipt indicator */}
+                            {!agentResp.isStreaming && agentResp.response && idx < result.agentResponses.length - 1 && (
+                              <div className="flex items-center gap-1 mt-1 ml-2">
+                                <span className="text-[9px] text-neutral-600">✓✓ Read by Council</span>
+                              </div>
+                            )}
+                          </div>
                         </div>
-                      )}
+                      ))}
+                    </div>
+                  )}
+
+                  {/* USER MESSAGES - Human interjections in the deliberation */}
+                  {result.userMessages && result.userMessages.length > 0 && (
+                    <div className="space-y-3">
+                      {result.userMessages.map((msg) => (
+                        <div key={msg.id} className="flex items-start gap-3">
+                          <div className="flex-shrink-0">
+                            <div className="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center text-sm font-bold text-white shadow-lg">
+                              You
+                            </div>
+                          </div>
+                          <div className="flex-1 min-w-0">
+                            <div className="flex items-center gap-2 mb-1">
+                              <span className="text-sm font-semibold text-blue-400">You</span>
+                              <span className="text-[10px] text-neutral-600">
+                                {(() => {
+                                  const elapsed = Math.floor((Date.now() - msg.timestamp) / 1000);
+                                  if (elapsed < 5) return 'just now';
+                                  if (elapsed < 60) return `${elapsed}s ago`;
+                                  return `${Math.floor(elapsed / 60)}m ago`;
+                                })()}
+                              </span>
+                            </div>
+                            <div className="rounded-2xl rounded-tl-sm px-4 py-3 max-w-[95%] bg-blue-900/30 border-l-3 border-blue-500">
+                              <p className="text-neutral-200 whitespace-pre-wrap leading-relaxed text-sm">
+                                {msg.content}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+
+                  {/* USER INPUT - Allow human to interject */}
+                  {result.currentPhase !== 'completed' && (
+                    <div className="mt-4 pt-4 border-t border-neutral-700/50">
+                      <div className="flex items-start gap-3">
+                        <div className="flex-shrink-0">
+                          <div className="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center text-sm font-bold text-white">
+                            You
+                          </div>
+                        </div>
+                        <div className="flex-1">
+                          <form 
+                            onSubmit={(e) => {
+                              e.preventDefault();
+                              const input = e.currentTarget.querySelector('input') as HTMLInputElement;
+                              const content = input?.value.trim();
+                              if (!content) return;
+                              
+                              // Add user message to the deliberation
+                              setRecentDecisions(prev => prev.map(d => {
+                                if (d.id !== result.id) return d;
+                                return {
+                                  ...d,
+                                  userMessages: [
+                                    ...(d.userMessages || []),
+                                    {
+                                      id: `user-msg-${Date.now()}`,
+                                      content,
+                                      timestamp: Date.now(),
+                                    }
+                                  ]
+                                };
+                              }));
+                              
+                              input.value = '';
+                            }}
+                            className="flex gap-2"
+                          >
+                            <input
+                              type="text"
+                              placeholder="Add a comment or question to the deliberation..."
+                              className="flex-1 px-4 py-2 bg-neutral-800 border border-neutral-700 rounded-full text-sm text-white placeholder-neutral-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                            />
+                            <button
+                              type="submit"
+                              className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-full text-sm font-medium transition-colors"
+                            >
+                              Send
+                            </button>
+                          </form>
+                          <p className="text-[10px] text-neutral-600 mt-1 ml-4">
+                            Your input will be visible to all agents in this deliberation
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+
+                  {/* INLINE: Cross-Examination as Chat Messages */}
+                  {result.crossExaminations && result.crossExaminations.length > 0 && (
+                    <div className="space-y-3 mt-4 pt-4 border-t border-neutral-700/50">
+                      <div className="flex items-center gap-2 mb-2">
+                        <span className="text-lg">⚔️</span>
+                        <span className="text-xs font-semibold text-yellow-400 uppercase tracking-wider">
+                          Cross-Examination Phase
+                        </span>
+                      </div>
+                      {result.crossExaminations.map((ce, idx) => (
+                        <div key={idx} className="space-y-2">
+                          {/* Challenge Message */}
+                          <div className="flex items-start gap-3">
+                            <div className="flex-shrink-0">
+                              <div
+                                className="w-9 h-9 rounded-full flex items-center justify-center text-lg shadow-lg"
+                                style={{ backgroundColor: ce.challengerColor || '#EAB308' }}
+                              >
+                                {ce.challengerAvatar || '⚔️'}
+                              </div>
+                            </div>
+                            <div className="flex-1 min-w-0">
+                              <div className="flex items-center gap-2 mb-1">
+                                <span className="text-sm font-semibold text-yellow-400">
+                                  {ce.challengerName}
+                                </span>
+                                <span className="text-xs text-neutral-500">
+                                  challenges {ce.targetName}
+                                </span>
+                              </div>
+                              <div className="rounded-2xl rounded-tl-sm px-4 py-3 max-w-[95%] bg-yellow-900/20 border-l-3 border-yellow-500">
+                                <p className="text-neutral-200 whitespace-pre-wrap leading-relaxed text-sm">
+                                  {ce.challenge}
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          {/* Rebuttal Message */}
+                          {ce.rebuttal && (
+                            <div className="flex items-start gap-3 ml-6">
+                              <div className="flex-shrink-0">
+                                <div className="w-8 h-8 rounded-full flex items-center justify-center text-sm bg-cyan-600 shadow-lg">
+                                  💬
+                                </div>
+                              </div>
+                              <div className="flex-1 min-w-0">
+                                <div className="flex items-center gap-2 mb-1">
+                                  <span className="text-sm font-semibold text-cyan-400">
+                                    {ce.targetName}
+                                  </span>
+                                  <span className="text-xs text-neutral-500">responds</span>
+                                </div>
+                                <div className="rounded-2xl rounded-tl-sm px-4 py-3 max-w-[95%] bg-cyan-900/20 border-l-3 border-cyan-500">
+                                  <p className="text-neutral-200 whitespace-pre-wrap leading-relaxed text-sm">
+                                    {ce.rebuttal}
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          )}
+                        </div>
+                      ))}
+                    </div>
+                  )}
+
+                  {/* FINAL: Council Synthesis/Recommendation */}
+                  {result.response && (
+                    <div className="mt-4 pt-4 border-t border-neutral-700/50">
+                      <div className="flex items-start gap-3">
+                        <div className="flex-shrink-0">
+                          <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary-500 to-emerald-600 flex items-center justify-center text-xl shadow-lg ring-2 ring-primary-500/50">
+                            🎯
+                          </div>
+                        </div>
+                        <div className="flex-1 min-w-0">
+                          <div className="flex items-center gap-2 mb-1">
+                            <span className="text-sm font-bold text-primary-400">
+                              Council Synthesis
+                            </span>
+                            <span className="px-2 py-0.5 bg-primary-900/50 text-primary-300 rounded text-xs">
+                              Final Recommendation
+                            </span>
+                            {result.confidence > 0 && (
+                              <span className={cn(
+                                'px-2 py-0.5 rounded text-xs font-medium',
+                                result.confidence >= 80 ? 'bg-green-900/50 text-green-400' :
+                                result.confidence >= 60 ? 'bg-yellow-900/50 text-yellow-400' :
+                                'bg-red-900/50 text-red-400'
+                              )}>
+                                {result.confidence}% confidence
+                              </span>
+                            )}
+                          </div>
+                          <div className="rounded-2xl rounded-tl-sm px-4 py-4 max-w-[98%] bg-gradient-to-r from-primary-900/30 to-emerald-900/30 border-l-4 border-primary-500">
+                            <p className="text-neutral-100 whitespace-pre-wrap leading-relaxed">
+                              {result.response}
+                            </p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   )}
 
@@ -3486,6 +3793,393 @@ export const CouncilPage: React.FC = () => {
                           className="flex items-center gap-2 px-3 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg text-sm font-medium transition-colors"
                         >
                           💾 Save
+                        </button>
+                        
+                        {/* Regulator's Receipt Button */}
+                        <button
+                          onClick={async () => {
+                            try {
+                              // Save deliberation first
+                              const saveRes = await councilApi.saveDeliberation({
+                                question: result.query,
+                                mode: result.mode,
+                                agentResponses: result.agentResponses,
+                                crossExaminations: result.crossExaminations,
+                                synthesis: result.response,
+                                confidence: result.confidence,
+                              });
+                              const saveData = await safeJson<any>(saveRes, 'save deliberation');
+                              const deliberationId =
+                                (saveData as any).deliberation?.id ?? (saveData as any).id;
+                              if (!deliberationId) {
+                                throw new Error('Missing deliberation id in save response');
+                              }
+
+                              // Build decision packet
+                              const packet = await councilPacketApi.buildPacket({
+                                deliberationId,
+                                regulatoryFrameworks: ['SOX', 'GDPR', 'EU AI Act'],
+                                retentionYears: 7,
+                              });
+
+                              // Sign the packet
+                              const signedPacket = await councilPacketApi.signPacket(packet.id);
+
+                              // Display the Regulator's Receipt
+                              const receiptWindow = window.open('', '_blank');
+                              if (receiptWindow) {
+                                receiptWindow.document.write(`
+                                  <html><head><title>Regulator's Receipt - ${signedPacket.runId}</title>
+                                  <style>
+                                    body { font-family: 'SF Mono', 'Consolas', monospace; max-width: 900px; margin: 40px auto; padding: 20px; background: #0f172a; color: #e2e8f0; }
+                                    h1 { color: #22c55e; border-bottom: 2px solid #22c55e; padding-bottom: 10px; display: flex; align-items: center; gap: 12px; }
+                                    h2 { color: #60a5fa; margin-top: 24px; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; }
+                                    .badge { display: inline-block; padding: 4px 12px; border-radius: 4px; font-size: 12px; font-weight: 600; }
+                                    .signed { background: #166534; color: #86efac; }
+                                    .verified { background: #1e40af; color: #93c5fd; }
+                                    .section { background: #1e293b; padding: 16px; border-radius: 8px; margin: 12px 0; border-left: 4px solid #3b82f6; }
+                                    .hash { font-family: monospace; font-size: 11px; color: #94a3b8; word-break: break-all; background: #0f172a; padding: 8px; border-radius: 4px; }
+                                    .agent { display: flex; align-items: center; gap: 8px; padding: 8px; background: #334155; border-radius: 6px; margin: 4px 0; }
+                                    .meta { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+                                    .meta-item { background: #1e293b; padding: 12px; border-radius: 6px; }
+                                    .meta-label { font-size: 10px; color: #64748b; text-transform: uppercase; }
+                                    .meta-value { font-size: 14px; color: #f1f5f9; margin-top: 4px; }
+                                    .timestamp { color: #94a3b8; font-size: 12px; }
+                                    ul { list-style: none; padding: 0; }
+                                    li { padding: 6px 0; border-bottom: 1px solid #334155; }
+                                    .signature-block { background: linear-gradient(135deg, #166534 0%, #14532d 100%); padding: 20px; border-radius: 12px; margin-top: 24px; }
+                                    .sig-label { font-size: 10px; color: #86efac; text-transform: uppercase; letter-spacing: 2px; }
+                                    .sig-value { font-family: monospace; font-size: 10px; color: #dcfce7; word-break: break-all; margin-top: 8px; }
+                                  </style></head><body>
+                                  <h1>🔐 Regulator's Receipt <span class="badge signed">✓ SIGNED</span></h1>
+                                  
+                                  <div class="meta">
+                                    <div class="meta-item">
+                                      <div class="meta-label">Run ID</div>
+                                      <div class="meta-value">${signedPacket.runId}</div>
+                                    </div>
+                                    <div class="meta-item">
+                                      <div class="meta-label">Packet ID</div>
+                                      <div class="meta-value">${signedPacket.id}</div>
+                                    </div>
+                                    <div class="meta-item">
+                                      <div class="meta-label">Created</div>
+                                      <div class="meta-value">${new Date(signedPacket.createdAt).toLocaleString()}</div>
+                                    </div>
+                                    <div class="meta-item">
+                                      <div class="meta-label">Confidence</div>
+                                      <div class="meta-value">${signedPacket.confidence}% (${signedPacket.confidenceBounds.lower}-${signedPacket.confidenceBounds.upper}%)</div>
+                                    </div>
+                                  </div>
+
+                                  <h2>📋 Decision Question</h2>
+                                  <div class="section">${signedPacket.question}</div>
+
+                                  <h2>🎯 Recommendation</h2>
+                                  <div class="section">${signedPacket.recommendation}</div>
+
+                                  <h2>🧠 Agent Contributions (${signedPacket.agentContributions.length})</h2>
+                                  <div class="section">
+                                    ${signedPacket.agentContributions.map(ac => `
+                                      <div class="agent">
+                                        <strong>${ac.agentName}</strong> 
+                                        <span style="color: #94a3b8">(${ac.agentRole})</span>
+                                        <span class="badge verified">${ac.confidence}% conf</span>
+                                      </div>
+                                    `).join('')}
+                                  </div>
+
+                                  <h2>📜 Regulatory Frameworks</h2>
+                                  <div class="section">
+                                    ${signedPacket.regulatoryFrameworks.map(rf => `<span class="badge" style="background:#1e40af;color:#93c5fd;margin-right:8px">${rf}</span>`).join('')}
+                                  </div>
+
+                                  <h2>🔗 Merkle Root (Integrity Hash)</h2>
+                                  <div class="hash">${signedPacket.merkleRoot}</div>
+
+                                  <div class="signature-block">
+                                    <div class="sig-label">Cryptographic Signature</div>
+                                    <div class="sig-value">${signedPacket.signature?.signature || 'Pending signature'}</div>
+                                    <div style="margin-top:12px;display:flex;gap:16px">
+                                      <div><span class="sig-label">Algorithm:</span> <span style="color:#dcfce7">${signedPacket.signature?.algorithm || 'N/A'}</span></div>
+                                      <div><span class="sig-label">Key ID:</span> <span style="color:#dcfce7">${signedPacket.signature?.keyId || 'N/A'}</span></div>
+                                      <div><span class="sig-label">Provider:</span> <span style="color:#dcfce7">${signedPacket.signature?.provider || 'N/A'}</span></div>
+                                    </div>
+                                    <div style="margin-top:8px"><span class="sig-label">Signed At:</span> <span style="color:#dcfce7">${signedPacket.signature?.timestamp || 'N/A'}</span></div>
+                                  </div>
+
+                                  <h2>📁 Artifact Hashes</h2>
+                                  <div class="section">
+                                    ${Object.entries(signedPacket.artifactHashes || {}).map(([k, v]) => `
+                                      <div style="margin:4px 0"><strong>${k}:</strong> <code class="hash" style="display:inline;padding:2px 6px">${v}</code></div>
+                                    `).join('')}
+                                  </div>
+
+                                  <p class="timestamp" style="margin-top:24px;text-align:center">
+                                    Retention Until: ${new Date(signedPacket.retentionUntil).toLocaleDateString()} • 
+                                    Generated by Datacendia Decision DNA™
+                                  </p>
+                                </body></html>
+                              `);
+                              }
+                            } catch (err) {
+                              const msg = err instanceof Error ? err.message : String(err);
+                              console.error('[ERROR] Failed to generate Regulator\'s Receipt:', msg);
+                              alert(`Failed to generate Regulator's Receipt: ${msg}`);
+                            }
+                          }}
+                          className="flex items-center gap-2 px-3 py-2 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white rounded-lg text-sm font-medium transition-colors shadow-lg"
+                        >
+                          🔐 Regulator's Receipt
+                        </button>
+
+                        {/* CendiaNotary - Sign & Authenticate */}
+                        <button
+                          onClick={async () => {
+                            try {
+                              // Sign the deliberation with KMS
+                              const dataToSign = JSON.stringify({
+                                question: result.query,
+                                response: result.response,
+                                confidence: result.confidence,
+                                agents: result.agents,
+                                timestamp: new Date().toISOString(),
+                              });
+                              
+                              const signResult = await councilPacketApi.signData(dataToSign);
+                              
+                              // Display notarization certificate
+                              const notaryWindow = window.open('', '_blank');
+                              if (notaryWindow) {
+                                notaryWindow.document.write(`
+                                  <html><head><title>CendiaNotary™ Certificate</title>
+                                  <style>
+                                    body { font-family: 'Georgia', serif; max-width: 700px; margin: 40px auto; padding: 40px; background: linear-gradient(135deg, #fefce8 0%, #fef9c3 100%); }
+                                    .certificate { background: white; padding: 40px; border: 3px double #b45309; border-radius: 8px; box-shadow: 0 10px 40px rgba(0,0,0,0.1); }
+                                    h1 { color: #92400e; text-align: center; font-size: 28px; margin-bottom: 8px; letter-spacing: 2px; }
+                                    .subtitle { text-align: center; color: #a16207; font-style: italic; margin-bottom: 30px; }
+                                    .seal { text-align: center; font-size: 64px; margin: 20px 0; }
+                                    .field { margin: 16px 0; padding: 12px; background: #fffbeb; border-left: 4px solid #f59e0b; }
+                                    .label { font-size: 10px; color: #92400e; text-transform: uppercase; letter-spacing: 1px; }
+                                    .value { font-size: 14px; color: #1f2937; margin-top: 4px; word-break: break-all; }
+                                    .signature-box { margin-top: 30px; padding: 20px; background: #fef3c7; border-radius: 8px; text-align: center; }
+                                    .sig { font-family: monospace; font-size: 9px; color: #78350f; word-break: break-all; }
+                                    .footer { text-align: center; margin-top: 30px; font-size: 11px; color: #a16207; }
+                                  </style></head><body>
+                                  <div class="certificate">
+                                    <h1>CERTIFICATE OF AUTHENTICITY</h1>
+                                    <p class="subtitle">CendiaNotary™ Cryptographic Signing Authority</p>
+                                    <div class="seal">🔏</div>
+                                    
+                                    <div class="field">
+                                      <div class="label">Decision Summary</div>
+                                      <div class="value">${result.query.slice(0, 200)}${result.query.length > 200 ? '...' : ''}</div>
+                                    </div>
+                                    
+                                    <div class="field">
+                                      <div class="label">Signing Algorithm</div>
+                                      <div class="value">${signResult.algorithm}</div>
+                                    </div>
+                                    
+                                    <div class="field">
+                                      <div class="label">Key Identifier</div>
+                                      <div class="value">${signResult.keyId}</div>
+                                    </div>
+                                    
+                                    <div class="field">
+                                      <div class="label">Timestamp</div>
+                                      <div class="value">${new Date(signResult.timestamp).toLocaleString()}</div>
+                                    </div>
+                                    
+                                    <div class="field">
+                                      <div class="label">Provider</div>
+                                      <div class="value">${signResult.provider}</div>
+                                    </div>
+                                    
+                                    <div class="signature-box">
+                                      <div class="label" style="margin-bottom: 8px">Digital Signature</div>
+                                      <div class="sig">${signResult.signature}</div>
+                                    </div>
+                                    
+                                    <p class="footer">
+                                      This document has been cryptographically signed and authenticated.<br/>
+                                      Verify at: datacendia.com/verify/${signResult.keyId.slice(0, 8)}
+                                    </p>
+                                  </div>
+                                </body></html>
+                              `);
+                              }
+                            } catch (err) {
+                              const msg = err instanceof Error ? err.message : String(err);
+                              console.error('[ERROR] Failed to notarize:', msg);
+                              alert(`Failed to notarize: ${msg}`);
+                            }
+                          }}
+                          className="flex items-center gap-2 px-3 py-2 bg-gradient-to-r from-amber-500 to-yellow-500 hover:from-amber-600 hover:to-yellow-600 text-white rounded-lg text-sm font-medium transition-colors shadow-lg"
+                        >
+                          🔏 CendiaNotary
+                        </button>
+
+                        {/* CendiaVault - Archive to Evidence Storage */}
+                        <button
+                          onClick={async () => {
+                            try {
+                              // Create a JSON blob of the deliberation
+                              const deliberationData = {
+                                id: result.id,
+                                question: result.query,
+                                response: result.response,
+                                confidence: result.confidence,
+                                agents: result.agents,
+                                agentResponses: result.agentResponses,
+                                crossExaminations: result.crossExaminations,
+                                mode: result.mode,
+                                answeredAt: result.answeredAt,
+                                archivedAt: new Date().toISOString(),
+                              };
+                              
+                              const blob = new Blob([JSON.stringify(deliberationData, null, 2)], { type: 'application/json' });
+                              const file = new File([blob], `deliberation-${result.id}.json`, { type: 'application/json' });
+                              
+                              // Upload to CendiaVault
+                              const vaultDoc = await vaultApi.uploadDocument(file, 'evidence-vault', {
+                                type: 'deliberation',
+                                deliberationId: result.id,
+                                confidence: result.confidence,
+                                agentCount: result.agents.length,
+                              });
+                              
+                              if (vaultDoc) {
+                                alert(`✅ Archived to CendiaVault™\n\nBucket: ${vaultDoc.bucket}\nPath: ${vaultDoc.path}\nSize: ${vaultDoc.size} bytes\n\nThis deliberation is now stored in immutable evidence storage.`);
+                              } else {
+                                alert('Archived locally (vault service unavailable)');
+                              }
+                            } catch (err) {
+                              const msg = err instanceof Error ? err.message : String(err);
+                              console.error('[ERROR] Failed to archive:', msg);
+                              alert(`Failed to archive: ${msg}`);
+                            }
+                          }}
+                          className="flex items-center gap-2 px-3 py-2 bg-gradient-to-r from-violet-600 to-purple-600 hover:from-violet-700 hover:to-purple-700 text-white rounded-lg text-sm font-medium transition-colors shadow-lg"
+                        >
+                          📦 CendiaVault
+                        </button>
+
+                        {/* Decision DNA - Export Full Lineage */}
+                        <button
+                          onClick={async () => {
+                            try {
+                              // Save deliberation first to get ID
+                              const saveRes = await councilApi.saveDeliberation({
+                                question: result.query,
+                                mode: result.mode,
+                                agentResponses: result.agentResponses,
+                                crossExaminations: result.crossExaminations,
+                                synthesis: result.response,
+                                confidence: result.confidence,
+                              });
+                              const saveData = await safeJson<any>(saveRes, 'save deliberation');
+                              const deliberationId = (saveData as any).deliberation?.id ?? (saveData as any).id;
+                              
+                              if (!deliberationId) {
+                                throw new Error('Missing deliberation id');
+                              }
+
+                              // Call Decision DNA export endpoint
+                              const dnaRes = await fetch(`http://localhost:3000/api/v1/sovereign-arch/dna/export/${deliberationId}`, {
+                                method: 'POST',
+                                headers: { 'Content-Type': 'application/json' },
+                                body: JSON.stringify({ includeRawResponses: true }),
+                              });
+                              const dnaData = await dnaRes.json();
+                              
+                              if (dnaData.success) {
+                                // Display DNA summary
+                                const dnaWindow = window.open('', '_blank');
+                                if (dnaWindow) {
+                                  const dna = dnaData.data.dna;
+                                  dnaWindow.document.write(`
+                                    <html><head><title>Decision DNA™ - ${dna.id}</title>
+                                    <style>
+                                      body { font-family: system-ui; max-width: 900px; margin: 40px auto; padding: 20px; background: #030712; color: #e5e7eb; }
+                                      h1 { color: #a78bfa; display: flex; align-items: center; gap: 12px; }
+                                      h2 { color: #818cf8; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin-top: 24px; border-bottom: 1px solid #374151; padding-bottom: 8px; }
+                                      .dna-helix { font-size: 48px; animation: spin 3s linear infinite; }
+                                      @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+                                      .section { background: #111827; padding: 16px; border-radius: 8px; margin: 12px 0; border-left: 4px solid #8b5cf6; }
+                                      .hash { font-family: monospace; font-size: 11px; color: #9ca3af; word-break: break-all; background: #1f2937; padding: 8px; border-radius: 4px; }
+                                      .participant { display: inline-block; padding: 4px 12px; background: #1e1b4b; color: #c4b5fd; border-radius: 16px; margin: 4px; font-size: 12px; }
+                                      .meta-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+                                      .meta-item { background: #111827; padding: 12px; border-radius: 6px; }
+                                      .meta-label { font-size: 10px; color: #6b7280; text-transform: uppercase; }
+                                      .meta-value { font-size: 16px; color: #f3f4f6; margin-top: 4px; }
+                                      .bundle-link { display: inline-block; margin-top: 20px; padding: 12px 24px; background: linear-gradient(135deg, #7c3aed, #4f46e5); color: white; border-radius: 8px; text-decoration: none; font-weight: 600; }
+                                    </style></head><body>
+                                    <h1><span class="dna-helix">🧬</span> Decision DNA™</h1>
+                                    
+                                    <div class="meta-grid">
+                                      <div class="meta-item">
+                                        <div class="meta-label">DNA ID</div>
+                                        <div class="meta-value">${dna.id.slice(0, 12)}...</div>
+                                      </div>
+                                      <div class="meta-item">
+                                        <div class="meta-label">Version</div>
+                                        <div class="meta-value">${dna.version}</div>
+                                      </div>
+                                      <div class="meta-item">
+                                        <div class="meta-label">Generated</div>
+                                        <div class="meta-value">${new Date(dna.generatedAt).toLocaleString()}</div>
+                                      </div>
+                                    </div>
+
+                                    <h2>📋 Decision</h2>
+                                    <div class="section">${dna.deliberation?.question || result.query}</div>
+
+                                    <h2>🎯 Outcome</h2>
+                                    <div class="section">${dna.deliberation?.synthesis || result.response}</div>
+
+                                    <h2>👥 Participants</h2>
+                                    <div class="section">
+                                      ${(dna.participants || result.agents).map((p: any) => 
+                                        '<span class="participant">' + (p.name || p) + '</span>'
+                                      ).join('')}
+                                    </div>
+
+                                    <h2>🔗 Merkle Root (Integrity Proof)</h2>
+                                    <div class="hash">${dna.merkleRoot}</div>
+
+                                    <h2>📁 Artifact Hashes</h2>
+                                    <div class="section">
+                                      ${Object.entries(dna.artifactHashes || {}).map(([k, v]) => 
+                                        '<div style="margin:4px 0"><strong>' + k + ':</strong> <code class="hash" style="display:inline;padding:2px 6px">' + v + '</code></div>'
+                                      ).join('')}
+                                    </div>
+
+                                    <h2>📦 Export Bundle</h2>
+                                    <div class="section">
+                                      <p>Bundle saved to: <code>${dnaData.data.bundlePath || 'local storage'}</code></p>
+                                      <p style="color:#9ca3af;font-size:12px;margin-top:8px">Contains: PDF report, JSON data, agent responses, cross-examinations, and Merkle proof</p>
+                                    </div>
+
+                                    <p style="text-align:center;margin-top:30px;color:#6b7280;font-size:12px">
+                                      Decision DNA™ provides immutable lineage tracking for regulatory compliance.<br/>
+                                      Generated by Datacendia Enterprise Platform
+                                    </p>
+                                  </body></html>
+                                `);
+                                }
+                              } else {
+                                throw new Error(dnaData.error || 'Failed to generate DNA');
+                              }
+                            } catch (err) {
+                              const msg = err instanceof Error ? err.message : String(err);
+                              console.error('[ERROR] Failed to export Decision DNA:', msg);
+                              alert(`Failed to export Decision DNA: ${msg}`);
+                            }
+                          }}
+                          className="flex items-center gap-2 px-3 py-2 bg-gradient-to-r from-fuchsia-600 to-pink-600 hover:from-fuchsia-700 hover:to-pink-700 text-white rounded-lg text-sm font-medium transition-colors shadow-lg"
+                        >
+                          🧬 Decision DNA
                         </button>
                         
                         {/* Service Integration Dropdown */}

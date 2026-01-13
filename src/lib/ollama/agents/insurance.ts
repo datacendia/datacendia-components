@@ -41,9 +41,9 @@ Balance prompt claim resolution with accurate reserve setting and cost control.`
     model: 'qwen2.5:14b',
   },
   {
-    id: 'agent-actuary',
-    code: 'actuary',
-    name: 'Actuary',
+    id: 'agent-insurance-actuary',
+    code: 'insurance-actuary',
+    name: 'Insurance Actuary',
     role: 'Actuarial Analysis',
     vertical: 'insurance',
     description: 'Develops pricing models, reserves, and risk analytics using statistical methods.',

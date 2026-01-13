@@ -153,6 +153,7 @@ export class DeliberationService extends BaseService {
             userId: deliberation.userId,
             tags: deliberation.tags,
             agentResponses: JSON.parse(JSON.stringify(deliberation.agentResponses)),
+            crossExaminations: JSON.parse(JSON.stringify(deliberation.crossExaminations || [])),
           } as any,
           created_at: createdAt,
         },
@@ -269,35 +270,72 @@ export class DeliberationService extends BaseService {
 
     if (!d) return null;
 
-    // Build responses from messages
-    const responses = d.deliberation_messages.map(m => ({
-      agentId: m.agent_id,
-      agentCode: (m as any).agents?.code || 'unknown',
-      agentName: (m as any).agents?.name || 'Unknown Agent',
-      agentRole: (m as any).agents?.role || 'Council Member',
-      content: m.content,
-      response: m.content, // Alias for compatibility
-      timestamp: m.created_at,
-      phase: m.phase || 'response',
-      duration: 0,
-    }));
+    // First check if agentResponses are stored in context (from frontend save)
+    const contextData = (d.context as any) || {};
+    const contextAgentResponses = contextData.agentResponses || [];
+
+    // Build responses from context.agentResponses (preferred) or deliberation_messages (fallback)
+    let responses: any[];
+    if (contextAgentResponses.length > 0) {
+      // Use the rich agent data saved from frontend
+      responses = contextAgentResponses.map((r: any) => ({
+        agentId: r.agentId,
+        agentCode: r.agentCode || r.agentId?.replace('agent-', '') || 'unknown',
+        agentName: r.agentName || 'Unknown Agent',
+        agentRole: r.agentRole || 'Council Member',
+        agentAvatar: r.agentAvatar || '🤖',
+        agentColor: r.agentColor || '#6366F1',
+        content: r.response || r.content || '',
+        response: r.response || r.content || '',
+        duration: r.duration || 0,
+        phase: 'response',
+      }));
+    } else {
+      // Fallback to deliberation_messages
+      responses = d.deliberation_messages.map(m => ({
+        agentId: m.agent_id,
+        agentCode: (m as any).agents?.code || 'unknown',
+        agentName: (m as any).agents?.name || 'Unknown Agent',
+        agentRole: (m as any).agents?.role || 'Council Member',
+        content: m.content,
+        response: m.content,
+        timestamp: m.created_at,
+        phase: m.phase || 'response',
+        duration: 0,
+      }));
+    }
 
     // Extract synthesis from messages or decision field
     const synthesisMsg = d.deliberation_messages.find(m => m.phase === 'synthesis');
     const synthesis = synthesisMsg?.content || (d.decision as string) || 
       responses.map(r => `${r.agentName}: ${r.content?.substring(0, 200)}...`).join('\n\n');
 
-    // Extract cross-examinations
-    const crossExaminations = d.deliberation_messages
-      .filter(m => m.phase === 'cross_examination')
-      .map(m => ({
-        challengerId: m.agent_id,
-        challengerName: (m as any).agents?.name || 'Agent',
-        targetId: '',
-        targetName: '',
-        challenge: m.content,
-        rebuttal: '',
+    // Extract cross-examinations from context (preferred) or messages (fallback)
+    const contextCrossExams = contextData.crossExaminations || [];
+    let crossExaminations: any[];
+    if (contextCrossExams.length > 0) {
+      crossExaminations = contextCrossExams.map((ce: any) => ({
+        challengerId: ce.challengerId,
+        challengerName: ce.challengerName || 'Agent',
+        challengerAvatar: ce.challengerAvatar,
+        challengerColor: ce.challengerColor,
+        targetId: ce.targetId,
+        targetName: ce.targetName || 'Agent',
+        challenge: ce.challenge,
+        rebuttal: ce.rebuttal || '',
       }));
+    } else {
+      crossExaminations = d.deliberation_messages
+        .filter(m => m.phase === 'cross_examination')
+        .map(m => ({
+          challengerId: m.agent_id,
+          challengerName: (m as any).agents?.name || 'Agent',
+          targetId: '',
+          targetName: '',
+          challenge: m.content,
+          rebuttal: '',
+        }));
+    }
 
     return {
       id: d.id,
@@ -580,6 +618,8 @@ IMPORTANT: Every array MUST have at least 2 items. Return ONLY the JSON, no othe
 
   generatePDFReport(deliberation: Deliberation, summary: ExecutiveSummary): string {
     // In production, use a PDF library. For now, return HTML that can be printed as PDF
+    const agentNames = deliberation.agentResponses?.map(r => r.agentName).join(', ') || 'Council Members';
+    
     return `
 <!DOCTYPE html>
 <html>
@@ -596,16 +636,23 @@ IMPORTANT: Every array MUST have at least 2 items. Return ONLY the JSON, no othe
     .low { background: #fee2e2; color: #991b1b; }
     ul { line-height: 1.8; }
     .synthesis { background: #f3f4f6; padding: 20px; border-radius: 8px; margin: 20px 0; }
+    .agents { background: #eff6ff; padding: 12px; border-radius: 6px; margin: 10px 0; }
   </style>
 </head>
 <body>
   <h1>${summary.title}</h1>
   <div class="meta">
     <strong>Date:</strong> ${summary.date.toLocaleDateString()}<br>
+    <strong>Deliberation ID:</strong> ${deliberation.id}<br>
+    <strong>Mode:</strong> ${deliberation.councilMode || deliberation.mode}<br>
     <strong>Confidence:</strong> 
     <span class="confidence ${summary.confidence >= 80 ? 'high' : summary.confidence >= 60 ? 'medium' : 'low'}">
       ${summary.confidence}%
     </span>
+  </div>
+  
+  <div class="agents">
+    <strong>Participating Agents:</strong> ${agentNames}
   </div>
   
   <h2>Question</h2>
@@ -630,7 +677,7 @@ IMPORTANT: Every array MUST have at least 2 items. Return ONLY the JSON, no othe
   
   <hr style="margin-top: 40px;">
   <p style="color: #9ca3af; font-size: 12px;">
-    Generated by Datacendia Council • ${new Date().toISOString()}
+    Generated by Datacendia Council • Deliberation ${deliberation.id} • ${new Date().toISOString()}
   </p>
 </body>
 </html>`;

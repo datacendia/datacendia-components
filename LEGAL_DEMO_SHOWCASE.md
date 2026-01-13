@@ -35,7 +35,11 @@ Login as: `stuart@datacendia.com` / `DatacendiaOwner2024!`
 1. Click **The Council** in the sidebar
 2. Select **Legal** vertical from the dropdown
 
-### Step 2: Submit the Legal Question
+### Step 2: Upload Case Materials
+1. Click **Upload Documents**
+2. Select `trade-secret-brief.md` from `backend/src/data/legal-demo-materials`
+
+### Step 3: Submit the Legal Question
 Enter this prompt:
 ```
 Our client, a semiconductor company, suspects a former senior engineer took proprietary chip designs to a competitor. The engineer signed an NDA and non-compete. We need to:
@@ -48,14 +52,14 @@ Our client, a semiconductor company, suspects a former senior engineer took prop
 What's our legal strategy?
 ```
 
-### Step 3: Watch the Council Deliberate
+### Step 4: Watch the Council Deliberate
 **Point out to client:**
 - Multiple AI agents analyzing simultaneously
 - Each agent has a specialized legal role
 - Real-time streaming of analysis
 - Confidence scores for each recommendation
 
-### Step 4: Highlight the Legal Tools in Action
+### Step 5: Highlight the Legal Tools in Action
 The Council will automatically:
 - Search case law for trade secret precedents
 - Check California non-compete enforceability
