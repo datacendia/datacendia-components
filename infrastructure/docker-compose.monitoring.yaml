@@ -1,0 +1,103 @@
+# Datacendia Monitoring Stack
+# Run: docker-compose -f docker-compose.monitoring.yaml up -d
+
+version: '3.8'
+
+services:
+  # Prometheus - Metrics Collection
+  prometheus:
+    image: prom/prometheus:v2.48.0
+    container_name: datacendia-prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - ./grafana/alerts:/etc/prometheus/rules:ro
+      - prometheus_data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--storage.tsdb.retention.time=30d'
+      - '--web.enable-lifecycle'
+    networks:
+      - datacendia-network
+    restart: unless-stopped
+
+  # Grafana - Dashboards & Visualization
+  grafana:
+    image: grafana/grafana:10.2.0
+    container_name: datacendia-grafana
+    ports:
+      - "3001:3000"
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=${GRAFANA_PASSWORD:-datacendia}
+      - GF_USERS_ALLOW_SIGN_UP=false
+      - GF_SERVER_ROOT_URL=http://localhost:3001
+    volumes:
+      - ./grafana/provisioning:/etc/grafana/provisioning:ro
+      - ./grafana/dashboards:/var/lib/grafana/dashboards:ro
+      - grafana_data:/var/lib/grafana
+    networks:
+      - datacendia-network
+    depends_on:
+      - prometheus
+    restart: unless-stopped
+
+  # Jaeger - Distributed Tracing
+  jaeger:
+    image: jaegertracing/all-in-one:1.52
+    container_name: datacendia-jaeger
+    ports:
+      - "16686:16686"  # Jaeger UI
+      - "4317:4317"    # OTLP gRPC
+      - "4318:4318"    # OTLP HTTP
+    environment:
+      - COLLECTOR_OTLP_ENABLED=true
+    networks:
+      - datacendia-network
+    restart: unless-stopped
+
+  # OpenTelemetry Collector
+  otel-collector:
+    image: otel/opentelemetry-collector-contrib:0.91.0
+    container_name: datacendia-otel-collector
+    command: ["--config=/etc/otel/config.yaml"]
+    volumes:
+      - ./otel/otel-collector-config.yaml:/etc/otel/config.yaml:ro
+      - otel_logs:/var/log/otel
+    ports:
+      - "8889:8889"   # Prometheus exporter
+      - "13133:13133" # Health check
+    networks:
+      - datacendia-network
+    depends_on:
+      - jaeger
+      - prometheus
+    restart: unless-stopped
+
+  # Alertmanager - Alert Routing
+  alertmanager:
+    image: prom/alertmanager:v0.26.0
+    container_name: datacendia-alertmanager
+    ports:
+      - "9093:9093"
+    volumes:
+      - ./alertmanager/alertmanager.yml:/etc/alertmanager/alertmanager.yml:ro
+      - alertmanager_data:/alertmanager
+    command:
+      - '--config.file=/etc/alertmanager/alertmanager.yml'
+      - '--storage.path=/alertmanager'
+    networks:
+      - datacendia-network
+    restart: unless-stopped
+
+networks:
+  datacendia-network:
+    external: true
+
+volumes:
+  prometheus_data:
+  grafana_data:
+  alertmanager_data:
+  otel_logs:
