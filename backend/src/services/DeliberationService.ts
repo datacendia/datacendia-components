@@ -227,6 +227,11 @@ export class DeliberationService extends BaseService {
       },
     });
 
+    // Handle undefined/null results
+    if (!dbResults || !Array.isArray(dbResults)) {
+      return [];
+    }
+
     // Map to Deliberation format
     return dbResults.map(d => ({
       id: d.id,

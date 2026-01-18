@@ -30,6 +30,11 @@ import {
 } from './security/DefenseInDepth.js';
 import { honeypotMiddleware } from './security/Honeypot.js';
 import { csrfProtection, csrfTokenHandler, ensureCsrfToken } from './middleware/csrf.js';
+import { 
+  inputSanitizationMiddleware,
+  pathTraversalMiddleware,
+  sqlInjectionMiddleware,
+} from './middleware/SecurityMiddleware.js';
 
 // Telemetry & Enterprise Services
 import { initTracing } from './telemetry/tracing.js';
@@ -76,6 +81,7 @@ import settingsRoutes from './routes/settings.js';
 import pillarsRoutes from './routes/pillars.js';
 import complianceRoutes from './routes/compliance.js';
 import crucibleRoutes from './routes/crucible.js';
+import crucibleEnterpriseRoutes from './routes/crucible-enterprise.js';
 import panopticonRoutes from './routes/panopticon.js';
 import aegisRoutes from './routes/aegis.js';
 import eternalRoutes from './routes/eternal.js';
@@ -111,6 +117,9 @@ import verticalAgentsRoutes from './routes/vertical-agents.js';
 import verticalConfigRoutes from './routes/vertical-config.js';
 import schemaRoutes from './routes/schema.js';
 import cortexCoreRoutes from './routes/cortex-core.js';
+import schedulerRoutes from './routes/scheduler.js';
+import lensRoutes from './routes/lens.js';
+import prometheusRoutes from './routes/prometheus.js';
 import kmsRoutes from './routes/kms.js';
 import vaultRoutes from './routes/vault.js';
 import councilPacketsRoutes from './routes/council-packets.js';
@@ -218,6 +227,11 @@ app.use(compression());
 // Request logging
 app.use(requestLogger);
 
+// CendiaCrucible™ Security Middleware - Adversarial Defense
+app.use(pathTraversalMiddleware);
+app.use(sqlInjectionMiddleware);
+app.use('/api/v1/council', inputSanitizationMiddleware); // Prompt injection defense
+
 // Custom security headers
 app.use(customSecurityHeaders);
 
@@ -303,6 +317,7 @@ app.use('/api/v1/settings', settingsRoutes);
 app.use('/api/v1/pillars', pillarsRoutes);
 app.use('/api/v1/compliance', complianceRoutes);
 app.use('/api/v1/crucible', crucibleRoutes);
+app.use('/api/v1/crucible-enterprise', crucibleEnterpriseRoutes);
 app.use('/api/v1/panopticon', panopticonRoutes);
 app.use('/api/v1/aegis', aegisRoutes);
 app.use('/api/v1/eternal', eternalRoutes);
@@ -315,6 +330,9 @@ app.use('/api/v1/persona', personaRoutes);
 app.use('/api/v1/govern', governRoutes);
 app.use('/api/v1/autopilot', autopilotRoutes);
 app.use('/api/v1/decision-intel', decisionIntelRoutes);
+app.use('/api/v1/scheduler', schedulerRoutes);
+app.use('/api/v1/lens', lensRoutes);
+app.use('/metrics', prometheusRoutes);
 app.use('/api/v1/errors', errorRoutes);
 app.use('/api/v1/contact', contactRoutes);
 

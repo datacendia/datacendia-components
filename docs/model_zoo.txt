@@ -3,7 +3,7 @@
  * Configuration for Local Inference (Ollama)
  * Optimized for: 128GB RAM Workstation
  * Architecture: Specialized Expert Team (Heterogeneous Models)
- * Last Updated: January 2026
+ * Last Updated: January 17, 2026
  * 
  * VERTICAL AI AGENTS: 200+ across 17 verticals
  * COUNCIL MODES: 400+ specialized deliberation scenarios
@@ -284,7 +284,7 @@ export function getModelForAgent(agentId: string): string {
 }
 
 /**
- * MODEL INVENTORY (December 2024)
+ * MODEL INVENTORY (January 2026)
  * ================================
  * 
  * INSTALLED:
@@ -299,9 +299,12 @@ export function getModelForAgent(agentId: string): string {
  * - llama3.2:3b (2GB) - Fast/UI
  * - nomic-embed-text (274MB) - Embeddings
  * 
+ * RETAINED FOR OMNITRANSLATE:
+ * - qwen2.5:32b (20GB) - Primary translation model
+ * - qwen2.5:14b (9GB) - Fallback translation model
+ * - qwen2.5:7b (4.7GB) - Fast translation for common languages
+ * 
  * REMOVED (superseded):
- * - qwen2.5:32b → replaced by qwen3:32b
- * - qwen2.5:7b → replaced by qwen3
  * - qwen2.5-coder:32b → replaced by deepseek-coder-v2
  * - llama3:70b → replaced by llama4:scout
  * - llama3:8b → redundant

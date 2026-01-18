@@ -1,57 +1,39 @@
 # Datacendia Documentation
 
-This folder contains comprehensive documentation for the Datacendia platform.
+Comprehensive documentation for the Datacendia platform.
 
-**Last Updated:** December 20, 2025  
-**Platform Version:** Enterprise Platinum v2.0
+**Last Updated:** January 17, 2026  
+**Platform Version:** Enterprise Platinum v2.1
 
 ## Quick Links
 
-| Documentation | Description |
-|---------------|-------------|
-| [SERVICE_CATALOG.md](./SERVICE_CATALOG.md) | Complete service catalog with pricing |
-| [SERVICES_INVENTORY.md](./SERVICES_INVENTORY.md) | Technical inventory of all services |
-| [VERTICAL_AI_AGENTS.md](./VERTICAL_AI_AGENTS.md) | 48+ industry-specific AI agents |
-| [VERTICAL_DASHBOARDS.md](./VERTICAL_DASHBOARDS.md) | 15 interactive dashboard components |
-| [COUNCIL_VIDEO_SIMULATION.md](./COUNCIL_VIDEO_SIMULATION.md) | Human-like avatar deliberations |
-| [REALTIME_POLICY_ENFORCEMENT.md](./REALTIME_POLICY_ENFORCEMENT.md) | Veto-based governance |
-| [LOAD_OPTIMIZATION.md](./LOAD_OPTIMIZATION.md) | Air-gapped scaling dashboard |
+| Category | Key Docs |
+|----------|----------|
+| **Product** | [DATACENDIA_BIBLE.md](./DATACENDIA_BIBLE.md), [SERVICE_CATALOG.md](./SERVICE_CATALOG.md) |
+| **Architecture** | [DATACENDIA_PLATFORM_ARCHITECTURE.md](./DATACENDIA_PLATFORM_ARCHITECTURE.md), [architecture/](./architecture/) |
+| **Deployment** | [DEPLOYMENT.md](./DEPLOYMENT.md), [PRODUCTION_READINESS.md](./PRODUCTION_READINESS.md), [DOCKER.md](./DOCKER.md) |
+| **Testing** | [testing/](./testing/), [TEST_REPORT_JAN2026.md](./TEST_REPORT_JAN2026.md) |
+| **Security** | [SECURITY-AUDIT.md](./SECURITY-AUDIT.md), [compliance/](./compliance/) |
+| **Sales** | [sales/](./sales/), [INVESTOR_OVERVIEW.md](./INVESTOR_OVERVIEW.md), [PITCH_DECK.md](./PITCH_DECK.md) |
 
-## Structure
+## Folder Structure
 
 ```
 docs/
-├── VERTICAL_AI_AGENTS.md        # 48+ industry AI agents (NEW)
-├── VERTICAL_DASHBOARDS.md       # 15 dashboard components (NEW)
-├── COUNCIL_VIDEO_SIMULATION.md  # Human-like deliberations (NEW)
-├── REALTIME_POLICY_ENFORCEMENT.md # Veto governance (NEW)
-├── LOAD_OPTIMIZATION.md         # Air-gapped scaling (NEW)
-├── SERVICE_CATALOG.md           # Complete service catalog
-├── SERVICES_INVENTORY.md        # Technical inventory
-├── COMPLETE_SERVICE_MATRIX.md   # Service matrix
-│
-├── sales/              # Sales enablement materials
-│   ├── datacendia-sales-battle-card.md
-│   ├── datacendia-objection-handling.md
-│   ├── datacendia-regional-pricing.md
-│   ├── datacendia-competitive-positioning.md
-│   ├── datacendia-demo-script.md
-│   ├── datacendia-case-study-template.md
-│   └── ...more sales docs
-│
-├── council/            # Council AI Mode documentation
-│   ├── council-modes-cheatsheet.md
-│   ├── council-modes-demo.md
-│   ├── council-modes-marketing.md
-│   └── ...more council docs
-│
 ├── adr/                # Architecture Decision Records
-│   ├── 001-council-architecture.md
-│   ├── 002-sovereign-adapter-architecture.md
-│   └── ...more ADRs
+├── architecture/       # System architecture docs
+├── compliance/         # Regulatory compliance docs
+├── council/            # Council AI Mode documentation
+├── diagrams/           # Visual diagrams and charts
+├── sales/              # Sales enablement materials
+├── testing/            # Test documentation and reports
 │
-└── implementation/     # Implementation guides
-    └── Coming soon...
+├── DATACENDIA_BIBLE.md           # Master product reference
+├── SERVICE_CATALOG.md            # Complete service catalog
+├── PRODUCTION_READINESS.md       # Production deployment guide
+├── VERTICAL_AI_AGENTS.md         # 48+ industry AI agents
+├── WORKFLOWS.md                  # User workflow documentation
+└── ...more docs
 ```
 
 ## Sales Documentation

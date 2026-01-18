@@ -3429,19 +3429,13 @@ export const CouncilPage: React.FC = () => {
                     </div>
                   )}
 
-                  {/* USER MESSAGES - Human interjections in the deliberation */}
+                  {/* USER MESSAGES - Human interjections (Teams/WhatsApp style - right aligned) */}
                   {result.userMessages && result.userMessages.length > 0 && (
                     <div className="space-y-3">
                       {result.userMessages.map((msg) => (
-                        <div key={msg.id} className="flex items-start gap-3">
-                          <div className="flex-shrink-0">
-                            <div className="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center text-sm font-bold text-white shadow-lg">
-                              You
-                            </div>
-                          </div>
-                          <div className="flex-1 min-w-0">
+                        <div key={msg.id} className="flex items-start gap-3 justify-end">
+                          <div className="flex-1 min-w-0 flex flex-col items-end">
                             <div className="flex items-center gap-2 mb-1">
-                              <span className="text-sm font-semibold text-blue-400">You</span>
                               <span className="text-[10px] text-neutral-600">
                                 {(() => {
                                   const elapsed = Math.floor((Date.now() - msg.timestamp) / 1000);
@@ -3450,11 +3444,17 @@ export const CouncilPage: React.FC = () => {
                                   return `${Math.floor(elapsed / 60)}m ago`;
                                 })()}
                               </span>
+                              <span className="text-sm font-semibold text-blue-400">You</span>
                             </div>
-                            <div className="rounded-2xl rounded-tl-sm px-4 py-3 max-w-[95%] bg-blue-900/30 border-l-3 border-blue-500">
-                              <p className="text-neutral-200 whitespace-pre-wrap leading-relaxed text-sm">
+                            <div className="rounded-2xl rounded-tr-sm px-4 py-3 max-w-[85%] bg-blue-600 text-white shadow-lg">
+                              <p className="whitespace-pre-wrap leading-relaxed text-sm">
                                 {msg.content}
                               </p>
+                            </div>
+                          </div>
+                          <div className="flex-shrink-0">
+                            <div className="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center text-sm font-bold text-white shadow-lg">
+                              You
                             </div>
                           </div>
                         </div>
@@ -3462,60 +3462,46 @@ export const CouncilPage: React.FC = () => {
                     </div>
                   )}
 
-                  {/* USER INPUT - Allow human to interject */}
+                  {/* USER INPUT - Sticky at bottom like Teams/WhatsApp */}
                   {result.currentPhase !== 'completed' && (
-                    <div className="mt-4 pt-4 border-t border-neutral-700/50">
-                      <div className="flex items-start gap-3">
-                        <div className="flex-shrink-0">
-                          <div className="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center text-sm font-bold text-white">
-                            You
-                          </div>
+                    <div className="sticky bottom-0 bg-neutral-900/95 backdrop-blur-sm pt-3 pb-2 -mx-5 px-5 mt-4 border-t border-neutral-700/50">
+                      <form 
+                        onSubmit={(e) => {
+                          e.preventDefault();
+                          const input = e.currentTarget.querySelector('input') as HTMLInputElement;
+                          const content = input?.value.trim();
+                          if (!content) return;
+                          
+                          setRecentDecisions(prev => prev.map(d => {
+                            if (d.id !== result.id) return d;
+                            return {
+                              ...d,
+                              userMessages: [
+                                ...(d.userMessages || []),
+                                { id: `user-msg-${Date.now()}`, content, timestamp: Date.now() }
+                              ]
+                            };
+                          }));
+                          
+                          input.value = '';
+                        }}
+                        className="flex gap-2 items-center"
+                      >
+                        <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center text-xs font-bold text-white flex-shrink-0">
+                          You
                         </div>
-                        <div className="flex-1">
-                          <form 
-                            onSubmit={(e) => {
-                              e.preventDefault();
-                              const input = e.currentTarget.querySelector('input') as HTMLInputElement;
-                              const content = input?.value.trim();
-                              if (!content) return;
-                              
-                              // Add user message to the deliberation
-                              setRecentDecisions(prev => prev.map(d => {
-                                if (d.id !== result.id) return d;
-                                return {
-                                  ...d,
-                                  userMessages: [
-                                    ...(d.userMessages || []),
-                                    {
-                                      id: `user-msg-${Date.now()}`,
-                                      content,
-                                      timestamp: Date.now(),
-                                    }
-                                  ]
-                                };
-                              }));
-                              
-                              input.value = '';
-                            }}
-                            className="flex gap-2"
-                          >
-                            <input
-                              type="text"
-                              placeholder="Add a comment or question to the deliberation..."
-                              className="flex-1 px-4 py-2 bg-neutral-800 border border-neutral-700 rounded-full text-sm text-white placeholder-neutral-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                            />
-                            <button
-                              type="submit"
-                              className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-full text-sm font-medium transition-colors"
-                            >
-                              Send
-                            </button>
-                          </form>
-                          <p className="text-[10px] text-neutral-600 mt-1 ml-4">
-                            Your input will be visible to all agents in this deliberation
-                          </p>
-                        </div>
-                      </div>
+                        <input
+                          type="text"
+                          placeholder="Type a message..."
+                          className="flex-1 px-4 py-2.5 bg-neutral-800 border border-neutral-700 rounded-full text-sm text-white placeholder-neutral-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                        />
+                        <button
+                          type="submit"
+                          className="px-4 py-2.5 bg-blue-600 hover:bg-blue-700 text-white rounded-full text-sm font-medium transition-colors"
+                        >
+                          Send
+                        </button>
+                      </form>
                     </div>
                   )}
 

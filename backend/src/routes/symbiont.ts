@@ -11,6 +11,55 @@ const router = Router();
 router.use(devAuth);
 
 // ===========================================================================
+// STATUS / HEALTH
+// ===========================================================================
+
+/**
+ * GET /symbiont/status
+ * Service health and status
+ */
+router.get('/status', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req as any).organizationId;
+    
+    // Get counts for metrics
+    const [entityCount, opportunityCount, relationshipCount] = await Promise.all([
+      cendiaSymbiontService.getEntities(orgId, {}).then(e => e.length).catch(() => 0),
+      cendiaSymbiontService.getOpportunities(orgId).then(o => o.length).catch(() => 0),
+      cendiaSymbiontService.getRelationships(orgId).then(r => r.length).catch(() => 0),
+    ]);
+    
+    res.json({
+      success: true,
+      data: {
+        service: 'CendiaSymbiont',
+        status: 'operational',
+        version: '1.0.0',
+        description: 'Partnership & Ecosystem Engine',
+        capabilities: [
+          'Ecosystem entity mapping',
+          'AI-powered opportunity detection',
+          'Alliance simulation and modeling',
+          'Relationship health tracking',
+          'Partnership ROI analysis',
+          'Ecosystem network effects',
+        ],
+        metrics: {
+          trackedEntities: entityCount,
+          activeOpportunities: opportunityCount,
+          relationships: relationshipCount,
+        },
+        entityTypes: ['competitor', 'partner', 'supplier', 'customer', 'regulator', 'investor', 'potential_partner'],
+        relationshipTypes: ['partnership', 'vendor', 'customer', 'competitor', 'regulatory', 'investment'],
+        lastCheck: new Date().toISOString(),
+      }
+    });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+// ===========================================================================
 // ENTITIES
 // ===========================================================================
 

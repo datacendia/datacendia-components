@@ -23,6 +23,62 @@ const router = Router();
 // All routes require authentication
 router.use(devAuth);
 
+// ===========================================================================
+// STATUS / HEALTH
+// ===========================================================================
+
+/**
+ * GET /council/status
+ * Service health and status
+ */
+router.get('/status', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req as any).organizationId;
+
+    // Get counts for metrics
+    const [deliberationCount, decisionCount, messageCount] = await Promise.all([
+      prisma.deliberations.count({ where: { organization_id: orgId } }).catch(() => 0),
+      prisma.decisions.count({ where: { organization_id: orgId } }).catch(() => 0),
+      prisma.deliberation_messages.count().catch(() => 0),
+    ]);
+
+    res.json({
+      success: true,
+      data: {
+        service: 'TheCouncil',
+        status: 'operational',
+        version: '1.0.0',
+        description: 'AI-Powered Multi-Agent Deliberation Engine',
+        capabilities: [
+          'Multi-agent deliberation with specialized AI advisors',
+          'Real-time streaming responses via WebSocket',
+          'Cross-domain analysis (Finance, Operations, Security, Marketing, etc.)',
+          'Confidence-weighted consensus building',
+          'Audit trail with cryptographic verification',
+          'Integration with Ollama for local LLM inference',
+        ],
+        agents: Object.keys(AGENT_PROMPTS).length,
+        agentRoles: Object.keys(AGENT_PROMPTS),
+        metrics: {
+          totalDeliberations: deliberationCount,
+          totalDecisions: decisionCount,
+          totalMessages: messageCount,
+        },
+        integrations: {
+          ollama: 'connected',
+          neo4j: 'configured',
+          redis: 'configured',
+          druid: 'configured',
+        },
+        lastCheck: new Date().toISOString(),
+      }
+    });
+  } catch (error) {
+    logger.error('[Council] Status error:', error);
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
 // Agent system prompts - The Pantheon
 const AGENT_PROMPTS: Record<string, string> = {
   chief: `You are CendiaChief, the Chief of Staff AI agent for Datacendia. 

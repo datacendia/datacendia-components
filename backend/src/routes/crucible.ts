@@ -15,6 +15,53 @@ const router = Router();
 // Apply auth to all routes
 router.use(devAuth);
 
+// ===========================================================================
+// STATUS / HEALTH
+// ===========================================================================
+
+/**
+ * GET /crucible/status
+ * Service health and status
+ */
+router.get('/status', async (req: Request, res: Response) => {
+  try {
+    const orgId = req.organizationId;
+    
+    // Get simulation counts
+    const simulations = await cendiaCrucibleService.listSimulations(orgId!, {}).catch(() => []);
+    const templates = cendiaCrucibleService.getScenarioTemplates();
+
+    res.json({
+      success: true,
+      data: {
+        service: 'CendiaCrucible',
+        status: 'operational',
+        version: '1.0.0',
+        description: 'Synthetic Multiverse Simulation Engine',
+        capabilities: [
+          'High-fidelity stress testing',
+          'Decision future-mapping',
+          'Monte Carlo simulations',
+          'Black swan scenario modeling',
+          'Regulatory impact analysis',
+          'Competitive response simulation',
+          'Financial stress testing',
+        ],
+        metrics: {
+          totalSimulations: simulations.length,
+          runningSimulations: simulations.filter((s: any) => s.status === 'running').length,
+          completedSimulations: simulations.filter((s: any) => s.status === 'completed').length,
+          availableTemplates: Object.keys(templates).length,
+        },
+        templateTypes: Object.keys(templates),
+        lastCheck: new Date().toISOString(),
+      }
+    });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
 /**
  * GET /api/v1/crucible/templates
  * Get available scenario templates

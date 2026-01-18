@@ -14,6 +14,77 @@ const router = Router();
 router.use(devAuth);
 
 // =============================================================================
+// STATUS / HEALTH
+// =============================================================================
+
+/**
+ * GET /decision-intel/status
+ * Service health and status
+ */
+router.get('/status', async (req: Request, res: Response) => {
+  try {
+    const orgId = req.organizationId;
+    const where: any = {};
+    if (orgId) where.organization_id = orgId;
+    
+    // Get counts for metrics
+    const [snapshotCount, sessionCount, analysisCount, itemCount] = await Promise.all([
+      prisma.chronos_snapshots.count({ where }).catch(() => 0),
+      prisma.ghost_board_sessions.count({ where }).catch(() => 0),
+      prisma.pre_mortem_analyses.count({ where }).catch(() => 0),
+      prisma.regulatory_items.count({ where }).catch(() => 0),
+    ]);
+    
+    res.json({
+      success: true,
+      data: {
+        service: 'DecisionIntelligence',
+        status: 'operational',
+        version: '1.0.0',
+        description: 'AI-Powered Decision Intelligence Suite',
+        modules: {
+          chronos: {
+            name: 'Chronos Time Machine',
+            status: 'operational',
+            features: ['Snapshots', 'Pivotal moments', 'Causal chains', 'What-if analysis', 'Future scenarios'],
+            snapshots: snapshotCount,
+          },
+          ghostBoard: {
+            name: 'Ghost Board',
+            status: 'operational',
+            features: ['Board rehearsal', 'Scenario simulation', 'Stakeholder modeling'],
+            sessions: sessionCount,
+          },
+          preMortem: {
+            name: 'Pre-Mortem Analysis',
+            status: 'operational',
+            features: ['Failure mode analysis', 'Risk identification', 'Mitigation planning'],
+            analyses: analysisCount,
+          },
+          regulatory: {
+            name: 'Regulatory Absorb',
+            status: 'operational',
+            features: ['Regulatory tracking', 'Compliance mapping', 'Impact assessment'],
+            items: itemCount,
+          },
+        },
+        aiCapabilities: [
+          'Pivotal moment detection via Ollama',
+          'Causal chain analysis',
+          'Future scenario generation',
+          'What-if counterfactual reasoning',
+          'Timeline insight synthesis',
+        ],
+        lastCheck: new Date().toISOString(),
+      }
+    });
+  } catch (error) {
+    console.error('[DecisionIntel] Status error:', error);
+    res.status(500).json({ success: false, error: 'Failed to fetch status' });
+  }
+});
+
+// =============================================================================
 // CHRONOS - Time Machine Snapshots
 // =============================================================================
 

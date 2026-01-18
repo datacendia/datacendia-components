@@ -8,13 +8,46 @@ import { describe, it, expect, vi, beforeEach } from 'vitest';
 // Mock fetch for LLM calls
 global.fetch = vi.fn();
 
-// Mock dependencies
+// Mock dependencies with stateful store
+const mockDeliberationsStore: Map<string, any> = new Map();
+const mockDecisionsStore: Map<string, any> = new Map();
+
 vi.mock('../../config/database.js', () => ({
   prisma: {
-    deliberations: { create: vi.fn(), findMany: vi.fn(), findUnique: vi.fn() },
-    decisions: { create: vi.fn(), findUnique: vi.fn(), update: vi.fn() },
-    users: { findUnique: vi.fn() },
-    organizations: { findUnique: vi.fn() },
+    deliberations: {
+      create: vi.fn().mockImplementation((data) => {
+        const record = {
+          ...data.data,
+          deliberation_messages: [],
+        };
+        mockDeliberationsStore.set(data.data.id, record);
+        return Promise.resolve(record);
+      }),
+      findMany: vi.fn().mockImplementation(({ where }) => {
+        let results = Array.from(mockDeliberationsStore.values());
+        if (where?.organization_id) {
+          results = results.filter(r => r.organization_id === where.organization_id);
+        }
+        return Promise.resolve(results);
+      }),
+      findUnique: vi.fn().mockImplementation(({ where }) => {
+        const found = mockDeliberationsStore.get(where.id);
+        if (!found) return Promise.resolve(null);
+        return Promise.resolve({ ...found, deliberation_messages: [] });
+      }),
+    },
+    decisions: {
+      create: vi.fn().mockImplementation((data) => {
+        mockDecisionsStore.set(data.data.id, data.data);
+        return Promise.resolve(data.data);
+      }),
+      findUnique: vi.fn().mockImplementation(({ where }) => {
+        return Promise.resolve(mockDecisionsStore.get(where.id) || null);
+      }),
+      update: vi.fn().mockResolvedValue({}),
+    },
+    users: { findUnique: vi.fn().mockResolvedValue({ id: 'user-456', name: 'Test User' }) },
+    organizations: { findUnique: vi.fn().mockResolvedValue({ id: 'org-123', name: 'Test Org' }) },
   },
 }));
 
@@ -56,6 +89,8 @@ describe('Council Deliberation Flow', () => {
 
   beforeEach(() => {
     vi.clearAllMocks();
+    mockDeliberationsStore.clear();
+    mockDecisionsStore.clear();
     deliberationService = new DeliberationService();
     decisionService = new DecisionService();
   });

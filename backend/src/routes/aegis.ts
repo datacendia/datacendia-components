@@ -11,6 +11,55 @@ const router = Router();
 router.use(devAuth);
 
 // ===========================================================================
+// STATUS / HEALTH
+// ===========================================================================
+
+/**
+ * GET /aegis/status
+ * Service health and status
+ */
+router.get('/status', async (req: Request, res: Response) => {
+  try {
+    const orgId = (req as any).organizationId;
+    
+    // Get counts for metrics
+    const [threatCount, signalCount, briefingCount] = await Promise.all([
+      cendiaAegisService.getActiveThreats(orgId).then(t => t.length).catch(() => 0),
+      cendiaAegisService.getRecentSignals(orgId, { limit: 100 }).then(s => s.length).catch(() => 0),
+      cendiaAegisService.getBriefings(orgId, 100).then(b => b.length).catch(() => 0),
+    ]);
+    
+    res.json({
+      success: true,
+      data: {
+        service: 'CendiaAegis',
+        status: 'operational',
+        version: '1.0.0',
+        description: 'Strategic Defense Intelligence',
+        capabilities: [
+          'Multi-source threat signal ingestion',
+          'AI-powered threat assessment',
+          'Scenario generation and wargaming',
+          'Countermeasure recommendation',
+          'Executive briefing generation',
+          'Real-time threat dashboard',
+        ],
+        metrics: {
+          activeThreats: threatCount,
+          recentSignals: signalCount,
+          briefingsGenerated: briefingCount,
+        },
+        threatLevels: ['low', 'medium', 'high', 'critical', 'existential'],
+        signalTypes: ['competitor', 'regulatory', 'market', 'technology', 'geopolitical', 'supply_chain', 'cyber', 'reputation'],
+        lastCheck: new Date().toISOString(),
+      }
+    });
+  } catch (error) {
+    res.status(500).json({ success: false, error: { message: String(error) } });
+  }
+});
+
+// ===========================================================================
 // SIGNALS
 // ===========================================================================
 

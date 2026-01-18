@@ -1449,6 +1449,31 @@ Respond with ONLY valid JSON:
     const run = await this.executeApotheosisRun(organizationId);
     return run.id;
   }
+
+  /**
+   * Run nightly red-teaming (for scheduler)
+   */
+  async runNightlyRedTeam(organizationId: string): Promise<{
+    scenariosTested: number;
+    survived: number;
+    failed: number;
+    escalations: number;
+    autoPatches: number;
+    upskillingAssigned: number;
+  }> {
+    logger.info(`[Apotheosis] Starting nightly red-team for org: ${organizationId}`);
+    
+    const run = await this.executeApotheosisRun(organizationId);
+    
+    return {
+      scenariosTested: run.scenariosTested,
+      survived: run.scenariosSurvived,
+      failed: run.scenariosTested - run.scenariosSurvived,
+      escalations: run.escalations.length,
+      autoPatches: run.autoPatches.length,
+      upskillingAssigned: run.upskillAssignments.length,
+    };
+  }
 }
 
 // =============================================================================

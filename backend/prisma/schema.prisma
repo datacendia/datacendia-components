@@ -511,6 +511,10 @@ model organizations {
   users              users[]
   workflows          workflows[]
   crucible_simulations crucible_simulations[]
+  crucible_redteam_reports crucible_redteam_reports[]
+  crucible_schedules crucible_schedules[]
+  crucible_sbom crucible_sbom[]
+  crucible_runtime_events crucible_runtime_events[]
   
   // Panopticon - Regulation Engine
   panopticon_regulations panopticon_regulations[]
@@ -582,6 +586,9 @@ model organizations {
   
   // Regulatory Absorb V2
   regulatory_documents           regulatory_documents[]
+  
+  // Enterprise Scheduler
+  enterprise_scheduled_jobs      enterprise_scheduled_jobs[]
 }
 
 // Deliberation Votes for Echo tracking
@@ -1071,6 +1078,100 @@ enum CrucibleSeverity {
   MEDIUM
   LOW
   MINIMAL
+}
+
+// CendiaCrucible™ Enterprise Red Team Reports
+model crucible_redteam_reports {
+  id                      String    @id @default(uuid())
+  organization_id         String
+  run_type                String    // SCHEDULED, MANUAL, CI_CD, INCIDENT_RESPONSE
+  started_at              DateTime
+  completed_at            DateTime
+  total_tests             Int
+  passed_tests            Int
+  failed_tests            Int
+  critical_findings       Int
+  high_findings           Int
+  medium_findings         Int
+  low_findings            Int
+  informational_findings  Int
+  security_score          Int
+  results                 Json      // Array of TestResult
+  compliance_status       Json      // Array of ComplianceStatus
+  evidence_hash           String
+  signature               String?
+  signed_at               DateTime?
+  signed_by               String?
+  created_at              DateTime  @default(now())
+  
+  organization            organizations @relation(fields: [organization_id], references: [id])
+  
+  @@index([organization_id, completed_at])
+  @@index([security_score])
+}
+
+// CendiaCrucible™ Scheduled Assessments
+model crucible_schedules {
+  id                  String    @id @default(uuid())
+  organization_id     String
+  name                String
+  cron_expression     String
+  test_categories     Json      // Array of TestCategory
+  enabled             Boolean   @default(true)
+  notify_on_failure   Boolean   @default(true)
+  notify_emails       Json      // Array of email strings
+  auto_remediate      Boolean   @default(false)
+  block_deploy_on_critical Boolean @default(true)
+  last_run_at         DateTime?
+  next_run_at         DateTime?
+  created_at          DateTime  @default(now())
+  updated_at          DateTime  @updatedAt
+  
+  organization        organizations @relation(fields: [organization_id], references: [id])
+  
+  @@index([organization_id, enabled])
+}
+
+// CendiaCrucible™ SBOM (Software Bill of Materials)
+model crucible_sbom {
+  id                  String    @id @default(uuid())
+  organization_id     String
+  version             String
+  format              String    // SPDX, CycloneDX
+  content             Json      // Full SBOM content
+  packages            Int
+  vulnerabilities     Int
+  critical_vulns      Int
+  high_vulns          Int
+  medium_vulns        Int
+  low_vulns           Int
+  signature           String?
+  signed_at           DateTime?
+  created_at          DateTime  @default(now())
+  
+  organization        organizations @relation(fields: [organization_id], references: [id])
+  
+  @@index([organization_id, created_at])
+}
+
+// CendiaCrucible™ Runtime Security Events
+model crucible_runtime_events {
+  id                  String    @id @default(uuid())
+  organization_id     String
+  event_type          String    // INTRUSION, ANOMALY, POLICY_VIOLATION, etc.
+  severity            CrucibleSeverity
+  source              String    // Component that detected the event
+  description         String    @db.Text
+  metadata            Json?
+  mitigated           Boolean   @default(false)
+  mitigated_at        DateTime?
+  mitigated_by        String?
+  created_at          DateTime  @default(now())
+  
+  organization        organizations @relation(fields: [organization_id], references: [id])
+  
+  @@index([organization_id, event_type])
+  @@index([severity, mitigated])
 }
 
 // =============================================================================
@@ -5202,4 +5303,62 @@ enum ConflictResolution {
   RESOLVED_MERGED    // Combined into unified rule
   RESOLVED_EXCEPTION // Exception granted
   FALSE_POSITIVE     // Not actually a conflict
+}
+
+// =============================================================================
+// ENTERPRISE SCHEDULER
+// =============================================================================
+
+model enterprise_scheduled_jobs {
+  id                   String    @id
+  organization_id      String
+  job_type             String    // apotheosis_nightly, security_assessment, sbom_scan, etc.
+  name                 String
+  description          String?
+  cron_expression      String
+  timezone             String    @default("UTC")
+  config               Json      @default("{}")
+  status               String    @default("scheduled") // scheduled, running, completed, failed, cancelled
+  enabled              Boolean   @default(true)
+  last_run_at          DateTime?
+  last_run_status      String?   // success, failure
+  last_run_duration_ms Int?
+  last_run_error       String?
+  next_run_at          DateTime?
+  total_runs           Int       @default(0)
+  successful_runs      Int       @default(0)
+  failed_runs          Int       @default(0)
+  created_at           DateTime  @default(now())
+  created_by           String
+  updated_at           DateTime  @updatedAt
+
+  executions enterprise_job_executions[]
+  organization organizations @relation(fields: [organization_id], references: [id])
+
+  @@index([organization_id])
+  @@index([job_type])
+  @@index([enabled])
+  @@index([next_run_at])
+}
+
+model enterprise_job_executions {
+  id              String    @id
+  job_id          String
+  organization_id String
+  job_type        String
+  started_at      DateTime  @default(now())
+  completed_at    DateTime?
+  duration_ms     Int?
+  status          String    // running, success, failure
+  result          Json      @default("{}")
+  error           String?
+  triggered_by    String    // schedule, manual, system
+  execution_hash  String    // SHA-256 for audit
+
+  job enterprise_scheduled_jobs @relation(fields: [job_id], references: [id], onDelete: Cascade)
+
+  @@index([job_id])
+  @@index([organization_id])
+  @@index([started_at])
+  @@index([status])
 }
