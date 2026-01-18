@@ -35,7 +35,7 @@ processors:
         value: datacendia-platform
         action: upsert
       - key: deployment.environment
-        value: ${ENVIRONMENT:-development}
+        value: development
         action: upsert
 
 exporters:
