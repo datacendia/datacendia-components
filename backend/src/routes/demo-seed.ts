@@ -133,7 +133,7 @@ router.post('/seed', async (req: Request, res: Response) => {
     // Seed deliberations
     for (const dlb of DEMO_DELIBERATIONS) {
       try {
-        await prisma.deliberation.upsert({
+        await prisma.deliberations.upsert({
           where: { id: dlb.id },
           update: dlb,
           create: dlb as any
@@ -237,7 +237,7 @@ router.post('/seed/:scenario', async (req: Request, res: Response) => {
             create: item as any
           });
         } else {
-          await prisma.deliberation.upsert({
+          await prisma.deliberations.upsert({
             where: { id: item.id },
             update: item,
             create: item as any
@@ -278,7 +278,7 @@ router.delete('/clear', async (req: Request, res: Response) => {
 
     // Clear demo deliberations
     try {
-      const dlbResult = await prisma.deliberation.deleteMany({
+      const dlbResult = await prisma.deliberations.deleteMany({
         where: { id: { startsWith: 'demo-' } }
       });
       results.deliberations = dlbResult.count;
@@ -345,7 +345,7 @@ router.get('/status', async (req: Request, res: Response) => {
     };
 
     try {
-      status.deliberations = await prisma.deliberation.count({
+      status.deliberations = await prisma.deliberations.count({
         where: { id: { startsWith: 'demo-' } }
       });
     } catch (e) {}

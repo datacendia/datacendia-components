@@ -421,93 +421,93 @@ Always ask: "How does this decision affect the people who do the actual work?"`,
 
 // =============================================================================
 // PER-AGENT MODEL CONFIGURATION
-// Route each agent to their optimal Llama model
+// Route each agent to their optimal model
 // =============================================================================
 const AGENT_MODELS: Record<string, string> = {
-  chief: 'mixtral:8x22b',      // 141B - Strategic synthesis across all domains
-  cfo: 'llama3:70b',           // Deep financial reasoning
-  ciso: 'llama3:70b',          // Complex security analysis, compliance logic
-  coo: 'llama3.2:3b',          // Fast operational decisions
-  cmo: 'llama3.2:3b',          // Rapid market insights
-  cro: 'llama3:8b',            // Revenue analysis - medium complexity
-  cdo: 'llama3:8b',            // Data governance - medium complexity
-  risk: 'llama3:70b',          // Thorough risk assessment
-  cto: 'llama3:70b',           // Deep technical analysis
-  chro: 'llama3:8b',           // People decisions - medium complexity
+  chief: 'deepseek-r1:32b',     // Strategic synthesis across all domains
+  cfo: 'qwen3:32b',             // Deep financial reasoning
+  ciso: 'qwen3:32b',            // Complex security analysis, compliance logic
+  coo: 'llama3.2:3b',           // Fast operational decisions
+  cmo: 'llama3.2:3b',           // Rapid market insights
+  cro: 'llama3.2:3b',           // Revenue analysis - medium complexity
+  cdo: 'llama3.2:3b',           // Data governance - medium complexity
+  risk: 'qwen3:32b',            // Thorough risk assessment
+  cto: 'deepseek-coder-v2',     // Deep technical analysis
+  chro: 'llama3.2:3b',          // People decisions - medium complexity
   // New agents
-  clo: 'llama3:70b',           // Complex legal reasoning
-  cpo: 'llama3:8b',            // Product decisions - medium complexity
-  caio: 'qwq:32b',             // AI reasoning - uses reasoning model
-  cso: 'llama3:8b',            // ESG analysis - medium complexity
-  cio: 'llama3:70b',           // Investment analysis - complex
-  cco: 'llama3.2:3b',          // Communications - fast
+  clo: 'qwen3:32b',             // Complex legal reasoning
+  cpo: 'llama3.2:3b',           // Product decisions - medium complexity
+  caio: 'deepseek-r1:32b',      // AI reasoning - uses reasoning model
+  cso: 'llama3.2:3b',           // ESG analysis - medium complexity
+  cio: 'qwen3:32b',             // Investment analysis - complex
+  cco: 'llama3.2:3b',           // Communications - fast
   // Core Council agents
-  analyst: 'llama3:70b',       // Deep analytical reasoning
-  arbiter: 'llama3:70b',       // Mediation requires strong reasoning
-  redteam: 'llama3:70b',       // Adversarial thinking requires depth
-  union: 'llama3:8b',          // Employee advocacy - medium complexity
+  analyst: 'qwen3:32b',         // Deep analytical reasoning
+  arbiter: 'qwen3:32b',         // Mediation requires strong reasoning
+  redteam: 'deepseek-r1:32b',   // Adversarial thinking requires depth
+  union: 'llama3.2:3b',         // Employee advocacy - medium complexity
   // Premium Auditor agents
-  'ext-auditor': 'llama3:70b', // External audit requires deep reasoning
-  'int-auditor': 'llama3:70b', // Internal audit requires thorough analysis
+  'ext-auditor': 'qwen3:32b',   // External audit requires deep reasoning
+  'int-auditor': 'qwen3:32b',   // Internal audit requires thorough analysis
   // Healthcare Industry Pack (Enterprise)
-  cmio: 'llama3:70b',          // Complex healthcare IT decisions
-  pso: 'llama3:70b',           // Critical patient safety analysis
-  hco: 'llama3:70b',           // Complex regulatory compliance
-  cod: 'llama3:8b',            // Operational efficiency
+  cmio: 'qwen3:32b',            // Complex healthcare IT decisions
+  pso: 'qwen3:32b',             // Critical patient safety analysis
+  hco: 'qwen3:32b',             // Complex regulatory compliance
+  cod: 'llama3.2:3b',           // Operational efficiency
   // Finance Industry Pack (Enterprise)
-  quant: 'qwq:32b',            // Complex quantitative analysis
-  pm: 'llama3:70b',            // Portfolio decisions
-  'cro-finance': 'llama3:70b', // Credit risk analysis
-  treasury: 'llama3:70b',      // Treasury management
+  quant: 'deepseek-r1:32b',     // Complex quantitative analysis
+  pm: 'qwen3:32b',              // Portfolio decisions
+  'cro-finance': 'qwen3:32b',   // Credit risk analysis
+  treasury: 'qwen3:32b',        // Treasury management
   // Legal Industry Pack (Enterprise)
-  contracts: 'llama3:70b',     // Contract analysis
-  ip: 'llama3:70b',            // IP legal analysis
-  litigation: 'llama3:70b',    // Litigation strategy
-  regulatory: 'llama3:70b',    // Regulatory affairs
+  contracts: 'qwen3:32b',       // Contract analysis
+  ip: 'qwen3:32b',              // IP legal analysis
+  litigation: 'qwen3:32b',      // Litigation strategy
+  regulatory: 'qwen3:32b',      // Regulatory affairs
 };
 
 // Fallback models if primary is unavailable
 const AGENT_MODEL_FALLBACKS: Record<string, string[]> = {
-  chief: ['llama3:70b', 'llama3:8b'],
-  cfo: ['llama3:8b', 'llama3.2:3b'],
-  ciso: ['llama3:8b', 'llama3.2:3b'],
-  coo: ['llama3.2:1b', 'llama3:8b'],
-  cmo: ['llama3.2:1b', 'llama3:8b'],
-  cro: ['llama3.2:3b', 'llama3.2:1b'],
-  cdo: ['llama3.2:3b', 'llama3.2:1b'],
-  risk: ['llama3:8b', 'llama3.2:3b'],
-  cto: ['llama3:8b', 'llama3.2:3b'],
-  chro: ['llama3.2:3b', 'llama3.2:1b'],
+  chief: ['qwen3:32b', 'llama3.2:3b'],
+  cfo: ['deepseek-r1:32b', 'llama3.2:3b'],
+  ciso: ['deepseek-r1:32b', 'llama3.2:3b'],
+  coo: ['qwen3:32b', 'deepseek-r1:32b'],
+  cmo: ['qwen3:32b', 'deepseek-r1:32b'],
+  cro: ['qwen3:32b', 'deepseek-r1:32b'],
+  cdo: ['qwen3:32b', 'deepseek-r1:32b'],
+  risk: ['deepseek-r1:32b', 'llama3.2:3b'],
+  cto: ['qwen3:32b', 'deepseek-r1:32b'],
+  chro: ['qwen3:32b', 'deepseek-r1:32b'],
   // New agents
-  clo: ['llama3:8b', 'llama3.2:3b'],
-  cpo: ['llama3.2:3b', 'llama3.2:1b'],
-  caio: ['llama3:70b', 'llama3:8b'],
-  cso: ['llama3.2:3b', 'llama3.2:1b'],
-  cio: ['llama3:8b', 'llama3.2:3b'],
-  cco: ['llama3.2:1b', 'llama3:8b'],
+  clo: ['deepseek-r1:32b', 'llama3.2:3b'],
+  cpo: ['qwen3:32b', 'deepseek-r1:32b'],
+  caio: ['qwen3:32b', 'llama3.2:3b'],
+  cso: ['qwen3:32b', 'deepseek-r1:32b'],
+  cio: ['deepseek-r1:32b', 'llama3.2:3b'],
+  cco: ['qwen3:32b', 'deepseek-r1:32b'],
   // Core Council agents
-  analyst: ['llama3:8b', 'llama3.2:3b'],
-  arbiter: ['llama3:8b', 'llama3.2:3b'],
-  redteam: ['llama3:8b', 'llama3.2:3b'],
-  union: ['llama3.2:3b', 'llama3.2:1b'],
+  analyst: ['deepseek-r1:32b', 'llama3.2:3b'],
+  arbiter: ['deepseek-r1:32b', 'llama3.2:3b'],
+  redteam: ['qwen3:32b', 'llama3.2:3b'],
+  union: ['qwen3:32b', 'deepseek-r1:32b'],
   // Premium Auditor agents
-  'ext-auditor': ['llama3:8b', 'llama3.2:3b'],
-  'int-auditor': ['llama3:8b', 'llama3.2:3b'],
+  'ext-auditor': ['deepseek-r1:32b', 'llama3.2:3b'],
+  'int-auditor': ['deepseek-r1:32b', 'llama3.2:3b'],
   // Healthcare Industry Pack (Enterprise)
-  cmio: ['llama3:8b', 'llama3.2:3b'],
-  pso: ['llama3:8b', 'llama3.2:3b'],
-  hco: ['llama3:8b', 'llama3.2:3b'],
-  cod: ['llama3.2:3b', 'llama3.2:1b'],
+  cmio: ['deepseek-r1:32b', 'llama3.2:3b'],
+  pso: ['deepseek-r1:32b', 'llama3.2:3b'],
+  hco: ['deepseek-r1:32b', 'llama3.2:3b'],
+  cod: ['qwen3:32b', 'deepseek-r1:32b'],
   // Finance Industry Pack (Enterprise)
-  quant: ['llama3:70b', 'llama3:8b'],
-  pm: ['llama3:8b', 'llama3.2:3b'],
-  'cro-finance': ['llama3:8b', 'llama3.2:3b'],
-  treasury: ['llama3:8b', 'llama3.2:3b'],
+  quant: ['qwen3:32b', 'llama3.2:3b'],
+  pm: ['deepseek-r1:32b', 'llama3.2:3b'],
+  'cro-finance': ['deepseek-r1:32b', 'llama3.2:3b'],
+  treasury: ['deepseek-r1:32b', 'llama3.2:3b'],
   // Legal Industry Pack (Enterprise)
-  contracts: ['llama3:8b', 'llama3.2:3b'],
-  ip: ['llama3:8b', 'llama3.2:3b'],
-  litigation: ['llama3:8b', 'llama3.2:3b'],
-  regulatory: ['llama3:8b', 'llama3.2:3b'],
+  contracts: ['deepseek-r1:32b', 'llama3.2:3b'],
+  ip: ['deepseek-r1:32b', 'llama3.2:3b'],
+  litigation: ['deepseek-r1:32b', 'llama3.2:3b'],
+  regulatory: ['deepseek-r1:32b', 'llama3.2:3b'],
 };
 
 // Supported languages for Council responses
@@ -671,7 +671,7 @@ router.post('/query', async (req: Request, res: Response, next: NextFunction) =>
         if (!agent) return null;
 
         // Get the model for this agent
-        const agentModel = AGENT_MODELS[agentCode] || 'llama3:8b';
+        const agentModel = AGENT_MODELS[agentCode] || 'qwen3:32b';
         logger.info(`Agent ${agentCode} using model: ${agentModel}`);
 
         try {
@@ -725,7 +725,7 @@ router.post('/query', async (req: Request, res: Response, next: NextFunction) =>
         validResponses.map(r => `${r!.agentName}: ${r!.analysis}`).join('\n\n')
       }`;
 
-      const chiefModel = AGENT_MODELS['chief'] || 'llama3:70b';
+      const chiefModel = AGENT_MODELS['chief'] || 'deepseek-r1:32b';
       logger.info(`Chief synthesizing responses using model: ${chiefModel}`);
 
       const summaryResponse = await ollama.chat([
@@ -875,7 +875,7 @@ router.post('/enhanced-query', async (req: Request, res: Response, next: NextFun
             fullPrompt,
             systemPrompt + languageInstruction,
             {
-              model: forceModel || 'qwen2.5:7b',
+              model: forceModel || 'qwen3:32b',
               useRAG,
               ragCollection,
               useCache,
@@ -891,7 +891,7 @@ router.post('/enhanced-query', async (req: Request, res: Response, next: NextFun
           try {
             await prisma.$executeRaw`
               INSERT INTO model_performance (model, agent_id, query_type, response_time_ms, used_rag, used_cot, used_ensemble, created_at)
-              VALUES (${AGENT_MODELS[agentCode] || 'qwen2.5:7b'}, ${agentCode}, ${classification.type}, ${agentDuration}, ${useRAG}, ${useChainOfThought}, ${useEnsemble}, NOW())
+              VALUES (${AGENT_MODELS[agentCode] || 'qwen3:32b'}, ${agentCode}, ${classification.type}, ${agentDuration}, ${useRAG}, ${useChainOfThought}, ${useEnsemble}, NOW())
             `;
           } catch (perfError) {
             // Don't fail if performance tracking fails
@@ -918,7 +918,7 @@ router.post('/enhanced-query', async (req: Request, res: Response, next: NextFun
             sources: (graphContext.sources || []) as Prisma.InputJsonValue,
             confidence: 0.85,
             duration: agentDuration,
-            modelUsed: AGENT_MODELS[agentCode] || 'qwen2.5:7b',
+            modelUsed: AGENT_MODELS[agentCode] || 'qwen3:32b',
           };
         } catch (error) {
           logger.error(`Enhanced agent ${agentCode} query failed:`, error);
@@ -941,7 +941,7 @@ router.post('/enhanced-query', async (req: Request, res: Response, next: NextFun
         const ensembleResult = await enhancedLLM.generateEnsemble(
           summaryPrompt,
           AGENT_PROMPTS['chief'] + languageInstruction,
-          ['qwen2.5:7b', 'qwq:32b', 'mixtral:8x22b'],
+          ['deepseek-r1:32b', 'qwen3:32b', 'llama3.2:3b'],
           'blend'
         );
         summary = ensembleResult.finalResponse;
@@ -1369,7 +1369,7 @@ IMPORTANT: Return ONLY valid JSON, no markdown or extra text.`;
     const summaryResponse = await ollama.chat([
       { role: 'system', content: 'You are an executive briefing specialist. Generate clear, actionable summaries. Always respond with valid JSON only.' },
       { role: 'user', content: summaryPrompt },
-    ], { model: 'qwen2.5:7b' });
+    ], { model: 'qwen3:32b' });
 
     // Parse the JSON response
     let summaryObj;
@@ -1512,7 +1512,7 @@ Format this as professional meeting minutes suitable for audit and compliance pu
     const minutesResponse = await ollama.chat([
       { role: 'system', content: 'You are a corporate secretary generating formal meeting minutes. Be precise and professional.' },
       { role: 'user', content: minutesPrompt },
-    ], { model: 'qwen2.5:7b' });
+    ], { model: 'qwen3:32b' });
 
     res.json({
       success: true,

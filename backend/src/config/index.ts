@@ -57,13 +57,25 @@ const configSchema = z.object({
   logLevel: z.enum(['error', 'warn', 'info', 'http', 'debug']).default('info'),
 });
 
+// Smart Redis URL default: includes password for Docker container
+const getRedisUrl = (): string => {
+  if (process.env['REDIS_URL']) {
+    return process.env['REDIS_URL'];
+  }
+  // Default to Docker container with password (matches docker-compose.yml)
+  const redisPassword = process.env['REDIS_PASSWORD'] || 'datacendia_redis_2024';
+  const redisHost = process.env['REDIS_HOST'] || 'localhost';
+  const redisPort = process.env['REDIS_PORT'] || '6380';
+  return `redis://:${redisPassword}@${redisHost}:${redisPort}`;
+};
+
 const envVars = {
-  nodeEnv: process.env.NODE_ENV,
-  port: process.env.PORT,
+  nodeEnv: process.env['NODE_ENV'],
+  port: process.env['PORT'] || '3001',  // Default to 3001 if not set
   requireAuth: process.env.REQUIRE_AUTH,
   demoMode: process.env.DEMO_MODE,
   databaseUrl: process.env.DATABASE_URL,
-  redisUrl: process.env.REDIS_URL,
+  redisUrl: getRedisUrl(),
   neo4jUri: process.env.NEO4J_URI,
   neo4jUser: process.env.NEO4J_USER,
   neo4jPassword: process.env.NEO4J_PASSWORD,

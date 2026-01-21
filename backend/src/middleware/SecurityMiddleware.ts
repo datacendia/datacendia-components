@@ -247,7 +247,7 @@ export function responseSanitizationMiddleware(_req: Request, res: Response, nex
 /**
  * Rate limiting middleware
  */
-export function rateLimitMiddleware(req: Request, res: Response, next: NextFunction) {
+export function rateLimitMiddleware(req: Request, res: Response, next: NextFunction): void {
   const clientId = req.ip || 'unknown';
   const now = Date.now();
 
@@ -262,7 +262,7 @@ export function rateLimitMiddleware(req: Request, res: Response, next: NextFunct
 
   if (entry.count > RATE_LIMIT_MAX) {
     logger.warn(`[Security] Rate limit exceeded for ${clientId}`);
-    return res.status(429).json({
+    res.status(429).json({
       success: false,
       error: {
         code: 'RATE_LIMIT_EXCEEDED',
@@ -270,6 +270,7 @@ export function rateLimitMiddleware(req: Request, res: Response, next: NextFunct
         retryAfter: Math.ceil((entry.resetTime - now) / 1000),
       },
     });
+    return;
   }
 
   res.setHeader('X-RateLimit-Limit', RATE_LIMIT_MAX);
@@ -282,7 +283,7 @@ export function rateLimitMiddleware(req: Request, res: Response, next: NextFunct
 /**
  * CORS security middleware
  */
-export function corsSecurityMiddleware(req: Request, res: Response, next: NextFunction) {
+export function corsSecurityMiddleware(req: Request, res: Response, next: NextFunction): void {
   const allowedOrigins = [
     'http://localhost:5173',
     'http://localhost:3000',
@@ -294,13 +295,14 @@ export function corsSecurityMiddleware(req: Request, res: Response, next: NextFu
 
   if (origin && !allowedOrigins.includes(origin)) {
     logger.warn(`[Security] CORS violation from origin: ${origin}`);
-    return res.status(403).json({
+    res.status(403).json({
       success: false,
       error: {
         code: 'CORS_VIOLATION',
         message: 'Origin not allowed',
       },
     });
+    return;
   }
 
   if (origin) {
@@ -311,7 +313,8 @@ export function corsSecurityMiddleware(req: Request, res: Response, next: NextFu
   res.setHeader('Access-Control-Allow-Credentials', 'true');
 
   if (req.method === 'OPTIONS') {
-    return res.status(204).end();
+    res.status(204).end();
+    return;
   }
 
   next();
@@ -320,7 +323,7 @@ export function corsSecurityMiddleware(req: Request, res: Response, next: NextFu
 /**
  * SQL injection prevention middleware
  */
-export function sqlInjectionMiddleware(req: Request, res: Response, next: NextFunction) {
+export function sqlInjectionMiddleware(req: Request, res: Response, next: NextFunction): void {
   const sqlPatterns = [
     /(\%27)|(\')|(\-\-)|(\%23)|(#)/i,
     /((\%3D)|(=))[^\n]*((\%27)|(\')|(\-\-)|(\%3B)|(;))/i,
@@ -346,13 +349,14 @@ export function sqlInjectionMiddleware(req: Request, res: Response, next: NextFu
   for (const [key, value] of Object.entries(req.query)) {
     if (typeof value === 'string' && checkValue(value)) {
       logger.warn(`[Security] SQL injection attempt in query param: ${key}`);
-      return res.status(400).json({
+      res.status(400).json({
         success: false,
         error: {
           code: 'SECURITY_VIOLATION',
           message: 'Invalid request parameters',
         },
       });
+      return;
     }
   }
 
@@ -361,13 +365,14 @@ export function sqlInjectionMiddleware(req: Request, res: Response, next: NextFu
     const bodyStr = JSON.stringify(req.body);
     if (checkValue(bodyStr)) {
       logger.warn(`[Security] SQL injection attempt in body`);
-      return res.status(400).json({
+      res.status(400).json({
         success: false,
         error: {
           code: 'SECURITY_VIOLATION',
           message: 'Invalid request data',
         },
       });
+      return;
     }
   }
 
@@ -377,7 +382,7 @@ export function sqlInjectionMiddleware(req: Request, res: Response, next: NextFu
 /**
  * Path traversal prevention middleware
  */
-export function pathTraversalMiddleware(req: Request, res: Response, next: NextFunction) {
+export function pathTraversalMiddleware(req: Request, res: Response, next: NextFunction): void {
   const traversalPatterns = [
     /\.\.\//, 
     /\.\.%2f/i,
@@ -399,13 +404,14 @@ export function pathTraversalMiddleware(req: Request, res: Response, next: NextF
     for (const pattern of traversalPatterns) {
       if (pattern.test(bodyStr)) {
         logger.warn(`[Security] Path traversal attempt in body`);
-        return res.status(400).json({
+        res.status(400).json({
           success: false,
           error: {
             code: 'SECURITY_VIOLATION',
             message: 'Invalid path in request',
           },
         });
+        return;
       }
     }
   }
@@ -413,13 +419,14 @@ export function pathTraversalMiddleware(req: Request, res: Response, next: NextF
   for (const pattern of traversalPatterns) {
     if (pattern.test(path)) {
       logger.warn(`[Security] Path traversal attempt: ${path}`);
-      return res.status(400).json({
+      res.status(400).json({
         success: false,
         error: {
           code: 'SECURITY_VIOLATION',
           message: 'Invalid path',
         },
       });
+      return;
     }
   }
 

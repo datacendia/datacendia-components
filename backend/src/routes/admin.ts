@@ -789,20 +789,20 @@ router.get('/mode-analytics', async (_req: Request, res: Response) => {
     const { prisma } = await import('../config/database.js');
     
     // Get deliberation counts by mode
-    const deliberations = await prisma.deliberation.groupBy({
+    const deliberations = await prisma.deliberations.groupBy({
       by: ['council_mode'],
       _count: { id: true },
       _avg: { confidence_score: true },
     }).catch(() => []);
 
     // Get total counts
-    const totalDeliberations = await prisma.deliberation.count().catch(() => 0);
-    const completedDeliberations = await prisma.deliberation.count({
+    const totalDeliberations = await prisma.deliberations.count().catch(() => 0);
+    const completedDeliberations = await prisma.deliberations.count({
       where: { status: 'completed' },
     }).catch(() => 0);
 
     // Get recent activity
-    const recentActivity = await prisma.deliberation.findMany({
+    const recentActivity = await prisma.deliberations.findMany({
       take: 10,
       orderBy: { created_at: 'desc' },
       select: {

@@ -1,0 +1,49 @@
+/**
+ * Vertical Services Index
+ * 
+ * Universal Pattern: Build one pattern, repeat it.
+ * Legal proves this. Everything else copies it.
+ * 
+ * Datacendia is not an AI platform. It is decision infrastructure.
+ * 
+ * 6-Layer Completion Standard:
+ * 1. Authoritative Data Connectors
+ * 2. Vertical Knowledge Base (RAG) with provenance
+ * 3. Compliance & Liability Mapping (machine-enforced)
+ * 4. Decision Schemas (industry-specific objects)
+ * 5. Agent Presets (tied to workflows, not personas)
+ * 6. Externally Defensible Outputs (regulator/court/auditor ready)
+ */
+
+// Core Pattern (6 layers)
+export * from './core/VerticalPattern.js';
+
+// Financial Services Vertical (Target: 100%)
+export * from './financial/FinancialVertical.js';
+export * as financialCouncilModes from './financial/FinancialCouncilModes.js';
+
+// Healthcare Vertical (Target: 80%)
+export * from './healthcare/HealthcareVertical.js';
+export * as healthcareCouncilModes from './healthcare/HealthcareCouncilModes.js';
+
+// Insurance Vertical (Target: 80%)
+export * from './insurance/InsuranceVertical.js';
+export * as insuranceCouncilModes from './insurance/InsuranceCouncilModes.js';
+
+// Energy & Utilities Vertical (Target: 80%)
+export * from './energy/EnergyVertical.js';
+export * as energyCouncilModes from './energy/EnergyCouncilModes.js';
+
+// Vertical Sentinel Meta-Agents
+export * from './meta/VerticalSentinelService.js';
+
+// Internal Dogfooding (Datacendia-for-Datacendia)
+export * from './internal/DatacendiaInternalService.js';
+
+// Re-export default instances
+export { default as financialVertical } from './financial/FinancialVertical.js';
+export { default as healthcareVertical } from './healthcare/HealthcareVertical.js';
+export { default as insuranceVertical } from './insurance/InsuranceVertical.js';
+export { default as energyVertical } from './energy/EnergyVertical.js';
+export { default as verticalSentinelService } from './meta/VerticalSentinelService.js';
+export { default as datacendiaInternalService } from './internal/DatacendiaInternalService.js';
