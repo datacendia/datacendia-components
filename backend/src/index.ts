@@ -139,6 +139,7 @@ import visualizationRoutes from './routes/visualization.js';
 import adversarialRedteamRoutes from './routes/adversarial-redteam.js';
 import regulatorsReceiptRoutes from './routes/regulators-receipt.js';
 import sgasRoutes from './routes/sgas.js';
+import scgeRoutes from './routes/scge.js';
 import { registerPlatformServices } from './core/services/PlatformServices.js';
 
 // WebSocket handlers
@@ -423,6 +424,11 @@ app.use('/api/v1/consolidated', consolidatedRoutes);
 // Institutional Multi-Agent Decision Verification Architecture
 // 5 Agent Classes: Decision, Institutional, Adversarial, Observer, Meta-Governance
 app.use('/api/v1/sgas', sgasRoutes);
+
+// SCGE - Synthetic Civic Governance Environment
+// Decision verification infrastructure for complex institutions
+// Population, Policies, Events, Stressors, Simulation, Replay
+app.use('/api/v1/scge', scgeRoutes);
 
 // 404 handler
 app.use((_req, res) => {
