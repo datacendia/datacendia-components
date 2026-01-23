@@ -34,6 +34,30 @@ export * as insuranceCouncilModes from './insurance/InsuranceCouncilModes.js';
 export * from './energy/EnergyVertical.js';
 export * as energyCouncilModes from './energy/EnergyCouncilModes.js';
 
+// Government / Public Sector Vertical (Target: 85%)
+export * from './government/GovernmentAgents.js';
+export * as governmentCouncilModes from './government/GovernmentCouncilModes.js';
+
+// Manufacturing Vertical (Target: 85%)
+export * from './manufacturing/ManufacturingAgents.js';
+export * as manufacturingCouncilModes from './manufacturing/ManufacturingCouncilModes.js';
+
+// Technology / SaaS Vertical (Target: 85%)
+export * from './technology/TechnologyAgents.js';
+export * as technologyCouncilModes from './technology/TechnologyCouncilModes.js';
+
+// Retail Vertical (Target: 85%)
+export * from './retail/RetailAgents.js';
+export * as retailCouncilModes from './retail/RetailCouncilModes.js';
+
+// Education Vertical (Target: 85%)
+export * from './education/EducationAgents.js';
+export * as educationCouncilModes from './education/EducationCouncilModes.js';
+
+// Real Estate Vertical (Target: 85%)
+export * from './realestate/RealEstateAgents.js';
+export * as realEstateCouncilModes from './realestate/RealEstateCouncilModes.js';
+
 // Vertical Sentinel Meta-Agents
 export * from './meta/VerticalSentinelService.js';
 

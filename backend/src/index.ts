@@ -134,6 +134,10 @@ import consolidatedRoutes from './routes/consolidated.js';
 import demoSeedRoutes from './routes/demo-seed.js';
 import legalRoutes from './routes/legal.js';
 import legalResearchRoutes from './routes/legal-research.js';
+import defenseRoutes from './routes/defense.js';
+import visualizationRoutes from './routes/visualization.js';
+import adversarialRedteamRoutes from './routes/adversarial-redteam.js';
+import regulatorsReceiptRoutes from './routes/regulators-receipt.js';
 import { registerPlatformServices } from './core/services/PlatformServices.js';
 
 // WebSocket handlers
@@ -389,6 +393,14 @@ app.use('/api/v1/vertical-config', verticalConfigRoutes);
 
 // Legal Vertical - Case law, matters, privilege gates, citation enforcement
 app.use('/api/v1/legal', legalRoutes);
+
+// Defense & National Security Vertical - DIU, FedRAMP High, CMMC, ITAR
+app.use('/api/v1/defense', defenseRoutes);
+
+// WOW Features - Real-time visualization, Replay Theater, Adversarial Red Team, Regulator's Receipt
+app.use('/api/v1/visualization', visualizationRoutes);
+app.use('/api/v1/adversarial-redteam', adversarialRedteamRoutes);
+app.use('/api/v1/regulators-receipt', regulatorsReceiptRoutes);
 
 // Legal Research API - Tools for Council agents (case law, regulations, bills, SEC filings)
 app.use('/api/v1/legal-research', legalResearchRoutes);

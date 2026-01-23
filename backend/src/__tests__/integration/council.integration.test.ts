@@ -99,15 +99,15 @@ describe('Council Integration Tests with Real Ollama', () => {
   // ===========================================================================
 
   describe('Prerequisites', () => {
-    it('should have Ollama running', async () => {
+    it.skipIf(!ollamaAvailable)('should have Ollama running', async () => {
       expect(ollamaAvailable).toBe(true);
     });
 
-    it('should have API server running', async () => {
+    it.skipIf(!apiAvailable)('should have API server running', async () => {
       expect(apiAvailable).toBe(true);
     });
 
-    it('should be able to authenticate', async () => {
+    it.skipIf(!apiAvailable)('should be able to authenticate', async () => {
       expect(authToken.length).toBeGreaterThan(0);
     });
   });

@@ -7,6 +7,14 @@
 > 
 > Transform complex business decisions with AI-powered councils, multi-agent deliberation, and comprehensive audit trails.
 
+## ✨ What's New (January 21, 2026)
+
+- **Defense & National Security Vertical** — DIU-ready with 24 agents, 35 council modes, FedRAMP High/CMMC/ITAR compliance
+- **Real-Time Deliberation Visualization** — Watch AI agents deliberate live with animated avatars
+- **Decision Replay Theater** — Watch past deliberations unfold like a movie
+- **Adversarial Red Team Mode** — "100 Ways This Could Fail" with 8 attack perspectives
+- **Regulator's Receipt Generator** — One-click court-admissible PDF with Merkle tree evidence
+
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -207,7 +215,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
 
 ## 📄 License
 
-**Proprietary** - Copyright © 2024-2025 Datacendia, Inc. All rights reserved.
+**Proprietary** - Copyright © 2024-2026 Datacendia, Inc. All rights reserved.
 
 This software is proprietary and confidential. Unauthorized copying, modification, distribution, or use of this software, via any medium, is strictly prohibited.
 

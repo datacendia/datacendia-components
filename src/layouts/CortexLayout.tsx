@@ -270,6 +270,20 @@ const coreSuiteFeatures = [
     path: '/cortex/intelligence/decision-debt',
     description: 'Real-time dashboard of stuck decisions and the financial cost of delay',
   },
+  {
+    id: 'live-visualization',
+    label: 'Live Deliberation',
+    icon: '👁️‍🗨️',
+    path: '/cortex/council/visualization',
+    description: 'Watch AI agents deliberate in real-time with animated avatars',
+  },
+  {
+    id: 'replay-theater',
+    label: 'Replay Theater',
+    icon: '🎬',
+    path: '/cortex/council/replay-theater',
+    description: 'Watch past deliberations unfold like a movie',
+  },
 ];
 
 // =============================================================================
@@ -317,11 +331,18 @@ const trustLayerFeatures = [
     merged: ['RedTeam', 'Echo', 'Apotheosis'],
   },
   {
+    id: 'adversarial-redteam',
+    label: '100 Ways to Fail',
+    icon: '🎯',
+    path: '/cortex/enterprise/adversarial-redteam',
+    description: 'Adversarial Red Team - Every agent becomes a devil\'s advocate',
+  },
+  {
     id: 'regulators-receipt',
     label: "Regulator's Receipt",
     icon: '📜',
-    path: '/cortex/trust/regulators-receipt',
-    description: 'Audit-Safe Proof - Show regulators exactly why, how, and who approved each decision',
+    path: '/cortex/compliance/regulators-receipt',
+    description: 'Audit-Safe Proof - One-click court-admissible decision documentation',
     merged: ['Ledger Export', 'Evidence Bundle', 'Chronos Replay', 'Policy Mapping'],
   },
 ];
@@ -522,6 +543,15 @@ const enterpriseFeatures = [
     description: 'Government/Defense Edition',
     impact: 'Critical',
     tier: 'Specialist',
+  },
+  {
+    id: 'defense-vertical',
+    label: 'Defense Vertical',
+    icon: '🎖️',
+    path: '/cortex/sovereign/defense',
+    description: 'DIU-Ready Defense & National Security - 24 agents, 35 council modes',
+    impact: 'Critical',
+    tier: 'Sovereign',
   },
   // Core Services (kept)
   {

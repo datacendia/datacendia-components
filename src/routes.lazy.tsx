@@ -299,6 +299,27 @@ const AuditWorkflowPage = lazy(() =>
 const TrainingPage = lazy(() =>
   import('./pages/cortex/enterprise').then((m) => ({ default: m.TrainingPage }))
 );
+const AdversarialRedTeamPage = lazy(() =>
+  import('./pages/cortex/enterprise/AdversarialRedTeamPage').then((m) => ({ default: m.default }))
+);
+
+// WOW Features - Visualization & Replay
+const DeliberationVisualizationPage = lazy(() =>
+  import('./pages/cortex/council/DeliberationVisualizationPage').then((m) => ({ default: m.default }))
+);
+const DecisionReplayTheaterPage = lazy(() =>
+  import('./pages/cortex/council/DecisionReplayTheaterPage').then((m) => ({ default: m.default }))
+);
+
+// Defense Vertical
+const DefenseVerticalPage = lazy(() =>
+  import('./pages/cortex/sovereign/DefenseVerticalPage').then((m) => ({ default: m.default }))
+);
+
+// Regulator's Receipt (New)
+const RegulatorsReceiptGeneratorPage = lazy(() =>
+  import('./pages/cortex/compliance/RegulatorsReceiptPage').then((m) => ({ default: m.default }))
+);
 
 // Sovereign Tier Pages
 const CruciblePage = lazy(() =>
@@ -1734,6 +1755,42 @@ export const router = createBrowserRouter([
           </SuspenseWrapper>
         ),
       },
+      {
+        path: 'enterprise/adversarial-redteam',
+        element: (
+          <SuspenseWrapper>
+            <AdversarialRedTeamPage />
+          </SuspenseWrapper>
+        ),
+      },
+
+      // WOW Features - Visualization & Replay
+      {
+        path: 'council/visualization',
+        element: (
+          <SuspenseWrapper>
+            <DeliberationVisualizationPage />
+          </SuspenseWrapper>
+        ),
+      },
+      {
+        path: 'council/replay-theater',
+        element: (
+          <SuspenseWrapper>
+            <DecisionReplayTheaterPage />
+          </SuspenseWrapper>
+        ),
+      },
+
+      // Compliance - Regulator's Receipt
+      {
+        path: 'compliance/regulators-receipt',
+        element: (
+          <SuspenseWrapper>
+            <RegulatorsReceiptGeneratorPage />
+          </SuspenseWrapper>
+        ),
+      },
 
       // Sovereign
       { path: 'sovereign', element: <Navigate to="/cortex/sovereign/panopticon" replace /> },
@@ -1832,6 +1889,14 @@ export const router = createBrowserRouter([
         element: (
           <SuspenseWrapper>
             <HorizonPage />
+          </SuspenseWrapper>
+        ),
+      },
+      {
+        path: 'sovereign/defense',
+        element: (
+          <SuspenseWrapper>
+            <DefenseVerticalPage />
           </SuspenseWrapper>
         ),
       },
