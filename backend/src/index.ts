@@ -138,6 +138,7 @@ import defenseRoutes from './routes/defense.js';
 import visualizationRoutes from './routes/visualization.js';
 import adversarialRedteamRoutes from './routes/adversarial-redteam.js';
 import regulatorsReceiptRoutes from './routes/regulators-receipt.js';
+import sgasRoutes from './routes/sgas.js';
 import { registerPlatformServices } from './core/services/PlatformServices.js';
 
 // WebSocket handlers
@@ -413,11 +414,15 @@ app.use('/api/v1/cortex', cortexCoreRoutes);
 
 // Consolidated API - Unified endpoints for merged services (Jan 2026 restructure)
 // Council (merged: Autopilot, Voice, Union, Veto, Dissent, Vox)
-// Chronos (merged: Horizon, Cascade, Crisis, Lens)
 // Oversight (merged: Panopticon, Govern, Audit, Regulatory)
 // Decision DNA (merged: Ledger, Evidence Vault)
 // Crucible (merged: RedTeam, Echo, Apotheosis)
 app.use('/api/v1/consolidated', consolidatedRoutes);
+
+// SGAS - Synthetic Governance Agent System
+// Institutional Multi-Agent Decision Verification Architecture
+// 5 Agent Classes: Decision, Institutional, Adversarial, Observer, Meta-Governance
+app.use('/api/v1/sgas', sgasRoutes);
 
 // 404 handler
 app.use((_req, res) => {

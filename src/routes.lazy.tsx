@@ -353,6 +353,9 @@ const VoxPage = lazy(() =>
 );
 const HorizonPage = lazy(() => import('./pages/sovereign/HorizonPage'));
 
+// SGAS - Synthetic Governance Agent System
+const SGASPage = lazy(() => import('./pages/cortex/sovereign/SGASPage'));
+
 // Crown Jewels - Premium Enterprise Services
 const EchoPage = lazy(() => import('./pages/cortex/crown').then((m) => ({ default: m.EchoPage })));
 const RedTeamPage = lazy(() =>
@@ -1897,6 +1900,14 @@ export const router = createBrowserRouter([
         element: (
           <SuspenseWrapper>
             <DefenseVerticalPage />
+          </SuspenseWrapper>
+        ),
+      },
+      {
+        path: 'sovereign/sgas',
+        element: (
+          <SuspenseWrapper>
+            <SGASPage />
           </SuspenseWrapper>
         ),
       },
