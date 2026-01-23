@@ -14,6 +14,8 @@ import {
   DecisionProposal,
   DecisionType,
   DecisionContext,
+  BudgetContext,
+  HistoricalBaseline,
   Constraint,
   ConstraintType,
   EnforcementLevel,
@@ -368,7 +370,15 @@ router.get('/statistics', (_req: Request, res: Response) => {
 
 function validateAndConstructProposal(input: Partial<DecisionProposal>): DecisionProposal {
   const now = new Date();
+  const defaultBudget: BudgetContext = {
+    allocated: 0,
+    currency: 'USD',
+    fiscalYear: new Date().getFullYear().toString(),
+    lineItems: [],
+    flexibilityPercent: 10,
+  };
   const defaultContext: DecisionContext = {
+    budget: defaultBudget,
     timeframe: {
       start: now,
       end: new Date(now.getTime() + 90 * 24 * 60 * 60 * 1000), // 90 days
@@ -403,7 +413,7 @@ function validateAndConstructProposal(input: Partial<DecisionProposal>): Decisio
     },
   ];
 
-  return {
+  const proposal: DecisionProposal = {
     id: input.id || generateSGASId('prop'),
     timestamp: input.timestamp ? new Date(input.timestamp) : now,
     proposer: input.proposer || 'system',
@@ -413,12 +423,11 @@ function validateAndConstructProposal(input: Partial<DecisionProposal>): Decisio
     context: {
       ...defaultContext,
       ...(input.context || {}),
-      budget: input.context?.budget,
+      budget: input.context?.budget || defaultBudget,
       timeframe: input.context?.timeframe || defaultContext.timeframe,
       scope: input.context?.scope || defaultContext.scope,
     },
     constraints: input.constraints || defaultConstraints,
-    historicalBaseline: input.historicalBaseline,
     metadata: {
       version: input.metadata?.version || 1,
       previousVersions: input.metadata?.previousVersions || [],
@@ -429,6 +438,13 @@ function validateAndConstructProposal(input: Partial<DecisionProposal>): Decisio
       sensitivity: input.metadata?.sensitivity || SensitivityLevel.INTERNAL,
     },
   };
+  
+  // Only add historicalBaseline if provided
+  if (input.historicalBaseline) {
+    proposal.historicalBaseline = input.historicalBaseline;
+  }
+  
+  return proposal;
 }
 
 export default router;

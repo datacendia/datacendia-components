@@ -22,26 +22,20 @@ import crypto from 'crypto';
 import {
   DecisionProposal,
   DeliberationGraph,
-  DeliberationNode,
-  DeliberationEdge,
   DeliberationStatus,
   DeliberationPhase,
   DeliberationConfiguration,
-  DeliberationMetadata,
   NodeStatus,
   EdgeType,
   DataFlowType,
   SGASAgentClass,
-  AuditLevel,
   DecisionAgentOutput,
   InstitutionalAgentOutput,
   AdversarialAgentOutput,
   ObserverAgentOutput,
   MetaGovernanceAgentOutput,
   InstitutionalStatus,
-  SeverityLevel,
   DEFAULT_DELIBERATION_CONFIG,
-  AGENT_CLASS_EXECUTION_ORDER,
   generateSGASId,
   hashState,
   createDeliberationNode,
@@ -316,7 +310,7 @@ export class SGASOrchestrator extends EventEmitter {
     const outputs: DecisionAgentOutput[] = [];
 
     for (let i = 0; i < agents.length; i++) {
-      const agent = agents[i];
+      const agent = agents[i]!;
       const node = createDeliberationNode(
         agent.id,
         SGASAgentClass.DECISION,
@@ -349,8 +343,8 @@ export class SGASOrchestrator extends EventEmitter {
     // Create edges between decision nodes (all feed into next phase)
     for (let i = 0; i < graph.nodes.length - 1; i++) {
       const edge = createDeliberationEdge(
-        graph.nodes[i].id,
-        graph.nodes[i + 1].id,
+        graph.nodes[i]!.id,
+        graph.nodes[i + 1]!.id,
         EdgeType.PARALLEL,
         DataFlowType.SUMMARY
       );
@@ -374,7 +368,7 @@ export class SGASOrchestrator extends EventEmitter {
     const startNodeIndex = graph.nodes.length;
 
     for (let i = 0; i < agents.length; i++) {
-      const agent = agents[i];
+      const agent = agents[i]!;
       const node = createDeliberationNode(
         agent.id,
         SGASAgentClass.INSTITUTIONAL,
@@ -442,7 +436,7 @@ export class SGASOrchestrator extends EventEmitter {
     const startNodeIndex = graph.nodes.length;
 
     for (let i = 0; i < agents.length; i++) {
-      const agent = agents[i];
+      const agent = agents[i]!;
       const node = createDeliberationNode(
         agent.id,
         SGASAgentClass.ADVERSARIAL,
@@ -513,7 +507,7 @@ export class SGASOrchestrator extends EventEmitter {
     const startNodeIndex = graph.nodes.length;
 
     for (let i = 0; i < agents.length; i++) {
-      const agent = agents[i];
+      const agent = agents[i]!;
       const node = createDeliberationNode(
         agent.id,
         SGASAgentClass.OBSERVER,
@@ -584,7 +578,7 @@ export class SGASOrchestrator extends EventEmitter {
     const startNodeIndex = graph.nodes.length;
 
     for (let i = 0; i < agents.length; i++) {
-      const agent = agents[i];
+      const agent = agents[i]!;
       const node = createDeliberationNode(
         agent.id,
         SGASAgentClass.META_GOVERNANCE,
