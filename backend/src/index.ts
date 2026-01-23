@@ -140,6 +140,7 @@ import adversarialRedteamRoutes from './routes/adversarial-redteam.js';
 import regulatorsReceiptRoutes from './routes/regulators-receipt.js';
 import sgasRoutes from './routes/sgas.js';
 import scgeRoutes from './routes/scge.js';
+import collapseRoutes from './routes/collapse.js';
 import { registerPlatformServices } from './core/services/PlatformServices.js';
 
 // WebSocket handlers
@@ -429,6 +430,11 @@ app.use('/api/v1/sgas', sgasRoutes);
 // Decision verification infrastructure for complex institutions
 // Population, Policies, Events, Stressors, Simulation, Replay
 app.use('/api/v1/scge', scgeRoutes);
+
+// Policy Collapse Mode - Adversarial Policy Stress-Testing
+// "Under what conditions would this decision fail, harm people, or collapse legitimacy?"
+// Dual-track deliberation, Failure Envelopes, Trust Delta calculation
+app.use('/api/v1/collapse', collapseRoutes);
 
 // 404 handler
 app.use((_req, res) => {

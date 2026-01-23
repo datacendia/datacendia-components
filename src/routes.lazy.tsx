@@ -359,6 +359,9 @@ const SGASPage = lazy(() => import('./pages/cortex/sovereign/SGASPage'));
 // SCGE - Synthetic Civic Governance Environment
 const SCGEPage = lazy(() => import('./pages/cortex/sovereign/SCGEPage'));
 
+// Policy Collapse Mode - Adversarial Policy Stress-Testing
+const CollapsePage = lazy(() => import('./pages/cortex/sovereign/CollapsePage'));
+
 // Crown Jewels - Premium Enterprise Services
 const EchoPage = lazy(() => import('./pages/cortex/crown').then((m) => ({ default: m.EchoPage })));
 const RedTeamPage = lazy(() =>
@@ -1919,6 +1922,14 @@ export const router = createBrowserRouter([
         element: (
           <SuspenseWrapper>
             <SCGEPage />
+          </SuspenseWrapper>
+        ),
+      },
+      {
+        path: 'sovereign/collapse',
+        element: (
+          <SuspenseWrapper>
+            <CollapsePage />
           </SuspenseWrapper>
         ),
       },
