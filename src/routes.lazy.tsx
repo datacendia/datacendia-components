@@ -284,6 +284,9 @@ const ApotheosisPage = lazy(() =>
 const DissentPage = lazy(() =>
   import('./pages/cortex/enterprise').then((m) => ({ default: m.DissentPage }))
 );
+const ResponsibilityPage = lazy(() =>
+  import('./pages/cortex/enterprise/ResponsibilityPage').then((m) => ({ default: m.default }))
+);
 const ROIMetricsPage = lazy(() =>
   import('./pages/cortex/enterprise/ROIMetricsPage').then((m) => ({ default: m.ROIMetricsPage }))
 );
@@ -551,6 +554,9 @@ const HospitalityPage = lazy(() =>
 );
 const NonProfitPage = lazy(() =>
   import('./pages/verticals').then((m) => ({ default: m.NonProfitPage }))
+);
+const SmartCityPage = lazy(() =>
+  import('./pages/verticals').then((m) => ({ default: m.SmartCityPage }))
 );
 
 // Apex Package
@@ -1249,6 +1255,14 @@ export const router = createBrowserRouter([
     ),
   },
   {
+    path: '/verticals/smart-city',
+    element: (
+      <SuspenseWrapper>
+        <SmartCityPage />
+      </SuspenseWrapper>
+    ),
+  },
+  {
     path: '/industries',
     element: (
       <SuspenseWrapper>
@@ -1721,6 +1735,14 @@ export const router = createBrowserRouter([
         element: (
           <SuspenseWrapper>
             <DissentPage />
+          </SuspenseWrapper>
+        ),
+      },
+      {
+        path: 'enterprise/responsibility',
+        element: (
+          <SuspenseWrapper>
+            <ResponsibilityPage />
           </SuspenseWrapper>
         ),
       },

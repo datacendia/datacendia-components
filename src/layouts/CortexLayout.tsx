@@ -345,6 +345,14 @@ const trustLayerFeatures = [
     description: 'Audit-Safe Proof - One-click court-admissible decision documentation',
     merged: ['Ledger Export', 'Evidence Bundle', 'Chronos Replay', 'Policy Mapping'],
   },
+  {
+    id: 'sgas',
+    label: 'SGAS™',
+    icon: '🏛️',
+    path: '/cortex/sovereign/sgas',
+    description: 'Synthetic Governance Agent System - 5 agent classes for institutional decision verification at societal scale',
+    merged: ['Decision Agents', 'Institutional Agents', 'Adversarial Agents', 'Observer Agents', 'Meta-Governance'],
+  },
 ];
 
 // =============================================================================
@@ -357,7 +365,7 @@ const verticalPacks = [
     label: '🏭 All Verticals',
     icon: '🏭',
     path: '/verticals',
-    description: 'Browse all 17 industry verticals',
+    description: 'Browse all 24 industry verticals',
     industry: 'All',
   },
   // Priority Tier
@@ -490,6 +498,15 @@ const verticalPacks = [
     description: '24 agents for sports orgs',
     industry: 'Sports',
   },
+  // Smart City / Municipal
+  {
+    id: 'smart-city',
+    label: 'Smart City / Municipal',
+    icon: '🏛️',
+    path: '/verticals/smart-city',
+    description: '17 agents, 28 council modes, 3 guardians',
+    industry: 'Government',
+  },
 ];
 
 // =============================================================================
@@ -509,6 +526,13 @@ const additionalServices = [
     icon: '✊',
     path: '/cortex/enterprise/dissent',
     description: 'Protected Dissent & Whistleblower Channel (Council extension)',
+  },
+  {
+    id: 'responsibility',
+    label: 'CendiaResponsibility™',
+    icon: '👤',
+    path: '/cortex/enterprise/responsibility',
+    description: 'Human Accountability Layer - TPM-signed liability transfer',
   },
 ];
 
@@ -571,6 +595,15 @@ const enterpriseFeatures = [
     description: 'Protected Dissent & Whistleblower Channel (Council extension)',
     impact: 'High',
     tier: 'Core',
+  },
+  {
+    id: 'responsibility',
+    label: 'CendiaResponsibility™',
+    icon: '👤',
+    path: '/cortex/enterprise/responsibility',
+    description: 'Human Accountability Layer - TPM-signed liability transfer',
+    impact: 'High',
+    tier: 'Enterprise',
   },
   // Admin (moved from Enterprise to Admin section)
   {

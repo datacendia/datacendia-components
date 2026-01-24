@@ -890,6 +890,19 @@
         "useCases": ["Ensuring minority voices are heard", "Creating organizational memory", "Protecting whistleblowers", "Improving decision quality"],
         "guidance": "File a dissent against any decision you disagree with. Your objection will be permanently recorded, acknowledged, and tracked for accuracy over time."
       },
+      "responsibility": {
+        "title": "CendiaResponsibility™ - Human Accountability Layer",
+        "summary": "Explicit human accountability for every AI-assisted decision — signed, sealed, and irrevocable.",
+        "features": [
+          "TPM 2.0 hardware-signed accountability records",
+          "Explicit risk acceptance with failure categories",
+          "Delegation chains with cryptographic proof",
+          "Boardroom-grade liability reports",
+          "Independent verification without trusting Datacendia"
+        ],
+        "useCases": ["Board governance for AI decisions", "Regulatory compliance documentation", "Legal discovery readiness", "Executive risk acceptance"],
+        "guidance": "When AI makes a recommendation, a human must sign accountability. This creates an immutable record of who accepted which risks and why."
+      },
       "connectors": {
         "title": "Enterprise Data Connectors",
         "summary": "156+ pre-built connectors across 11 industry verticals. Connect to government, financial, healthcare, and global data sources.",

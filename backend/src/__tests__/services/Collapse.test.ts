@@ -33,9 +33,10 @@ import { PolicyContext } from '../../services/collapse/agents/BaseCollapseAgent.
 
 describe('Collapse Mode Types', () => {
   describe('Enums', () => {
-    it('should have 8 collapse agent types', () => {
+    it('should have 18 collapse agent types', () => {
       const types = Object.values(CollapseAgentType);
-      expect(types).toHaveLength(8);
+      expect(types).toHaveLength(18);
+      // Original 8
       expect(types).toContain('LEGITIMACY_COLLAPSE');
       expect(types).toContain('MINORITY_HARM');
       expect(types).toContain('ECONOMIC_INSTABILITY');
@@ -44,11 +45,22 @@ describe('Collapse Mode Types', () => {
       expect(types).toContain('ADVERSARIAL_ABUSE');
       expect(types).toContain('TEMPORAL_DECAY');
       expect(types).toContain('NARRATIVE_WEAPONIZATION');
+      // New 10 (using actual enum values from types.ts)
+      expect(types).toContain('FREE_SPEECH_CHILLING');
+      expect(types).toContain('DEMOCRATIC_PROCESS_EROSION');
+      expect(types).toContain('PROCEDURAL_JUSTICE');
+      expect(types).toContain('DUE_PROCESS_VIOLATION');
+      expect(types).toContain('FREEDOM_OF_ASSOCIATION');
+      expect(types).toContain('CULTURAL_ERASURE');
+      expect(types).toContain('DISABILITY_IMPACT');
+      expect(types).toContain('FOREIGN_INFLUENCE_AMPLIFICATION');
+      expect(types).toContain('MARKET_DISTORTION');
+      expect(types).toContain('ENVIRONMENTAL_EXTERNALITY');
     });
 
-    it('should have 8 failure categories', () => {
+    it('should have 18 failure categories', () => {
       const categories = Object.values(FailureCategory);
-      expect(categories).toHaveLength(8);
+      expect(categories).toHaveLength(18);
     });
 
     it('should have correct reversibility values', () => {
@@ -265,16 +277,17 @@ describe('Trust Delta Calculations', () => {
 });
 
 describe('Default Configuration', () => {
-  it('should have all 8 agents enabled by default', () => {
-    expect(DEFAULT_COLLAPSE_CONFIG.agents).toHaveLength(8);
+  it('should have all 18 agents enabled by default', () => {
+    expect(DEFAULT_COLLAPSE_CONFIG.agents).toHaveLength(18);
     expect(DEFAULT_COLLAPSE_CONFIG.agents.every(a => a.enabled)).toBe(true);
   });
 
-  it('should have minority harm agent with higher weight', () => {
+  it('should have minority harm agent with higher weight (NON-OVERRIDABLE)', () => {
     const minorityAgent = DEFAULT_COLLAPSE_CONFIG.agents.find(
       a => a.type === CollapseAgentType.MINORITY_HARM
     );
-    expect(minorityAgent?.weight).toBe(1.2);
+    expect(minorityAgent?.weight).toBe(1.3);
+    expect(minorityAgent?.parameters?.['nonOverridable']).toBe(true);
   });
 
   it('should have reasonable default thresholds', () => {
@@ -334,9 +347,9 @@ describe('CollapseOrchestrator', () => {
   });
 
   describe('Agent Management', () => {
-    it('should have all 8 agents initialized', () => {
+    it('should have all 18 agents initialized', () => {
       const descriptions = orchestrator.getAgentDescriptions();
-      expect(descriptions).toHaveLength(8);
+      expect(descriptions).toHaveLength(18);
     });
 
     it('should provide agent descriptions and questions', () => {
@@ -352,7 +365,7 @@ describe('CollapseOrchestrator', () => {
     it('should return default configuration', () => {
       const config = orchestrator.getConfig();
       expect(config.enabled).toBe(true);
-      expect(config.agents).toHaveLength(8);
+      expect(config.agents).toHaveLength(18);
     });
 
     it('should allow configuration updates', () => {
@@ -493,8 +506,8 @@ describe('CollapseOrchestrator', () => {
 
       const envelope = result.collapseTrack.failureEnvelope;
       const verification = orchestrator.verifyEnvelopeIntegrity(envelope);
-      expect(verification.valid).toBe(true);
       expect(verification.errors).toHaveLength(0);
+      expect(verification.valid).toBe(true);
     });
   });
 });

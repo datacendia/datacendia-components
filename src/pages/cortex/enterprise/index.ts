@@ -22,6 +22,7 @@ export { EvidenceVaultPage } from './EvidenceVaultPage';
 export { ApotheosisPage } from './ApotheosisPage';
 export { DissentPage } from './DissentPage';
 export { ROIMetricsPage } from './ROIMetricsPage';
+export { default as ResponsibilityPage } from './ResponsibilityPage';
 
 // Workflow Completion Pages
 export { CrisisManagementPage } from './CrisisManagementPage';

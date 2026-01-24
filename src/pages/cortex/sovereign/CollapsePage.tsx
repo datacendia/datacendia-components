@@ -575,19 +575,40 @@ const CollapsePage: React.FC = () => {
 
                   {activeTab === 'agents' && (
                     <div>
-                      <h3 className="text-lg font-semibold mb-4">Collapse Agents</h3>
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        {agents.map((agent) => (
-                          <div key={agent.type} className="p-4 bg-gray-700/50 rounded-lg">
-                            <div className="font-medium text-sm">{agent.type.replace(/_/g, ' ')}</div>
-                            <p className="text-xs text-gray-400 mt-1">{agent.description}</p>
-                            <div className="mt-2">
-                              {agent.questions.slice(0, 2).map((q, i) => (
-                                <div key={i} className="text-xs text-gray-500">• {q}</div>
-                              ))}
+                      <div className="flex items-center justify-between mb-4">
+                        <h3 className="text-lg font-semibold">Collapse Agents</h3>
+                        <span className="text-sm text-gray-400">{agents.length} agents across 7 failure domains</span>
+                      </div>
+                      
+                      {/* Agent Domain Categories */}
+                      <div className="mb-4 flex flex-wrap gap-2">
+                        <span className="px-2 py-1 text-xs bg-purple-500/20 text-purple-400 rounded">Legitimacy & Trust</span>
+                        <span className="px-2 py-1 text-xs bg-red-500/20 text-red-400 rounded">Civil Liberties ⚠️</span>
+                        <span className="px-2 py-1 text-xs bg-blue-500/20 text-blue-400 rounded">Equity & Protection</span>
+                        <span className="px-2 py-1 text-xs bg-orange-500/20 text-orange-400 rounded">Political & Narrative</span>
+                        <span className="px-2 py-1 text-xs bg-yellow-500/20 text-yellow-400 rounded">Economic & Systemic</span>
+                        <span className="px-2 py-1 text-xs bg-green-500/20 text-green-400 rounded">Temporal & Environmental</span>
+                        <span className="px-2 py-1 text-xs bg-gray-500/20 text-gray-400 rounded">Abuse & Misuse</span>
+                      </div>
+
+                      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 max-h-96 overflow-y-auto">
+                        {agents.map((agent) => {
+                          const isNonOverridable = agent.type.includes('FREE_SPEECH') || agent.type.includes('MINORITY_HARM');
+                          return (
+                            <div key={agent.type} className={`p-3 rounded-lg ${isNonOverridable ? 'bg-red-900/30 border border-red-500/30' : 'bg-gray-700/50'}`}>
+                              <div className="flex items-center gap-2 mb-1">
+                                <span className="font-medium text-sm">{agent.type.replace(/_/g, ' ')}</span>
+                                {isNonOverridable && <span className="text-xs px-1 py-0.5 bg-red-500/30 text-red-300 rounded">NON-OVERRIDABLE</span>}
+                              </div>
+                              <p className="text-xs text-gray-400 line-clamp-2">{agent.description}</p>
+                              <div className="mt-2">
+                                {agent.questions.slice(0, 1).map((q, i) => (
+                                  <div key={i} className="text-xs text-gray-500 italic">"{q}"</div>
+                                ))}
+                              </div>
                             </div>
-                          </div>
-                        ))}
+                          );
+                        })}
                       </div>
                     </div>
                   )}

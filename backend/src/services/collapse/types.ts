@@ -14,25 +14,71 @@ import { createHash } from 'crypto';
 // ============================================================================
 
 export enum CollapseAgentType {
+  // A. Legitimacy & Trust Collapse
   LEGITIMACY = 'LEGITIMACY_COLLAPSE',
-  MINORITY_HARM = 'MINORITY_HARM',
-  ECONOMIC_INSTABILITY = 'ECONOMIC_INSTABILITY',
+  DEMOCRATIC_EROSION = 'DEMOCRATIC_PROCESS_EROSION',
+  PROCEDURAL_JUSTICE = 'PROCEDURAL_JUSTICE',
+  
+  // B. Civil Liberties & Rights Collapse (Critical)
+  FREE_SPEECH_CHILLING = 'FREE_SPEECH_CHILLING',      // NON-OVERRIDABLE in democratic jurisdictions
+  DUE_PROCESS_VIOLATION = 'DUE_PROCESS_VIOLATION',
+  FREEDOM_OF_ASSOCIATION = 'FREEDOM_OF_ASSOCIATION',
+  
+  // C. Minority, Equity & Protection
+  MINORITY_HARM = 'MINORITY_HARM',                    // NON-OVERRIDABLE
+  CULTURAL_ERASURE = 'CULTURAL_ERASURE',
+  DISABILITY_IMPACT = 'DISABILITY_IMPACT',
+  
+  // D. Political & Narrative Weaponization
   POLITICAL_BACKLASH = 'POLITICAL_BACKLASH',
-  SYSTEMIC_RISK = 'SYSTEMIC_RISK',
-  ADVERSARIAL_ABUSE = 'ADVERSARIAL_ABUSE',
-  TEMPORAL_DECAY = 'TEMPORAL_DECAY',
   NARRATIVE_WEAPONIZATION = 'NARRATIVE_WEAPONIZATION',
+  FOREIGN_INFLUENCE = 'FOREIGN_INFLUENCE_AMPLIFICATION',
+  
+  // E. Economic & Systemic Risk
+  ECONOMIC_INSTABILITY = 'ECONOMIC_INSTABILITY',
+  MARKET_DISTORTION = 'MARKET_DISTORTION',
+  SYSTEMIC_RISK = 'SYSTEMIC_RISK',
+  
+  // F. Temporal & Environmental
+  TEMPORAL_DECAY = 'TEMPORAL_DECAY',
+  ENVIRONMENTAL_EXTERNALITY = 'ENVIRONMENTAL_EXTERNALITY',
+  
+  // G. Abuse & Misuse
+  ADVERSARIAL_ABUSE = 'ADVERSARIAL_ABUSE',
 }
 
 export enum FailureCategory {
+  // Legitimacy & Trust
   TRUST_COLLAPSE = 'TRUST_COLLAPSE',
+  DEMOCRATIC_HOLLOWING = 'DEMOCRATIC_HOLLOWING',
+  PROCEDURAL_UNFAIRNESS = 'PROCEDURAL_UNFAIRNESS',
+  
+  // Civil Liberties
+  SPEECH_SUPPRESSION = 'SPEECH_SUPPRESSION',
+  DUE_PROCESS_DENIAL = 'DUE_PROCESS_DENIAL',
+  ASSOCIATION_RESTRICTION = 'ASSOCIATION_RESTRICTION',
+  
+  // Minority & Equity
   MINORITY_DISPLACEMENT = 'MINORITY_DISPLACEMENT',
-  ECONOMIC_SHOCK = 'ECONOMIC_SHOCK',
+  CULTURAL_MARGINALIZATION = 'CULTURAL_MARGINALIZATION',
+  ACCESSIBILITY_EXCLUSION = 'ACCESSIBILITY_EXCLUSION',
+  
+  // Political & Narrative
   POLITICAL_WEAPONIZATION = 'POLITICAL_WEAPONIZATION',
-  SYSTEMIC_CASCADE = 'SYSTEMIC_CASCADE',
-  EXPLOITATION = 'EXPLOITATION',
-  INSTITUTIONAL_DECAY = 'INSTITUTIONAL_DECAY',
   NARRATIVE_CAPTURE = 'NARRATIVE_CAPTURE',
+  SOVEREIGNTY_UNDERMINING = 'SOVEREIGNTY_UNDERMINING',
+  
+  // Economic & Systemic
+  ECONOMIC_SHOCK = 'ECONOMIC_SHOCK',
+  MARKET_FAILURE = 'MARKET_FAILURE',
+  SYSTEMIC_CASCADE = 'SYSTEMIC_CASCADE',
+  
+  // Temporal & Environmental
+  INSTITUTIONAL_DECAY = 'INSTITUTIONAL_DECAY',
+  ECOLOGICAL_HARM = 'ECOLOGICAL_HARM',
+  
+  // Abuse
+  EXPLOITATION = 'EXPLOITATION',
 }
 
 export enum Reversibility {
@@ -73,6 +119,12 @@ export enum EthicalPrinciple {
   HUMAN_DIGNITY = 'HUMAN_DIGNITY',
   PRIVACY = 'PRIVACY',
   FAIRNESS = 'FAIRNESS',
+  FREE_EXPRESSION = 'FREE_EXPRESSION',
+  DEMOCRATIC_PARTICIPATION = 'DEMOCRATIC_PARTICIPATION',
+  CULTURAL_PRESERVATION = 'CULTURAL_PRESERVATION',
+  ENVIRONMENTAL_STEWARDSHIP = 'ENVIRONMENTAL_STEWARDSHIP',
+  ACCESSIBILITY = 'ACCESSIBILITY',
+  SOVEREIGNTY = 'SOVEREIGNTY',
 }
 
 // ============================================================================
@@ -557,14 +609,31 @@ export function getSeverityLevel(severity: number): 'CRITICAL' | 'HIGH' | 'MEDIU
 export const DEFAULT_COLLAPSE_CONFIG: CollapseConfig = {
   enabled: true,
   agents: [
+    // A. Legitimacy & Trust Collapse
     { type: CollapseAgentType.LEGITIMACY, enabled: true, weight: 1.0, parameters: {} },
-    { type: CollapseAgentType.MINORITY_HARM, enabled: true, weight: 1.2, parameters: {} },
-    { type: CollapseAgentType.ECONOMIC_INSTABILITY, enabled: true, weight: 1.0, parameters: {} },
+    { type: CollapseAgentType.DEMOCRATIC_EROSION, enabled: true, weight: 0.9, parameters: {} },
+    { type: CollapseAgentType.PROCEDURAL_JUSTICE, enabled: true, weight: 0.85, parameters: {} },
+    // B. Civil Liberties (Critical - NON-OVERRIDABLE)
+    { type: CollapseAgentType.FREE_SPEECH_CHILLING, enabled: true, weight: 1.3, parameters: { nonOverridable: true } },
+    { type: CollapseAgentType.DUE_PROCESS_VIOLATION, enabled: true, weight: 1.2, parameters: {} },
+    { type: CollapseAgentType.FREEDOM_OF_ASSOCIATION, enabled: true, weight: 1.1, parameters: {} },
+    // C. Minority & Equity (NON-OVERRIDABLE for minority harm)
+    { type: CollapseAgentType.MINORITY_HARM, enabled: true, weight: 1.3, parameters: { nonOverridable: true } },
+    { type: CollapseAgentType.CULTURAL_ERASURE, enabled: true, weight: 0.9, parameters: {} },
+    { type: CollapseAgentType.DISABILITY_IMPACT, enabled: true, weight: 1.0, parameters: {} },
+    // D. Political & Narrative Weaponization
     { type: CollapseAgentType.POLITICAL_BACKLASH, enabled: true, weight: 0.9, parameters: {} },
-    { type: CollapseAgentType.SYSTEMIC_RISK, enabled: true, weight: 1.1, parameters: {} },
-    { type: CollapseAgentType.ADVERSARIAL_ABUSE, enabled: true, weight: 1.0, parameters: {} },
-    { type: CollapseAgentType.TEMPORAL_DECAY, enabled: true, weight: 0.8, parameters: {} },
     { type: CollapseAgentType.NARRATIVE_WEAPONIZATION, enabled: true, weight: 0.7, parameters: {} },
+    { type: CollapseAgentType.FOREIGN_INFLUENCE, enabled: true, weight: 0.85, parameters: {} },
+    // E. Economic & Systemic Risk
+    { type: CollapseAgentType.ECONOMIC_INSTABILITY, enabled: true, weight: 1.0, parameters: {} },
+    { type: CollapseAgentType.MARKET_DISTORTION, enabled: true, weight: 0.8, parameters: {} },
+    { type: CollapseAgentType.SYSTEMIC_RISK, enabled: true, weight: 1.1, parameters: {} },
+    // F. Temporal & Environmental
+    { type: CollapseAgentType.TEMPORAL_DECAY, enabled: true, weight: 0.8, parameters: {} },
+    { type: CollapseAgentType.ENVIRONMENTAL_EXTERNALITY, enabled: true, weight: 0.9, parameters: {} },
+    // G. Abuse & Misuse
+    { type: CollapseAgentType.ADVERSARIAL_ABUSE, enabled: true, weight: 1.0, parameters: {} },
   ],
   minFailureConditions: 1,
   trustDeltaThreshold: 0.1,
@@ -596,4 +665,10 @@ export const ETHICAL_PRINCIPLES_DESCRIPTIONS: Record<EthicalPrinciple, string> =
   [EthicalPrinciple.HUMAN_DIGNITY]: 'Respect for inherent worth of all individuals',
   [EthicalPrinciple.PRIVACY]: 'Protection of personal information and autonomy',
   [EthicalPrinciple.FAIRNESS]: 'Equitable distribution of benefits and burdens',
+  [EthicalPrinciple.FREE_EXPRESSION]: 'Protection of lawful speech without chilling effects',
+  [EthicalPrinciple.DEMOCRATIC_PARTICIPATION]: 'Preservation of meaningful citizen involvement in governance',
+  [EthicalPrinciple.CULTURAL_PRESERVATION]: 'Respect for diverse languages, customs, and traditions',
+  [EthicalPrinciple.ENVIRONMENTAL_STEWARDSHIP]: 'Long-term ecological sustainability and intergenerational equity',
+  [EthicalPrinciple.ACCESSIBILITY]: 'Inclusion of persons with disabilities in all systems',
+  [EthicalPrinciple.SOVEREIGNTY]: 'Protection against foreign interference in domestic affairs',
 };

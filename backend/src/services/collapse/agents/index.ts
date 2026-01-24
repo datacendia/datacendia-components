@@ -1,13 +1,39 @@
 /**
  * Collapse Mode Agents - Index
+ * 
+ * 18 Adversarial Agents across 7 Failure Domains
  */
 
 export { BaseCollapseAgent, PolicyContext, AgentAnalysisParams } from './BaseCollapseAgent.js';
+
+// A. Legitimacy & Trust Collapse
 export { LegitimacyCollapseAgent } from './LegitimacyCollapseAgent.js';
-export { MinorityHarmAgent } from './MinorityHarmAgent.js';
-export { EconomicInstabilityAgent } from './EconomicInstabilityAgent.js';
+export { DemocraticProcessErosionAgent } from './DemocraticProcessErosionAgent.js';
+export { ProceduralJusticeAgent } from './ProceduralJusticeAgent.js';
+
+// B. Civil Liberties & Rights Collapse (Critical)
+export { FreeSpeechChillingAgent } from './FreeSpeechChillingAgent.js';           // NON-OVERRIDABLE
+export { DueProcessViolationAgent } from './DueProcessViolationAgent.js';
+export { FreedomOfAssociationAgent } from './FreedomOfAssociationAgent.js';
+
+// C. Minority, Equity & Protection
+export { MinorityHarmAgent } from './MinorityHarmAgent.js';                        // NON-OVERRIDABLE
+export { CulturalErasureAgent } from './CulturalErasureAgent.js';
+export { DisabilityImpactAgent } from './DisabilityImpactAgent.js';
+
+// D. Political & Narrative Weaponization
 export { PoliticalBacklashAgent } from './PoliticalBacklashAgent.js';
-export { SystemicRiskAgent } from './SystemicRiskAgent.js';
-export { AdversarialAbuseAgent } from './AdversarialAbuseAgent.js';
-export { TemporalDecayAgent } from './TemporalDecayAgent.js';
 export { NarrativeWeaponizationAgent } from './NarrativeWeaponizationAgent.js';
+export { ForeignInfluenceAmplificationAgent } from './ForeignInfluenceAmplificationAgent.js';
+
+// E. Economic & Systemic Risk
+export { EconomicInstabilityAgent } from './EconomicInstabilityAgent.js';
+export { MarketDistortionAgent } from './MarketDistortionAgent.js';
+export { SystemicRiskAgent } from './SystemicRiskAgent.js';
+
+// F. Temporal & Environmental
+export { TemporalDecayAgent } from './TemporalDecayAgent.js';
+export { EnvironmentalExternalityAgent } from './EnvironmentalExternalityAgent.js';
+
+// G. Abuse & Misuse
+export { AdversarialAbuseAgent } from './AdversarialAbuseAgent.js';

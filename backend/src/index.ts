@@ -141,6 +141,7 @@ import regulatorsReceiptRoutes from './routes/regulators-receipt.js';
 import sgasRoutes from './routes/sgas.js';
 import scgeRoutes from './routes/scge.js';
 import collapseRoutes from './routes/collapse.js';
+import responsibilityRoutes from './routes/responsibility.js';
 import { registerPlatformServices } from './core/services/PlatformServices.js';
 
 // WebSocket handlers
@@ -435,6 +436,10 @@ app.use('/api/v1/scge', scgeRoutes);
 // "Under what conditions would this decision fail, harm people, or collapse legitimacy?"
 // Dual-track deliberation, Failure Envelopes, Trust Delta calculation
 app.use('/api/v1/collapse', collapseRoutes);
+
+// CendiaResponsibility™ - Human Accountability Layer
+// Explicit liability transfer, TPM-signed accountability records, delegation chains
+app.use('/api/v1/responsibility', responsibilityRoutes);
 
 // 404 handler
 app.use((_req, res) => {

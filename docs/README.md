@@ -2,8 +2,8 @@
 
 Comprehensive documentation for the Datacendia platform.
 
-**Last Updated:** January 17, 2026  
-**Platform Version:** Enterprise Platinum v2.1
+**Last Updated:** January 23, 2026  
+**Platform Version:** Enterprise Platinum v4.3
 
 ## Quick Links
 

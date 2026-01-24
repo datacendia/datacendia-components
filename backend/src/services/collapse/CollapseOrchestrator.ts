@@ -38,14 +38,31 @@ import {
   BaseCollapseAgent,
   PolicyContext,
   AgentAnalysisParams,
+  // A. Legitimacy & Trust
   LegitimacyCollapseAgent,
+  DemocraticProcessErosionAgent,
+  ProceduralJusticeAgent,
+  // B. Civil Liberties (Critical)
+  FreeSpeechChillingAgent,
+  DueProcessViolationAgent,
+  FreedomOfAssociationAgent,
+  // C. Minority & Equity
   MinorityHarmAgent,
-  EconomicInstabilityAgent,
+  CulturalErasureAgent,
+  DisabilityImpactAgent,
+  // D. Political & Narrative
   PoliticalBacklashAgent,
-  SystemicRiskAgent,
-  AdversarialAbuseAgent,
-  TemporalDecayAgent,
   NarrativeWeaponizationAgent,
+  ForeignInfluenceAmplificationAgent,
+  // E. Economic & Systemic
+  EconomicInstabilityAgent,
+  MarketDistortionAgent,
+  SystemicRiskAgent,
+  // F. Temporal & Environmental
+  TemporalDecayAgent,
+  EnvironmentalExternalityAgent,
+  // G. Abuse
+  AdversarialAbuseAgent,
 } from './agents/index.js';
 
 export class CollapseOrchestrator {
@@ -60,14 +77,37 @@ export class CollapseOrchestrator {
   }
 
   private initializeAgents(): void {
+    // A. Legitimacy & Trust Collapse
     this.agents.set(CollapseAgentType.LEGITIMACY, new LegitimacyCollapseAgent());
+    this.agents.set(CollapseAgentType.DEMOCRATIC_EROSION, new DemocraticProcessErosionAgent());
+    this.agents.set(CollapseAgentType.PROCEDURAL_JUSTICE, new ProceduralJusticeAgent());
+    
+    // B. Civil Liberties & Rights Collapse (Critical - NON-OVERRIDABLE)
+    this.agents.set(CollapseAgentType.FREE_SPEECH_CHILLING, new FreeSpeechChillingAgent());
+    this.agents.set(CollapseAgentType.DUE_PROCESS_VIOLATION, new DueProcessViolationAgent());
+    this.agents.set(CollapseAgentType.FREEDOM_OF_ASSOCIATION, new FreedomOfAssociationAgent());
+    
+    // C. Minority, Equity & Protection
     this.agents.set(CollapseAgentType.MINORITY_HARM, new MinorityHarmAgent());
-    this.agents.set(CollapseAgentType.ECONOMIC_INSTABILITY, new EconomicInstabilityAgent());
+    this.agents.set(CollapseAgentType.CULTURAL_ERASURE, new CulturalErasureAgent());
+    this.agents.set(CollapseAgentType.DISABILITY_IMPACT, new DisabilityImpactAgent());
+    
+    // D. Political & Narrative Weaponization
     this.agents.set(CollapseAgentType.POLITICAL_BACKLASH, new PoliticalBacklashAgent());
-    this.agents.set(CollapseAgentType.SYSTEMIC_RISK, new SystemicRiskAgent());
-    this.agents.set(CollapseAgentType.ADVERSARIAL_ABUSE, new AdversarialAbuseAgent());
-    this.agents.set(CollapseAgentType.TEMPORAL_DECAY, new TemporalDecayAgent());
     this.agents.set(CollapseAgentType.NARRATIVE_WEAPONIZATION, new NarrativeWeaponizationAgent());
+    this.agents.set(CollapseAgentType.FOREIGN_INFLUENCE, new ForeignInfluenceAmplificationAgent());
+    
+    // E. Economic & Systemic Risk
+    this.agents.set(CollapseAgentType.ECONOMIC_INSTABILITY, new EconomicInstabilityAgent());
+    this.agents.set(CollapseAgentType.MARKET_DISTORTION, new MarketDistortionAgent());
+    this.agents.set(CollapseAgentType.SYSTEMIC_RISK, new SystemicRiskAgent());
+    
+    // F. Temporal & Environmental
+    this.agents.set(CollapseAgentType.TEMPORAL_DECAY, new TemporalDecayAgent());
+    this.agents.set(CollapseAgentType.ENVIRONMENTAL_EXTERNALITY, new EnvironmentalExternalityAgent());
+    
+    // G. Abuse & Misuse
+    this.agents.set(CollapseAgentType.ADVERSARIAL_ABUSE, new AdversarialAbuseAgent());
   }
 
   /**
@@ -413,11 +453,15 @@ export class CollapseOrchestrator {
       errors.push('Merkle root mismatch - envelope may have been tampered with');
     }
 
-    // Verify agent output hashes
+    // Verify agent output hashes - all agents should produce at least baseline findings
     for (const output of envelope.agentOutputs) {
-      const fcHashes = output.failureConditions.map(fc => fc.hash).join('');
-      if (!fcHashes) {
-        errors.push(`Agent ${output.agentType} has no failure condition hashes`);
+      if (output.failureConditions.length === 0) {
+        errors.push(`Agent ${output.agentType} has no failure conditions - adversarial agents should always find something`);
+      }
+      for (const fc of output.failureConditions) {
+        if (!fc.hash) {
+          errors.push(`Agent ${output.agentType} has a failure condition without hash`);
+        }
       }
     }
 

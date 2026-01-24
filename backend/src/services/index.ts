@@ -21,6 +21,19 @@ export { cendiaSentryService, CendiaSentryService } from './CendiaSentryService.
 export { cendiaNarrativesService, CendiaNarrativesService } from './CendiaNarrativesService.js';
 export { pantheonMemoryService, PantheonMemoryService } from './PantheonMemoryService.js';
 
+// CendiaResponsibility™ - Human Accountability Layer
+export { CendiaResponsibilityService } from './CendiaResponsibilityService.js';
+export type {
+  AccountabilityRecord,
+  AccountabilityAction,
+  FailureCategory,
+  HumanAuthority,
+  TPMSignature,
+  AccountabilityChain,
+  DelegationRecord,
+  LiabilityReport,
+} from './CendiaResponsibilityService.js';
+
 // Re-export types
 export type {
   AuditEvent,

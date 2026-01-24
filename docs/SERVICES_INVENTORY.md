@@ -1,7 +1,7 @@
 # Datacendia Platform - Complete Services & Features Inventory
 
-**Generated:** December 2024  
-**Status:** Implementation Review
+**Generated:** January 2026  
+**Status:** Implementation Review (Updated)
 
 ---
 
@@ -20,6 +20,7 @@
 | 9 | **CendiaEternal™** | ✅ COMPLETE | `EternalPage.tsx` | `CendiaEternalService.ts` | ✅ |
 | 10 | **CendiaSymbiont™** | ✅ COMPLETE | `SymbiontPage.tsx` | `CendiaSymbiontService.ts` | ✅ |
 | 11 | **CendiaVox™** | ✅ COMPLETE | `VoxPage.tsx` | `CendiaVoxService.ts` | ✅ |
+| 12 | **CendiaCollapse™** | ✅ COMPLETE | `CollapsePage.tsx` | `CollapseOrchestrator.ts` | ⚪ |
 
 ---
 
@@ -99,6 +100,7 @@
 | **Models** | `/api/v1/models` | ✅ | LLM model management | ✅ |
 | **Data Sources** | `/api/v1/data-sources` | ✅ | External integrations | ✅ |
 | **Summaries** | `/api/v1/summaries` | ✅ | Executive summaries | ✅ |
+| **Collapse** | `/api/v1/collapse` | ✅ | Policy red-team mode, 18 adversarial agents | ✅ NEW |
 
 ---
 

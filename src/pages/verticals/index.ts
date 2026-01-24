@@ -32,5 +32,8 @@ export { ConstructionPage } from './ConstructionPage';
 export { HospitalityPage } from './HospitalityPage';
 export { NonProfitPage } from './NonProfitPage';
 
+// Tier 4: Smart City / Municipal
+export { SmartCityPage } from './SmartCityPage';
+
 // Verticals Hub
 export { VerticalsHubPage } from './VerticalsHubPage';

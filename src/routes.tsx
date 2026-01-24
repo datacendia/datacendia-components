@@ -145,6 +145,7 @@ import {
   DissentPage,
   ApotheosisPage,
   ROIMetricsPage,
+  ResponsibilityPage,
 } from './pages/cortex/enterprise';
 
 // Decision Consequence Engineering
@@ -158,12 +159,42 @@ import { EternalPage } from './pages/sovereign/EternalPage';
 import { SymbiontPage } from './pages/sovereign/SymbiontPage';
 import { VoxPage } from './pages/sovereign/VoxPage';
 import HorizonPage from './pages/sovereign/HorizonPage';
+import SGASPage from './pages/cortex/sovereign/SGASPage';
 
 // Crown Jewels - Premium Enterprise Services
 import { EchoPage, RedTeamPage, GnosisPage } from './pages/cortex/crown';
 
 // Admin Pages
 import { VerticalConfigPage } from './pages/cortex/admin';
+
+// Industry Verticals - 24 Vertical Landing Pages
+import {
+  HealthcarePage,
+  FinancialServicesPage,
+  GovernmentLegalPage,
+  LegalPage,
+  InsurancePage,
+  PharmaceuticalPage,
+  ManufacturingPage,
+  EnergyUtilitiesPage,
+  TechnologyPage,
+  RetailHospitalityPage,
+  RealEstateConstructionPage,
+  TransportationLogisticsPage,
+  MediaEntertainmentPage,
+  ProfessionalServicesPage,
+  HigherEducationPage,
+  SportsPage,
+  TelecommunicationsPage,
+  AerospacePage,
+  AgriculturePage,
+  AutomotivePage,
+  ConstructionPage,
+  HospitalityPage,
+  NonProfitPage,
+  SmartCityPage,
+  VerticalsHubPage,
+} from './pages/verticals';
 
 // Demo Pages
 import { DemoLauncherPage } from './pages/cortex/demo/DemoLauncherPage';
@@ -608,6 +639,10 @@ export const router = createBrowserRouter([
         element: <DissentPage />,
       },
       {
+        path: 'enterprise/responsibility',
+        element: <ResponsibilityPage />,
+      },
+      {
         path: 'enterprise/apotheosis',
         element: <ApotheosisPage />,
       },
@@ -645,11 +680,122 @@ export const router = createBrowserRouter([
         path: 'sovereign/horizon',
         element: <HorizonPage />,
       },
+      {
+        path: 'sgas',
+        element: <SGASPage />,
+      },
 
       // Admin Pages
       {
         path: 'admin/vertical-config',
         element: <VerticalConfigPage />,
+      },
+
+      // =========================================================================
+      // INDUSTRY VERTICALS - 24 Vertical Landing Pages
+      // =========================================================================
+      {
+        path: 'verticals',
+        element: <VerticalsHubPage />,
+      },
+      // Tier 1: Priority Verticals
+      {
+        path: 'verticals/healthcare',
+        element: <HealthcarePage />,
+      },
+      {
+        path: 'verticals/financial',
+        element: <FinancialServicesPage />,
+      },
+      {
+        path: 'verticals/government',
+        element: <GovernmentLegalPage />,
+      },
+      {
+        path: 'verticals/legal',
+        element: <LegalPage />,
+      },
+      {
+        path: 'verticals/insurance',
+        element: <InsurancePage />,
+      },
+      {
+        path: 'verticals/pharmaceutical',
+        element: <PharmaceuticalPage />,
+      },
+      // Tier 2: Growth Verticals
+      {
+        path: 'verticals/manufacturing',
+        element: <ManufacturingPage />,
+      },
+      {
+        path: 'verticals/energy',
+        element: <EnergyUtilitiesPage />,
+      },
+      {
+        path: 'verticals/technology',
+        element: <TechnologyPage />,
+      },
+      {
+        path: 'verticals/retail',
+        element: <RetailHospitalityPage />,
+      },
+      {
+        path: 'verticals/real-estate',
+        element: <RealEstateConstructionPage />,
+      },
+      {
+        path: 'verticals/transportation',
+        element: <TransportationLogisticsPage />,
+      },
+      {
+        path: 'verticals/media',
+        element: <MediaEntertainmentPage />,
+      },
+      {
+        path: 'verticals/professional-services',
+        element: <ProfessionalServicesPage />,
+      },
+      {
+        path: 'verticals/education',
+        element: <HigherEducationPage />,
+      },
+      {
+        path: 'verticals/sports',
+        element: <SportsPage />,
+      },
+      {
+        path: 'verticals/telecommunications',
+        element: <TelecommunicationsPage />,
+      },
+      // Tier 3: Specialized Verticals
+      {
+        path: 'verticals/aerospace',
+        element: <AerospacePage />,
+      },
+      {
+        path: 'verticals/agriculture',
+        element: <AgriculturePage />,
+      },
+      {
+        path: 'verticals/automotive',
+        element: <AutomotivePage />,
+      },
+      {
+        path: 'verticals/construction',
+        element: <ConstructionPage />,
+      },
+      {
+        path: 'verticals/hospitality',
+        element: <HospitalityPage />,
+      },
+      {
+        path: 'verticals/nonprofit',
+        element: <NonProfitPage />,
+      },
+      {
+        path: 'verticals/smart-city',
+        element: <SmartCityPage />,
       },
 
       // Demo Studio

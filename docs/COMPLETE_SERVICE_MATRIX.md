@@ -2,7 +2,7 @@
 ## Cortex Platform, Pillars, Enterprise Suite & Decision Intelligence
 
 **Version:** Enterprise Platinum  
-**Generated:** December 2, 2025
+**Generated:** January 23, 2026
 
 ---
 
@@ -84,6 +84,8 @@ Enterprise-grade capabilities for large organizations.
 | **CendiaVeto™** | 🚫 | Proposal Veto System - AI-analyzed objections, veto tracking, override controls, escalation paths | All Council | $199/mo | Enterprise | Enterprise | Ethics, Guard | No |
 | **CendiaUnion™** | 🤝 | Multi-Council Decisions - Unified decisions across multiple councils, federation, conflict resolution | All Agents (multi) | $349/mo | Enterprise | Enterprise | Agents, Flow | No |
 | **CendiaLedger™** | 📒 | Immutable Audit Trail - Blockchain-style decision logging, tamper-proof records, compliance exports | All Agents (audit) | $299/mo | Enterprise | Finance, Healthcare | Guard, Lineage | No |
+| **CendiaCollapse™** | ⚠️ | Policy Red-Team Mode - 18 adversarial agents across 7 failure domains, Trust Delta calculation, Failure Envelopes | 18 Collapse Agents | $399/mo | Sovereign | Government, Enterprise | Ethics, Guard | No |
+| **CendiaResponsibility™** | 👤 | Human Accountability Layer - Explicit liability transfer, TPM-signed accountability records, delegation chains | All Agents (audit) | $249/mo | Enterprise | All | Ethics, Guard, Lineage | No |
 | **CendiaNexus™** | 🔌 | Advanced Integrations - Salesforce, SAP, Oracle, Workday, custom API connectors | CDO, COO | $399/mo | Enterprise | Enterprise | Flow, Lineage | No |
 | **CendiaInsight360™** | 📊 | Executive Intelligence - C-suite dashboards, board reports, investor materials | Chief, CFO, All | $349/mo | Enterprise | Enterprise | Helm, Predict | **R&D** |
 | **CendiaSentinel™** | 👁️ | Proactive Monitoring - Anomaly detection, predictive alerts, business health scores | Risk, CDO, CISO | $279/mo | Enterprise | All | Health, Predict | **R&D** |
@@ -208,15 +210,29 @@ Services currently in research and development phase.
 
 | Metric | Count |
 |--------|-------|
-| **Total Services** | 46 |
-| **Production Services** | 35 |
+| **Total Services** | 47 |
+| **Production Services** | 36 |
 | **R&D Services** | 11 |
 | **AI Agents (Core)** | 14 |
 | **AI Agents (Premium)** | 16+ |
 | **Pillars** | 8 |
 | **Industry Packages** | 5 |
-| **Supported Languages** | 50+ |
+| **Supported Languages** | 100+ (20 UI localizations) |
 | **Compliance Frameworks** | 5 (SOC2, GDPR, HIPAA, ISO27001, PCI-DSS) |
+
+---
+
+# TEST COVERAGE & VERIFICATION
+
+| Category | Count | Status |
+|----------|-------|--------|
+| **Unit & Integration Tests** | 3,511 | 98% Passing |
+| **Property-Based Fuzzing** | 201,750+ | Verification Steps per Build |
+| **Collapse Mode Scenarios** | 73 | 100% Passing |
+| **Council Flow Tests** | 44 | 100% Passing |
+| **API Route Coverage** | 100+ endpoints | Full Coverage |
+
+> **Note:** Unit/Integration tests validate code logic. Property-based fuzzing generates randomized verification scenarios to stress-test edge cases, security boundaries, and failure modes at scale.
 
 ---
 
