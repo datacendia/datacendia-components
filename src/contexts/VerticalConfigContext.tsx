@@ -142,9 +142,12 @@ export const VerticalConfigProvider: React.FC<VerticalConfigProviderProps> = ({ 
     await initialize();
   }, [initialize]);
 
-  // Initialize on mount
+  // Initialize only when authenticated (defer API calls until needed)
   useEffect(() => {
-    initialize();
+    const token = localStorage.getItem('accessToken');
+    if (token) {
+      initialize();
+    }
   }, [initialize]);
 
   // ===========================================================================

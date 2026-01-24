@@ -30,7 +30,7 @@ interface HealthStatus {
 
 const API_BASE = '/api/v1';
 
-export const useHealthCheck = (interval: number = 30000) => {
+export const useHealthCheck = (interval: number = 60000) => {
   const [health, setHealth] = useState<HealthStatus>({
     status: 'unknown',
     latency: 0,
@@ -128,7 +128,7 @@ export const HealthIndicator: React.FC<{ className?: string }> = ({ className = 
 
 // Full health panel for settings/admin
 export const HealthPanel: React.FC<{ className?: string }> = ({ className = '' }) => {
-  const { health, isChecking, checkHealth } = useHealthCheck(10000);
+  const { health, isChecking, checkHealth } = useHealthCheck(60000);
 
   const ServiceRow: React.FC<{ name: string; status: boolean; icon: React.ReactNode }> = ({ 
     name, status, icon 
@@ -205,7 +205,7 @@ export const HealthPanel: React.FC<{ className?: string }> = ({ className = '' }
 
 // Connection lost banner
 export const ConnectionBanner: React.FC = () => {
-  const { health } = useHealthCheck(5000);
+  const { health } = useHealthCheck(60000);
   const [dismissed, setDismissed] = useState(false);
 
   useEffect(() => {

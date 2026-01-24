@@ -99,8 +99,11 @@ export const DataSourceProvider: React.FC<{ children: React.ReactNode }> = ({ ch
   const [sharedContext, setSharedContextState] = useState<Record<string, unknown>>({});
   const [isLoading, setIsLoading] = useState(false);
 
-  // Load data sources on mount
+  // Load data sources only when authenticated (defer API calls)
   useEffect(() => {
+    const token = localStorage.getItem('accessToken');
+    if (!token) return; // Skip if not authenticated
+    
     const loadDataSources = async () => {
       setIsLoading(true);
       try {
