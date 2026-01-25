@@ -25,15 +25,14 @@ beforeAll(async () => {
 
 describe('Infrastructure Health', () => {
   describe('Server Availability', () => {
-    it('should respond to basic health check', async () => {
-      if (!apiAvailable) return;
-      const response = await fetch('http://localhost:3000/api/v1/health');
+    it.skipIf(!apiAvailable)('should respond to basic health check', async () => {
+      const response = await fetch(`${API_URL}/health`);
       expect(response.ok).toBe(true);
       const data = await response.json();
       expect(data.data.status).toBe('healthy');
     });
 
-    it('should return 404 for unknown routes', async () => {
+    it.skipIf(!apiAvailable)('should return 404 for unknown routes', async () => {
       const response = await fetch(`${API_URL}/nonexistent-endpoint-xyz`);
       expect(response.status).toBe(404);
       const data = await response.json();
@@ -75,7 +74,7 @@ describe('Authentication System', () => {
   let refreshToken: string;
 
   describe('Login Flow', () => {
-    it('should login with valid credentials', async () => {
+    it.skipIf(!apiAvailable)('should login with valid credentials', async () => {
       const response = await fetch(`${API_URL}/auth/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -96,7 +95,7 @@ describe('Authentication System', () => {
       refreshToken = data.data.refreshToken;
     });
 
-    it('should reject invalid credentials', async () => {
+    it.skipIf(!apiAvailable)('should reject invalid credentials', async () => {
       const response = await fetch(`${API_URL}/auth/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -109,7 +108,7 @@ describe('Authentication System', () => {
       expect(response.status).toBe(401);
     });
 
-    it('should reject malformed email', async () => {
+    it.skipIf(!apiAvailable)('should reject malformed email', async () => {
       const response = await fetch(`${API_URL}/auth/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -124,7 +123,7 @@ describe('Authentication System', () => {
   });
 
   describe('Token Operations', () => {
-    it('should access protected route with valid token', async () => {
+    it.skipIf(!apiAvailable)('should access protected route with valid token', async () => {
       const token = await getAuthToken(TEST_USERS.admin.email, TEST_USERS.admin.password);
       const response = await authFetch('/auth/me', token);
       
@@ -134,13 +133,13 @@ describe('Authentication System', () => {
       expect(data.data.email).toBe(TEST_USERS.admin.email);
     });
 
-    it('should reject invalid token', async () => {
+    it.skipIf(!apiAvailable)('should reject invalid token', async () => {
       const response = await authFetch('/auth/me', 'invalid-token-123');
       // Server should return 401 or 500 for invalid tokens (depends on error handling)
       expect([401, 500]).toContain(response.status);
     });
 
-    it('should reject expired token format', async () => {
+    it.skipIf(!apiAvailable)('should reject expired token format', async () => {
       const expiredToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyLCJleHAiOjF9.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c';
       const response = await authFetch('/auth/me', expiredToken);
       // Server should return 401 or 500 for expired tokens
@@ -161,7 +160,7 @@ describe('API Endpoints', () => {
   });
 
   describe('i18n API (No Auth)', () => {
-    it('should list all supported languages', async () => {
+    it.skipIf(!apiAvailable)('should list all supported languages', async () => {
       const response = await fetch(`${API_URL}/i18n/languages`);
       expect(response.status).toBe(200);
       const data = await response.json();
@@ -177,7 +176,7 @@ describe('API Endpoints', () => {
       expect(codes).toContain('ja');
     });
 
-    it('should return RTL flag for Arabic', async () => {
+    it.skipIf(!apiAvailable)('should return RTL flag for Arabic', async () => {
       const response = await fetch(`${API_URL}/i18n/languages`);
       const data = await response.json();
       const arabic = data.languages.find((l: any) => l.code === 'ar');
@@ -186,7 +185,7 @@ describe('API Endpoints', () => {
   });
 
   describe('Integrations API (No Auth)', () => {
-    it('should list available integrations', async () => {
+    it.skipIf(!apiAvailable)('should list available integrations', async () => {
       const response = await fetch(`${API_URL}/integrations`);
       expect(response.status).toBe(200);
       const data = await response.json();
@@ -194,7 +193,7 @@ describe('API Endpoints', () => {
       expect(data.data.available.length).toBeGreaterThan(20);
     });
 
-    it('should include all connector categories', async () => {
+    it.skipIf(!apiAvailable)('should include all connector categories', async () => {
       const response = await fetch(`${API_URL}/integrations`);
       const data = await response.json();
       const categories = [...new Set(data.data.available.map((i: any) => i.category))];
@@ -207,7 +206,7 @@ describe('API Endpoints', () => {
   });
 
   describe('Models API (No Auth)', () => {
-    it('should list available LLM models', async () => {
+    it.skipIf(!apiAvailable)('should list available LLM models', async () => {
       const response = await fetch(`${API_URL}/models`);
       expect(response.status).toBe(200);
       const data = await response.json();
@@ -217,7 +216,7 @@ describe('API Endpoints', () => {
   });
 
   describe('Council API (Auth Required)', () => {
-    it('should list council agents', async () => {
+    it.skipIf(!apiAvailable)('should list council agents', async () => {
       // Test endpoint is reachable (detailed tests in council.test.ts)
       const response = await fetch(`${API_URL}/council/agents`);
       // Without auth should get 401, with auth 200
@@ -226,7 +225,7 @@ describe('API Endpoints', () => {
   });
 
   describe('Data Sources API (Auth Required)', () => {
-    it('should list data sources', async () => {
+    it.skipIf(!apiAvailable)('should list data sources', async () => {
       // Test endpoint is reachable (detailed tests in other files)
       const response = await fetch(`${API_URL}/data-sources`);
       expect([200, 401]).toContain(response.status);
@@ -234,7 +233,7 @@ describe('API Endpoints', () => {
   });
 
   describe('Workflows API (Auth Required)', () => {
-    it('should list workflows', async () => {
+    it.skipIf(!apiAvailable)('should list workflows', async () => {
       // Test endpoint is reachable (detailed tests in workflows.test.ts)
       const response = await fetch(`${API_URL}/workflows`);
       expect([200, 401]).toContain(response.status);
@@ -242,7 +241,7 @@ describe('API Endpoints', () => {
   });
 
   describe('Organizations API (Auth Required)', () => {
-    it('should list organizations', async () => {
+    it.skipIf(!apiAvailable)('should list organizations', async () => {
       const freshToken = await getAuthToken(TEST_USERS.admin.email, TEST_USERS.admin.password);
       const response = await authFetch('/organizations', freshToken);
       // Route may require specific path or may be disabled
@@ -335,7 +334,7 @@ describe('Data Integrity', () => {
 
 describe('Security', () => {
   describe('Input Validation', () => {
-    it('should reject SQL injection in login', async () => {
+    it.skipIf(!apiAvailable)('should reject SQL injection in login', async () => {
       const response = await fetch(`${API_URL}/auth/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -349,7 +348,7 @@ describe('Security', () => {
       expect(response.status).toBe(400);
     });
 
-    it('should reject XSS in request body', async () => {
+    it.skipIf(!apiAvailable)('should reject XSS in request body', async () => {
       const response = await fetch(`${API_URL}/auth/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -364,7 +363,7 @@ describe('Security', () => {
   });
 
   describe('Rate Limiting', () => {
-    it('should have rate limit headers', async () => {
+    it.skipIf(!apiAvailable)('should have rate limit headers', async () => {
       const response = await fetch(`${API_URL}/auth/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -382,7 +381,7 @@ describe('Security', () => {
   });
 
   describe('CORS Headers', () => {
-    it('should allow OPTIONS preflight', async () => {
+    it.skipIf(!apiAvailable)('should allow OPTIONS preflight', async () => {
       const response = await fetch(`${API_URL}/auth/login`, {
         method: 'OPTIONS',
       });
@@ -392,7 +391,7 @@ describe('Security', () => {
   });
 
   describe('Content Security', () => {
-    it('should have security headers', async () => {
+    it.skipIf(!apiAvailable)('should have security headers', async () => {
       const response = await fetch('http://localhost:3000/api/v1/health');
       
       // Helmet sets these headers
@@ -407,7 +406,7 @@ describe('Security', () => {
 // ============================================================================
 
 describe('Connector Registry', () => {
-  it('should have all connectors registered', async () => {
+  it.skipIf(!apiAvailable)('should have all connectors registered', async () => {
     const response = await fetch(`${API_URL}/integrations`);
     const data = await response.json();
     
@@ -443,21 +442,21 @@ describe('Connector Registry', () => {
 
 describe('Performance', () => {
   describe('Response Time', () => {
-    it('should respond to health check in < 100ms', async () => {
+    it.skipIf(!apiAvailable)('should respond to health check in < 100ms', async () => {
       const start = Date.now();
       await fetch('http://localhost:3001/health');
       const duration = Date.now() - start;
       expect(duration).toBeLessThan(100);
     });
 
-    it('should respond to languages API in < 200ms', async () => {
+    it.skipIf(!apiAvailable)('should respond to languages API in < 200ms', async () => {
       const start = Date.now();
       await fetch(`${API_URL}/i18n/languages`);
       const duration = Date.now() - start;
       expect(duration).toBeLessThan(200);
     });
 
-    it('should authenticate in < 500ms', async () => {
+    it.skipIf(!apiAvailable)('should authenticate in < 500ms', async () => {
       const start = Date.now();
       await fetch(`${API_URL}/auth/login`, {
         method: 'POST',
@@ -473,7 +472,7 @@ describe('Performance', () => {
   });
 
   describe('Concurrent Requests', () => {
-    it('should handle 10 concurrent requests', async () => {
+    it.skipIf(!apiAvailable)('should handle 10 concurrent requests', async () => {
       const requests = Array(10).fill(null).map(() => 
         fetch('http://localhost:3001/health')
       );
@@ -490,7 +489,7 @@ describe('Performance', () => {
 
 describe('API Response Schemas', () => {
   describe('Standard Response Format', () => {
-    it('should have success field in all responses', async () => {
+    it.skipIf(!apiAvailable)('should have success field in all responses', async () => {
       const endpoints = [
         `${API_URL}/i18n/languages`,
         `${API_URL}/integrations`,
@@ -506,7 +505,7 @@ describe('API Response Schemas', () => {
   });
 
   describe('Error Response Format', () => {
-    it('should have standard error format for 404', async () => {
+    it.skipIf(!apiAvailable)('should have standard error format for 404', async () => {
       const response = await fetch(`${API_URL}/nonexistent`);
       const data = await response.json();
       
@@ -516,7 +515,7 @@ describe('API Response Schemas', () => {
       expect(data.error.message).toBeDefined();
     });
 
-    it('should have standard error format for 401', async () => {
+    it.skipIf(!apiAvailable)('should have standard error format for 401', async () => {
       const response = await fetch(`${API_URL}/auth/me`, {
         headers: { 'Authorization': 'Bearer invalid-token' },
       });
