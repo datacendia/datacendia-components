@@ -28,8 +28,8 @@ export const TEST_USERS = {
   },
 };
 
-// API base URL
-export const API_URL = process.env.API_URL || 'http://localhost:3000/api/v1';
+// API base URL - backend runs on port 3001, not 3000
+export const API_URL = process.env.API_URL || 'http://localhost:3001/api/v1';
 
 // Check if API is available
 export async function isApiAvailable(): Promise<boolean> {
