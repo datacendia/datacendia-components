@@ -4,6 +4,7 @@ import helmet from 'helmet';
 import compression from 'compression';
 import { createServer } from 'http';
 import { Server as SocketIOServer } from 'socket.io';
+import { SocketServer } from './websocket/SocketServer.js';
 import { rateLimit } from 'express-rate-limit';
 
 import { config } from './config/index.js';
@@ -487,6 +488,9 @@ const shutdown = async (signal: string) => {
 process.on('SIGTERM', () => shutdown('SIGTERM'));
 process.on('SIGINT', () => shutdown('SIGINT'));
 
+// Global SocketServer instance
+let socketServer: SocketServer | null = null;
+
 // Start server
 const startServer = async () => {
   try {
@@ -498,6 +502,14 @@ const startServer = async () => {
       logger.info(`🚀 Datacendia API running on port ${config.port}`);
       logger.info(`📊 Environment: ${config.nodeEnv}`);
     });
+
+    // Initialize WebSocket server after HTTP server starts
+    try {
+      socketServer = new SocketServer(httpServer);
+      logger.info('[WebSocket] Real-time streaming enabled');
+    } catch (error) {
+      logger.error('[WebSocket] Failed to initialize:', error);
+    }
 
     // Test database connections with timeouts
     const timeout = (ms: number, promise: Promise<any>, name: string) =>
@@ -557,4 +569,4 @@ const startServer = async () => {
 
 startServer();
 
-export { app, io };
+export { app, io, socketServer };
