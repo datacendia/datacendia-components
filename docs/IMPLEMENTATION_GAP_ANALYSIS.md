@@ -16,7 +16,7 @@
 | **AI Council Agents** | 14 core + 16 premium | All defined | ~80% functional |
 | **Industry Verticals** | 25 pages | 25 pages exist | ~40% real logic |
 | **Sovereign Features** | 11 patterns | 11 services exist | ~50% functional |
-| **Third-Party Connectors** | 10+ claimed | 5 real OAuth2 | **50% functional** |
+| **Third-Party Connectors** | 10+ claimed | 7 real OAuth2 | **70% functional** |
 
 ---
 
@@ -127,13 +127,13 @@
 | **Jira** | ✅ | ✅ Real | ✅ OAuth2 | Pending | ✅ 90% |
 | **GitHub** | ✅ | ✅ Real | ✅ OAuth2 + PAT | Pending | ✅ 90% |
 | **MS Teams** | ✅ | ✅ Real | ✅ OAuth2 (Graph) | Pending | ✅ 90% |
+| **ServiceNow** | ✅ | ✅ Real | ✅ OAuth2 | Pending | ✅ 90% |
+| **HubSpot** | ✅ | ✅ Real | ✅ OAuth2 + Private | Pending | ✅ 90% |
 | **SAP** | ✅ | Metadata only | ❌ None | ❌ | ⚠️ 20% |
 | **Oracle** | ✅ | Metadata only | ❌ None | ❌ | ⚠️ 20% |
 | **Workday** | ✅ | Metadata only | ❌ None | ❌ | ⚠️ 20% |
-| **ServiceNow** | ✅ | Metadata only | ❌ None | ❌ | ⚠️ 20% |
-| **HubSpot** | ✅ | Metadata only | ❌ None | ❌ | ⚠️ 20% |
 
-**Verdict:** 5 connectors fully implemented with real OAuth2 (Salesforce, Slack, Jira, GitHub, MS Teams). 5 have metadata definitions ready for implementation. ⚠️ 50%
+**Verdict:** 7 connectors fully implemented with real OAuth2 (Salesforce, Slack, Jira, GitHub, MS Teams, ServiceNow, HubSpot). 3 have metadata definitions ready for implementation. ✅ 70%
 
 **New Implementation (January 25, 2026):**
 - `backend/src/connectors/core/OAuth2Service.ts` - Real OAuth2 flow handler with PKCE support
@@ -142,6 +142,8 @@
 - `backend/src/connectors/enterprise/JiraConnector.ts` - Issues, projects, JQL search, transitions
 - `backend/src/connectors/enterprise/GitHubConnector.ts` - Repos, issues, PRs, commits, code search
 - `backend/src/connectors/enterprise/MicrosoftTeamsConnector.ts` - Teams, channels, messages, Graph API
+- `backend/src/connectors/enterprise/ServiceNowConnector.ts` - Incidents, changes, CMDB, ITSM workflows
+- `backend/src/connectors/enterprise/HubSpotConnector.ts` - Contacts, companies, deals, CRM + marketing
 - `backend/src/routes/enterprise-connectors.ts` - API routes for all connectors
 
 ---
@@ -249,8 +251,8 @@
 | **Backend Services** | 50+ files |
 | **Frontend Pages** | 80+ files |
 | **API Routes** | 100+ endpoints |
-| **Actually Works End-to-End** | ~62% |
-| **Production-Ready** | ~55% |
+| **Actually Works End-to-End** | ~65% |
+| **Production-Ready** | ~60% |
 | **Enterprise Platinum Standard** | ⚠️ In Progress |
 
 The platform has **real substance** in:
@@ -260,10 +262,10 @@ The platform has **real substance** in:
 - Responsibility layer
 - Evidence Vault + KMS + PDF generation
 - 7 complete industry verticals
-- **NEW:** 5 enterprise connectors with real OAuth2 (Salesforce, Slack, Jira, GitHub, MS Teams)
+- **NEW:** 7 enterprise connectors with real OAuth2 (Salesforce, Slack, Jira, GitHub, MS Teams, ServiceNow, HubSpot)
 
 The platform has **gaps** in:
-- Remaining third-party connectors (5 need OAuth2 implementation: SAP, Oracle, Workday, ServiceNow, HubSpot)
+- Remaining third-party connectors (3 need OAuth2 implementation: SAP, Oracle, Workday)
 - 18 template verticals
 - Infrastructure not deployed (Druid, Redis, Neo4j, Keycloak)
 - CI/CD never executed
