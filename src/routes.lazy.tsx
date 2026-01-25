@@ -132,9 +132,6 @@ const CouncilPage = lazy(() =>
 const PulsePage = lazy(() =>
   import('./pages/cortex/pulse/PulsePage').then((m) => ({ default: m.PulsePage }))
 );
-const LensPage = lazy(() =>
-  import('./pages/cortex/lens/LensPage').then((m) => ({ default: m.LensPage }))
-);
 const BridgePage = lazy(() =>
   import('./pages/cortex/bridge/BridgePage').then((m) => ({ default: m.BridgePage }))
 );
@@ -160,15 +157,6 @@ const AlertsPage = lazy(() =>
 );
 const MetricsPage = lazy(() =>
   import('./pages/cortex/pulse/subpages').then((m) => ({ default: m.MetricsPage }))
-);
-const ForecastDetailsPage = lazy(() =>
-  import('./pages/cortex/lens/subpages').then((m) => ({ default: m.ForecastDetailsPage }))
-);
-const ScenarioDetailsPage = lazy(() =>
-  import('./pages/cortex/lens/subpages').then((m) => ({ default: m.ScenarioDetailsPage }))
-);
-const ScenarioBuilderPage = lazy(() =>
-  import('./pages/cortex/lens/subpages').then((m) => ({ default: m.ScenarioBuilderPage }))
 );
 const WorkflowsListPage = lazy(() =>
   import('./pages/cortex/bridge/subpages').then((m) => ({ default: m.WorkflowsListPage }))
@@ -1447,47 +1435,6 @@ export const router = createBrowserRouter([
         ),
       },
 
-      // Lens
-      {
-        path: 'lens',
-        element: (
-          <SuspenseWrapper>
-            <LensPage />
-          </SuspenseWrapper>
-        ),
-      },
-      {
-        path: 'lens/forecast/:forecastId',
-        element: (
-          <SuspenseWrapper>
-            <ForecastDetailsPage />
-          </SuspenseWrapper>
-        ),
-      },
-      {
-        path: 'lens/scenarios/:scenarioId',
-        element: (
-          <SuspenseWrapper>
-            <ScenarioDetailsPage />
-          </SuspenseWrapper>
-        ),
-      },
-      {
-        path: 'lens/scenarios/:scenarioId/edit',
-        element: (
-          <SuspenseWrapper>
-            <ScenarioBuilderPage />
-          </SuspenseWrapper>
-        ),
-      },
-      {
-        path: 'lens/scenarios/new',
-        element: (
-          <SuspenseWrapper>
-            <ScenarioBuilderPage />
-          </SuspenseWrapper>
-        ),
-      },
 
       // Bridge
       {
@@ -2461,11 +2408,6 @@ export const routes = {
   pulse: '/cortex/pulse',
   alerts: '/cortex/pulse/alerts',
   metrics: '/cortex/pulse/metrics',
-  lens: '/cortex/lens',
-  forecast: (id: string) => `/cortex/lens/forecast/${id}`,
-  scenario: (id: string) => `/cortex/lens/scenarios/${id}`,
-  scenarioEdit: (id: string) => `/cortex/lens/scenarios/${id}/edit`,
-  newScenario: '/cortex/lens/scenarios/new',
   bridge: '/cortex/bridge',
   workflows: '/cortex/bridge/workflows',
   workflow: (id: string) => `/cortex/bridge/workflows/${id}`,
