@@ -3,7 +3,7 @@
  * Displays connection status and allows quick diagnostics
  */
 
-import React, { useEffect, useState, useCallback } from 'react';
+import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
   CheckCircle, 
@@ -17,85 +17,11 @@ import {
   WifiOff
 } from 'lucide-react';
 
-interface HealthStatus {
-  status: 'healthy' | 'degraded' | 'unhealthy' | 'unknown';
-  latency: number;
-  services: {
-    api: boolean;
-    database: boolean;
-    ollama: boolean;
-  };
-  lastCheck: Date;
-}
-
-const API_BASE = '/api/v1';
-
-export const useHealthCheck = (interval: number = 60000) => {
-  const [health, setHealth] = useState<HealthStatus>({
-    status: 'unknown',
-    latency: 0,
-    services: { api: false, database: false, ollama: false },
-    lastCheck: new Date(),
-  });
-  const [isChecking, setIsChecking] = useState(false);
-
-  const checkHealth = useCallback(async () => {
-    setIsChecking(true);
-    const startTime = Date.now();
-    
-    try {
-      const response = await fetch(`${API_BASE}/health`, {
-        method: 'GET',
-        headers: { 'Content-Type': 'application/json' },
-      });
-      
-      const latency = Date.now() - startTime;
-      
-      if (response.ok) {
-        const data = await response.json();
-        setHealth({
-          status: data.status || 'healthy',
-          latency,
-          services: {
-            api: true,
-            database: data.database ?? true,
-            ollama: data.ollama ?? false,
-          },
-          lastCheck: new Date(),
-        });
-      } else {
-        setHealth(prev => ({
-          ...prev,
-          status: 'degraded',
-          latency,
-          services: { ...prev.services, api: true },
-          lastCheck: new Date(),
-        }));
-      }
-    } catch (error) {
-      setHealth({
-        status: 'unhealthy',
-        latency: Date.now() - startTime,
-        services: { api: false, database: false, ollama: false },
-        lastCheck: new Date(),
-      });
-    } finally {
-      setIsChecking(false);
-    }
-  }, []);
-
-  useEffect(() => {
-    checkHealth();
-    const timer = setInterval(checkHealth, interval);
-    return () => clearInterval(timer);
-  }, [checkHealth, interval]);
-
-  return { health, isChecking, checkHealth };
-};
+import { useHealthContext } from '@/contexts/HealthContext';
 
 // Compact status indicator for the header/sidebar
 export const HealthIndicator: React.FC<{ className?: string }> = ({ className = '' }) => {
-  const { health, isChecking, checkHealth } = useHealthCheck();
+  const { health, isChecking, refresh } = useHealthContext();
 
   const statusColors = {
     healthy: 'bg-green-500',
@@ -113,7 +39,7 @@ export const HealthIndicator: React.FC<{ className?: string }> = ({ className = 
 
   return (
     <button
-      onClick={checkHealth}
+      onClick={refresh}
       disabled={isChecking}
       className={`flex items-center gap-1.5 px-2 py-1 rounded-md text-xs transition-colors hover:bg-slate-700 ${className}`}
       title={`API: ${health.status} (${health.latency}ms)`}
@@ -128,7 +54,7 @@ export const HealthIndicator: React.FC<{ className?: string }> = ({ className = 
 
 // Full health panel for settings/admin
 export const HealthPanel: React.FC<{ className?: string }> = ({ className = '' }) => {
-  const { health, isChecking, checkHealth } = useHealthCheck(60000);
+  const { health, isChecking, refresh } = useHealthContext();
 
   const ServiceRow: React.FC<{ name: string; status: boolean; icon: React.ReactNode }> = ({ 
     name, status, icon 
@@ -159,7 +85,7 @@ export const HealthPanel: React.FC<{ className?: string }> = ({ className = '' }
           System Health
         </h3>
         <button
-          onClick={checkHealth}
+          onClick={refresh}
           disabled={isChecking}
           className="p-2 rounded-lg bg-slate-700 hover:bg-slate-600 transition-colors disabled:opacity-50"
         >
@@ -205,7 +131,7 @@ export const HealthPanel: React.FC<{ className?: string }> = ({ className = '' }
 
 // Connection lost banner
 export const ConnectionBanner: React.FC = () => {
-  const { health } = useHealthCheck(60000);
+  const { health } = useHealthContext();
   const [dismissed, setDismissed] = useState(false);
 
   useEffect(() => {

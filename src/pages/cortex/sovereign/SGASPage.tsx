@@ -11,7 +11,6 @@ import {
   Card,
   CardContent,
   Typography,
-  Grid,
   Button,
   Tabs,
   Tab,
@@ -42,6 +41,7 @@ import {
   DialogActions,
   CircularProgress,
 } from '@mui/material';
+import Grid from '@mui/material/Unstable_Grid2';
 import {
   Shield,
   Brain,
@@ -286,7 +286,7 @@ export default function SGASPage() {
 
       {/* Stats Cards */}
       <Grid container spacing={3} sx={{ mb: 3 }}>
-        <Grid item xs={12} md={3}>
+        <Grid xs={12} md={3}>
           <Card sx={{ bgcolor: 'primary.dark' }}>
             <CardContent>
               <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
@@ -303,7 +303,7 @@ export default function SGASPage() {
             </CardContent>
           </Card>
         </Grid>
-        <Grid item xs={12} md={3}>
+        <Grid xs={12} md={3}>
           <Card sx={{ bgcolor: 'success.dark' }}>
             <CardContent>
               <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
@@ -320,7 +320,7 @@ export default function SGASPage() {
             </CardContent>
           </Card>
         </Grid>
-        <Grid item xs={12} md={3}>
+        <Grid xs={12} md={3}>
           <Card sx={{ bgcolor: 'warning.dark' }}>
             <CardContent>
               <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
@@ -337,7 +337,7 @@ export default function SGASPage() {
             </CardContent>
           </Card>
         </Grid>
-        <Grid item xs={12} md={3}>
+        <Grid xs={12} md={3}>
           <Card sx={{ bgcolor: 'info.dark' }}>
             <CardContent>
               <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
@@ -478,7 +478,7 @@ export default function SGASPage() {
                 { name: 'Observer Agents (Class IV)', count: agentStats?.observer || 0, icon: Eye, color: '#9c27b0', desc: 'Truth recorders - measure and record without influence' },
                 { name: 'Meta-Governance (Class V)', count: agentStats?.metaGovernance || 0, icon: Settings, color: '#607d8b', desc: 'System oversight - evaluate governance behavior over time' },
               ].map((cls) => (
-                <Grid item xs={12} md={6} key={cls.name}>
+                <Grid xs={12} md={6} key={cls.name}>
                   <Card variant="outlined">
                     <CardContent>
                       <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
@@ -527,7 +527,7 @@ export default function SGASPage() {
                 { name: 'Resource Exhaustion', type: 'RESOURCE_EXHAUSTION', desc: 'Tests resource limits' },
                 { name: 'Authority Arbitrage', type: 'AUTHORITY_ARBITRAGE', desc: 'Exploits delegation chains' },
               ].map((agent, i) => (
-                <Grid item xs={12} md={4} key={i}>
+                <Grid xs={12} md={4} key={i}>
                   <Card variant="outlined" sx={{ height: '100%' }}>
                     <CardContent>
                       <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mb: 1 }}>
@@ -565,7 +565,7 @@ export default function SGASPage() {
                 { name: 'Process Compliance', type: 'PROCESS_COMPLIANCE', metric: 'Step adherence rate' },
                 { name: 'Performance Monitor', type: 'PERFORMANCE_MONITORING', metric: 'Execution metrics' },
               ].map((obs, i) => (
-                <Grid item xs={12} md={4} key={i}>
+                <Grid xs={12} md={4} key={i}>
                   <Card variant="outlined">
                     <CardContent>
                       <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mb: 1 }}>
@@ -595,7 +595,7 @@ export default function SGASPage() {
             </Alert>
 
             <Grid container spacing={2}>
-              <Grid item xs={12} md={6}>
+              <Grid xs={12} md={6}>
                 <Card variant="outlined">
                   <CardContent>
                     <Typography variant="h6" sx={{ mb: 2 }}>Institutional State Control</Typography>
@@ -618,7 +618,7 @@ export default function SGASPage() {
                   </CardContent>
                 </Card>
               </Grid>
-              <Grid item xs={12} md={6}>
+              <Grid xs={12} md={6}>
                 <Card variant="outlined">
                   <CardContent>
                     <Typography variant="h6" sx={{ mb: 2 }}>Drift Detection Patterns</Typography>
