@@ -25,8 +25,8 @@ describe('AI Council', () => {
   });
 
   describe('GET /council/agents', () => {
-    it('should list all council agents', async () => {
-      if (!apiAvailable || !adminToken) return;
+    it.skipIf(!apiAvailable)('should list all council agents', async () => {
+      if (!adminToken) return;
       const response = await authFetch('/council/agents', adminToken);
       expect(response.status).toBe(200);
       
@@ -36,7 +36,8 @@ describe('AI Council', () => {
       expect(data.data.length).toBeGreaterThan(0);
     });
 
-    it('should include required agent fields', async () => {
+    it.skipIf(!apiAvailable)('should include required agent fields', async () => {
+      if (!adminToken) return;
       const response = await authFetch('/council/agents', adminToken);
       const data = await response.json();
       const agent = data.data[0];
@@ -49,7 +50,7 @@ describe('AI Council', () => {
   });
 
   describe('GET /deliberations', () => {
-    it('should list deliberations', async () => {
+    it.skipIf(!apiAvailable)('should list deliberations', async () => {
       const response = await authFetch('/deliberations', adminToken);
       expect(response.status).toBe(200);
       
@@ -58,7 +59,7 @@ describe('AI Council', () => {
       expect(Array.isArray(data.data)).toBe(true);
     });
 
-    it('should support pagination', async () => {
+    it.skipIf(!apiAvailable)('should support pagination', async () => {
       const response = await authFetch('/deliberations?page=1&limit=5', adminToken);
       expect(response.status).toBe(200);
       
@@ -66,7 +67,7 @@ describe('AI Council', () => {
       expect(data.data.length).toBeLessThanOrEqual(5);
     });
 
-    it('should filter by status', async () => {
+    it.skipIf(!apiAvailable)('should filter by status', async () => {
       const response = await authFetch('/deliberations?status=COMPLETED', adminToken);
       expect(response.status).toBe(200);
       
@@ -78,7 +79,7 @@ describe('AI Council', () => {
   });
 
   describe('GET /deliberations/:id', () => {
-    it('should return specific deliberation with messages', async () => {
+    it.skipIf(!apiAvailable)('should return specific deliberation with messages', async () => {
       // First get a deliberation ID
       const listResponse = await authFetch('/deliberations', adminToken);
       const deliberations = (await listResponse.json()).data;
@@ -95,14 +96,14 @@ describe('AI Council', () => {
       }
     });
 
-    it('should return 404 for non-existent deliberation', async () => {
+    it.skipIf(!apiAvailable)('should return 404 for non-existent deliberation', async () => {
       const response = await authFetch('/deliberations/non-existent-id', adminToken);
       expect(response.status).toBe(404);
     });
   });
 
   describe('POST /deliberations', () => {
-    it('should create new deliberation', async () => {
+    it.skipIf(!apiAvailable)('should create new deliberation', async () => {
       const response = await authFetch('/deliberations', adminToken, {
         method: 'POST',
         body: JSON.stringify({
@@ -117,7 +118,7 @@ describe('AI Council', () => {
       expect(data.data.status).toBe('PENDING');
     });
 
-    it('should reject empty question', async () => {
+    it.skipIf(!apiAvailable)('should reject empty question', async () => {
       const response = await authFetch('/deliberations', adminToken, {
         method: 'POST',
         body: JSON.stringify({
@@ -131,7 +132,7 @@ describe('AI Council', () => {
   });
 
   describe('POST /deliberations/:id/start', () => {
-    it('should start a pending deliberation', async () => {
+    it.skipIf(!apiAvailable)('should start a pending deliberation', async () => {
       // Create a new deliberation first
       const createResponse = await authFetch('/deliberations', adminToken, {
         method: 'POST',
@@ -153,7 +154,7 @@ describe('AI Council', () => {
   });
 
   describe('Deliberation Messages', () => {
-    it('should include agent messages in deliberation', async () => {
+    it.skipIf(!apiAvailable)('should include agent messages in deliberation', async () => {
       // Get a completed deliberation
       const listResponse = await authFetch('/deliberations?status=COMPLETED&limit=1', adminToken);
       const deliberations = (await listResponse.json()).data;

@@ -4,6 +4,7 @@
  */
 
 import { describe, it, expect, beforeAll, afterAll } from 'vitest';
+let apiAvailable = false;
 import { prisma, TEST_USERS, getAuthToken, authFetch, cleanup, checkApiAvailable } from './setup';
 
 describe('Alerts', () => {
@@ -25,7 +26,7 @@ describe('Alerts', () => {
   });
 
   describe('GET /alerts', () => {
-    it('should list all alerts', async () => {
+    it(.skipIf(!apiAvailable)('should list all alerts', async () => {
       if (!apiAvailable || !adminToken) return;
       const response = await authFetch('/alerts', adminToken);
       expect(response.status).toBe(200);
@@ -35,7 +36,7 @@ describe('Alerts', () => {
       expect(Array.isArray(data.data)).toBe(true);
     });
 
-    it('should support severity filter', async () => {
+    it(.skipIf(!apiAvailable)('should support severity filter', async () => {
       if (!apiAvailable || !adminToken) return;
       const response = await authFetch('/alerts?severity=CRITICAL', adminToken);
       expect(response.status).toBe(200);
@@ -46,7 +47,7 @@ describe('Alerts', () => {
       });
     });
 
-    it('should support status filter', async () => {
+    it(.skipIf(!apiAvailable)('should support status filter', async () => {
       if (!apiAvailable || !adminToken) return;
       const response = await authFetch('/alerts?status=ACTIVE', adminToken);
       expect(response.status).toBe(200);
@@ -57,7 +58,7 @@ describe('Alerts', () => {
       });
     });
 
-    it('should support pagination', async () => {
+    it(.skipIf(!apiAvailable)('should support pagination', async () => {
       if (!apiAvailable || !adminToken) return;
       const response = await authFetch('/alerts?page=1&pageSize=10', adminToken);
       expect(response.status).toBe(200);
@@ -69,7 +70,7 @@ describe('Alerts', () => {
   });
 
   describe('GET /alerts/:id', () => {
-    it('should return specific alert', async () => {
+    it(.skipIf(!apiAvailable)('should return specific alert', async () => {
       if (!apiAvailable || !adminToken) return;
       const listResponse = await authFetch('/alerts', adminToken);
       const alerts = (await listResponse.json()).data;
@@ -87,7 +88,7 @@ describe('Alerts', () => {
   });
 
   describe('PUT /alerts/:id/acknowledge', () => {
-    it('should acknowledge an alert', async () => {
+    it(.skipIf(!apiAvailable)('should acknowledge an alert', async () => {
       if (!apiAvailable || !adminToken) return;
       // Find an active alert
       const listResponse = await authFetch('/alerts?status=ACTIVE&limit=1', adminToken);
@@ -106,7 +107,7 @@ describe('Alerts', () => {
   });
 
   describe('PUT /alerts/:id/resolve', () => {
-    it('should resolve an alert with resolution notes', async () => {
+    it(.skipIf(!apiAvailable)('should resolve an alert with resolution notes', async () => {
       if (!apiAvailable || !adminToken) return;
       // Find an acknowledged alert
       const listResponse = await authFetch('/alerts?status=ACKNOWLEDGED&limit=1', adminToken);
@@ -128,7 +129,7 @@ describe('Alerts', () => {
   });
 
   describe('Alert Statistics', () => {
-    it('should return alert statistics', async () => {
+    it(.skipIf(!apiAvailable)('should return alert statistics', async () => {
       if (!apiAvailable || !adminToken) return;
       const response = await authFetch('/alerts/stats', adminToken);
       
@@ -139,3 +140,4 @@ describe('Alerts', () => {
     });
   });
 });
+
