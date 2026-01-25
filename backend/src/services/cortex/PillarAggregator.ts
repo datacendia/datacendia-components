@@ -55,7 +55,7 @@ export class PillarAggregator {
     if (entity === 'metrics' || entity === 'kpis') {
       try {
         return await prisma.kpi_definitions.findMany({ where: { organization_id: orgId }, take: limit || 100 });
-      } catch { return this.getMockMetrics(); }
+      } catch { return []; }
     }
     
     if (entity === 'dashboard' || entity === 'summary') {
@@ -75,12 +75,12 @@ export class PillarAggregator {
     const { entity, limit } = query;
     try {
       if (entity === 'entities' || entity === 'nodes') {
-        return await prisma.graph_nodes.findMany({ where: { organization_id: context.organizationId }, take: limit || 100 }).catch(() => this.getMockEntities());
+        return await prisma.graph_nodes.findMany({ where: { organization_id: context.organizationId }, take: limit || 100 }).catch(() => []);
       }
       if (entity === 'relationships' || entity === 'edges') {
         return await prisma.graph_edges.findMany({ where: { organization_id: context.organizationId }, take: limit || 200 }).catch(() => []);
       }
-    } catch { return this.getMockEntities(); }
+    } catch { return []; }
     return [];
   }
 
@@ -88,9 +88,9 @@ export class PillarAggregator {
     const { entity, limit } = query;
     try {
       if (entity === 'models' || entity === 'forecasts') {
-        return await prisma.predictions.findMany({ take: limit || 50 }).catch(() => this.getMockModels());
+        return await prisma.predictions.findMany({ take: limit || 50 }).catch(() => []);
       }
-    } catch { return this.getMockModels(); }
+    } catch { return []; }
     return [];
   }
 
@@ -98,12 +98,12 @@ export class PillarAggregator {
     const { entity, limit } = query;
     try {
       if (entity === 'workflows') {
-        return await prisma.workflows.findMany({ where: { organization_id: context.organizationId }, take: limit || 50 }).catch(() => this.getMockWorkflows());
+        return await prisma.workflows.findMany({ where: { organization_id: context.organizationId }, take: limit || 50 }).catch(() => []);
       }
       if (entity === 'executions') {
         return await prisma.workflow_executions.findMany({ take: limit || 100 }).catch(() => []);
       }
-    } catch { return this.getMockWorkflows(); }
+    } catch { return []; }
     return [];
   }
 
@@ -117,7 +117,7 @@ export class PillarAggregator {
     }
     if (entity === 'alerts') {
       try { return await prisma.alerts.findMany({ where: { organization_id: context.organizationId }, take: limit || 50 }); }
-      catch { return this.getMockAlerts(); }
+      catch { return []; }
     }
     return [];
   }
@@ -143,7 +143,7 @@ export class PillarAggregator {
     }
     if (entity === 'principles') {
       try { return await prisma.ethics_principles.findMany({ where: { organization_id: context.organizationId }, take: limit || 20 }); }
-      catch { return this.getMockPrinciples(); }
+      catch { return []; }
     }
     return [];
   }
@@ -151,8 +151,8 @@ export class PillarAggregator {
   private async queryAgents(query: StructuredQuery, context: QueryContext): Promise<any> {
     const { entity } = query;
     if (entity === 'agents' || entity === 'list') {
-      try { return await prisma.agents.findMany({ where: { organization_id: context.organizationId } }).catch(() => this.getMockAgents()); }
-      catch { return this.getMockAgents(); }
+      try { return await prisma.agents.findMany({ where: { organization_id: context.organizationId } }).catch(() => []); }
+      catch { return []; }
     }
     if (entity === 'stats' || entity === 'summary') {
       return { totalAgents: 14, activeAgents: 12, queriesToday: 847, avgResponseTime: 1.2, satisfaction: 4.7 };
@@ -182,14 +182,7 @@ export class PillarAggregator {
     }
   }
 
-  // Mock data generators for when tables don't exist
-  private getMockMetrics() { return [{ id: '1', name: 'Revenue', value: 2450000, status: 'on_track', trend: 5.2 }, { id: '2', name: 'Customer Satisfaction', value: 4.7, status: 'on_track', trend: 2.1 }, { id: '3', name: 'Churn Rate', value: 3.2, status: 'at_risk', trend: -0.8 }]; }
-  private getMockEntities() { return [{ id: '1', name: 'Sales Data', type: 'dataset' }, { id: '2', name: 'Customer Report', type: 'report' }]; }
-  private getMockModels() { return [{ id: '1', name: 'Demand Forecaster', type: 'regression', accuracy: 0.94, status: 'active' }]; }
-  private getMockWorkflows() { return [{ id: '1', name: 'Daily ETL', status: 'active', lastRun: new Date().toISOString() }]; }
-  private getMockAlerts() { return [{ id: '1', title: 'High CPU Usage', severity: 'medium', status: 'ACTIVE' }]; }
-  private getMockPrinciples() { return [{ id: '1', name: 'Fairness', description: 'Ensure unbiased decisions', status: 'ACTIVE' }]; }
-  private getMockAgents() { return [{ id: '1', code: 'cfo', name: 'CFO Advisor', role: 'Financial guidance', status: 'online' }, { id: '2', code: 'coo', name: 'COO Advisor', role: 'Operations guidance', status: 'online' }]; }
+  // No mock data - return empty arrays when DB queries fail
 
   clearCache(): void { this.cache.clear(); }
 }
