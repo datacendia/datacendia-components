@@ -1183,8 +1183,8 @@ export class HealthcareDefensibleOutput extends DefensibleOutput<HealthcareDecis
 export class HealthcareVerticalImplementation implements VerticalImplementation<HealthcareDecision> {
   readonly verticalId = 'healthcare';
   readonly verticalName = 'Healthcare';
-  readonly completionPercentage = 75;
-  readonly targetPercentage = 80;
+  readonly completionPercentage = 85;
+  readonly targetPercentage = 100;
 
   readonly dataConnector: HealthcareDataConnector;
   readonly knowledgeBase: HealthcareKnowledgeBase;

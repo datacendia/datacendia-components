@@ -1254,8 +1254,8 @@ export class InsuranceDefensibleOutput extends DefensibleOutput<InsuranceDecisio
 export class InsuranceVerticalImplementation implements VerticalImplementation<InsuranceDecision> {
   readonly verticalId = 'insurance';
   readonly verticalName = 'Insurance';
-  readonly completionPercentage = 75;
-  readonly targetPercentage = 80;
+  readonly completionPercentage = 85;
+  readonly targetPercentage = 100;
 
   readonly dataConnector: InsuranceDataConnector;
   readonly knowledgeBase: InsuranceKnowledgeBase;

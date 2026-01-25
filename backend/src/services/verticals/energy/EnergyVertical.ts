@@ -1332,8 +1332,8 @@ export class EnergyDefensibleOutput extends DefensibleOutput<EnergyDecision> {
 export class EnergyVerticalImplementation implements VerticalImplementation<EnergyDecision> {
   readonly verticalId = 'energy';
   readonly verticalName = 'Energy & Utilities';
-  readonly completionPercentage = 75;
-  readonly targetPercentage = 80;
+  readonly completionPercentage = 85;
+  readonly targetPercentage = 100;
 
   readonly dataConnector: EnergyDataConnector;
   readonly knowledgeBase: EnergyKnowledgeBase;

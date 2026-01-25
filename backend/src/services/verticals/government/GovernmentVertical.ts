@@ -632,7 +632,8 @@ export const GovernmentVerticalImplementation: VerticalImplementation = {
   id: 'government',
   name: 'Government / Public Sector',
   version: '1.0.0',
-  completionPercentage: 85,
+  readonly completionPercentage = 85;
+  readonly targetPercentage = 100;
   layers: {
     dataConnector: new GovernmentDataConnector(),
     knowledgeBase: new GovernmentKnowledgeBase(),
