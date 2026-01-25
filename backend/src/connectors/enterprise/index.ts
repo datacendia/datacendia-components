@@ -9,6 +9,8 @@
 export { SalesforceConnector, type SalesforceConfig, type SalesforceRecord, type SalesforceQueryResult } from './SalesforceConnector.js';
 export { SlackConnector, type SlackConfig, type SlackMessage, type SlackChannel, type SlackUser } from './SlackConnector.js';
 export { JiraConnector, type JiraConfig, type JiraIssue, type JiraProject, type JiraSearchResult } from './JiraConnector.js';
+export { GitHubConnector, type GitHubConfig, type GitHubRepository, type GitHubIssue, type GitHubPullRequest } from './GitHubConnector.js';
+export { MicrosoftTeamsConnector, type TeamsConfig, type TeamsTeam, type TeamsChannel, type TeamsMessage, type TeamsUser } from './MicrosoftTeamsConnector.js';
 
 import { ConnectorMetadata } from '../BaseConnector.js';
 

@@ -58,6 +58,10 @@ export * as educationCouncilModes from './education/EducationCouncilModes.js';
 export * from './realestate/RealEstateAgents.js';
 export * as realEstateCouncilModes from './realestate/RealEstateCouncilModes.js';
 
+// Smart City Vertical (Target: 85%)
+export * from './smartcity/SmartCityAgents.js';
+export * as smartCityCouncilModes from './smartcity/SmartCityCouncilModes.js';
+
 // Vertical Sentinel Meta-Agents
 export * from './meta/VerticalSentinelService.js';
 
