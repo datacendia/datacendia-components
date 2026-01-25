@@ -5,6 +5,7 @@
 
 import { logger } from '../utils/logger.js';
 import { config } from '../config/index.js';
+import { WorkdayConnector } from '../connectors/enterprise/WorkdayConnector.js';
 
 // =============================================================================
 // TYPES
@@ -77,141 +78,8 @@ export interface HRConnectionStatus {
   error?: string;
 }
 
-// =============================================================================
-// WORKDAY CONNECTOR
-// =============================================================================
-
-class WorkdayConnector {
-  private baseUrl: string;
-  private credentials: HRCredentials | null = null;
-
-  constructor() {
-    this.baseUrl = 'https://wd3-impl-services1.workday.com';
-  }
-
-  configure(credentials: HRCredentials): void {
-    this.credentials = credentials;
-    if (credentials.tenantId) {
-      this.baseUrl = `https://wd3-impl-services1.workday.com/ccx/service/${credentials.tenantId}`;
-    }
-  }
-
-  async testConnection(): Promise<boolean> {
-    if (!this.credentials) return false;
-    
-    try {
-      // In production, this would make actual API call
-      // For now, validate credentials exist
-      const hasRequiredCreds = !!(
-        this.credentials.clientId && 
-        this.credentials.clientSecret && 
-        this.credentials.tenantId
-      );
-      
-      if (hasRequiredCreds) {
-        logger.info('Workday connection test successful');
-        return true;
-      }
-      return false;
-    } catch (error) {
-      logger.error('Workday connection test failed:', error);
-      return false;
-    }
-  }
-
-  async fetchEmployees(): Promise<HREmployee[]> {
-    if (!this.credentials) {
-      throw new Error('Workday not configured');
-    }
-
-    try {
-      // Production implementation would call Workday SOAP/REST API
-      // Using Workday's Human Resources WSDL
-      const response = await this.callWorkdayAPI('Human_Resources', 'Get_Workers', {
-        Request_Criteria: {
-          Exclude_Inactive_Workers: true,
-        },
-        Response_Filter: {
-          Count: 1000,
-        },
-        Response_Group: {
-          Include_Personal_Information: true,
-          Include_Employment_Information: true,
-          Include_Compensation: true,
-          Include_Organizations: true,
-        },
-      });
-
-      return this.transformWorkdayEmployees(response);
-    } catch (error) {
-      logger.error('Failed to fetch Workday employees:', error);
-      throw error;
-    }
-  }
-
-  async fetchTimeOff(employeeId: string): Promise<any> {
-    if (!this.credentials) {
-      throw new Error('Workday not configured');
-    }
-
-    try {
-      const response = await this.callWorkdayAPI('Absence_Management', 'Get_Time_Off_Plan_Balances', {
-        Worker_Reference: { ID: employeeId },
-      });
-      return response;
-    } catch (error) {
-      logger.error(`Failed to fetch time off for ${employeeId}:`, error);
-      throw error;
-    }
-  }
-
-  private async callWorkdayAPI(service: string, operation: string, body: any): Promise<any> {
-    // Production: Make SOAP request to Workday
-    // This is a placeholder that would be replaced with actual SOAP client
-    logger.debug(`Workday API call: ${service}/${operation}`);
-    
-    // Simulate API response structure
-    return {
-      Worker: [],
-      Response_Results: { Total_Results: 0 },
-    };
-  }
-
-  private transformWorkdayEmployees(response: any): HREmployee[] {
-    const workers = response.Worker || [];
-    
-    return workers.map((worker: any) => ({
-      id: `wd-${worker.Worker_Reference?.ID || Date.now()}`,
-      externalId: worker.Worker_Reference?.ID || '',
-      provider: 'workday' as HRProvider,
-      firstName: worker.Personal_Data?.Name_Data?.Legal_Name?.First_Name || '',
-      lastName: worker.Personal_Data?.Name_Data?.Legal_Name?.Last_Name || '',
-      email: worker.Personal_Data?.Contact_Data?.Email_Address_Data?.[0]?.Email_Address || '',
-      department: worker.Organization_Data?.Organization_Name || '',
-      title: worker.Employment_Data?.Worker_Job_Data?.Position_Title || '',
-      level: worker.Employment_Data?.Worker_Job_Data?.Job_Profile?.Job_Level || '',
-      managerId: worker.Employment_Data?.Worker_Job_Data?.Manager_Reference?.ID,
-      startDate: new Date(worker.Employment_Data?.Hire_Date || Date.now()),
-      status: this.mapWorkdayStatus(worker.Employment_Data?.Worker_Status),
-      location: worker.Employment_Data?.Worker_Job_Data?.Location?.Location_Name,
-      compensation: worker.Compensation_Data ? {
-        salary: parseFloat(worker.Compensation_Data.Total_Base_Pay?.Amount || 0),
-        currency: worker.Compensation_Data.Total_Base_Pay?.Currency || 'USD',
-        payFrequency: 'annual',
-      } : undefined,
-      metadata: { raw: worker },
-      syncedAt: new Date(),
-    }));
-  }
-
-  private mapWorkdayStatus(status: string): HREmployee['status'] {
-    if (!status) return 'active';
-    const s = status.toLowerCase();
-    if (s.includes('terminated') || s.includes('inactive')) return 'terminated';
-    if (s.includes('leave')) return 'on_leave';
-    return 'active';
-  }
-}
+// Note: Workday connector now uses enterprise OAuth2 connector
+// See: backend/src/connectors/enterprise/WorkdayConnector.ts
 
 // =============================================================================
 // BAMBOOHR CONNECTOR
@@ -388,14 +256,13 @@ class BambooHRConnector {
 // =============================================================================
 
 class HRIntegrationService {
-  private workday: WorkdayConnector;
+  private workdayConnector: WorkdayConnector | null = null;
   private bamboohr: BambooHRConnector;
   private connectedProviders: Map<HRProvider, HRCredentials> = new Map();
   private employeeCache: Map<string, HREmployee> = new Map();
   private lastSync: Map<HRProvider, Date> = new Map();
 
   constructor() {
-    this.workday = new WorkdayConnector();
     this.bamboohr = new BambooHRConnector();
   }
 
@@ -411,8 +278,18 @@ class HRIntegrationService {
 
       switch (provider) {
         case 'workday':
-          this.workday.configure(credentials);
-          connected = await this.workday.testConnection();
+          this.workdayConnector = new WorkdayConnector({
+            id: 'workday-hr',
+            tenantUrl: credentials.subdomain ? `https://${credentials.subdomain}.workday.com` : undefined,
+            tenantName: credentials.tenantId,
+            credentials: {
+              clientId: credentials.clientId,
+              clientSecret: credentials.clientSecret,
+              redirectUri: credentials.refreshToken,
+            },
+          });
+          await this.workdayConnector.connect();
+          connected = await this.workdayConnector.testConnection();
           break;
         case 'bamboohr':
           this.bamboohr.configure(credentials);
@@ -490,7 +367,26 @@ class HRIntegrationService {
 
       switch (provider) {
         case 'workday':
-          employees = await this.workday.fetchEmployees();
+          if (!this.workdayConnector) {
+            throw new Error('Workday connector not initialized');
+          }
+          const workdayData = await this.workdayConnector.listWorkers({ limit: 1000 });
+          employees = workdayData.map(w => ({
+            id: w.id,
+            externalId: w.id,
+            provider: 'workday' as HRProvider,
+            firstName: w.descriptor.split(' ')[0] || '',
+            lastName: w.descriptor.split(' ').slice(1).join(' ') || '',
+            email: w.primaryWorkEmail || '',
+            department: w.supervisoryOrganization?.descriptor || '',
+            title: w.businessTitle || '',
+            managerId: undefined,
+            startDate: new Date(),
+            status: 'active' as const,
+            location: w.location?.descriptor,
+            metadata: { raw: w },
+            syncedAt: new Date(),
+          }));
           break;
         case 'bamboohr':
           employees = await this.bamboohr.fetchEmployees();
