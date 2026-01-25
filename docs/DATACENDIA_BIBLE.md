@@ -101,8 +101,8 @@ Your data is yours. Your models can run locally. Your decisions stay private. Da
 | **Backend Code** | ~80% | 50+ services exist, all wired up, MUI Grid v6 compatibility fixes pending |
 | **Frontend UI** | ~85% | All major pages exist, connected to backend, ResponsibilityPage + SGASPage working |
 | **Database Schema** | ~90% | Tables defined via Prisma, seeded with demo data |
-| **Real Functionality** | ~65% | Core features work, advanced features operational, 7 OAuth2 connectors |
-| **Production Ready** | ~60% | CI/CD exists, monitoring added, performance optimized |
+| **Real Functionality** | ~75% | Core features work, advanced features operational, 7 OAuth2 connectors, audit-verified |
+| **Production Ready** | ~65% | CI/CD exists, monitoring added, performance optimized, CendiaLens removed |
 | **Test Coverage** | 98% | See Test Coverage & Verification below |
 
 ## Test Coverage & Verification
@@ -129,7 +129,6 @@ Your data is yours. Your models can run locally. Your decisions stay private. Da
 - **Decision Packets** — Merkle tree signing and verification
 - **Apotheosis** — Nightly red-teaming and pattern banning
 - **Dissent** — Protected whistleblower filing
-- **Lens** — AI interpretability analysis
 - **20 Language Localizations** — UI translated
 
 ### WOW Features (January 21, 2026)
@@ -157,14 +156,6 @@ Your data is yours. Your models can run locally. Your decisions stay private. Da
   - Boardroom-grade liability reports
   - Frontend UI fully implemented with shadcn/ui components
 
-- **CendiaLens™ AI Interpretability** — Understand how AI "thinks"
-  - Token confidence analysis (per-token probability scoring)
-  - Attention pattern visualization (layer/head heatmaps)
-  - Latent space mapping (3D concept projections)
-  - Circuit tracing (reasoning pathway identification)
-  - Symbolic residue detection (bias markers, authority claims)
-  - Analysis comparison between runs
-  - Three analysis depths: surface, standard, deep
 
 - **Datacendia Refusal Principles** — Published doctrine of what the system will never optimize for
   - 10 hard boundaries (mass surveillance, weapons targeting, etc.)

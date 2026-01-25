@@ -220,7 +220,7 @@
 | **Decision Replay Theater** | `visualization/` | ReplayTheaterPage | Playback works | ⚠️ 60% |
 | **Adversarial Red Team** | `AdversarialRedTeamService.ts` | RedTeamPage | LLM-powered | ✅ 80% |
 | **Regulator's Receipt** | `RegulatorsReceiptService.ts` | ReceiptPage | PDF generation | ✅ 80% |
-| **CendiaLens Interpretability** | `CendiaLensService.ts` | LensPage | **Simulated** | ⚠️ 40% |
+| **CendiaLens Interpretability** | **DELETED** | **DELETED** | **Fake/Simulated** | ❌ REMOVED |
 
 ---
 
@@ -239,7 +239,7 @@
 ## Medium (Polish)
 7. **WebSocket reliability** - Real-time features inconsistent
 8. **63 failing tests** - Edge cases
-9. **CendiaLens** - Either make real or remove claims
+9. ~~**CendiaLens**~~ - **DELETED** (confirmed fake)
 
 ---
 
@@ -251,8 +251,8 @@
 | **Backend Services** | 50+ files |
 | **Frontend Pages** | 80+ files |
 | **API Routes** | 100+ endpoints |
-| **Actually Works End-to-End** | ~65% |
-| **Production-Ready** | ~60% |
+| **Actually Works End-to-End** | ~75% |
+| **Production-Ready** | ~65% |
 | **Enterprise Platinum Standard** | ⚠️ In Progress |
 
 The platform has **real substance** in:
@@ -263,6 +263,7 @@ The platform has **real substance** in:
 - Evidence Vault + KMS + PDF generation
 - 7 complete industry verticals
 - **NEW:** 7 enterprise connectors with real OAuth2 (Salesforce, Slack, Jira, GitHub, MS Teams, ServiceNow, HubSpot)
+- **AUDIT:** CendiaLens deleted (confirmed fake/simulated interpretability)
 
 The platform has **gaps** in:
 - Remaining third-party connectors (3 need OAuth2 implementation: SAP, Oracle, Workday)
