@@ -101,8 +101,8 @@ Your data is yours. Your models can run locally. Your decisions stay private. Da
 | **Backend Code** | ~80% | 50+ services exist, all wired up, MUI Grid v6 compatibility fixes pending |
 | **Frontend UI** | ~85% | All major pages exist, connected to backend, ResponsibilityPage + SGASPage working |
 | **Database Schema** | ~90% | Tables defined via Prisma, seeded with demo data |
-| **Real Functionality** | ~75% | Core features work, advanced features operational, 7 OAuth2 connectors, audit-verified |
-| **Production Ready** | ~65% | CI/CD exists, monitoring added, performance optimized, CendiaLens removed |
+| **Real Functionality** | ~80% | Core features work, advanced features operational, 10 OAuth2 connectors, audit-verified |
+| **Production Ready** | ~70% | CI/CD exists, monitoring added, performance optimized, CendiaLens removed |
 | **Test Coverage** | 98% | See Test Coverage & Verification below |
 
 ## Test Coverage & Verification
