@@ -7,6 +7,7 @@ import { BaseService, ServiceConfig, ServiceHealth } from '../core/services/Base
 import { aiModelSelector } from '../config/aiModels.js';
 import { druidEventStream } from './DruidEventStream.js';
 import { prisma } from '../config/database.js';
+import type { SocketServer } from '../websocket/SocketServer.js';
 
 // =============================================================================
 // TYPES
@@ -97,8 +98,9 @@ export interface ActionItem {
 export class DeliberationService extends BaseService {
   private deliberationCache: Map<string, Deliberation[]> = new Map();
   private ollamaEndpoint: string;
+  private socketServer: SocketServer | null = null;
 
-  constructor(config?: Partial<ServiceConfig>) {
+  constructor(config?: Partial<ServiceConfig>, socketServer?: SocketServer | null) {
     super({
       name: 'deliberation-service',
       version: '1.0.0',
@@ -106,6 +108,7 @@ export class DeliberationService extends BaseService {
       ...config,
     });
     this.ollamaEndpoint = process.env['OLLAMA_HOST'] || 'http://localhost:11434';
+    this.socketServer = socketServer || null;
   }
 
   async initialize(): Promise<void> {
