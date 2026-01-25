@@ -11,6 +11,8 @@ export { SlackConnector, type SlackConfig, type SlackMessage, type SlackChannel,
 export { JiraConnector, type JiraConfig, type JiraIssue, type JiraProject, type JiraSearchResult } from './JiraConnector.js';
 export { GitHubConnector, type GitHubConfig, type GitHubRepository, type GitHubIssue, type GitHubPullRequest } from './GitHubConnector.js';
 export { MicrosoftTeamsConnector, type TeamsConfig, type TeamsTeam, type TeamsChannel, type TeamsMessage, type TeamsUser } from './MicrosoftTeamsConnector.js';
+export { ServiceNowConnector, type ServiceNowConfig, type ServiceNowIncident, type ServiceNowChange, type ServiceNowCMDBItem } from './ServiceNowConnector.js';
+export { HubSpotConnector, type HubSpotConfig, type HubSpotContact, type HubSpotCompany, type HubSpotDeal } from './HubSpotConnector.js';
 
 import { ConnectorMetadata } from '../BaseConnector.js';
 
