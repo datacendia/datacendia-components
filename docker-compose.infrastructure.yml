@@ -1,0 +1,226 @@
+version: '3.8'
+
+services:
+  # =============================================================================
+  # REDIS - Caching and Session Management
+  # =============================================================================
+  redis:
+    image: redis:7-alpine
+    container_name: datacendia-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    command: redis-server --appendonly yes --requirepass datacendia2024
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "--raw", "incr", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+  # =============================================================================
+  # NEO4J - Graph Database
+  # =============================================================================
+  neo4j:
+    image: neo4j:5-community
+    container_name: datacendia-neo4j
+    ports:
+      - "7474:7474"  # HTTP
+      - "7687:7687"  # Bolt
+    environment:
+      NEO4J_AUTH: neo4j/datacendia2024
+      NEO4J_PLUGINS: '["apoc"]'
+      NEO4J_dbms_memory_heap_max__size: 2G
+      NEO4J_dbms_memory_pagecache_size: 1G
+    volumes:
+      - neo4j-data:/data
+      - neo4j-logs:/logs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "cypher-shell", "-u", "neo4j", "-p", "datacendia2024", "RETURN 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # =============================================================================
+  # APACHE DRUID - Time-Series Analytics
+  # =============================================================================
+  druid:
+    image: apache/druid:27.0.0
+    container_name: datacendia-druid
+    ports:
+      - "8888:8888"  # Router
+      - "8082:8082"  # Broker
+      - "8081:8081"  # Coordinator
+      - "8083:8083"  # Historical
+      - "8090:8090"  # Overlord
+      - "8091:8091"  # MiddleManager
+    environment:
+      DRUID_SINGLE_NODE_CONF: quickstart-medium
+      DRUID_LOG4J: '<?xml version="1.0" encoding="UTF-8" ?><Configuration><Appenders><Console name="Console" target="SYSTEM_OUT"><PatternLayout pattern="%d{ISO8601} %p [%t] %c - %m%n"/></Console></Appenders><Loggers><Root level="info"><AppenderRef ref="Console"/></Root></Loggers></Configuration>'
+    volumes:
+      - druid-data:/opt/druid/var
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8888/status/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  # =============================================================================
+  # CLICKHOUSE - Fast Analytics Database
+  # =============================================================================
+  clickhouse:
+    image: clickhouse/clickhouse-server:latest
+    container_name: datacendia-clickhouse
+    ports:
+      - "8123:8123"  # HTTP
+      - "9000:9000"  # Native
+    environment:
+      CLICKHOUSE_DB: datacendia
+      CLICKHOUSE_USER: datacendia
+      CLICKHOUSE_PASSWORD: datacendia2024
+      CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT: 1
+    volumes:
+      - clickhouse-data:/var/lib/clickhouse
+      - clickhouse-logs:/var/log/clickhouse-server
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "clickhouse-client", "--query", "SELECT 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # =============================================================================
+  # KEYCLOAK - Enterprise SSO
+  # =============================================================================
+  keycloak:
+    image: quay.io/keycloak/keycloak:23.0
+    container_name: datacendia-keycloak
+    ports:
+      - "8080:8080"
+    environment:
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: datacendia2024
+      KC_DB: postgres
+      KC_DB_URL: jdbc:postgresql://host.docker.internal:5434/keycloak
+      KC_DB_USERNAME: cendia
+      KC_DB_PASSWORD: cendia_sovereign_2025
+      KC_HOSTNAME: localhost
+      KC_HTTP_ENABLED: true
+    command: start-dev
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health/ready"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  # =============================================================================
+  # APACHE TIKA - Document Extraction
+  # =============================================================================
+  tika:
+    image: apache/tika:latest
+    container_name: datacendia-tika
+    ports:
+      - "9998:9998"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9998/tika"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # =============================================================================
+  # GRAFANA - Monitoring Dashboards
+  # =============================================================================
+  grafana:
+    image: grafana/grafana:latest
+    container_name: datacendia-grafana
+    ports:
+      - "3000:3000"
+    environment:
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: datacendia2024
+      GF_INSTALL_PLUGINS: grafana-clock-panel,grafana-simple-json-datasource
+      GF_SERVER_ROOT_URL: http://localhost:3000
+    volumes:
+      - grafana-data:/var/lib/grafana
+      - ./infrastructure/grafana/dashboards:/etc/grafana/provisioning/dashboards
+      - ./infrastructure/grafana/datasources:/etc/grafana/provisioning/datasources
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000/api/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # =============================================================================
+  # GRAFANA TEMPO - Distributed Tracing
+  # =============================================================================
+  tempo:
+    image: grafana/tempo:latest
+    container_name: datacendia-tempo
+    ports:
+      - "3200:3200"   # Tempo HTTP
+      - "4317:4317"   # OTLP gRPC
+      - "4318:4318"   # OTLP HTTP
+    command: ["-config.file=/etc/tempo.yaml"]
+    volumes:
+      - tempo-data:/tmp/tempo
+      - ./infrastructure/tempo/tempo.yaml:/etc/tempo.yaml
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3200/ready"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # =============================================================================
+  # PROMETHEUS - Metrics Collection
+  # =============================================================================
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: datacendia-prometheus
+    ports:
+      - "9090:9090"
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/usr/share/prometheus/console_libraries'
+      - '--web.console.templates=/usr/share/prometheus/consoles'
+    volumes:
+      - prometheus-data:/prometheus
+      - ./infrastructure/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:9090/-/healthy"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  redis-data:
+    driver: local
+  neo4j-data:
+    driver: local
+  neo4j-logs:
+    driver: local
+  druid-data:
+    driver: local
+  clickhouse-data:
+    driver: local
+  clickhouse-logs:
+    driver: local
+  grafana-data:
+    driver: local
+  tempo-data:
+    driver: local
+  prometheus-data:
+    driver: local
+
+networks:
+  default:
+    name: datacendia-network
+    driver: bridge
