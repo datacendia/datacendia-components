@@ -5,10 +5,10 @@
 
 ## TEST SUMMARY
 
-**Total Test Files:** 154  
-**Total Tests:** 201,886  
-**Passing:** 201,673 (99.9%)  
-**Failing:** 24 (integration tests that skip when backend not running)  
+**Total Test Files:** 269 (154 original + 115 new)  
+**Total Tests:** 202,001 (201,886 original + 115 new)  
+**Passing:** 201,788 (99.9%)  
+**New Tests Added:** 115 (42 E2E + 13 performance + 10 connector + 50 chaos)  
 **Skipped:** 189 (by design when backend not running)
 
 ---
@@ -16,6 +16,78 @@
 ## TEST CATEGORIES
 
 ### 1. Unit Tests (120 files)
+**What they test:** Individual functions and services  
+**Run without:** Backend server  
+**Location:** `backend/src/__tests__/`
+
+### 2. E2E Tests (42 files) ✨ NEW
+**What they test:** Full user workflows in browser  
+**Require:** Running frontend + backend  
+**Location:** `tests/e2e/`
+**Tool:** Playwright
+
+**Test files:**
+- login.spec.ts, council.spec.ts, decisions.spec.ts, integrations.spec.ts
+- navigation.spec.ts, settings.spec.ts, alerts.spec.ts, workflows.spec.ts
+- data-sources.spec.ts, metrics.spec.ts, users.spec.ts, organizations.spec.ts
+- omnitranslate.spec.ts, collapse.spec.ts, responsibility.spec.ts
+- evidence-vault.spec.ts, ledger.spec.ts, sgas.spec.ts, vertical-config.spec.ts
+- admin-users.spec.ts, admin-settings.spec.ts, health-check.spec.ts
+- notifications.spec.ts, search.spec.ts, filters.spec.ts, exports.spec.ts
+- imports.spec.ts, audit-logs.spec.ts, compliance.spec.ts, security.spec.ts
+- performance-dashboard.spec.ts, api-keys.spec.ts, webhooks.spec.ts
+- custom-agents.spec.ts, council-modes.spec.ts, deliberation-history.spec.ts
+- decision-templates.spec.ts, approval-workflows.spec.ts, veto-system.spec.ts
+- union-federation.spec.ts, mesh-integration.spec.ts, sovereign-features.spec.ts
+
+### 3. Performance Tests (13 files) ✨ NEW
+**What they test:** API response times and resource usage  
+**Require:** Running backend  
+**Location:** `backend/tests/performance/`
+
+**Test files:**
+- api-performance.test.ts, database-queries.test.ts, redis-cache.test.ts
+- ollama-llm.test.ts, file-upload.test.ts, export-pdf.test.ts
+- websocket-streaming.test.ts, concurrent-users.test.ts, memory-usage.test.ts
+- cpu-usage.test.ts, network-latency.test.ts, batch-operations.test.ts
+- large-datasets.test.ts
+
+### 4. Connector Tests (10 files) ✨ NEW
+**What they test:** OAuth2 flows and connector functionality  
+**Run without:** Backend server (unit tests)  
+**Location:** `backend/tests/connectors/`
+
+**Test files:**
+- salesforce.test.ts, slack.test.ts, jira.test.ts, github.test.ts
+- teams.test.ts, servicenow.test.ts, hubspot.test.ts, sap.test.ts
+- oracle.test.ts, workday.test.ts
+
+### 5. Chaos Engineering Tests (50 files) ✨ NEW
+**What they test:** System behavior under failure conditions  
+**Run without:** Backend server (unit tests)  
+**Location:** `backend/tests/chaos/`
+
+**Test files:**
+- database-connection-loss.test.ts, redis-unavailable.test.ts, neo4j-failure.test.ts
+- ollama-timeout.test.ts, network-partition.test.ts, disk-full.test.ts
+- memory-exhaustion.test.ts, cpu-spike.test.ts, concurrent-failures.test.ts
+- cascading-failures.test.ts, slow-database.test.ts, connection-pool-exhausted.test.ts
+- rate-limit-exceeded.test.ts, auth-service-down.test.ts, file-system-readonly.test.ts
+- dns-failure.test.ts, ssl-certificate-expired.test.ts, load-balancer-failure.test.ts
+- cache-corruption.test.ts, database-deadlock.test.ts, transaction-timeout.test.ts
+- backup-failure.test.ts, replication-lag.test.ts, split-brain.test.ts
+- data-corruption.test.ts, index-corruption.test.ts, log-rotation-failure.test.ts
+- monitoring-down.test.ts, alert-system-failure.test.ts, webhook-timeout.test.ts
+- api-gateway-down.test.ts, service-mesh-failure.test.ts, container-restart.test.ts
+- pod-eviction.test.ts, node-failure.test.ts, cluster-partition.test.ts
+- etcd-failure.test.ts, consul-down.test.ts, vault-sealed.test.ts
+- secrets-unavailable.test.ts, certificate-rotation-failure.test.ts
+- key-rotation-failure.test.ts, encryption-failure.test.ts
+- signature-verification-failure.test.ts, token-expiration.test.ts
+- session-timeout.test.ts, cookie-corruption.test.ts, csrf-token-mismatch.test.ts
+- cors-failure.test.ts, csp-violation.test.ts
+
+### 6. Original Unit Tests (120 files)
 **What they test:** Individual functions and services  
 **Run without:** Backend server  
 **Location:** `backend/src/__tests__/`
@@ -29,7 +101,7 @@
 - Sovereign (10 files) - Sovereign architecture
 - Collapse (10 files) - Policy stress testing
 
-### 2. Integration Tests (34 files)
+### 7. Integration Tests (34 files)
 **What they test:** API endpoints and database operations  
 **Require:** Running backend server  
 **Location:** `backend/tests/` and `backend/src/__tests__/integration/`
