@@ -158,7 +158,7 @@ const OTHER_AGENT_NAMES: Record<string, string> = {
   'underwriting-ai': 'Underwriting Analysis',
   'claims-processor': 'Claims Analysis',
   'actuarial-engine': 'Actuarial Analysis',
-  'policy-advisor': 'Policy Analysis',
+  'insurance-policy-advisor': 'Insurance Policy Analysis',
   
   // Sports
   'sports-gm': 'General Management Analysis',
