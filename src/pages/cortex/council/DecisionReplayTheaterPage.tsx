@@ -5,6 +5,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import { useWebSocket } from '@/hooks/useWebSocket';
 import {
   Play,
   Pause,
@@ -145,6 +146,30 @@ export const DecisionReplayTheaterPage: React.FC = () => {
   const [currentFrameIndex, setCurrentFrameIndex] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
   const [playbackSpeed, setPlaybackSpeed] = useState(1);
+
+  // WebSocket for real-time replay streaming
+  const { socket, connected, on, emit } = useWebSocket();
+
+  // Join decision replay room when session selected
+  useEffect(() => {
+    if (connected && socket && selectedSession) {
+      emit('join-decision', selectedSession.id);
+    }
+  }, [connected, socket, selectedSession, emit]);
+
+  // Listen for replay frame updates
+  useEffect(() => {
+    if (!socket) return;
+
+    const handleReplayFrame = (frame: ReplayFrame) => {
+      setFrames(prev => [...prev, frame]);
+      if (isPlaying) {
+        setCurrentFrameIndex(prev => prev + 1);
+      }
+    };
+
+    on('replay-frame', handleReplayFrame);
+  }, [socket, on, isPlaying]);
 
   const currentFrame = frames[currentFrameIndex];
   const progress = selectedSession ? (currentFrame?.timestamp || 0) / selectedSession.duration * 100 : 0;

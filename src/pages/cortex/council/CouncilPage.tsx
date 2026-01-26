@@ -18,6 +18,7 @@ import { usePremiumFeatures } from '../../../hooks/usePremiumFeatures';
 import { PageGuide, GUIDES } from '../../../components/PageGuide';
 import { WorkflowPicker } from '../../../components/council/WorkflowPicker';
 import councilPacketApi from '../../../services/CouncilPacketService';
+import { useWebSocket } from '@/hooks/useWebSocket';
 
 // =============================================================================
 // TYPES
