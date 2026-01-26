@@ -228,7 +228,7 @@ Datacendia helps you make better business decisions by:
 
 ## SUPPORT
 
-**Documentation:** http://localhost:3001/api-docs  
+**Documentation:** http://localhost:3001/api/docs  
 **Health Check:** http://localhost:3001/health  
 **System Admin:** Contact your IT department
 

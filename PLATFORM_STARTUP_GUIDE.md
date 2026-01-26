@@ -130,7 +130,7 @@ After startup, verify all services:
 
 - [ ] Frontend loads: http://localhost:5173 ✅
 - [ ] Backend health: http://localhost:3001/api/v1/health ✅
-- [ ] Swagger docs: http://localhost:3001/api-docs ✅
+- [ ] Swagger docs: http://localhost:3001/api/docs ✅
 - [ ] Grafana: http://localhost:3100 (admin/datacendia2024) ✅
 - [ ] Neo4j: http://localhost:7474 (neo4j/datacendia2024) ✅
 - [ ] Prometheus: http://localhost:9090 ✅
