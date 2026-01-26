@@ -8,7 +8,7 @@ services:
     image: redis:7-alpine
     container_name: datacendia-redis
     ports:
-      - "6379:6379"
+      - "6380:6379"
     volumes:
       - redis-data:/data
     command: redis-server --appendonly yes --requirepass datacendia2024
@@ -99,7 +99,7 @@ services:
     image: quay.io/keycloak/keycloak:23.0
     container_name: datacendia-keycloak
     ports:
-      - "8080:8080"
+      - "8180:8080"
     environment:
       KEYCLOAK_ADMIN: admin
       KEYCLOAK_ADMIN_PASSWORD: datacendia2024
@@ -139,7 +139,7 @@ services:
     image: grafana/grafana:latest
     container_name: datacendia-grafana
     ports:
-      - "3000:3000"
+      - "3100:3000"
     environment:
       GF_SECURITY_ADMIN_USER: admin
       GF_SECURITY_ADMIN_PASSWORD: datacendia2024
