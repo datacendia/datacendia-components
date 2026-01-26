@@ -1,17 +1,17 @@
 # DATACENDIA USER GUIDE
-**Getting Started with AI-Powered Decision Intelligence**
+**Getting Started with Decision Verification Infrastructure**
 
 ---
 
 ## WHAT IS DATACENDIA?
 
-Datacendia helps you make better business decisions by:
-- Having multiple AI experts discuss your question
+Datacendia helps you verify and document institutional decisions by:
+- Analyzing decisions through multiple specialized perspectives
 - Recording every decision with full audit trails
 - Connecting to your existing business tools
 - Ensuring compliance with regulations
 
-**Think of it as:** A boardroom full of AI advisors who debate your toughest decisions and document everything for auditors.
+**Think of it as:** Decision verification infrastructure that produces regulator-grade evidence for every determination.
 
 ---
 
@@ -22,49 +22,49 @@ Datacendia helps you make better business decisions by:
 2. Enter your email and password
 3. Click "Sign In"
 
-**Default credentials:**
-- Email: `stuart@datacendia.com`
-- Password: `DatacendiaOwner2024!`
+**Credentials:** Obtain from your system administrator.
 
-### 2. Your First Deliberation
+### 2. Your First Analysis Session
 
-**What is a deliberation?** It's when AI agents discuss a question and give you recommendations.
+**What is an analysis session?** It's when multiple analysis components evaluate a question and produce a verification record.
 
 **Steps:**
 1. Click "The Council" in the sidebar
-2. Click "New Deliberation"
-3. Enter your question (e.g., "Should we hire 5 new engineers?")
-4. Select which AI agents to include (CFO, COO, Risk Manager, etc.)
+2. Click "New Session"
+3. Enter your question (e.g., "Evaluate the risk profile of hiring 5 new engineers")
+4. Select which analysis components to include (Financial, Operations, Risk, etc.)
 5. Choose a mode:
-   - **Standard** - Balanced discussion
-   - **War Room** - Fast, urgent decisions
-   - **Deep Dive** - Thorough analysis
-6. Click "Start Deliberation"
-7. Watch AI agents discuss in real-time
-8. Review the final recommendation
+   - **Standard** - Balanced analysis
+   - **War Room** - Expedited analysis
+   - **Deep Dive** - Comprehensive analysis
+6. Click "Start Analysis"
+7. Review the analysis as it progresses
+8. Review the final analysis output
+
+*All system outputs are non-binding analytical artifacts. Final determinations are made by designated human decision-makers in accordance with institutional governance.*
 
 ---
 
 ## KEY FEATURES
 
-### The Council (AI Agents)
-**What it does:** Multiple AI experts debate your question
+### The Analysis Panel
+**What it does:** Multiple analysis components evaluate your question from different perspectives
 
-**Available Agents:**
-- **CFO** - Financial analysis
-- **COO** - Operations perspective
-- **Risk Manager** - Risk assessment
-- **CISO** - Security concerns
-- **CMO** - Marketing impact
-- **Legal** - Compliance review
-- **Ethics** - Ethical considerations
+**Available Analysis Components:**
+- **Financial Analysis** - Financial impact assessment
+- **Operations Analysis** - Operational considerations
+- **Risk Analysis** - Risk assessment
+- **Security Analysis** - Security considerations
+- **Marketing Analysis** - Market impact
+- **Legal Analysis** - Compliance review
+- **Ethics Analysis** - Ethical considerations
 
 **How to use:**
 1. Go to "The Council" page
-2. Click "New Deliberation"
-3. Select 3-7 agents (more = longer but more thorough)
-4. Ask your question
-5. Review responses and final recommendation
+2. Click "New Session"
+3. Select 3-7 components (more = longer but more thorough)
+4. Enter your question
+5. Review analysis outputs and summary
 
 ### Decisions
 **What it does:** Records important decisions with full audit trails
@@ -115,7 +115,7 @@ Datacendia helps you make better business decisions by:
 **Supported Languages:** 100+ including English, Spanish, French, German, Chinese, Japanese, Arabic, and more
 
 ### Collapse Mode
-**What it does:** Stress-tests governance policies with 18 adversarial AI agents
+**What it does:** Stress-tests governance policies with 18 adversarial analysis components
 
 **How to use:**
 1. Go to "Collapse" page
@@ -128,14 +128,14 @@ Datacendia helps you make better business decisions by:
 
 ## COMMON TASKS
 
-### Task 1: Get AI Advice on a Decision
+### Task 1: Get Analysis on a Decision
 1. Click "The Council"
-2. Click "New Deliberation"
-3. Enter question: "Should we [your decision]?"
-4. Select agents: CFO, COO, Risk
+2. Click "New Session"
+3. Enter question: "Evaluate [your decision scenario]"
+4. Select components: Financial, Operations, Risk
 5. Click "Start"
 6. Wait 30-60 seconds
-7. Read recommendation
+7. Review analysis output
 
 ### Task 2: Record an Important Decision
 1. Click "Decisions"
@@ -170,12 +170,12 @@ Datacendia helps you make better business decisions by:
 
 ## TIPS & BEST PRACTICES
 
-### For Best AI Recommendations:
+### For Best Analysis Results:
 - ✅ Ask specific questions
 - ✅ Provide context and constraints
-- ✅ Include 3-5 agents (not too many)
-- ✅ Use "War Room" mode for urgent decisions
-- ✅ Use "Deep Dive" for complex strategic decisions
+- ✅ Include 3-5 analysis components (not too many)
+- ✅ Use "War Room" mode for expedited analysis
+- ✅ Use "Deep Dive" for comprehensive analysis
 
 ### For Compliance:
 - ✅ Always record major decisions
@@ -198,9 +198,9 @@ Datacendia helps you make better business decisions by:
 **Problem:** Your session expired  
 **Fix:** Logout and login again
 
-### Deliberation Takes Too Long
-**Problem:** Too many agents or complex question  
-**Fix:** Use fewer agents (3-4) or simplify question
+### Analysis Takes Too Long
+**Problem:** Too many components or complex question  
+**Fix:** Use fewer components (3-4) or simplify question
 
 ### Can't Connect to Salesforce
 **Problem:** OAuth authorization failed  
@@ -220,7 +220,7 @@ Datacendia helps you make better business decisions by:
 | Shortcut | Action |
 |----------|--------|
 | `Ctrl + K` | Quick search |
-| `Ctrl + N` | New deliberation |
+| `Ctrl + N` | New analysis session |
 | `Ctrl + D` | New decision |
 | `Esc` | Close modal |
 
