@@ -17,6 +17,7 @@ import {
   type SupportedLanguage 
 } from '../services/i18n/TranslationService.js';
 import { logger } from '../utils/logger.js';
+import { cacheService } from '../services/cache/RedisCacheService.js';
 
 const router = Router();
 
@@ -26,12 +27,19 @@ const router = Router();
 
 router.get('/languages', async (req: Request, res: Response) => {
   try {
+    // Check cache first
+    const cacheKey = 'i18n:languages';
+    const cached = await cacheService.get<any>(cacheKey);
+    if (cached) {
+      return res.json(cached);
+    }
+
     const languages = Object.entries(SUPPORTED_LANGUAGES).map(([code, info]) => ({
       code,
       ...info,
     }));
     
-    res.json({
+    const response = {
       success: true,
       data: {
         languages,
@@ -40,7 +48,12 @@ router.get('/languages', async (req: Request, res: Response) => {
       // Also include at top level for backwards compatibility
       languages,
       count: languages.length,
-    });
+    };
+
+    // Cache for 1 hour (languages rarely change)
+    await cacheService.set(cacheKey, response, 3600);
+    
+    res.json(response);
   } catch (error: any) {
     logger.error('Failed to get languages:', error);
     res.status(500).json({

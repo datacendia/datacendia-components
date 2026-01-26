@@ -7,6 +7,7 @@ import { cache } from '../config/redis.js';
 import { logger } from '../utils/logger.js';
 import { errors } from '../middleware/errorHandler.js';
 import { devAuth, requireRole } from '../middleware/auth.js';
+import { cacheService } from '../services/cache/RedisCacheService.js';
 
 const router = Router();
 
@@ -93,6 +94,13 @@ router.get('/', async (req: Request, res: Response, next: NextFunction) => {
   try {
     const orgId = req.organizationId!;
 
+    // Check cache first
+    const cacheKey = `integrations:${orgId}`;
+    const cached = await cacheService.get<any>(cacheKey);
+    if (cached) {
+      return res.json(cached);
+    }
+
     // Get connected integrations from database
     const connections = await prisma.data_sources.findMany({
       where: { organization_id: orgId },
@@ -122,13 +130,18 @@ router.get('/', async (req: Request, res: Response, next: NextFunction) => {
       status: connectedTypes.has(int.id) ? 'connected' : 'available',
     }));
 
-    res.json({
+    const response = {
       success: true,
       data: {
         available,
         connected,
       },
-    });
+    };
+
+    // Cache for 5 minutes
+    await cacheService.set(cacheKey, response, 300);
+
+    res.json(response);
   } catch (error) {
     next(error);
   }
