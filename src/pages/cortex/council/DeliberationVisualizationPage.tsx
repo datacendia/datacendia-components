@@ -5,6 +5,7 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
+import { useWebSocket } from '@/hooks/useWebSocket';
 import {
   Users,
   MessageCircle,
@@ -158,10 +159,52 @@ export const DeliberationVisualizationPage: React.FC = () => {
   const [maxRounds, setMaxRounds] = useState(10);
   const [consensusLevel, setConsensusLevel] = useState(72);
   const [showTimeline, setShowTimeline] = useState(true);
+  const [deliberationId, setDeliberationId] = useState<string | null>(null);
 
-  // Simulate agent activity
+  // WebSocket connection for real-time updates
+  const { socket, connected, on, emit } = useWebSocket();
+
+  // Join deliberation room when connected
   useEffect(() => {
-    if (!isPlaying) return;
+    if (connected && socket && deliberationId) {
+      emit('join-deliberation', deliberationId);
+    }
+  }, [connected, socket, deliberationId, emit]);
+
+  // Listen for real-time deliberation updates
+  useEffect(() => {
+    if (!socket) return;
+
+    const handleDeliberationUpdate = (update: any) => {
+      // Update agent status based on real-time data
+      setAgents(prev => prev.map(agent => 
+        agent.id === update.agentId
+          ? { ...agent, status: 'speaking', currentStatement: update.message, confidence: update.confidence || agent.confidence }
+          : { ...agent, status: 'listening' }
+      ));
+
+      // Add to timeline
+      setTimeline(prev => [{
+        id: `${Date.now()}`,
+        timestamp: new Date(),
+        type: 'statement' as const,
+        agentName: update.agentName,
+        content: update.message,
+      }, ...prev].slice(0, 20));
+    };
+
+    const handleDeliberationComplete = (summary: any) => {
+      setIsPlaying(false);
+      setConsensusLevel(summary.confidence || 100);
+    };
+
+    on('deliberation-update', handleDeliberationUpdate);
+    on('deliberation-complete', handleDeliberationComplete);
+  }, [socket, on]);
+
+  // Fallback simulation when not connected to real deliberation
+  useEffect(() => {
+    if (!isPlaying || connected) return;
 
     const interval = setInterval(() => {
       setAgents(prev => prev.map(agent => {
@@ -179,7 +222,7 @@ export const DeliberationVisualizationPage: React.FC = () => {
     }, 2000);
 
     return () => clearInterval(interval);
-  }, [isPlaying]);
+  }, [isPlaying, connected]);
 
   const speakingAgent = agents.find(a => a.status === 'speaking');
   const dissentingAgents = agents.filter(a => a.dissenting);
