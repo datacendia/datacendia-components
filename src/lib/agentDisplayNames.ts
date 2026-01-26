@@ -1,5 +1,8 @@
 /**
- * AGENT DISPLAY NAME MAPPING
+ * DATACENDIA PLATFORM - AGENT DISPLAY NAME MAPPING
+ * 
+ * Copyright (c) 2024-2026 Datacendia, Inc. All Rights Reserved.
+ * PROPRIETARY AND CONFIDENTIAL
  * 
  * Regulatory-safe display names for AI analysis components.
  * 

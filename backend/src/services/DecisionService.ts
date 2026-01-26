@@ -1,8 +1,12 @@
-// =============================================================================
-// DATACENDIA PLATFORM - DECISION SERVICE
-// Full lifecycle tracking, replay, and audit trail for all decisions
-// "Black Box Flight Recorder" for enterprise decisions
-// =============================================================================
+/**
+ * DATACENDIA PLATFORM - DECISION SERVICE
+ * 
+ * Copyright (c) 2024-2026 Datacendia, Inc. All Rights Reserved.
+ * PROPRIETARY AND CONFIDENTIAL
+ * 
+ * Full lifecycle tracking, replay, and audit trail for all decisions
+ * "Black Box Flight Recorder" for enterprise decisions
+ */
 
 import { BaseService } from '../core/services/BaseService.js';
 import { aiModelSelector } from '../config/aiModels.js';

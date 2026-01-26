@@ -1,8 +1,11 @@
 /**
- * Financial Services Vertical Implementation
+ * DATACENDIA PLATFORM - FINANCIAL SERVICES VERTICAL
  * 
- * Target: 100% (Next priority after Legal)
- * Datacendia = "Decision Evidence Engine for Finance"
+ * Copyright (c) 2024-2026 Datacendia, Inc. All Rights Reserved.
+ * PROPRIETARY AND CONFIDENTIAL
+ * 
+ * Target: 100% (Flagship Vertical)
+ * Datacendia = "Decision Verification Infrastructure for Finance"
  * 
  * Killer Asset: Regulator-grade decision replay
  * (inputs → deliberation → approval → dissent)

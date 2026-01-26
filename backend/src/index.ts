@@ -1,3 +1,13 @@
+/**
+ * DATACENDIA PLATFORM - BACKEND API SERVER
+ * 
+ * Copyright (c) 2024-2026 Datacendia, Inc. All Rights Reserved.
+ * 
+ * PROPRIETARY AND CONFIDENTIAL
+ * Unauthorized copying, modification, or distribution is strictly prohibited.
+ * See LICENSE file for details.
+ */
+
 import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
