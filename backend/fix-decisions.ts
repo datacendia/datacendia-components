@@ -2,7 +2,7 @@ import { Pool } from 'pg';
 import { randomUUID } from 'crypto';
 
 async function cleanAndSeed() {
-  const pool = new Pool({ connectionString: 'postgresql://cendia:cendia_sovereign_2025@localhost:5434/datacendia' });
+  const pool = new Pool({ connectionString: 'postgresql://datacendia:datacendia_secure_2024@localhost:5433/datacendia' });
   
   // Get org ID and user ID
   const org = await pool.query('SELECT id FROM organizations LIMIT 1');

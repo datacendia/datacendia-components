@@ -1626,6 +1626,60 @@
       ]
     }
   },
+  "sports": {
+    "title": "Sports Decision Governance",
+    "subtitle": "Transfer decisions, contract governance, FFP compliance",
+    "decisions": {
+      "title": "Transfer Decisions",
+      "newDecision": "New Decision",
+      "player": "Player",
+      "type": "Type",
+      "club": "Club",
+      "fee": "Fee",
+      "status": "Status",
+      "recommendation": "Recommendation",
+      "actions": "Actions"
+    },
+    "types": {
+      "inbound": "Inbound",
+      "outbound": "Outbound",
+      "loan_out": "Loan Out",
+      "loan_in": "Loan In"
+    },
+    "status": {
+      "draft": "Draft",
+      "pending_approval": "Pending Approval",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "completed": "Completed",
+      "withdrawn": "Withdrawn"
+    },
+    "recommendations": {
+      "strong_buy": "Strong Buy",
+      "buy": "Buy",
+      "conditional": "Conditional",
+      "pass": "Pass"
+    },
+    "compliance": {
+      "title": "Compliance",
+      "frameworks": "Compliance Frameworks",
+      "ffpStatus": "FFP Break-Even Status",
+      "squadCostRatio": "Squad Cost Ratio"
+    },
+    "analytics": {
+      "title": "Analytics",
+      "velocity": "Decision Velocity",
+      "approvalRate": "Approval Rate",
+      "evidenceCompleteness": "Evidence Completeness",
+      "auditReadiness": "Audit Readiness"
+    },
+    "stats": {
+      "totalDecisions": "Total Decisions",
+      "inboundValue": "Inbound Value",
+      "outboundValue": "Outbound Value",
+      "pendingApproval": "pending approval"
+    }
+  },
   "accessibility": {
     "skipToMain": "Skip to main content",
     "skipToNav": "Skip to navigation",

@@ -23,6 +23,7 @@ import { ThemeToggle } from '../components/ui/ThemeToggle';
 import { useAuth } from '../contexts';
 import { NavigationLoader, Breadcrumbs, HealthIndicator, ConnectionBanner } from '../components/navigation';
 import { DemoModeToggle, DemoIndicatorBadge } from '../components/demo';
+import { NotificationBell } from '../components/notifications/NotificationBell';
 
 // Icons (using inline SVGs for simplicity - replace with icon library)
 const Icons = {
@@ -1298,6 +1299,9 @@ const CortexLayoutInner: React.FC = () => {
 
               {/* Demo Mode Toggle */}
               <DemoModeToggle />
+
+              {/* Notifications */}
+              <NotificationBell />
 
               {/* Theme Toggle */}
               <ThemeToggle />

@@ -5,6 +5,7 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
+import { api } from '../../../lib/api';
 import {
   Shield,
   Target,
@@ -76,10 +77,10 @@ interface DefenseSummary {
 }
 
 // =============================================================================
-// MOCK DATA (Replace with API calls)
+// DEFAULT DATA (fetched from API when available)
 // =============================================================================
 
-const MOCK_SUMMARY: DefenseSummary = {
+const DEFAULT_SUMMARY: DefenseSummary = {
   vertical: 'defense',
   displayName: 'Defense & National Security',
   agents: {
@@ -97,7 +98,7 @@ const MOCK_SUMMARY: DefenseSummary = {
   status: 'operational',
 };
 
-const MOCK_AGENTS: DefenseAgent[] = [
+const DEFAULT_AGENTS: DefenseAgent[] = [
   { id: 'mission-commander', name: 'Mission Commander', role: 'Mission Planning Authority', category: 'default', expertise: ['mission planning', 'operational art', 'joint operations'], clearanceRequired: 'SECRET', opsecAware: true, missionFocused: true },
   { id: 'threat-analyst', name: 'Threat Analyst', role: 'Intelligence & Threat Assessment', category: 'default', expertise: ['threat analysis', 'intelligence preparation', 'adversary capabilities'], clearanceRequired: 'SECRET', opsecAware: true, missionFocused: true },
   { id: 'opsec-officer', name: 'OPSEC Officer', role: 'Operations Security Guardian', category: 'default', expertise: ['operations security', 'information protection', 'counterintelligence'], clearanceRequired: 'SECRET', opsecAware: true, missionFocused: true },
@@ -108,7 +109,7 @@ const MOCK_AGENTS: DefenseAgent[] = [
   { id: 'force-protection-officer', name: 'Force Protection Officer', role: 'Force Protection Authority', category: 'default', expertise: ['force protection', 'antiterrorism', 'physical security'], clearanceRequired: 'SECRET', opsecAware: true, missionFocused: true },
 ];
 
-const MOCK_MODES: DefenseMode[] = [
+const DEFAULT_MODES: DefenseMode[] = [
   { id: 'mission-planning-council', name: 'Mission Planning Council', category: 'major', purpose: 'Full Joint Operation Planning Process (JOPP) deliberation', leadAgent: 'mission-commander', classificationLevel: 'SECRET', legalReviewRequired: true, opsecRequired: true },
   { id: 'threat-assessment-war-room', name: 'Threat Assessment War Room', category: 'major', purpose: 'Comprehensive threat analysis and IPOE', leadAgent: 'threat-analyst', classificationLevel: 'SECRET', legalReviewRequired: false, opsecRequired: true },
   { id: 'acquisition-review-board', name: 'Acquisition Review Board', category: 'major', purpose: 'Defense acquisition milestone review', leadAgent: 'acquisition-specialist', classificationLevel: 'SECRET', legalReviewRequired: true, opsecRequired: true },
@@ -174,11 +175,34 @@ const StatCard: React.FC<{ icon: React.ReactNode; label: string; value: string |
 export const DefenseVerticalPage: React.FC = () => {
   const { t } = useTranslation();
   const [activeTab, setActiveTab] = useState<'overview' | 'agents' | 'modes' | 'compliance'>('overview');
-  const [summary, setSummary] = useState<DefenseSummary>(MOCK_SUMMARY);
-  const [agents, setAgents] = useState<DefenseAgent[]>(MOCK_AGENTS);
-  const [modes, setModes] = useState<DefenseMode[]>(MOCK_MODES);
-  const [isLoading, setIsLoading] = useState(false);
+  const [summary, setSummary] = useState<DefenseSummary>(DEFAULT_SUMMARY);
+  const [agents, setAgents] = useState<DefenseAgent[]>(DEFAULT_AGENTS);
+  const [modes, setModes] = useState<DefenseMode[]>(DEFAULT_MODES);
+  const [isLoading, setIsLoading] = useState(true);
   const [selectedMode, setSelectedMode] = useState<DefenseMode | null>(null);
+
+  // Load data from API on mount
+  useEffect(() => {
+    loadDefenseData();
+  }, []);
+
+  const loadDefenseData = async () => {
+    setIsLoading(true);
+    try {
+      const res = await api.get<any>('/defense/summary');
+      const payload = res as any;
+      if (payload.success) {
+        if (payload.summary) setSummary(payload.summary);
+        if (payload.agents) setAgents(payload.agents);
+        if (payload.modes) setModes(payload.modes);
+      }
+    } catch (error) {
+      console.error('Failed to load defense data:', error);
+      // Keep default data on error
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
   const complianceFrameworks = [
     { id: 'fedramp-high', name: 'FedRAMP High', status: 'compliant', icon: <Shield className="w-5 h-5" /> },

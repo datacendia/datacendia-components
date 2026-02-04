@@ -251,6 +251,9 @@ const DefenseStackPage = lazy(() =>
 const FinancialPage = lazy(() =>
   import('./pages/cortex/enterprise').then((m) => ({ default: m.FinancialPage }))
 );
+const SportsDecisionPage = lazy(() =>
+  import('./pages/cortex/verticals/SportsPage').then((m) => ({ default: m.default }))
+);
 const OmniTranslatePage = lazy(() =>
   import('./pages/cortex/enterprise').then((m) => ({ default: m.OmniTranslatePage }))
 );
@@ -300,6 +303,9 @@ const DeliberationVisualizationPage = lazy(() =>
 );
 const DecisionReplayTheaterPage = lazy(() =>
   import('./pages/cortex/council/DecisionReplayTheaterPage').then((m) => ({ default: m.default }))
+);
+const LiveAgentMonitorPage = lazy(() =>
+  import('./pages/cortex/monitor/LiveAgentMonitorPage').then((m) => ({ default: m.default }))
 );
 
 // Defense Vertical
@@ -1630,6 +1636,14 @@ export const router = createBrowserRouter([
         ),
       },
       {
+        path: 'verticals/sports',
+        element: (
+          <SuspenseWrapper>
+            <SportsDecisionPage />
+          </SuspenseWrapper>
+        ),
+      },
+      {
         path: 'enterprise/omni-translate',
         element: (
           <SuspenseWrapper>
@@ -1756,6 +1770,16 @@ export const router = createBrowserRouter([
         element: (
           <SuspenseWrapper>
             <DecisionReplayTheaterPage />
+          </SuspenseWrapper>
+        ),
+      },
+
+      // Live Agent Monitor
+      {
+        path: 'monitor/live',
+        element: (
+          <SuspenseWrapper>
+            <LiveAgentMonitorPage />
           </SuspenseWrapper>
         ),
       },

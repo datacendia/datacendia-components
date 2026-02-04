@@ -15,7 +15,7 @@ export function setupWebSocketHandlers(io: SocketIOServer) {
   // Authentication middleware
   io.use(async (socket: AuthenticatedSocket, next) => {
     try {
-      const token = socket.handshake.auth.token || socket.handshake.headers.authorization?.replace('Bearer ', '');
+      const token = socket.handshake.auth['token'] || socket.handshake.headers.authorization?.replace('Bearer ', '');
 
       if (!token) {
         return next(new Error('Authentication required'));
@@ -24,7 +24,7 @@ export function setupWebSocketHandlers(io: SocketIOServer) {
       const { payload } = await jose.jwtVerify(token, JWT_SECRET);
       
       socket.userId = payload.sub as string;
-      socket.organizationId = payload.organizationId as string;
+      socket.organizationId = payload['organizationId'] as string;
 
       next();
     } catch (error) {

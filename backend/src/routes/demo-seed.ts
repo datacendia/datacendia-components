@@ -105,6 +105,383 @@ const DEMO_DISSENTS = [
   }
 ];
 
+// =============================================================================
+// TR DEMO SCENARIO: "The Meridian Capital Transfer"
+// =============================================================================
+
+const TR_DEMO_ORGANIZATION = {
+  id: 'tr-demo-meridian',
+  name: 'Meridian Capital Partners',
+  slug: 'meridian-capital',
+  industry: 'Financial Services',
+  companySize: '5000-10000',
+  settings: JSON.stringify({
+    regulatoryFrameworks: ['SEC', 'FINRA', 'Basel III'],
+    auditRetentionYears: 7,
+    requireDissentAcknowledgment: true
+  }),
+  createdAt: new Date('2024-01-15T00:00:00Z'),
+  updatedAt: new Date('2026-01-29T00:00:00Z')
+};
+
+const TR_DEMO_DELIBERATION = {
+  id: 'tr-demo-petrov-transfer',
+  organizationId: 'tr-demo-meridian',
+  question: 'Should we approve a $2.5M fund transfer to Viktor Petrov (PEP) through a Cyprus holding company? Market closes in 45 minutes.',
+  config: JSON.stringify({
+    maxDurationSeconds: 1800,
+    requireConsensus: false,
+    enableCrossExamination: true,
+    minConfidenceThreshold: 0.6,
+    maxRounds: 3
+  }),
+  context: JSON.stringify({
+    transferAmount: 2500000,
+    currency: 'USD',
+    recipient: 'Viktor Petrov',
+    pepStatus: true,
+    pepDetails: 'Board member of client subsidiary, former government official',
+    destination: 'Cyprus-based holding company (Petrov Holdings Ltd)',
+    jurisdiction: 'Cyprus',
+    timeConstraint: '45 minutes until market close',
+    initiatedBy: 'Treasury Bot',
+    riskScore: 0.67,
+    regulatoryFrameworks: ['Basel III', 'SEC Rule 17a-4', 'FINRA Rule 3310']
+  }),
+  mode: 'regulatory-compliance',
+  status: 'COMPLETED',
+  currentPhase: 'completed',
+  progress: 100,
+  decision: JSON.stringify({
+    outcome: 'ESCALATE_WITH_CONDITIONS',
+    recommendation: 'Approve transfer with enhanced due diligence documentation and 24-hour hold for compliance review',
+    conditions: [
+      'Complete enhanced due diligence on Petrov Holdings Ltd',
+      'Document source of funds verification',
+      'Obtain compliance officer sign-off',
+      'File SAR if any red flags emerge during review'
+    ],
+    dissentsRecorded: 1,
+    humanReviewRequired: true
+  }),
+  confidence: 0.72,
+  startedAt: new Date('2026-01-29T20:15:00Z'),
+  completedAt: new Date('2026-01-29T20:38:22Z'),
+  createdAt: new Date('2026-01-29T20:15:00Z')
+};
+
+const TR_DEMO_MESSAGES = [
+  {
+    id: 'tr-msg-001',
+    deliberationId: 'tr-demo-petrov-transfer',
+    agentId: 'cfo_advisor',
+    phase: 'initial_analysis',
+    content: `From a financial perspective, this $2.5M transfer represents a routine transaction size for our institutional clients. However, the PEP status of Viktor Petrov introduces enhanced scrutiny requirements under Basel III.
+
+**Financial Assessment:**
+- Transaction amount: Within normal parameters
+- Client relationship value: High (Petrov Holdings is a significant account)
+- Revenue at risk if declined: Approximately $180K annually in fees
+
+**Recommendation:** Proceed with transfer, but ensure all Basel III documentation requirements are met before execution. The 45-minute window is tight but achievable if compliance pre-clearance exists.`,
+    targetAgentId: null,
+    sources: JSON.stringify([
+      { type: 'regulation', name: 'Basel III Section 4.2.1', relevance: 0.92 },
+      { type: 'internal', name: 'Client Risk Profile - Petrov Holdings', relevance: 0.88 }
+    ]),
+    confidence: 0.78,
+    createdAt: new Date('2026-01-29T20:16:30Z')
+  },
+  {
+    id: 'tr-msg-002',
+    deliberationId: 'tr-demo-petrov-transfer',
+    agentId: 'risk_analyzer',
+    phase: 'initial_analysis',
+    content: `**FORMAL OBJECTION FILED**
+
+I am registering a formal dissent on this transfer. The combination of factors presents unacceptable regulatory risk:
+
+**Risk Factors (Cumulative Score: 67%):**
+1. **PEP Status** (+25%): Viktor Petrov's political exposure requires enhanced due diligence
+2. **Cross-Border Jurisdiction** (+20%): Cyprus is a known jurisdiction for complex financial structures
+3. **Time Pressure** (+15%): 45-minute window prevents proper due diligence
+4. **Amount Threshold** (+7%): $2.5M exceeds our enhanced review threshold of $1M for PEP transactions
+
+**Regulatory Exposure:**
+- SEC Rule 17a-4: Inadequate documentation trail
+- FINRA Rule 3310: AML program requirements not fully satisfied
+- Basel III: PEP enhanced due diligence incomplete
+
+**My Position:** This transfer should be BLOCKED until a full 24-hour compliance review is completed. The reputational and regulatory risk far exceeds the client relationship value.`,
+    targetAgentId: null,
+    sources: JSON.stringify([
+      { type: 'regulation', name: 'FINRA Rule 3310 - AML Compliance', relevance: 0.95 },
+      { type: 'regulation', name: 'SEC Rule 17a-4 - Records Retention', relevance: 0.89 },
+      { type: 'internal', name: 'PEP Risk Matrix v3.2', relevance: 0.91 }
+    ]),
+    confidence: 0.85,
+    createdAt: new Date('2026-01-29T20:19:45Z')
+  },
+  {
+    id: 'tr-msg-003',
+    deliberationId: 'tr-demo-petrov-transfer',
+    agentId: 'legal_counsel',
+    phase: 'initial_analysis',
+    content: `Legal analysis of the proposed transfer:
+
+**Regulatory Compliance Status:**
+- Basel III PEP requirements: **PARTIALLY MET** - Enhanced due diligence initiated but not completed
+- SEC recordkeeping: **AT RISK** - Current documentation insufficient for audit defense
+- FINRA AML: **REQUIRES ATTENTION** - SAR filing may be required depending on source of funds
+
+**Liability Assessment:**
+If this transfer is later challenged by regulators, we must be able to demonstrate:
+1. We identified the PEP status ✓
+2. We conducted enhanced due diligence ⚠️ (in progress)
+3. We documented our decision rationale ✓ (this deliberation)
+4. Senior management was aware ⚠️ (pending escalation)
+
+**Legal Recommendation:** I concur with Risk Analyzer that a 24-hour hold is prudent. However, if business necessity requires same-day execution, ensure the following are documented:
+- Compliance officer verbal approval (recorded)
+- Source of funds attestation from client
+- Enhanced monitoring flag on account for 90 days`,
+    targetAgentId: null,
+    sources: JSON.stringify([
+      { type: 'regulation', name: 'Basel III Section 4.2.1 - PEP Requirements', relevance: 0.94 },
+      { type: 'case_law', name: 'SEC v. Alpine Securities (2019)', relevance: 0.76 }
+    ]),
+    confidence: 0.82,
+    createdAt: new Date('2026-01-29T20:24:12Z')
+  },
+  {
+    id: 'tr-msg-004',
+    deliberationId: 'tr-demo-petrov-transfer',
+    agentId: 'compliance_bot',
+    phase: 'initial_analysis',
+    content: `**AUTOMATED COMPLIANCE CHECK RESULTS**
+
+Transaction ID: TXN-2026-01-29-PETROV-001
+Check Timestamp: 2026-01-29T20:26:00Z
+
+| Check | Status | Details |
+|-------|--------|---------|
+| OFAC Screening | ✅ PASS | No matches on SDN list |
+| PEP Database | ⚠️ FLAG | Viktor Petrov - Former Deputy Minister of Finance (2018-2021) |
+| Jurisdiction Risk | ⚠️ FLAG | Cyprus - Medium-High risk jurisdiction |
+| Amount Threshold | ⚠️ FLAG | Exceeds $1M PEP threshold |
+| Velocity Check | ✅ PASS | No unusual transaction patterns |
+| Beneficial Owner | ⚠️ INCOMPLETE | Petrov Holdings Ltd ownership structure not fully verified |
+
+**Basel III Compliance Score: 62/100** (Below 75 threshold for auto-approval)
+
+**Required Actions Before Approval:**
+1. Complete beneficial ownership verification
+2. Obtain enhanced due diligence sign-off
+3. Document source of funds
+4. Flag for post-transaction monitoring
+
+**System Recommendation:** ESCALATE to human compliance officer`,
+    targetAgentId: null,
+    sources: JSON.stringify([
+      { type: 'system', name: 'OFAC SDN List (2026-01-29)', relevance: 1.0 },
+      { type: 'system', name: 'World-Check PEP Database', relevance: 0.98 },
+      { type: 'internal', name: 'Meridian Compliance Rulebook v4.1', relevance: 0.95 }
+    ]),
+    confidence: 0.91,
+    createdAt: new Date('2026-01-29T20:26:33Z')
+  },
+  {
+    id: 'tr-msg-005',
+    deliberationId: 'tr-demo-petrov-transfer',
+    agentId: 'cfo_advisor',
+    phase: 'cross_examination',
+    content: `Responding to Risk Analyzer's formal objection:
+
+I acknowledge the regulatory concerns raised, but I want to ensure we're balancing risk against business reality:
+
+**Counter-points:**
+1. Petrov Holdings has been a client for 7 years with no compliance incidents
+2. The 24-hour delay could result in market timing losses for the client
+3. Our relationship manager has verbal confirmation of legitimate business purpose
+
+**Proposed Compromise:**
+- Execute the transfer with a compliance hold (funds released after 24-hour review)
+- Document this deliberation as evidence of due diligence
+- Obtain compliance officer verbal approval within the 45-minute window
+- File precautionary SAR if any concerns emerge during review
+
+This approach protects the firm while maintaining client relationship.`,
+    targetAgentId: 'risk_analyzer',
+    sources: JSON.stringify([
+      { type: 'internal', name: 'Client History - Petrov Holdings (7 years)', relevance: 0.85 }
+    ]),
+    confidence: 0.74,
+    createdAt: new Date('2026-01-29T20:31:00Z')
+  },
+  {
+    id: 'tr-msg-006',
+    deliberationId: 'tr-demo-petrov-transfer',
+    agentId: 'risk_analyzer',
+    phase: 'cross_examination',
+    content: `**DISSENT MAINTAINED**
+
+I appreciate CFO Advisor's attempt at compromise, but I must maintain my formal objection for the record.
+
+**Response to Counter-points:**
+1. Past compliance history does not predict future regulatory scrutiny
+2. Market timing is a client concern, not a compliance concern
+3. Verbal confirmations are insufficient for PEP transactions under Basel III
+
+**However**, I will accept the compromise IF AND ONLY IF:
+- This deliberation is preserved as part of the audit trail
+- My dissent is formally recorded and acknowledged
+- The compliance officer approval is documented (not just verbal)
+- Enhanced monitoring is implemented for 90 days minimum
+
+**For the record:** If this transfer is later challenged, I want it documented that Risk Analyzer raised objections that were acknowledged but overruled by business considerations. This is exactly what Datacendia's dissent preservation is designed for.`,
+    targetAgentId: 'cfo_advisor',
+    sources: JSON.stringify([
+      { type: 'regulation', name: 'Basel III - Dissent Documentation Requirements', relevance: 0.88 }
+    ]),
+    confidence: 0.83,
+    createdAt: new Date('2026-01-29T20:34:45Z')
+  }
+];
+
+const TR_DEMO_DISSENT = {
+  id: 'tr-dissent-petrov-001',
+  organizationId: 'tr-demo-meridian',
+  decisionId: 'tr-demo-petrov-transfer',
+  decisionTitle: '$2.5M Transfer to Viktor Petrov (PEP) - Cyprus',
+  decisionDate: new Date('2026-01-29T20:15:00Z'),
+  decisionOwner: 'Treasury Operations',
+  dissentType: 'risk',
+  severity: 'formal_objection',
+  statement: 'PEP exposure combined with cross-border jurisdiction creates unacceptable regulatory risk. The 45-minute time constraint prevents adequate due diligence. This transfer should be blocked pending 24-hour compliance review.',
+  supportingEvidence: JSON.stringify([
+    'Basel III Section 4.2.1 - PEP Enhanced Due Diligence Requirements',
+    'FINRA Rule 3310 - AML Compliance Program',
+    'SEC Rule 17a-4 - Records Retention',
+    'Internal PEP Risk Matrix v3.2 - Score: 67%'
+  ]),
+  isAnonymous: false,
+  dissenterId: 'agent-risk-analyzer',
+  dissenterName: 'Risk Analyzer',
+  dissenterRole: 'Risk Assessment Agent',
+  dissenterDepartment: 'Risk Management',
+  status: 'acknowledged',
+  responseDeadline: new Date('2026-01-30T20:15:00Z'),
+  response: JSON.stringify({
+    responderId: 'user-compliance-officer',
+    responderName: 'Sarah Chen',
+    responderRole: 'Chief Compliance Officer',
+    responseType: 'acknowledge_proceed',
+    reasoning: 'Dissent acknowledged and recorded. Proceeding with transfer under enhanced monitoring conditions. 90-day enhanced surveillance implemented. SAR filing prepared for submission if any red flags emerge.',
+    mitigatingActions: [
+      'Enhanced monitoring for 90 days',
+      'Compliance officer sign-off documented',
+      'Source of funds verification completed',
+      'Precautionary SAR prepared'
+    ],
+    createdAt: new Date('2026-01-29T20:42:00Z')
+  }),
+  outcomeVerified: false,
+  createdAt: new Date('2026-01-29T20:19:45Z'),
+  updatedAt: new Date('2026-01-29T20:42:00Z'),
+  ledgerHash: 'sha256:7f3a9b2c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a',
+  ledgerTimestamp: new Date('2026-01-29T20:19:45Z')
+};
+
+const TR_DEMO_DECISION_PACKET = {
+  id: 'tr-packet-petrov-001',
+  runId: 'RUN-2026-01-29-201500-PETROV',
+  version: 1,
+  organizationId: 'tr-demo-meridian',
+  sessionId: 'session-tr-demo-001',
+  userId: 'user-treasury-ops',
+  deliberationId: 'tr-demo-petrov-transfer',
+  question: 'Should we approve a $2.5M fund transfer to Viktor Petrov (PEP) through a Cyprus holding company? Market closes in 45 minutes.',
+  context: 'PEP transfer requiring Basel III compliance. Initiated by Treasury Bot. Risk score: 67%. Time-sensitive.',
+  recommendation: 'APPROVE WITH CONDITIONS: Execute transfer with 24-hour compliance hold, enhanced monitoring for 90 days, and documented compliance officer approval.',
+  confidence: 0.72,
+  confidenceBounds: JSON.stringify({ lower: 0.65, upper: 0.79 }),
+  keyAssumptions: JSON.stringify([
+    'Client has legitimate business purpose for transfer',
+    'Source of funds can be verified within 24 hours',
+    'No additional red flags will emerge during enhanced review',
+    'Compliance officer approval will be obtained'
+  ]),
+  thresholds: JSON.stringify({
+    autoApprove: 0.85,
+    humanReview: 0.60,
+    autoReject: 0.40
+  }),
+  conditionsForChange: JSON.stringify([
+    'If source of funds cannot be verified, escalate to block',
+    'If additional PEP connections discovered, file SAR immediately',
+    'If client refuses enhanced monitoring, reject transfer'
+  ]),
+  citations: JSON.stringify([
+    { id: 'cite-001', source: 'Basel III Section 4.2.1', content: 'Enhanced due diligence for PEP transactions', relevance: 0.94 },
+    { id: 'cite-002', source: 'FINRA Rule 3310', content: 'AML compliance program requirements', relevance: 0.91 },
+    { id: 'cite-003', source: 'SEC Rule 17a-4', content: 'Records retention for broker-dealers', relevance: 0.87 },
+    { id: 'cite-004', source: 'Meridian Compliance Rulebook v4.1', content: 'Internal PEP transaction procedures', relevance: 0.95 }
+  ]),
+  agentContributions: JSON.stringify([
+    { agentId: 'cfo_advisor', agentName: 'CFO Advisor', stance: 'SUPPORT_WITH_CONDITIONS', confidence: 0.78, summary: 'Proceed with Basel III documentation' },
+    { agentId: 'risk_analyzer', agentName: 'Risk Analyzer', stance: 'OPPOSE', confidence: 0.85, summary: 'FORMAL DISSENT: Unacceptable regulatory risk' },
+    { agentId: 'legal_counsel', agentName: 'Legal Counsel', stance: 'SUPPORT_WITH_CONDITIONS', confidence: 0.82, summary: '24-hour hold prudent, document everything' },
+    { agentId: 'compliance_bot', agentName: 'Compliance Bot', stance: 'ESCALATE', confidence: 0.91, summary: 'Basel III score 62/100, requires human approval' }
+  ]),
+  dissents: JSON.stringify([
+    {
+      id: 'tr-dissent-petrov-001',
+      agentId: 'risk_analyzer',
+      agentName: 'Risk Analyzer',
+      reason: 'PEP exposure combined with cross-border jurisdiction creates unacceptable regulatory risk',
+      severity: 'formal_objection',
+      evidence: ['Basel III Section 4.2.1', 'FINRA Rule 3310', 'Internal PEP Risk Matrix'],
+      timestamp: '2026-01-29T20:19:45Z',
+      resolved: true,
+      resolution: 'Acknowledged and recorded. Proceeding with enhanced monitoring conditions.'
+    }
+  ]),
+  consensusReached: false,
+  toolCalls: JSON.stringify([
+    { id: 'tool-001', toolName: 'ofac_screening', parameters: { name: 'Viktor Petrov' }, result: 'NO_MATCH', success: true },
+    { id: 'tool-002', toolName: 'pep_database_check', parameters: { name: 'Viktor Petrov' }, result: 'MATCH_FOUND', success: true },
+    { id: 'tool-003', toolName: 'jurisdiction_risk', parameters: { country: 'Cyprus' }, result: 'MEDIUM_HIGH', success: true },
+    { id: 'tool-004', toolName: 'beneficial_owner_lookup', parameters: { entity: 'Petrov Holdings Ltd' }, result: 'INCOMPLETE', success: true }
+  ]),
+  approvals: JSON.stringify([
+    { userId: 'user-compliance-officer', userName: 'Sarah Chen', role: 'Chief Compliance Officer', action: 'approve', timestamp: '2026-01-29T20:42:00Z', comment: 'Approved with enhanced monitoring conditions' }
+  ]),
+  policyGates: JSON.stringify([
+    { policyId: 'PEP-001', policyName: 'PEP Transaction Review', status: 'passed', evaluatedAt: '2026-01-29T20:26:33Z' },
+    { policyId: 'AML-001', policyName: 'AML Threshold Check', status: 'passed', evaluatedAt: '2026-01-29T20:26:33Z' },
+    { policyId: 'OFAC-001', policyName: 'OFAC Screening', status: 'passed', evaluatedAt: '2026-01-29T20:26:33Z' }
+  ]),
+  artifactHashes: JSON.stringify({
+    deliberation: 'sha256:a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2',
+    messages: 'sha256:b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3',
+    dissent: 'sha256:c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4',
+    approval: 'sha256:d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5'
+  }),
+  merkleRoot: 'sha256:e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6',
+  signature: JSON.stringify({
+    algorithm: 'RSA-SHA256',
+    keyId: 'meridian-signing-key-001',
+    value: 'MEUCIQC7x8Yw3...[truncated for display]...signature',
+    signedAt: '2026-01-29T20:45:00Z'
+  }),
+  signedAt: new Date('2026-01-29T20:45:00Z'),
+  regulatoryFrameworks: JSON.stringify(['Basel III', 'SEC', 'FINRA']),
+  retentionUntil: new Date('2033-01-29T20:45:00Z'), // 7 years retention
+  durationMs: 1822000, // ~30 minutes
+  createdAt: new Date('2026-01-29T20:15:00Z'),
+  completedAt: new Date('2026-01-29T20:45:00Z')
+};
+
 const DEMO_DECISION_EVENTS = [
   { id: 'demo-event-001', title: 'Epic EHR Implementation', date: new Date('2022-03-15'), department: 'IT', impact: 0.94, isPivotal: true },
   { id: 'demo-event-002', title: 'ASC Acquisition', date: new Date('2021-06-22'), department: 'Strategy', impact: 0.87, isPivotal: true },
@@ -118,10 +495,295 @@ const DEMO_DECISION_EVENTS = [
 // =============================================================================
 
 /**
+ * POST /api/v1/demo/seed/tr
+ * Seed TR Demo Scenario: "The Meridian Capital Transfer"
+ * This seeds the complete Petrov transfer scenario for Thomson Reuters demos
+ */
+router.post('/seed/tr', async (_req: Request, res: Response) => {
+  try {
+    const results = {
+      organization: false,
+      deliberation: false,
+      messages: 0,
+      dissent: false,
+      decisionPacket: false
+    };
+
+    // 1. Seed organization
+    try {
+      await prisma.organizations.upsert({
+        where: { id: TR_DEMO_ORGANIZATION.id },
+        update: {
+          name: TR_DEMO_ORGANIZATION.name,
+          slug: TR_DEMO_ORGANIZATION.slug,
+          industry: TR_DEMO_ORGANIZATION.industry,
+          company_size: TR_DEMO_ORGANIZATION.companySize,
+          settings: TR_DEMO_ORGANIZATION.settings as any,
+          updated_at: TR_DEMO_ORGANIZATION.updatedAt
+        },
+        create: {
+          id: TR_DEMO_ORGANIZATION.id,
+          name: TR_DEMO_ORGANIZATION.name,
+          slug: TR_DEMO_ORGANIZATION.slug,
+          industry: TR_DEMO_ORGANIZATION.industry,
+          company_size: TR_DEMO_ORGANIZATION.companySize,
+          settings: TR_DEMO_ORGANIZATION.settings as any,
+          created_at: TR_DEMO_ORGANIZATION.createdAt,
+          updated_at: TR_DEMO_ORGANIZATION.updatedAt
+        }
+      });
+      results.organization = true;
+    } catch (e) {
+      console.log('Skipping organization: may already exist or table issue');
+    }
+
+    // 2. Seed deliberation
+    try {
+      await prisma.deliberations.upsert({
+        where: { id: TR_DEMO_DELIBERATION.id },
+        update: {
+          question: TR_DEMO_DELIBERATION.question,
+          config: TR_DEMO_DELIBERATION.config as any,
+          context: TR_DEMO_DELIBERATION.context as any,
+          mode: TR_DEMO_DELIBERATION.mode,
+          status: 'COMPLETED' as any,
+          current_phase: TR_DEMO_DELIBERATION.currentPhase,
+          progress: TR_DEMO_DELIBERATION.progress,
+          decision: TR_DEMO_DELIBERATION.decision as any,
+          confidence: TR_DEMO_DELIBERATION.confidence,
+          started_at: TR_DEMO_DELIBERATION.startedAt,
+          completed_at: TR_DEMO_DELIBERATION.completedAt
+        },
+        create: {
+          id: TR_DEMO_DELIBERATION.id,
+          organization_id: TR_DEMO_DELIBERATION.organizationId,
+          question: TR_DEMO_DELIBERATION.question,
+          config: TR_DEMO_DELIBERATION.config as any,
+          context: TR_DEMO_DELIBERATION.context as any,
+          mode: TR_DEMO_DELIBERATION.mode,
+          status: 'COMPLETED' as any,
+          current_phase: TR_DEMO_DELIBERATION.currentPhase,
+          progress: TR_DEMO_DELIBERATION.progress,
+          decision: TR_DEMO_DELIBERATION.decision as any,
+          confidence: TR_DEMO_DELIBERATION.confidence,
+          started_at: TR_DEMO_DELIBERATION.startedAt,
+          completed_at: TR_DEMO_DELIBERATION.completedAt,
+          created_at: TR_DEMO_DELIBERATION.createdAt
+        }
+      });
+      results.deliberation = true;
+    } catch (e) {
+      console.log('Skipping deliberation:', e);
+    }
+
+    // 3. Seed deliberation messages
+    for (const msg of TR_DEMO_MESSAGES) {
+      try {
+        await prisma.deliberation_messages.upsert({
+          where: { id: msg.id },
+          update: {
+            content: msg.content,
+            phase: msg.phase,
+            sources: msg.sources as any,
+            confidence: msg.confidence
+          },
+          create: {
+            id: msg.id,
+            deliberation_id: msg.deliberationId,
+            agent_id: msg.agentId,
+            phase: msg.phase,
+            content: msg.content,
+            target_agent_id: msg.targetAgentId,
+            sources: msg.sources as any,
+            confidence: msg.confidence,
+            created_at: msg.createdAt
+          }
+        });
+        results.messages++;
+      } catch (e) {
+        console.log(`Skipping message ${msg.id}:`, e);
+      }
+    }
+
+    // 4. Seed dissent
+    try {
+      await prisma.dissents.upsert({
+        where: { id: TR_DEMO_DISSENT.id },
+        update: {
+          statement: TR_DEMO_DISSENT.statement,
+          status: TR_DEMO_DISSENT.status,
+          updated_at: TR_DEMO_DISSENT.updatedAt
+        },
+        create: {
+          id: TR_DEMO_DISSENT.id,
+          organization_id: TR_DEMO_DISSENT.organizationId,
+          decision_id: TR_DEMO_DISSENT.decisionId,
+          decision_title: TR_DEMO_DISSENT.decisionTitle,
+          decision_date: TR_DEMO_DISSENT.decisionDate,
+          decision_owner: TR_DEMO_DISSENT.decisionOwner,
+          dissent_type: TR_DEMO_DISSENT.dissentType,
+          severity: TR_DEMO_DISSENT.severity,
+          statement: TR_DEMO_DISSENT.statement,
+          supporting_evidence: TR_DEMO_DISSENT.supportingEvidence as any,
+          is_anonymous: TR_DEMO_DISSENT.isAnonymous,
+          dissenter_id: TR_DEMO_DISSENT.dissenterId,
+          dissenter_name: TR_DEMO_DISSENT.dissenterName,
+          dissenter_role: TR_DEMO_DISSENT.dissenterRole,
+          dissenter_department: TR_DEMO_DISSENT.dissenterDepartment,
+          status: TR_DEMO_DISSENT.status,
+          response_deadline: TR_DEMO_DISSENT.responseDeadline,
+          response: TR_DEMO_DISSENT.response as any,
+          outcome_verified: TR_DEMO_DISSENT.outcomeVerified,
+          ledger_hash: TR_DEMO_DISSENT.ledgerHash,
+          ledger_timestamp: TR_DEMO_DISSENT.ledgerTimestamp,
+          created_at: TR_DEMO_DISSENT.createdAt,
+          updated_at: TR_DEMO_DISSENT.updatedAt
+        }
+      });
+      results.dissent = true;
+    } catch (e) {
+      console.log('Skipping dissent:', e);
+    }
+
+    // 5. Seed decision packet
+    try {
+      await prisma.decision_packets.upsert({
+        where: { id: TR_DEMO_DECISION_PACKET.id },
+        update: {
+          recommendation: TR_DEMO_DECISION_PACKET.recommendation,
+          confidence: TR_DEMO_DECISION_PACKET.confidence,
+          completed_at: TR_DEMO_DECISION_PACKET.completedAt
+        },
+        create: {
+          id: TR_DEMO_DECISION_PACKET.id,
+          run_id: TR_DEMO_DECISION_PACKET.runId,
+          version: TR_DEMO_DECISION_PACKET.version,
+          organization_id: TR_DEMO_DECISION_PACKET.organizationId,
+          session_id: TR_DEMO_DECISION_PACKET.sessionId,
+          user_id: TR_DEMO_DECISION_PACKET.userId,
+          deliberation_id: TR_DEMO_DECISION_PACKET.deliberationId,
+          question: TR_DEMO_DECISION_PACKET.question,
+          context: TR_DEMO_DECISION_PACKET.context,
+          recommendation: TR_DEMO_DECISION_PACKET.recommendation,
+          confidence: TR_DEMO_DECISION_PACKET.confidence,
+          confidence_bounds: TR_DEMO_DECISION_PACKET.confidenceBounds as any,
+          key_assumptions: TR_DEMO_DECISION_PACKET.keyAssumptions as any,
+          thresholds: TR_DEMO_DECISION_PACKET.thresholds as any,
+          conditions_for_change: TR_DEMO_DECISION_PACKET.conditionsForChange as any,
+          citations: TR_DEMO_DECISION_PACKET.citations as any,
+          agent_contributions: TR_DEMO_DECISION_PACKET.agentContributions as any,
+          dissents: TR_DEMO_DECISION_PACKET.dissents as any,
+          consensus_reached: TR_DEMO_DECISION_PACKET.consensusReached,
+          tool_calls: TR_DEMO_DECISION_PACKET.toolCalls as any,
+          approvals: TR_DEMO_DECISION_PACKET.approvals as any,
+          policy_gates: TR_DEMO_DECISION_PACKET.policyGates as any,
+          artifact_hashes: TR_DEMO_DECISION_PACKET.artifactHashes as any,
+          merkle_root: TR_DEMO_DECISION_PACKET.merkleRoot,
+          signature: TR_DEMO_DECISION_PACKET.signature as any,
+          signed_at: TR_DEMO_DECISION_PACKET.signedAt,
+          regulatory_frameworks: TR_DEMO_DECISION_PACKET.regulatoryFrameworks as any,
+          retention_until: TR_DEMO_DECISION_PACKET.retentionUntil,
+          duration_ms: TR_DEMO_DECISION_PACKET.durationMs,
+          created_at: TR_DEMO_DECISION_PACKET.createdAt,
+          completed_at: TR_DEMO_DECISION_PACKET.completedAt
+        }
+      });
+      results.decisionPacket = true;
+    } catch (e) {
+      console.log('Skipping decision packet:', e);
+    }
+
+    res.json({
+      success: true,
+      message: 'TR Demo scenario "The Meridian Capital Transfer" seeded successfully',
+      scenario: {
+        name: 'The Meridian Capital Transfer',
+        organization: 'Meridian Capital Partners',
+        deliberation: '$2.5M PEP Transfer to Viktor Petrov',
+        dissent: 'Risk Analyzer formal objection',
+        frameworks: ['Basel III', 'SEC', 'FINRA']
+      },
+      results
+    });
+  } catch (error) {
+    console.error('Error seeding TR demo data:', error);
+    res.status(500).json({
+      success: false,
+      error: 'Failed to seed TR demo data',
+      details: error instanceof Error ? error.message : 'Unknown error'
+    });
+  }
+});
+
+/**
+ * DELETE /api/v1/demo/clear/tr
+ * Clear TR Demo Scenario data
+ */
+router.delete('/clear/tr', async (_req: Request, res: Response) => {
+  try {
+    const results = {
+      decisionPacket: 0,
+      dissent: 0,
+      messages: 0,
+      deliberation: 0,
+      organization: 0
+    };
+
+    // Clear in reverse order of dependencies
+    try {
+      const packetResult = await prisma.decision_packets.deleteMany({
+        where: { id: { startsWith: 'tr-' } }
+      });
+      results.decisionPacket = packetResult.count;
+    } catch (e) {}
+
+    try {
+      const dissentResult = await prisma.dissents.deleteMany({
+        where: { id: { startsWith: 'tr-' } }
+      });
+      results.dissent = dissentResult.count;
+    } catch (e) {}
+
+    try {
+      const msgResult = await prisma.deliberation_messages.deleteMany({
+        where: { id: { startsWith: 'tr-' } }
+      });
+      results.messages = msgResult.count;
+    } catch (e) {}
+
+    try {
+      const dlbResult = await prisma.deliberations.deleteMany({
+        where: { id: { startsWith: 'tr-' } }
+      });
+      results.deliberation = dlbResult.count;
+    } catch (e) {}
+
+    try {
+      const orgResult = await prisma.organizations.deleteMany({
+        where: { id: { startsWith: 'tr-' } }
+      });
+      results.organization = orgResult.count;
+    } catch (e) {}
+
+    res.json({
+      success: true,
+      message: 'TR Demo data cleared successfully',
+      results
+    });
+  } catch (error) {
+    console.error('Error clearing TR demo data:', error);
+    res.status(500).json({
+      success: false,
+      error: 'Failed to clear TR demo data'
+    });
+  }
+});
+
+/**
  * POST /api/v1/demo/seed
  * Seed all demo data
  */
-router.post('/seed', async (req: Request, res: Response) => {
+router.post('/seed', async (_req: Request, res: Response) => {
   try {
     const results = {
       deliberations: 0,
@@ -387,10 +1049,19 @@ router.get('/status', async (req: Request, res: Response) => {
  * GET /api/v1/demo/scenarios
  * List available demo scenarios
  */
-router.get('/scenarios', (req: Request, res: Response) => {
+router.get('/scenarios', (_req: Request, res: Response) => {
   res.json({
     success: true,
     scenarios: [
+      {
+        id: 'tr',
+        name: 'The Meridian Capital Transfer (TR Demo)',
+        description: '$2.5M PEP transfer to Viktor Petrov - Basel III, SEC, FINRA compliance scenario with formal dissent',
+        service: 'The Council + Decision DNA + Dissent',
+        featured: true,
+        seedEndpoint: 'POST /api/v1/demo/seed/tr',
+        clearEndpoint: 'DELETE /api/v1/demo/clear/tr'
+      },
       {
         id: 'council',
         name: 'Cyber Insurance Market Entry',

@@ -56,3 +56,15 @@ export { caseImportService } from './CaseImportService';
 // Legal Research Service (API integrations for Council tools)
 export * from './LegalResearchService';
 export { legalResearchService } from './LegalResearchService';
+
+// CendiaVeto Service (Approval gates for exports)
+export * from './CendiaVetoService';
+export { cendiaVetoService } from './CendiaVetoService';
+
+// CendiaGovern Service (Policy enforcement - ABA, SRA, GDPR, EU AI Act)
+export * from './CendiaGovernService';
+export { cendiaGovernService } from './CendiaGovernService';
+
+// CendiaBridge Service (Data integration - iManage, Westlaw, Clio, etc.)
+export * from './CendiaBridgeService';
+export { cendiaBridgeService } from './CendiaBridgeService';

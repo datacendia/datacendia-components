@@ -6,6 +6,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useWebSocket } from '@/hooks/useWebSocket';
+import { api } from '../../../lib/api';
 import {
   Users,
   MessageCircle,
@@ -54,24 +55,31 @@ interface TimelineEvent {
 }
 
 // =============================================================================
-// MOCK DATA
+// TR DEMO DATA - Petrov Transfer Deliberation
 // =============================================================================
 
-const MOCK_AGENTS: AgentVisualization[] = [
-  { id: 'chief', name: 'CendiaChief', role: 'Chief Strategist', avatarColor: 'bg-blue-500', status: 'speaking', confidence: 85, currentStatement: 'Based on the market analysis, I recommend we proceed with Option B...', citationCount: 3, dissenting: false },
-  { id: 'cfo', name: 'CendiaCFO', role: 'Financial Advisor', avatarColor: 'bg-green-500', status: 'listening', confidence: 72, citationCount: 2, dissenting: false },
-  { id: 'ciso', name: 'CendiaCISO', role: 'Security Officer', avatarColor: 'bg-red-500', status: 'thinking', confidence: 65, citationCount: 1, dissenting: true },
-  { id: 'risk', name: 'CendiaRisk', role: 'Risk Analyst', avatarColor: 'bg-orange-500', status: 'idle', confidence: 78, citationCount: 4, dissenting: false },
-  { id: 'ethics', name: 'CendiaEthics', role: 'Ethics Officer', avatarColor: 'bg-purple-500', status: 'agreeing', confidence: 90, citationCount: 2, dissenting: false },
-  { id: 'coo', name: 'CendiaCOO', role: 'Operations Lead', avatarColor: 'bg-teal-500', status: 'listening', confidence: 80, citationCount: 1, dissenting: false },
+const TR_DEMO_AGENTS: AgentVisualization[] = [
+  { id: 'cfo', name: 'CFO Advisor', role: 'Financial Analysis', avatarColor: 'bg-emerald-500', status: 'speaking', confidence: 78, currentStatement: 'This $2.5M transfer represents routine transaction size, but PEP status requires Basel III scrutiny...', citationCount: 2, dissenting: false },
+  { id: 'risk', name: 'Risk Analyzer', role: 'Risk Assessment', avatarColor: 'bg-amber-500', status: 'dissenting', confidence: 67, currentStatement: 'FORMAL OBJECTION: PEP exposure + cross-border jurisdiction = unacceptable regulatory risk', citationCount: 4, dissenting: true },
+  { id: 'legal', name: 'Legal Counsel', role: 'Legal Analysis', avatarColor: 'bg-pink-500', status: 'thinking', confidence: 82, citationCount: 3, dissenting: false },
+  { id: 'compliance', name: 'Compliance Bot', role: 'Automated Compliance', avatarColor: 'bg-cyan-500', status: 'listening', confidence: 91, citationCount: 5, dissenting: false },
 ];
 
-const MOCK_TIMELINE: TimelineEvent[] = [
-  { id: '1', timestamp: new Date(Date.now() - 120000), type: 'statement', agentName: 'CendiaChief', content: 'Let\'s begin by analyzing the key factors...' },
-  { id: '2', timestamp: new Date(Date.now() - 90000), type: 'citation', agentName: 'CendiaCFO', content: 'Added citation: Q3 Financial Report 2025' },
-  { id: '3', timestamp: new Date(Date.now() - 60000), type: 'dissent', agentName: 'CendiaCISO', content: 'I have security concerns about this approach' },
-  { id: '4', timestamp: new Date(Date.now() - 30000), type: 'agreement', agentName: 'CendiaEthics', content: 'I agree with the proposed direction' },
-  { id: '5', timestamp: new Date(), type: 'statement', agentName: 'CendiaChief', content: 'Based on the market analysis, I recommend we proceed with Option B...' },
+const TR_DEMO_TIMELINE: TimelineEvent[] = [
+  { id: 'tr-1', timestamp: new Date(Date.now() - 300000), type: 'statement', agentName: 'CFO Advisor', content: 'Initiating Basel III compliance review for $2.5M PEP transfer to Viktor Petrov...' },
+  { id: 'tr-2', timestamp: new Date(Date.now() - 240000), type: 'citation', agentName: 'Compliance Bot', content: 'OFAC Screening: PASS | PEP Database: FLAG (Former Deputy Minister)' },
+  { id: 'tr-3', timestamp: new Date(Date.now() - 180000), type: 'dissent', agentName: 'Risk Analyzer', content: 'FORMAL OBJECTION FILED - Cumulative risk score 67% exceeds threshold' },
+  { id: 'tr-4', timestamp: new Date(Date.now() - 120000), type: 'statement', agentName: 'Legal Counsel', content: 'Basel III PEP requirements PARTIALLY MET. Recommend 24-hour hold.' },
+  { id: 'tr-5', timestamp: new Date(Date.now() - 60000), type: 'agreement', agentName: 'CFO Advisor', content: 'Proposed compromise: Execute with compliance hold, document deliberation as due diligence' },
+  { id: 'tr-6', timestamp: new Date(), type: 'dissent', agentName: 'Risk Analyzer', content: 'DISSENT MAINTAINED - Will accept IF deliberation preserved in audit trail' },
+];
+
+// Fallback agents for non-TR demo scenarios
+const FALLBACK_AGENTS: AgentVisualization[] = [
+  { id: 'chief', name: 'CendiaChief', role: 'Chief Strategist', avatarColor: 'bg-blue-500', status: 'speaking', confidence: 85, currentStatement: 'Based on the analysis, I recommend we proceed...', citationCount: 3, dissenting: false },
+  { id: 'cfo', name: 'CendiaCFO', role: 'Financial Advisor', avatarColor: 'bg-green-500', status: 'listening', confidence: 72, citationCount: 2, dissenting: false },
+  { id: 'risk', name: 'CendiaRisk', role: 'Risk Analyst', avatarColor: 'bg-orange-500', status: 'thinking', confidence: 78, citationCount: 4, dissenting: false },
+  { id: 'ethics', name: 'CendiaEthics', role: 'Ethics Officer', avatarColor: 'bg-purple-500', status: 'agreeing', confidence: 90, citationCount: 2, dissenting: false },
 ];
 
 // =============================================================================
@@ -152,14 +160,73 @@ const SpeechBubble: React.FC<{ agent: AgentVisualization }> = ({ agent }) => {
 
 export const DeliberationVisualizationPage: React.FC = () => {
   const { t } = useTranslation();
-  const [agents, setAgents] = useState<AgentVisualization[]>(MOCK_AGENTS);
-  const [timeline, setTimeline] = useState<TimelineEvent[]>(MOCK_TIMELINE);
+  const [agents, setAgents] = useState<AgentVisualization[]>([]);
+  const [timeline, setTimeline] = useState<TimelineEvent[]>([]);
   const [isPlaying, setIsPlaying] = useState(true);
   const [currentRound, setCurrentRound] = useState(3);
   const [maxRounds, setMaxRounds] = useState(10);
   const [consensusLevel, setConsensusLevel] = useState(72);
   const [showTimeline, setShowTimeline] = useState(true);
   const [deliberationId, setDeliberationId] = useState<string | null>(null);
+  const [isLoading, setIsLoading] = useState(true);
+
+  // Load active deliberation or use TR demo data
+  useEffect(() => {
+    loadActiveDeliberation();
+  }, []);
+
+  const loadActiveDeliberation = async () => {
+    setIsLoading(true);
+    try {
+      // Try to fetch active deliberations from API
+      const res = await api.get<any>('/council/deliberations', { limit: 1, status: 'IN_PROGRESS' });
+      const payload = res as any;
+      
+      if (payload.success && payload.deliberations && payload.deliberations.length > 0) {
+        const d = payload.deliberations[0];
+        setDeliberationId(d.id);
+        
+        // Convert deliberation messages to visualization format
+        const messages = d.deliberation_messages || [];
+        const apiAgents: AgentVisualization[] = messages.reduce((acc: AgentVisualization[], m: any) => {
+          const existing = acc.find(a => a.id === m.agent_id);
+          if (!existing) {
+            acc.push({
+              id: m.agent_id || m.agentCode,
+              name: m.agents?.name || m.agentName || m.agent_id,
+              role: m.agents?.role || m.phase || 'Analysis',
+              avatarColor: 'bg-blue-500',
+              status: 'listening',
+              confidence: m.confidence || 75,
+              citationCount: 1,
+              dissenting: m.phase === 'dissent',
+            });
+          }
+          return acc;
+        }, []);
+        
+        if (apiAgents.length > 0) {
+          setAgents(apiAgents);
+        } else {
+          // Use TR demo data as fallback
+          setAgents(TR_DEMO_AGENTS);
+          setTimeline(TR_DEMO_TIMELINE);
+        }
+      } else {
+        // No active deliberation - use TR demo data
+        setAgents(TR_DEMO_AGENTS);
+        setTimeline(TR_DEMO_TIMELINE);
+        setConsensusLevel(72);
+      }
+    } catch (error) {
+      console.error('Failed to load deliberation:', error);
+      // Use TR demo data on error
+      setAgents(TR_DEMO_AGENTS);
+      setTimeline(TR_DEMO_TIMELINE);
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
   // WebSocket connection for real-time updates
   const { socket, connected, on, emit } = useWebSocket();

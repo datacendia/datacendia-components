@@ -80,7 +80,6 @@ import { DashboardPage } from './pages/cortex/DashboardPage';
 import { GraphExplorerPage } from './pages/cortex/graph/GraphExplorerPage';
 import { CouncilPage } from './pages/cortex/council/CouncilPage';
 import { PulsePage } from './pages/cortex/pulse/PulsePage';
-import { LensPage } from './pages/cortex/lens/LensPage';
 import { BridgePage } from './pages/cortex/bridge/BridgePage';
 
 // Cortex Sub-Pages
@@ -88,11 +87,6 @@ import { LineageViewPage, EntityDetailsPage } from './pages/cortex/graph/subpage
 import { DeliberationViewPage, AgentProfilePage } from './pages/cortex/council/subpages';
 import { DecisionsPage } from './pages/cortex/council/DecisionsPage';
 import { AlertsPage, MetricsPage } from './pages/cortex/pulse/subpages';
-import {
-  ForecastDetailsPage,
-  ScenarioDetailsPage,
-  ScenarioBuilderPage,
-} from './pages/cortex/lens/subpages';
 import {
   WorkflowsListPage,
   WorkflowBuilderPage,
@@ -479,28 +473,6 @@ export const router = createBrowserRouter([
       {
         path: 'pulse/metrics',
         element: <MetricsPage />,
-      },
-
-      // Lens
-      {
-        path: 'lens',
-        element: <LensPage />,
-      },
-      {
-        path: 'lens/forecast/:forecastId',
-        element: <ForecastDetailsPage />,
-      },
-      {
-        path: 'lens/scenarios/:scenarioId',
-        element: <ScenarioDetailsPage />,
-      },
-      {
-        path: 'lens/scenarios/:scenarioId/edit',
-        element: <ScenarioBuilderPage />,
-      },
-      {
-        path: 'lens/scenarios/new',
-        element: <ScenarioBuilderPage />,
       },
 
       // Bridge
@@ -1083,13 +1055,6 @@ export const routes = {
   pulse: '/cortex/pulse',
   alerts: '/cortex/pulse/alerts',
   metrics: '/cortex/pulse/metrics',
-
-  // Lens
-  lens: '/cortex/lens',
-  forecast: (id: string) => `/cortex/lens/forecast/${id}`,
-  scenario: (id: string) => `/cortex/lens/scenarios/${id}`,
-  scenarioEdit: (id: string) => `/cortex/lens/scenarios/${id}/edit`,
-  newScenario: '/cortex/lens/scenarios/new',
 
   // Bridge
   bridge: '/cortex/bridge',

@@ -152,6 +152,9 @@ import sgasRoutes from './routes/sgas.js';
 import scgeRoutes from './routes/scge.js';
 import collapseRoutes from './routes/collapse.js';
 import responsibilityRoutes from './routes/responsibility.js';
+import legalServicesRoutes from './routes/legal-services.js';
+import notificationsRoutes from './routes/notifications.js';
+import sportsRoutes from './routes/sports.js';
 import { registerPlatformServices } from './core/services/PlatformServices.js';
 
 // WebSocket handlers
@@ -407,6 +410,9 @@ app.use('/api/v1/vertical-config', verticalConfigRoutes);
 // Legal Vertical - Case law, matters, privilege gates, citation enforcement
 app.use('/api/v1/legal', legalRoutes);
 
+// Legal Services - CendiaVeto, CendiaGovern, CendiaBridge
+app.use('/api/v1/legal-services', legalServicesRoutes);
+
 // Defense & National Security Vertical - DIU, FedRAMP High, CMMC, ITAR
 app.use('/api/v1/defense', defenseRoutes);
 
@@ -449,6 +455,13 @@ app.use('/api/v1/collapse', collapseRoutes);
 // CendiaResponsibility™ - Human Accountability Layer
 // Explicit liability transfer, TPM-signed accountability records, delegation chains
 app.use('/api/v1/responsibility', responsibilityRoutes);
+
+// Sports Vertical - Football/Soccer Decision Governance
+// Transfer decisions, contract governance, FFP compliance, agent fee justification
+app.use('/api/v1/sports', sportsRoutes);
+
+// Notifications - Unified notification system (in-app, email, Slack, Teams, webhooks)
+app.use('/api/v1/notifications', notificationsRoutes);
 
 // 404 handler
 app.use((_req, res) => {

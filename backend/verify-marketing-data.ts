@@ -10,7 +10,7 @@ async function verify() {
   // 1. PostgreSQL
   console.log('1. POSTGRESQL - Datacendia Platform Data');
   console.log('─'.repeat(50));
-  const pg = new Pool({ connectionString: 'postgresql://cendia:cendia_sovereign_2025@localhost:5434/datacendia' });
+  const pg = new Pool({ connectionString: 'postgresql://datacendia:datacendia_secure_2024@localhost:5433/datacendia' });
   const decisions = await pg.query('SELECT title, status, budget FROM decisions LIMIT 5');
   const metrics = await pg.query('SELECT name, category FROM metric_definitions LIMIT 5');
   console.log(`   Decisions: ${decisions.rowCount}`);

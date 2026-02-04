@@ -2,13 +2,16 @@
 
 > Complete documentation for Datacendia's Docker-based deployment.
 
+**Last Updated:** January 28, 2026
+
 ---
 
 ## Table of Contents
 
 - [Overview](#overview)
+- [Quick Start](#quick-start)
 - [Architecture](#architecture)
-- [Docker Files](#docker-files)
+- [Docker Compose Files](#docker-compose-files)
 - [Development](#development)
 - [Production](#production)
 - [Air-Gapped Deployment](#air-gapped-deployment)
@@ -19,40 +22,104 @@
 
 ## Overview
 
-Datacendia uses Docker for consistent deployment across all environments:
+Datacendia uses Docker for consistent deployment across all environments.
 
-| Environment | Compose File | Use Case |
-|-------------|--------------|----------|
-| Development | `docker-compose.yml` | Local development with hot reload |
-| Production | `docker-compose.production.yml` | Full production stack |
-| Prod (simple) | `docker-compose.prod.yml` | Simplified production |
+### Docker Compose Files
+
+| File | Use Case | Services |
+|------|----------|----------|
+| `docker-compose.unified.yml` | **Recommended for development** | All services with profiles |
+| `docker-compose.yml` | Basic development | Core only (postgres, redis, neo4j, ollama) |
+| `docker-compose.production.yml` | Production deployment | Full stack optimized |
+| `infrastructure/docker-compose.sovereign.yml` | Sovereign/air-gapped | Enterprise infrastructure |
+
+### ⚠️ Important: Use Unified Compose
+
+The project has multiple docker-compose files that can conflict. **Use `docker-compose.unified.yml`** for development to avoid:
+- Port conflicts (multiple Redis on 6380)
+- Network isolation issues (services can't see each other)
+- Missing databases (Keycloak/Unleash need their DBs created)
+
+---
+
+## Quick Start
+
+### Core Services Only (Minimal)
+
+```bash
+# Start just postgres, redis, neo4j, ollama
+docker-compose -f docker-compose.unified.yml --profile core up -d
+
+# Run frontend/backend locally
+npm run dev              # Frontend at http://localhost:5173
+cd backend && npm run dev # Backend at http://localhost:3001
+```
+
+### Full Sovereign Stack
+
+```bash
+# Start everything (requires 64GB+ RAM)
+docker-compose -f docker-compose.unified.yml up -d
+
+# Or use profiles for selective startup
+docker-compose -f docker-compose.unified.yml --profile core --profile sovereign up -d
+docker-compose -f docker-compose.unified.yml --profile observability up -d
+docker-compose -f docker-compose.unified.yml --profile security up -d
+```
+
+### Verify Services
+
+```bash
+docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"
+```
 
 ---
 
 ## Architecture
 
+### Unified Network: `datacendia-unified`
+
+All services run on a single Docker network for proper service discovery.
+
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                        Load Balancer                            │
-│                    (Nginx on port 80/443)                       │
-└─────────────────────────────────────────────────────────────────┘
-                                │
-                ┌───────────────┴───────────────┐
-                ▼                               ▼
-┌───────────────────────────┐   ┌───────────────────────────┐
-│        Frontend           │   │         Backend API       │
-│   (React SPA on Nginx)    │   │    (Node.js Express)      │
-│        Port 80            │   │        Port 3001          │
-└───────────────────────────┘   └───────────────────────────┘
-                                            │
-        ┌───────────────┬───────────────────┼───────────────┬───────────────┐
-        ▼               ▼                   ▼               ▼               ▼
-┌──────────────┐ ┌──────────────┐ ┌──────────────┐ ┌──────────────┐ ┌──────────────┐
-│  PostgreSQL  │ │    Redis     │ │    Neo4j     │ │    Ollama    │ │    Vault     │
-│   Port 5432  │ │  Port 6379   │ │  Port 7687   │ │  Port 11434  │ │  Port 8200   │
-│   Database   │ │Cache/Session │ │ Knowledge    │ │  Local LLM   │ │   Secrets    │
-│              │ │              │ │    Graph     │ │              │ │              │
-└──────────────┘ └──────────────┘ └──────────────┘ └──────────────┘ └──────────────┘
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                        DATACENDIA UNIFIED STACK                              │
+├─────────────────────────────────────────────────────────────────────────────┤
+│  APPLICATION LAYER                                                           │
+│  ┌──────────────┐  ┌──────────────┐                                         │
+│  │   Frontend   │  │   Backend    │                                         │
+│  │  Port 5173   │  │  Port 3001   │                                         │
+│  └──────────────┘  └──────────────┘                                         │
+├─────────────────────────────────────────────────────────────────────────────┤
+│  CORE SERVICES (profile: core)                                               │
+│  ┌──────────────┐ ┌──────────────┐ ┌──────────────┐ ┌──────────────┐        │
+│  │  PostgreSQL  │ │    Redis     │ │    Neo4j     │ │    Ollama    │        │
+│  │  Port 5433   │ │  Port 6380   │ │  Port 7474   │ │  Port 11434  │        │
+│  │  + pgvector  │ │  + BullMQ    │ │  Port 7687   │ │  Local LLM   │        │
+│  └──────────────┘ └──────────────┘ └──────────────┘ └──────────────┘        │
+├─────────────────────────────────────────────────────────────────────────────┤
+│  SOVEREIGN SERVICES (profile: sovereign)                                     │
+│  ┌──────────────┐ ┌──────────────┐ ┌──────────────┐ ┌──────────────┐        │
+│  │ Apache Druid │ │  ClickHouse  │ │    MinIO     │ │ Meilisearch  │        │
+│  │  Port 8888   │ │  Port 8123   │ │  Port 9000   │ │  Port 7700   │        │
+│  └──────────────┘ └──────────────┘ └──────────────┘ └──────────────┘        │
+│  ┌──────────────┐ ┌──────────────┐ ┌──────────────┐ ┌──────────────┐        │
+│  │   Keycloak   │ │   Unleash    │ │     n8n      │ │    Tika      │        │
+│  │  Port 8180   │ │  Port 4242   │ │  Port 5678   │ │  Port 9998   │        │
+│  └──────────────┘ └──────────────┘ └──────────────┘ └──────────────┘        │
+├─────────────────────────────────────────────────────────────────────────────┤
+│  OBSERVABILITY (profile: observability)                                      │
+│  ┌──────────────┐ ┌──────────────┐ ┌──────────────┐ ┌──────────────┐        │
+│  │  Prometheus  │ │    Loki      │ │   Grafana    │ │    Tempo     │        │
+│  │  Port 9090   │ │  Port 3100   │ │  Port 3002   │ │  Port 3200   │        │
+│  └──────────────┘ └──────────────┘ └──────────────┘ └──────────────┘        │
+├─────────────────────────────────────────────────────────────────────────────┤
+│  SECURITY (profile: security)                                                │
+│  ┌──────────────┐ ┌──────────────┐ ┌──────────────┐ ┌──────────────┐        │
+│  │   Wazuh      │ │  Infisical   │ │   Step-CA    │ │ Vaultwarden  │        │
+│  │  Port 55000  │ │  Port 8090   │ │  Port 9002   │ │  Port 8005   │        │
+│  └──────────────┘ └──────────────┘ └──────────────┘ └──────────────┘        │
+└─────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---

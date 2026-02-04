@@ -106,17 +106,17 @@ const throttle = <T extends (...args: unknown[]) => unknown>(
   };
 };
 
-const memoizeAsync = <T extends (...args: unknown[]) => Promise<unknown>>(
-  fn: T
-): T => {
-  const cache = new Map<string, unknown>();
-  return (async (...args: unknown[]) => {
+const memoizeAsync = <TArgs extends unknown[], TResult>(
+  fn: (...args: TArgs) => Promise<TResult>
+): ((...args: TArgs) => Promise<TResult>) => {
+  const cache = new Map<string, TResult>();
+  return async (...args: TArgs): Promise<TResult> => {
     const key = JSON.stringify(args);
-    if (cache.has(key)) return cache.get(key);
+    if (cache.has(key)) return cache.get(key) as TResult;
     const result = await fn(...args);
     cache.set(key, result);
     return result;
-  }) as T;
+  };
 };
 
 // =============================================================================
@@ -421,9 +421,10 @@ describe('Async Operations - Enterprise Fuzzing Suite', () => {
     
     errorTypes.forEach((type, index) => {
       it(`should handle ${type} in async operations (#${index + 1})`, async () => {
-        const error = type === 'Custom' 
-          ? new Error('Custom error')
-          : new (globalThis as Record<string, ErrorConstructor>)[type]?.('Test error') || new Error('Test error');
+        const ErrorClass = type === 'TypeError' ? TypeError 
+          : type === 'RangeError' ? RangeError 
+          : Error;
+        const error = new ErrorClass(type === 'Custom' ? 'Custom error' : 'Test error');
         
         const promise = createRejectedPromise(error, 0);
         

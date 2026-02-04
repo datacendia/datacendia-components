@@ -1196,7 +1196,7 @@ export class ManufacturingDefensibleOutput extends DefensibleOutput<Manufacturin
       jurisdiction: this.getJurisdiction(frameworkId),
       generatedAt: new Date(),
       validUntil: this.generateValidityPeriod(365 * 7), // 7 years
-      ISO 9001|IATF 16949|OSHA|FDA QSR|AS9100tions: {
+      sections: {
         executiveSummary: this.generateExecutiveSummary(decision),
         decisionRationale: decision.deliberation.reasoning,
         complianceMapping: complianceEvidence,
@@ -1214,7 +1214,7 @@ export class ManufacturingDefensibleOutput extends DefensibleOutput<Manufacturin
       id: this.generateId('CB'),
       decisionId: decision.metadata.id,
       generatedAt: new Date(),
-      ISO 9001|IATF 16949|OSHA|FDA QSR|AS9100tions: {
+      sections: {
         factualBackground: this.generateFactualBackground(decision),
         decisionProcess: decision.deliberation.reasoning,
         humanOversight: this.generateHumanOversightStatement(decision),

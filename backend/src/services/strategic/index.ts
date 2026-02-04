@@ -91,7 +91,7 @@ export type {
 // SERVICE REGISTRY
 // =============================================================================
 
-export const strategicServices = {
+export const strategicServices: Record<string, () => Promise<unknown>> = {
   // Agentic AI
   synthesisEngine: () => import('./SynthesisEngineService.js').then(m => m.synthesisEngineService),
   

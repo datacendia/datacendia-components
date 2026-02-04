@@ -550,62 +550,95 @@ export class ProcurementDecisionSchema extends DecisionSchema<ProcurementDecisio
 export class GovernmentDefensibleOutput extends DefensibleOutput<GovernmentDecision> {
   readonly verticalId = 'government';
 
-  async toRegulatorPacket(decision: GovernmentDecision, regulatorId: string): Promise<RegulatorPacket> {
+  async toRegulatorPacket(decision: GovernmentDecision, frameworkId: string): Promise<RegulatorPacket> {
+    const complianceEvidence = decision.complianceEvidence.filter(e => e.frameworkId === frameworkId);
+
     return {
-      id: uuidv4(),
+      id: this.generateId('RP'),
       decisionId: decision.metadata.id,
-      regulatorId,
-      format: 'ig-report',
-      content: {
-        decisionSummary: this.summarizeDecision(decision),
-        complianceEvidence: decision.complianceEvidence,
-        deliberationRecord: decision.deliberation,
+      frameworkId,
+      jurisdiction: this.getJurisdiction(frameworkId),
+      generatedAt: new Date(),
+      validUntil: this.generateValidityPeriod(365 * 7),
+      sections: {
+        executiveSummary: this.summarizeDecision(decision),
+        decisionRationale: decision.deliberation.reasoning,
+        complianceMapping: complianceEvidence,
+        dissentsAndOverrides: decision.dissents,
         approvalChain: decision.approvals,
-        dissentsRecorded: decision.dissents
+        auditTrail: [
+          `Decision initiated: ${decision.metadata.createdAt.toISOString()}`,
+          `Created by: ${decision.metadata.createdBy}`,
+        ],
       },
-      generatedAt: new Date(),
-      hash: crypto.createHash('sha256').update(JSON.stringify(decision)).digest('hex'),
-      signature: ''
+      signatures: decision.signatures,
+      hash: this.hashContent(decision),
     };
   }
 
-  async toCourtBundle(decision: GovernmentDecision, caseId: string): Promise<CourtBundle> {
-    return {
-      id: uuidv4(),
+  async toCourtBundle(decision: GovernmentDecision, caseReference?: string): Promise<CourtBundle> {
+    const bundle: CourtBundle = {
+      id: this.generateId('CB'),
       decisionId: decision.metadata.id,
-      caseId,
-      documents: [
-        { name: 'Decision Record', type: 'primary', content: JSON.stringify(decision) },
-        { name: 'Administrative Record', type: 'supporting', content: JSON.stringify(decision.deliberation) }
-      ],
-      humanOversightStatement: `Decision made by ${decision.metadata.createdBy} with ${decision.approvals.length} approvals and ${decision.dissents.length} recorded dissents`,
       generatedAt: new Date(),
-      hash: crypto.createHash('sha256').update(JSON.stringify(decision)).digest('hex')
+      sections: {
+        factualBackground: `This document records the factual circumstances of ${decision.type} decision ${decision.metadata.id}, ` +
+          `made by ${decision.metadata.createdBy} on behalf of organization ${decision.metadata.organizationId}.`,
+        decisionProcess: decision.deliberation.reasoning,
+        humanOversight: `Human oversight was maintained throughout this decision process. ` +
+          `Approvals obtained: ${decision.approvals.length}. Dissents recorded: ${decision.dissents.length}.`,
+        dissentsRecorded: decision.dissents,
+        evidenceChain: [
+          `Inputs hash: ${this.hashContent(decision.inputs)}`,
+          `Deliberation hash: ${this.hashContent(decision.deliberation)}`,
+          `Outcome hash: ${this.hashContent(decision.outcome)}`,
+          `Full decision hash: ${this.hashContent(decision)}`,
+        ],
+      },
+      certifications: {
+        integrityHash: this.hashContent(decision),
+        witnessSignatures: decision.signatures.filter(s => s.signerRole.includes('witness')),
+      },
+    };
+
+    if (caseReference) {
+      bundle.caseReference = caseReference;
+    }
+
+    return bundle;
+  }
+
+  async toAuditTrail(decision: GovernmentDecision, events: unknown[]): Promise<AuditTrail> {
+    const auditEvents = (events as { timestamp: Date; actor: string; action: string; details: Record<string, unknown> }[]).map(e => ({
+      ...e,
+      hash: this.hashContent(e),
+    }));
+
+    return {
+      id: this.generateId('AT'),
+      decisionId: decision.metadata.id,
+      period: { start: decision.metadata.createdAt, end: new Date() },
+      events: auditEvents,
+      summary: {
+        totalEvents: auditEvents.length,
+        uniqueActors: new Set(auditEvents.map(e => e.actor)).size,
+        guardrailsTriggered: auditEvents.filter(e => e.action.includes('guardrail')).length,
+        dissentsRecorded: decision.dissents.length,
+      },
+      hash: this.hashContent(auditEvents),
     };
   }
 
-  async toAuditTrail(decision: GovernmentDecision): Promise<AuditTrail> {
-    return {
-      id: uuidv4(),
-      decisionId: decision.metadata.id,
-      events: [
-        { timestamp: decision.metadata.createdAt, event: 'decision_created', actor: decision.metadata.createdBy, details: {} },
-        ...decision.approvals.map(a => ({
-          timestamp: a.approvedAt,
-          event: 'approval_granted' as const,
-          actor: a.approverId,
-          details: { role: a.approverRole }
-        })),
-        ...decision.signatures.map(s => ({
-          timestamp: s.signedAt,
-          event: 'signature_added' as const,
-          actor: s.signerId,
-          details: { role: s.signerRole }
-        }))
-      ],
-      integrityHash: crypto.createHash('sha256').update(JSON.stringify(decision)).digest('hex'),
-      exportedAt: new Date()
+  private getJurisdiction(frameworkId: string): string {
+    const jurisdictions: Record<string, string> = {
+      FAR: 'US',
+      FISMA: 'US',
+      GPRA: 'US',
+      APA: 'US',
+      '2 CFR 200': 'US',
     };
+
+    return jurisdictions[frameworkId] || 'Unknown';
   }
 
   private summarizeDecision(decision: GovernmentDecision): string {
@@ -628,25 +661,40 @@ export class GovernmentDefensibleOutput extends DefensibleOutput<GovernmentDecis
 // VERTICAL REGISTRATION
 // ============================================================================
 
-export const GovernmentVerticalImplementation: VerticalImplementation = {
-  id: 'government',
-  name: 'Government / Public Sector',
-  version: '1.0.0',
+export const governmentVertical = new (class implements VerticalImplementation<GovernmentDecision> {
+  readonly verticalId = 'government';
+  readonly verticalName = 'Government / Public Sector';
   readonly completionPercentage = 85;
   readonly targetPercentage = 100;
-  layers: {
-    dataConnector: new GovernmentDataConnector(),
-    knowledgeBase: new GovernmentKnowledgeBase(),
-    complianceMapper: new GovernmentComplianceMapper(),
-    decisionSchemas: {
-      procurement: new ProcurementDecisionSchema()
-    },
-    defensibleOutput: new GovernmentDefensibleOutput()
-  },
-  supportedDecisionTypes: ['procurement', 'policy', 'grant', 'budget'],
-  regulatoryFrameworks: ['FAR', 'FISMA', 'GPRA', 'APA', '2 CFR 200']
-};
 
-VerticalRegistry.register(GovernmentVerticalImplementation);
+  readonly dataConnector: DataConnector<unknown> = new GovernmentDataConnector();
+  readonly knowledgeBase: VerticalKnowledgeBase = new GovernmentKnowledgeBase();
+  readonly complianceMapper: ComplianceMapper = new GovernmentComplianceMapper();
+  readonly decisionSchemas: Map<string, DecisionSchema<GovernmentDecision>> = new Map([
+    ['procurement', new ProcurementDecisionSchema() as unknown as DecisionSchema<GovernmentDecision>],
+  ]);
+  readonly agentPresets: Map<string, any> = new Map();
+  readonly defensibleOutput: DefensibleOutput<GovernmentDecision> = new GovernmentDefensibleOutput();
 
-export default GovernmentVerticalImplementation;
+  getStatus() {
+    return {
+      vertical: this.verticalName,
+      layers: {
+        dataConnector: true,
+        knowledgeBase: true,
+        complianceMapper: true,
+        decisionSchemas: this.decisionSchemas.size > 0,
+        agentPresets: this.agentPresets.size > 0,
+        defensibleOutput: true,
+      },
+      completionPercentage: this.completionPercentage,
+      missingComponents: this.agentPresets.size > 0 ? [] : ['agentPresets'],
+    };
+  }
+})();
+
+export const GovernmentVerticalImplementation: VerticalImplementation<GovernmentDecision> = governmentVertical;
+
+VerticalRegistry.getInstance().register(governmentVertical);
+
+export default governmentVertical;

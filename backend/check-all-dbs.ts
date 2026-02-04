@@ -9,7 +9,7 @@ async function checkDatabases() {
   console.log('1. POSTGRESQL (Primary Datacendia DB)');
   console.log('-'.repeat(50));
   try {
-    const pg = new Pool({ connectionString: 'postgresql://cendia:cendia_sovereign_2025@localhost:5434/datacendia' });
+    const pg = new Pool({ connectionString: 'postgresql://datacendia:datacendia_secure_2024@localhost:5433/datacendia' });
     const decisions = await pg.query('SELECT title, status, budget, department FROM decisions LIMIT 5');
     const metrics = await pg.query(`
       SELECT md.name, md.category, mv.value, md.unit 

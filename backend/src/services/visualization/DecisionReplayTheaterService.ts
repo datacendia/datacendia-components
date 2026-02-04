@@ -110,7 +110,7 @@ export class DecisionReplayTheaterService {
    */
   async createReplaySession(deliberationId: string): Promise<ReplaySession> {
     // Fetch deliberation from database
-    const deliberation = await prisma.deliberations.findUnique({
+    const deliberation = await (prisma.deliberations as any).findUnique({
       where: { id: deliberationId },
       include: {
         agent_responses: {
@@ -118,16 +118,17 @@ export class DecisionReplayTheaterService {
         },
         dissents: true,
       },
-    });
+    } as any) as any;
 
     if (!deliberation) {
       throw new Error(`Deliberation ${deliberationId} not found`);
     }
 
+    const d = deliberation as Record<string, any>;
     const frames: ReplayFrame[] = [];
     const agentStats: Map<string, ReplayAgent> = new Map();
     let frameIndex = 0;
-    const startTime = deliberation.created_at;
+    const startTime: Date = d.created_at ?? d.createdAt ?? new Date();
 
     // Add initial frame
     frames.push({
@@ -135,15 +136,15 @@ export class DecisionReplayTheaterService {
       timestamp: startTime,
       relativeTime: 0,
       type: 'system',
-      content: `Deliberation started: ${deliberation.query}`,
+      content: `Deliberation started: ${String(d.query ?? d.question ?? '')}`,
       metadata: {
-        councilMode: deliberation.council_mode,
-        vertical: (deliberation.metadata as Record<string, unknown>)?.vertical,
+        councilMode: String(d.council_mode ?? d.mode ?? 'default'),
+        vertical: (d.metadata as Record<string, any> | undefined)?.vertical,
       },
     });
 
     // Process agent responses
-    for (const response of deliberation.agent_responses) {
+    for (const response of (d.agent_responses ?? []) as any[]) {
       const relativeTime = response.created_at.getTime() - startTime.getTime();
       
       // Track agent stats
@@ -175,7 +176,7 @@ export class DecisionReplayTheaterService {
           confidence: response.confidence,
           round: response.round,
         },
-        confidenceLevels: this.buildConfidenceLevels(deliberation.agent_responses, response.created_at),
+        confidenceLevels: this.buildConfidenceLevels((d.agent_responses ?? []) as any[], response.created_at),
       });
 
       // Extract and add citation frames
@@ -195,7 +196,7 @@ export class DecisionReplayTheaterService {
     }
 
     // Process dissents
-    for (const dissent of deliberation.dissents) {
+    for (const dissent of (d.dissents ?? []) as any[]) {
       const relativeTime = dissent.created_at.getTime() - startTime.getTime();
       
       const agent = agentStats.get(dissent.agent_id);
@@ -219,41 +220,51 @@ export class DecisionReplayTheaterService {
     }
 
     // Add conclusion frame
-    if (deliberation.status === 'completed' && deliberation.final_decision) {
-      const completedAt = deliberation.updated_at;
+    if (String(d.status) === 'completed' && d.final_decision) {
+      const completedAt: Date = d.updated_at ?? d.created_at;
       frames.push({
         frameId: `frame-${frameIndex++}`,
         timestamp: completedAt,
         relativeTime: completedAt.getTime() - startTime.getTime(),
         type: 'consensus',
-        content: deliberation.final_decision,
-        consensusLevel: deliberation.consensus_score || 0,
+        content: d.final_decision,
+        consensusLevel: d.consensus_score || 0,
       });
     }
 
     // Sort frames by relative time
     frames.sort((a, b) => a.relativeTime - b.relativeTime);
 
+    const metadata: ReplaySession['metadata'] = {
+      councilMode: String(d.council_mode ?? d.mode ?? 'default'),
+      createdAt: startTime,
+      totalRounds: Math.max(1, ...(((d.agent_responses as Array<{ round?: number }> | undefined) ?? []).map(r => r.round || 1))),
+    };
+
+    const vertical = (d.metadata as Record<string, any> | undefined)?.vertical as string | undefined;
+    if (vertical !== undefined) {
+      metadata.vertical = vertical;
+    }
+
+    const completedAt = String(d.status) === 'completed' ? (d.updated_at ?? undefined) : undefined;
+    if (completedAt !== undefined) {
+      metadata.completedAt = completedAt;
+    }
+
     const session: ReplaySession = {
       sessionId: `replay-${deliberationId}-${Date.now()}`,
       deliberationId,
-      title: deliberation.query.substring(0, 100),
-      description: deliberation.summary || undefined,
+      title: String(d.query ?? d.question ?? '').substring(0, 100),
+      description: (d.summary as string | undefined) ?? undefined,
       totalDuration: frames.length > 0 ? frames[frames.length - 1].relativeTime : 0,
       frameCount: frames.length,
       frames,
       agents: Array.from(agentStats.values()),
-      outcome: deliberation.final_decision ? {
-        decision: deliberation.final_decision,
-        consensusReached: (deliberation.consensus_score || 0) >= 70,
+      outcome: d['final_decision'] ? {
+        decision: d['final_decision'] as string,
+        consensusReached: ((d['consensus_score'] as number) || 0) >= 70,
       } : undefined,
-      metadata: {
-        councilMode: deliberation.council_mode,
-        vertical: (deliberation.metadata as Record<string, unknown>)?.vertical as string | undefined,
-        createdAt: deliberation.created_at,
-        completedAt: deliberation.status === 'completed' ? deliberation.updated_at : undefined,
-        totalRounds: Math.max(...deliberation.agent_responses.map(r => r.round || 1)),
-      },
+      metadata,
     };
 
     logger.info(`🎬 Created replay session ${session.sessionId} with ${frames.length} frames`);
@@ -309,7 +320,8 @@ export class DecisionReplayTheaterService {
     const state = this.activeSessions.get(sessionId);
     if (state && frameIndex >= 0 && frameIndex < session.frameCount) {
       state.currentFrameIndex = frameIndex;
-      state.currentTime = session.frames[frameIndex].relativeTime;
+      const frame = session.frames[frameIndex];
+      if (frame) state.currentTime = frame.relativeTime;
     }
     return state;
   }
@@ -366,8 +378,9 @@ export class DecisionReplayTheaterService {
     const state = this.activeSessions.get(sessionId);
     if (state && state.currentFrameIndex < session.frameCount - 1) {
       state.currentFrameIndex++;
-      state.currentTime = session.frames[state.currentFrameIndex].relativeTime;
-      return session.frames[state.currentFrameIndex];
+      const nextFrame = session.frames[state.currentFrameIndex];
+      if (nextFrame) state.currentTime = nextFrame.relativeTime;
+      return nextFrame;
     }
     return undefined;
   }
@@ -379,8 +392,9 @@ export class DecisionReplayTheaterService {
     const state = this.activeSessions.get(sessionId);
     if (state && state.currentFrameIndex > 0) {
       state.currentFrameIndex--;
-      state.currentTime = session.frames[state.currentFrameIndex].relativeTime;
-      return session.frames[state.currentFrameIndex];
+      const prevFrame = session.frames[state.currentFrameIndex];
+      if (prevFrame) state.currentTime = prevFrame.relativeTime;
+      return prevFrame;
     }
     return undefined;
   }
@@ -416,10 +430,10 @@ export class DecisionReplayTheaterService {
     };
 
     if (options.includeMetadata) {
-      exportData.metadata = session.metadata;
+      exportData['metadata'] = session.metadata;
     }
 
-    exportData.frames = session.frames.map(frame => {
+    exportData['frames'] = session.frames.map(frame => {
       const frameData: Record<string, unknown> = {
         type: frame.type,
         content: frame.content,
@@ -427,12 +441,12 @@ export class DecisionReplayTheaterService {
       };
       
       if (options.includeTimestamps) {
-        frameData.timestamp = frame.timestamp;
-        frameData.relativeTime = frame.relativeTime;
+        frameData['timestamp'] = frame.timestamp;
+        frameData['relativeTime'] = frame.relativeTime;
       }
       
       if (options.includeConfidenceLevels && frame.confidenceLevels) {
-        frameData.confidenceLevels = frame.confidenceLevels;
+        frameData['confidenceLevels'] = frame.confidenceLevels;
       }
       
       return frameData;
@@ -522,8 +536,9 @@ NARRATOR: "${session.agents.length} specialized AI agents will deliberate on thi
     for (const frame of session.frames) {
       const timeCode = this.formatTime(frame.relativeTime);
       
-      if (frame.metadata?.round && frame.metadata.round !== currentRound) {
-        currentRound = frame.metadata.round as number;
+      const frameRound = frame.metadata?.['round'] as number | undefined;
+      if (frameRound && frameRound !== currentRound) {
+        currentRound = frameRound;
         script += `\n## ROUND ${currentRound} (${timeCode})\n`;
       }
 

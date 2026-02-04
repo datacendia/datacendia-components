@@ -3,7 +3,7 @@
  * Utility functions to emit real-time events to connected clients
  */
 
-import { redis, pubsub } from '../config/redis.js';
+import { pubsub } from '../config/redis.js';
 import { logger } from '../utils/logger.js';
 
 // =============================================================================

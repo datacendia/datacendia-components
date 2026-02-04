@@ -30,25 +30,25 @@ async function main() {
   const results: DBResult[] = [];
 
   // =========================================================================
-  // 1. PostgreSQL (Port 5434)
+  // 1. PostgreSQL (Port 5433)
   // =========================================================================
   console.log('1. POSTGRESQL');
   console.log('─'.repeat(50));
   try {
-    const pg = new Pool({ connectionString: 'postgresql://cendia:cendia_sovereign_2025@localhost:5434/datacendia' });
+    const pg = new Pool({ connectionString: 'postgresql://datacendia:datacendia_secure_2024@localhost:5433/datacendia' });
     const client = await pg.connect();
     
     const tables = await client.query(`SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = 'public'`);
     const decisions = await client.query('SELECT title FROM decisions LIMIT 3');
     
-    console.log(`   ✓ Connected to PostgreSQL on port 5434`);
+    console.log(`   ✓ Connected to PostgreSQL on port 5433`);
     console.log(`   Tables: ${tables.rows[0].count}`);
     console.log(`   Sample: ${decisions.rows.map((r: any) => r.title).join(', ')}`);
     
     results.push({
       name: 'PostgreSQL',
       type: 'Relational (ACID)',
-      port: '5434',
+      port: '5433',
       status: 'CONNECTED',
       tables: parseInt(tables.rows[0].count),
       sample: decisions.rows.map((r: any) => r.title)
@@ -58,7 +58,7 @@ async function main() {
     await pg.end();
   } catch (e: any) {
     console.log(`   ✗ Error: ${e.message}`);
-    results.push({ name: 'PostgreSQL', type: 'Relational', port: '5434', status: 'ERROR', error: e.message });
+    results.push({ name: 'PostgreSQL', type: 'Relational', port: '5433', status: 'ERROR', error: e.message });
   }
 
   // =========================================================================

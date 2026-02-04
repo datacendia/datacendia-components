@@ -293,21 +293,25 @@ const overlays = [
     name: 'Case Law Library',
     function: 'Ingest prior cases, statutes, regulations for citation-grounded research',
     integrates: 'CendiaBridge™ + CendiaGraph™',
+    api: '/api/v1/legal-services/bridge/*',
   },
   {
     name: 'Privilege Gate',
     function: 'Automatic privilege screening with human approval required for export',
     integrates: 'CendiaVeto™ + CendiaGovern™',
+    api: '/api/v1/legal-services/veto/*, /api/v1/legal-services/govern/*',
   },
   {
     name: 'Citation Enforcer',
     function: 'No-source-no-claim: every assertion must link to ingested authority',
-    integrates: 'Evidence Vault + CendiaLens™',
+    integrates: 'Evidence Vault + LegalVerticalService',
+    api: '/api/v1/legal/citations/validate',
   },
   {
     name: 'Matter Workspace',
     function: 'Client → Matter → Documents → Policies hierarchy with RBAC',
-    integrates: 'CendiaSovereign™',
+    integrates: 'LegalVerticalService',
+    api: '/api/v1/legal/matters/*',
   },
 ];
 

@@ -1,6 +1,12 @@
 import React from 'react';
 
-const CourtroomLayout = ({ result, setRecentDecisions, chatEndRef }) => {
+type CourtroomLayoutProps = {
+  result: { currentPhase?: string };
+  setRecentDecisions: (value: unknown) => void;
+  chatEndRef: React.RefObject<HTMLElement>;
+};
+
+const CourtroomLayout = ({ result, setRecentDecisions, chatEndRef }: CourtroomLayoutProps) => {
   // Courtroom layout implementation
   return (
     <div className="courtroom-layout bg-neutral-900 p-4 rounded-xl">

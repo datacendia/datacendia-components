@@ -409,9 +409,9 @@ export class DeliberationVisualizationService extends EventEmitter {
     // Reset agent statuses
     state.agents.forEach(agent => {
       agent.status = 'idle';
-      agent.currentStatement = undefined;
+      agent.currentStatement = '';
     });
-    state.currentSpeaker = undefined;
+    state.currentSpeaker = '';
 
     state.timeline.push({
       id: `round-${Date.now()}`,

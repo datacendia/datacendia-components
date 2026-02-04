@@ -45,6 +45,38 @@ export default defineConfig({
           if (id.includes('node_modules/lucide-react')) {
             return 'lucide';
           }
+          // MUI components (large)
+          if (id.includes('node_modules/@mui')) {
+            return 'mui-vendor';
+          }
+          // Radix UI components
+          if (id.includes('node_modules/@radix-ui')) {
+            return 'radix-vendor';
+          }
+          // Date/time libraries
+          if (id.includes('node_modules/date-fns') || id.includes('node_modules/dayjs')) {
+            return 'date-vendor';
+          }
+          // Form libraries
+          if (id.includes('node_modules/react-hook-form') || id.includes('node_modules/zod')) {
+            return 'form-vendor';
+          }
+          // Chart libraries
+          if (id.includes('node_modules/recharts') || id.includes('node_modules/d3')) {
+            return 'chart-vendor';
+          }
+          // Socket.io
+          if (id.includes('node_modules/socket.io')) {
+            return 'socket-vendor';
+          }
+          // i18n
+          if (id.includes('node_modules/i18next') || id.includes('node_modules/react-i18next')) {
+            return 'i18n-vendor';
+          }
+          // Markdown/code
+          if (id.includes('node_modules/react-markdown') || id.includes('node_modules/prismjs')) {
+            return 'markdown-vendor';
+          }
         },
       },
     },

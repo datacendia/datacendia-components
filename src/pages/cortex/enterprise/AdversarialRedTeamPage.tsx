@@ -3,8 +3,9 @@
 // "100 Ways This Could Fail" - Every agent becomes a devil's advocate
 // =============================================================================
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import { api } from '../../../lib/api';
 import {
   Target,
   AlertTriangle,
@@ -67,7 +68,7 @@ interface RedTeamSummary {
 }
 
 // =============================================================================
-// MOCK DATA
+// ATTACK PERSPECTIVES
 // =============================================================================
 
 const ATTACK_PERSPECTIVES = [
@@ -81,28 +82,29 @@ const ATTACK_PERSPECTIVES = [
   { id: 'black-swan-hunter', name: 'Black Swan Hunter', role: 'Catastrophic Event Finder', icon: Skull, color: 'text-gray-500' },
 ];
 
-const MOCK_ATTACKS: RedTeamAttack[] = [
-  { id: '1', attackerId: 'pessimist-cfo', attackerName: 'Pessimist CFO', attackerRole: 'Financial Doom Prophet', category: 'financial', severity: 'critical', title: 'Hidden Cost Explosion', description: 'Implementation costs are underestimated by 300%', failureScenario: 'Budget overruns force project cancellation at 60% completion, wasting all invested capital', probability: 45, impact: 90, riskScore: 41, mitigationSuggestion: 'Add 50% contingency buffer and implement monthly cost reviews' },
-  { id: '2', attackerId: 'paranoid-ciso', attackerName: 'Paranoid CISO', attackerRole: 'Security Nightmare Finder', category: 'security', severity: 'critical', title: 'Data Breach Vulnerability', description: 'Third-party integration creates attack surface', failureScenario: 'Customer data exposed, resulting in $50M+ regulatory fines and class action lawsuits', probability: 35, impact: 95, riskScore: 33, mitigationSuggestion: 'Conduct penetration testing and implement zero-trust architecture' },
-  { id: '3', attackerId: 'cynical-lawyer', attackerName: 'Cynical Lawyer', attackerRole: 'Litigation Magnet Detector', category: 'legal', severity: 'high', title: 'Regulatory Non-Compliance', description: 'New regulations in Q3 will invalidate current approach', failureScenario: 'Forced to halt operations pending compliance review, 6-month delay minimum', probability: 55, impact: 70, riskScore: 39, mitigationSuggestion: 'Engage regulatory counsel and build compliance checkpoints into timeline' },
-  { id: '4', attackerId: 'skeptical-customer', attackerName: 'Skeptical Customer', attackerRole: 'Customer Abandonment Predictor', category: 'market', severity: 'high', title: 'Customer Value Destruction', description: 'Changes will alienate 40% of existing customer base', failureScenario: 'Mass customer churn leads to 35% revenue decline within 18 months', probability: 40, impact: 80, riskScore: 32, mitigationSuggestion: 'Implement phased rollout with customer feedback loops' },
-  { id: '5', attackerId: 'burned-operator', attackerName: 'Burned Operator', attackerRole: 'Execution Disaster Expert', category: 'operational', severity: 'high', title: 'Resource Constraint Failure', description: 'Key personnel unavailable during critical phases', failureScenario: 'Project stalls for 4 months while scrambling to hire replacements', probability: 60, impact: 55, riskScore: 33, mitigationSuggestion: 'Cross-train team members and establish contractor relationships' },
-  { id: '6', attackerId: 'ethics-watchdog', attackerName: 'Ethics Watchdog', attackerRole: 'Reputation Destroyer Finder', category: 'ethical', severity: 'medium', title: 'Stakeholder Harm', description: 'Decision disproportionately impacts vulnerable groups', failureScenario: 'Social media backlash and boycott campaign damages brand for years', probability: 30, impact: 65, riskScore: 20, mitigationSuggestion: 'Conduct stakeholder impact assessment and establish mitigation fund' },
-  { id: '7', attackerId: 'market-bear', attackerName: 'Market Bear', attackerRole: 'Competitive Destruction Analyst', category: 'strategic', severity: 'medium', title: 'Competitive Response', description: 'Competitors will undercut pricing within 90 days', failureScenario: 'Market share gains evaporate, investment yields negative ROI', probability: 65, impact: 50, riskScore: 33, mitigationSuggestion: 'Build sustainable competitive moats beyond pricing' },
-  { id: '8', attackerId: 'black-swan-hunter', attackerName: 'Black Swan Hunter', attackerRole: 'Catastrophic Event Finder', category: 'external', severity: 'low', title: 'Supply Chain Collapse', description: 'Key supplier in geopolitically unstable region', failureScenario: 'Complete supply chain disruption for 6+ months', probability: 15, impact: 90, riskScore: 14, mitigationSuggestion: 'Diversify supplier base across multiple regions' },
+// =============================================================================
+// TR DEMO DATA - Petrov Transfer Red Team Analysis
+// =============================================================================
+
+const TR_DEMO_ATTACKS: RedTeamAttack[] = [
+  { id: 'tr-1', attackerId: 'paranoid-ciso', attackerName: 'Paranoid CISO', attackerRole: 'Security Nightmare Finder', category: 'regulatory', severity: 'critical', title: 'Basel III PEP Violation', description: 'Transfer to PEP without full 24-hour review violates Basel III §4.2.1', failureScenario: 'Regulatory audit finds inadequate PEP due diligence, resulting in $10M+ fine and consent decree', probability: 65, impact: 95, riskScore: 62, mitigationSuggestion: 'Implement mandatory 24-hour compliance hold for all PEP transactions' },
+  { id: 'tr-2', attackerId: 'cynical-lawyer', attackerName: 'Cynical Lawyer', attackerRole: 'Litigation Magnet Detector', category: 'legal', severity: 'critical', title: 'OFAC Secondary Sanctions', description: 'Cyprus jurisdiction creates potential secondary sanctions exposure', failureScenario: 'US Treasury designates Petrov, firm faces correspondent banking restrictions', probability: 35, impact: 90, riskScore: 32, mitigationSuggestion: 'Obtain explicit OFAC guidance before proceeding' },
+  { id: 'tr-3', attackerId: 'ethics-watchdog', attackerName: 'Ethics Watchdog', attackerRole: 'Reputation Destroyer Finder', category: 'reputational', severity: 'high', title: 'Media Exposure Risk', description: 'Former government official transfer could attract investigative journalism', failureScenario: 'NYT/WSJ story on "Wall Street facilitating oligarch money" destroys client trust', probability: 40, impact: 80, riskScore: 32, mitigationSuggestion: 'Document enhanced due diligence thoroughly for defensibility' },
+  { id: 'tr-4', attackerId: 'pessimist-cfo', attackerName: 'Pessimist CFO', attackerRole: 'Financial Doom Prophet', category: 'financial', severity: 'high', title: 'Client Relationship Damage', description: 'Blocking or delaying transfer may lose $50M+ AUM client', failureScenario: 'Petrov Holdings moves all assets to competitor, 7-year relationship destroyed', probability: 55, impact: 70, riskScore: 39, mitigationSuggestion: 'Communicate proactively with client about compliance requirements' },
+  { id: 'tr-5', attackerId: 'black-swan-hunter', attackerName: 'Black Swan Hunter', attackerRole: 'Catastrophic Event Finder', category: 'geopolitical', severity: 'medium', title: 'Sanctions Escalation', description: 'Geopolitical events could trigger new sanctions on Cyprus/Russia nexus', failureScenario: 'Transfer completed just before new sanctions, firm caught in enforcement action', probability: 25, impact: 85, riskScore: 21, mitigationSuggestion: 'Monitor OFAC/EU sanctions announcements in real-time' },
 ];
 
-const MOCK_SUMMARY: RedTeamSummary = {
-  totalAttacks: 8,
+const TR_DEMO_SUMMARY: RedTeamSummary = {
+  totalAttacks: 5,
   criticalCount: 2,
-  highCount: 3,
-  mediumCount: 2,
-  lowCount: 1,
-  overallRiskScore: 31,
+  highCount: 2,
+  mediumCount: 1,
+  lowCount: 0,
+  overallRiskScore: 67,
   recommendation: 'proceed_with_caution',
-  topRisks: MOCK_ATTACKS.slice(0, 5),
-  categoryBreakdown: { financial: 1, security: 1, legal: 1, market: 1, operational: 1, ethical: 1, strategic: 1, external: 1 },
-  blindSpots: ['technical', 'human', 'regulatory'],
+  topRisks: TR_DEMO_ATTACKS.slice(0, 3),
+  categoryBreakdown: { regulatory: 1, legal: 1, reputational: 1, financial: 1, geopolitical: 1 },
+  blindSpots: ['operational-continuity', 'whistleblower-risk', 'audit-trail-gaps'],
 };
 
 // =============================================================================
@@ -181,11 +183,30 @@ export const AdversarialRedTeamPage: React.FC = () => {
     
     setIsAnalyzing(true);
     
-    // Simulate API call
-    await new Promise(resolve => setTimeout(resolve, 3000));
+    try {
+      // Try to call the real API
+      const res = await api.post<any>('/adversarial-redteam/analyze', {
+        decision,
+        context,
+        perspectives: ATTACK_PERSPECTIVES.map(p => p.id),
+      });
+      const payload = res as any;
+      
+      if (payload.success && payload.attacks) {
+        setAttacks(payload.attacks);
+        setSummary(payload.summary);
+      } else {
+        // Use TR demo data as fallback
+        setAttacks(TR_DEMO_ATTACKS);
+        setSummary(TR_DEMO_SUMMARY);
+      }
+    } catch (error) {
+      console.error('Red team analysis failed:', error);
+      // Use TR demo data on error
+      setAttacks(TR_DEMO_ATTACKS);
+      setSummary(TR_DEMO_SUMMARY);
+    }
     
-    setAttacks(MOCK_ATTACKS);
-    setSummary(MOCK_SUMMARY);
     setHasResults(true);
     setIsAnalyzing(false);
   };

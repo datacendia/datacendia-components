@@ -11,13 +11,9 @@ CREATE TABLE IF NOT EXISTS response_citations (
     similarity_score DECIMAL(5,4) NOT NULL,
     content_hash VARCHAR(64) NOT NULL,
     metadata JSONB DEFAULT '{}',
-    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
-    
-    -- Foreign key to agent_responses (if table exists)
-    CONSTRAINT fk_response_citations_response
-        FOREIGN KEY (response_id) 
-        REFERENCES agent_responses(id) 
-        ON DELETE CASCADE
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
+    -- Note: response_id is a soft reference to deliberation_messages.id or chain_of_thought_logs.id
+    -- No FK constraint since responses can come from multiple tables
 );
 
 -- Indexes for efficient querying

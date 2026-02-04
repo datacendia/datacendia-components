@@ -3,8 +3,9 @@
 // One-click court-admissible decision documentation
 // =============================================================================
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import { api } from '../../../lib/api';
 import {
   FileText,
   Shield,
@@ -87,14 +88,73 @@ interface Deliberation {
 // MOCK DATA
 // =============================================================================
 
-const MOCK_DELIBERATIONS: Deliberation[] = [
+// TR Demo: Petrov Transfer deliberation
+const TR_DEMO_DELIBERATION: Deliberation = {
+  id: 'tr-demo-petrov-transfer',
+  question: '$2.5M PEP Transfer to Viktor Petrov (Cyprus) - Basel III Compliance Review',
+  status: 'completed',
+  councilMode: 'regulatory-compliance',
+  consensusScore: 72,
+  createdAt: new Date('2026-01-29T20:15:00Z'),
+  agentCount: 4,
+};
+
+// Fallback deliberations
+const FALLBACK_DELIBERATIONS: Deliberation[] = [
+  TR_DEMO_DELIBERATION,
   { id: 'del-001', question: 'Should we proceed with the Q1 2026 expansion into European markets?', status: 'completed', councilMode: 'strategic-planning', consensusScore: 87, createdAt: new Date(Date.now() - 86400000 * 2), agentCount: 8 },
   { id: 'del-002', question: 'Evaluate vendor selection for cloud infrastructure migration', status: 'completed', councilMode: 'vendor-evaluation', consensusScore: 72, createdAt: new Date(Date.now() - 86400000 * 5), agentCount: 10 },
-  { id: 'del-003', question: 'Risk assessment for Project Phoenix product launch', status: 'completed', councilMode: 'risk-assessment', consensusScore: 91, createdAt: new Date(Date.now() - 86400000 * 7), agentCount: 6 },
-  { id: 'del-004', question: 'Budget allocation review for FY2026', status: 'completed', councilMode: 'financial-review', consensusScore: 85, createdAt: new Date(Date.now() - 86400000 * 10), agentCount: 8 },
 ];
 
-const MOCK_RECEIPT: Receipt = {
+// TR Demo: Petrov Transfer receipt
+const TR_DEMO_RECEIPT: Receipt = {
+  receiptId: 'RR-2026-01-29-PETROV-001',
+  version: '1.0.0',
+  generatedAt: new Date(),
+  generatedBy: 'stuart@datacendia.com',
+  decision: {
+    id: 'tr-demo-petrov-transfer',
+    question: '$2.5M PEP Transfer to Viktor Petrov (Cyprus) - Basel III Compliance Review',
+    finalDecision: 'ESCALATE_WITH_CONDITIONS: Approve transfer with 24-hour compliance hold, enhanced monitoring for 90 days, documented compliance officer approval. Formal dissent from Risk Analyzer recorded and acknowledged.',
+    councilMode: 'regulatory-compliance',
+    consensusScore: 72,
+    createdAt: new Date('2026-01-29T20:15:00Z'),
+    completedAt: new Date('2026-01-29T20:45:00Z'),
+  },
+  participants: {
+    agents: [
+      { name: 'CFO Advisor', role: 'Financial Analysis', responseCount: 2, dissented: false },
+      { name: 'Risk Analyzer', role: 'Risk Assessment', responseCount: 2, dissented: true },
+      { name: 'Legal Counsel', role: 'Legal Analysis', responseCount: 1, dissented: false },
+      { name: 'Compliance Bot', role: 'Automated Compliance', responseCount: 1, dissented: false },
+    ],
+  },
+  evidenceChain: {
+    merkleRoot: 'e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6',
+    deliberationHash: 'a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2',
+    citationsHash: 'b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3',
+  },
+  compliance: {
+    frameworks: ['Basel III', 'SEC Rule 17a-4', 'FINRA Rule 3310'],
+    gatesCleared: ['ofac-screening', 'pep-review', 'aml-threshold', 'audit-trail'],
+    gatesFailed: [],
+  },
+  cryptographicProof: {
+    algorithm: 'RSA-SHA256',
+    receiptHash: 'd4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5',
+    signedBy: 'meridian-signing-key-001',
+    signedAt: new Date('2026-01-29T20:45:00Z'),
+  },
+  retention: {
+    retentionPeriod: '7 years',
+    retentionUntil: new Date('2033-01-29T20:45:00Z'),
+    jurisdiction: 'US',
+    legalHold: false,
+  },
+};
+
+// Fallback receipt for other deliberations
+const FALLBACK_RECEIPT: Receipt = {
   receiptId: 'RR-1737500000-A1B2C3D4',
   version: '1.0.0',
   generatedAt: new Date(),
@@ -102,7 +162,7 @@ const MOCK_RECEIPT: Receipt = {
   decision: {
     id: 'del-001',
     question: 'Should we proceed with the Q1 2026 expansion into European markets?',
-    finalDecision: 'Approved with modifications: Proceed with phased rollout starting with UK and Germany, with full expansion contingent on Q1 performance metrics.',
+    finalDecision: 'Approved with modifications: Proceed with phased rollout starting with UK and Germany.',
     councilMode: 'strategic-planning',
     consensusScore: 87,
     createdAt: new Date(Date.now() - 86400000 * 2),
@@ -114,8 +174,6 @@ const MOCK_RECEIPT: Receipt = {
       { name: 'CendiaCFO', role: 'Financial Advisor', responseCount: 8, dissented: false },
       { name: 'CendiaCISO', role: 'Security Officer', responseCount: 6, dissented: true },
       { name: 'CendiaRisk', role: 'Risk Analyst', responseCount: 10, dissented: false },
-      { name: 'CendiaEthics', role: 'Ethics Officer', responseCount: 5, dissented: false },
-      { name: 'CendiaCOO', role: 'Operations Lead', responseCount: 7, dissented: false },
     ],
   },
   evidenceChain: {
@@ -125,7 +183,7 @@ const MOCK_RECEIPT: Receipt = {
   },
   compliance: {
     frameworks: ['SOX', 'GDPR', 'CCPA', 'ISO 27001'],
-    gatesCleared: ['audit-trail', 'data-lineage', 'access-control', 'encryption-at-rest', 'encryption-in-transit'],
+    gatesCleared: ['audit-trail', 'data-lineage', 'access-control', 'encryption-at-rest'],
     gatesFailed: [],
   },
   cryptographicProof: {
@@ -166,20 +224,72 @@ const HashDisplay: React.FC<{ label: string; hash: string }> = ({ label, hash })
 
 export const RegulatorsReceiptPage: React.FC = () => {
   const { t } = useTranslation();
-  const [deliberations] = useState<Deliberation[]>(MOCK_DELIBERATIONS);
+  const [deliberations, setDeliberations] = useState<Deliberation[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
   const [selectedDeliberation, setSelectedDeliberation] = useState<Deliberation | null>(null);
   const [receipt, setReceipt] = useState<Receipt | null>(null);
   const [isGenerating, setIsGenerating] = useState(false);
   const [activeTab, setActiveTab] = useState<'overview' | 'evidence' | 'compliance' | 'crypto'>('overview');
 
+  // Load deliberations from API on mount
+  useEffect(() => {
+    loadDeliberations();
+  }, []);
+
+  const loadDeliberations = async () => {
+    setIsLoading(true);
+    try {
+      const res = await api.get<any>('/council/deliberations', { limit: 50 });
+      const payload = res as any;
+      
+      if (payload.success && payload.deliberations && payload.deliberations.length > 0) {
+        const apiDeliberations: Deliberation[] = payload.deliberations
+          .filter((d: any) => d.status === 'COMPLETED')
+          .map((d: any) => ({
+            id: d.id,
+            question: d.question?.substring(0, 150) || 'Council Deliberation',
+            status: 'completed' as const,
+            councilMode: d.mode || 'deliberation',
+            consensusScore: Math.round((d.confidence || 0.7) * 100),
+            createdAt: new Date(d.created_at || d.createdAt),
+            agentCount: d.deliberation_messages?.length || 4,
+          }));
+        setDeliberations(apiDeliberations);
+      } else {
+        setDeliberations(FALLBACK_DELIBERATIONS);
+      }
+    } catch (error) {
+      console.error('Failed to load deliberations:', error);
+      setDeliberations(FALLBACK_DELIBERATIONS);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
   const handleGenerateReceipt = async (deliberation: Deliberation) => {
     setSelectedDeliberation(deliberation);
     setIsGenerating(true);
     
-    // Simulate API call
-    await new Promise(resolve => setTimeout(resolve, 2000));
-    
-    setReceipt(MOCK_RECEIPT);
+    // Use TR Demo receipt for Petrov transfer, otherwise try API then fallback
+    if (deliberation.id === 'tr-demo-petrov-transfer') {
+      await new Promise(resolve => setTimeout(resolve, 1500));
+      setReceipt(TR_DEMO_RECEIPT);
+    } else {
+      try {
+        // Try to fetch from API
+        const res = await api.get<any>(`/regulators-receipt/${deliberation.id}`);
+        const payload = res as any;
+        if (payload.success && payload.receipt) {
+          setReceipt(payload.receipt);
+        } else {
+          await new Promise(resolve => setTimeout(resolve, 1500));
+          setReceipt(FALLBACK_RECEIPT);
+        }
+      } catch {
+        await new Promise(resolve => setTimeout(resolve, 1500));
+        setReceipt(FALLBACK_RECEIPT);
+      }
+    }
     setIsGenerating(false);
   };
 

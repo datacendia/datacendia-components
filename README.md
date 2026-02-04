@@ -7,8 +7,9 @@
 > 
 > Transform complex business decisions with AI-powered councils, multi-agent deliberation, and comprehensive audit trails.
 
-## ✨ What's New (January 21, 2026)
+## ✨ What's New (January 28, 2026)
 
+- **Unified Docker Compose** — Single `docker-compose.unified.yml` with profiles for all services
 - **Defense & National Security Vertical** — DIU-ready with 24 agents, 35 council modes, FedRAMP High/CMMC/ITAR compliance
 - **Real-Time Deliberation Visualization** — Watch AI agents deliberate live with animated avatars
 - **Decision Replay Theater** — Watch past deliberations unfold like a movie
@@ -37,35 +38,54 @@ cd datacendia-components
 cp .env.example .env
 cp backend/.env.example backend/.env
 
-# Install all dependencies (uses npm workspaces)
+# Install all dependencies
 npm install
 
-# Start infrastructure (Postgres, Redis, Neo4j)
-npm run docker:dev
+# Start infrastructure with unified compose (RECOMMENDED)
+docker-compose -f docker-compose.unified.yml --profile core up -d
 
 # Run database migrations
-npm run db:migrate
+cd backend && npx prisma migrate deploy && cd ..
 
 # Seed demo data (optional)
 npm run db:seed
 
-# Start both frontend and backend
-npm run dev:all
-# Or start separately:
-npm run dev              # Frontend only - http://localhost:5173
-npm run dev:backend      # Backend only - http://localhost:3000
+# Start frontend and backend locally
+npm run dev              # Frontend - http://localhost:5173
+cd backend && npm run dev # Backend - http://localhost:3001
 ```
 
-### Using Docker (Full Stack)
+### Docker Compose Profiles
+
+| Profile | Services | RAM Required |
+|---------|----------|-------------|
+| `core` | PostgreSQL, Redis, Neo4j, Ollama | 8GB |
+| `sovereign` | + Druid, ClickHouse, MinIO, Keycloak, etc. | 32GB |
+| `observability` | + Prometheus, Grafana, Loki, Tempo | 48GB |
+| `security` | + Wazuh, Infisical, Step-CA | 64GB |
+| `full` | Everything | 64GB+ |
 
 ```bash
-# Build and start all services
-docker-compose -f docker-compose.production.yml up --build
+# Core only (minimal for development)
+docker-compose -f docker-compose.unified.yml --profile core up -d
 
-# Access the platform
-# Frontend: http://localhost
-# API: http://localhost:3000
+# Core + Sovereign services
+docker-compose -f docker-compose.unified.yml --profile core --profile sovereign up -d
+
+# Full stack
+docker-compose -f docker-compose.unified.yml up -d
 ```
+
+### Default Credentials
+
+| Service | URL | Credentials |
+|---------|-----|-------------|
+| Frontend | http://localhost:5173 | stuart@datacendia.com / DatacendiaOwner2024! |
+| Backend API | http://localhost:3001 | - |
+| Neo4j Browser | http://localhost:7474 | neo4j / datacendia_graph_2024 |
+| MinIO Console | http://localhost:9001 | datacendia_admin / datacendia_secure_2024 |
+| Grafana | http://localhost:3002 | admin / datacendia_secure_2024 |
+| Keycloak | http://localhost:8180 | admin / datacendia_secure_2024 |
 
 ## 📁 Project Structure
 

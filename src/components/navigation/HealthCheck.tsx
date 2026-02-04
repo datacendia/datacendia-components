@@ -19,6 +19,8 @@ import {
 
 import { useHealthContext } from '@/contexts/HealthContext';
 
+export const useHealthCheck = useHealthContext;
+
 // Compact status indicator for the header/sidebar
 export const HealthIndicator: React.FC<{ className?: string }> = ({ className = '' }) => {
   const { health, isChecking, refresh } = useHealthContext();

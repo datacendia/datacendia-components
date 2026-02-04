@@ -1,0 +1,654 @@
+# =============================================================================
+# DATACENDIA UNIFIED DEVELOPMENT STACK
+# =============================================================================
+# Single docker-compose for ALL development needs
+# Combines: Core services + Sovereign infrastructure + Observability
+#
+# Usage:
+#   docker-compose -f docker-compose.unified.yml up -d
+#
+# Profiles:
+#   --profile core        Core services only (postgres, redis, neo4j, ollama)
+#   --profile sovereign   Add sovereign services (druid, minio, keycloak, etc.)
+#   --profile observability  Add monitoring (prometheus, grafana, loki)
+#   --profile security    Add security tools (wazuh, step-ca, infisical)
+#
+# Quick Start (core only):
+#   docker-compose -f docker-compose.unified.yml --profile core up -d
+#
+# Full Stack:
+#   docker-compose -f docker-compose.unified.yml up -d
+# =============================================================================
+
+networks:
+  datacendia:
+    driver: bridge
+    name: datacendia-unified
+
+volumes:
+  postgres_data:
+  redis_data:
+  neo4j_data:
+  neo4j_logs:
+  ollama_data:
+  druid_data:
+  clickhouse_data:
+  clickhouse_logs:
+  minio_data:
+  grafana_data:
+  prometheus_data:
+  loki_data:
+  tempo_data:
+  n8n_data:
+  keycloak_data:
+  wazuh_data:
+  infisical_data:
+  step_ca_data:
+  vaultwarden_data:
+  meilisearch_data:
+
+services:
+  # ===========================================================================
+  # CORE SERVICES (Always needed for development)
+  # ===========================================================================
+
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: datacendia-postgres
+    restart: unless-stopped
+    profiles: ["core", "sovereign", "full"]
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-datacendia}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-datacendia_secure_2024}
+      POSTGRES_DB: ${POSTGRES_DB:-datacendia}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./backend/database/init:/docker-entrypoint-initdb.d
+    ports:
+      - "${POSTGRES_PORT:-5433}:5432"
+    networks:
+      datacendia:
+        aliases:
+          - postgres
+          - db
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-datacendia} -d ${POSTGRES_DB:-datacendia}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    deploy:
+      resources:
+        limits:
+          memory: 4G
+
+  redis:
+    image: redis:7-alpine
+    container_name: datacendia-redis
+    restart: unless-stopped
+    profiles: ["core", "sovereign", "full"]
+    command: redis-server --appendonly yes --requirepass ${REDIS_PASSWORD:-datacendia_redis_2024} --maxmemory 2gb --maxmemory-policy allkeys-lru
+    volumes:
+      - redis_data:/data
+    ports:
+      - "${REDIS_PORT:-6380}:6379"
+    networks:
+      - datacendia
+    healthcheck:
+      test: ["CMD", "redis-cli", "--pass", "${REDIS_PASSWORD:-datacendia_redis_2024}", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  neo4j:
+    image: neo4j:5-community
+    container_name: datacendia-neo4j
+    restart: unless-stopped
+    profiles: ["core", "sovereign", "full"]
+    environment:
+      NEO4J_AUTH: neo4j/${NEO4J_PASSWORD:-datacendia_graph_2024}
+      NEO4J_PLUGINS: '["apoc", "graph-data-science"]'
+      NEO4J_dbms_security_procedures_unrestricted: apoc.*,gds.*
+      NEO4J_dbms_memory_heap_initial__size: 512m
+      NEO4J_dbms_memory_heap_max__size: 2G
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    networks:
+      - datacendia
+    healthcheck:
+      test: ["CMD-SHELL", "wget --no-verbose --tries=1 --spider http://localhost:7474 || exit 1"]
+      interval: 15s
+      timeout: 10s
+      retries: 5
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: datacendia-ollama
+    restart: unless-stopped
+    profiles: ["core", "sovereign", "full"]
+    volumes:
+      - ollama_data:/root/.ollama
+    ports:
+      - "11434:11434"
+    networks:
+      - datacendia
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+
+  # ===========================================================================
+  # SOVEREIGN SERVICES (Enterprise features)
+  # ===========================================================================
+
+  # Apache Druid - High-performance analytics
+  zookeeper:
+    image: zookeeper:3.9
+    container_name: datacendia-zookeeper
+    restart: unless-stopped
+    profiles: ["sovereign", "full"]
+    environment:
+      ZOO_MY_ID: 1
+      ZOO_4LW_COMMANDS_WHITELIST: "*"
+    ports:
+      - "2181:2181"
+    networks:
+      - datacendia
+    healthcheck:
+      test: ["CMD", "zkServer.sh", "status"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+
+  druid-coordinator:
+    image: apache/druid:29.0.1
+    container_name: datacendia-druid-coordinator
+    restart: unless-stopped
+    profiles: ["sovereign", "full"]
+    volumes:
+      - druid_data:/opt/druid/var
+    ports:
+      - "8081:8081"
+    command: coordinator
+    environment:
+      - druid_zk_service_host=zookeeper
+      - druid_metadata_storage_type=derby
+      - druid_metadata_storage_connector_connectURI=jdbc:derby://localhost:1527/var/druid/metadata.db;create=true
+      - druid_storage_type=local
+      - druid_storage_storageDirectory=/opt/druid/var/druid/segments
+      - druid_indexer_logs_type=file
+      - druid_indexer_logs_directory=/opt/druid/var/druid/indexing-logs
+    depends_on:
+      zookeeper:
+        condition: service_healthy
+    networks:
+      - datacendia
+    deploy:
+      resources:
+        limits:
+          memory: 6G
+
+  druid-broker:
+    image: apache/druid:29.0.1
+    container_name: datacendia-druid-broker
+    restart: unless-stopped
+    profiles: ["sovereign", "full"]
+    volumes:
+      - druid_data:/opt/druid/var
+    ports:
+      - "8082:8082"
+    command: broker
+    environment:
+      - druid_zk_service_host=zookeeper
+      - druid_processing_buffer_sizeBytes=256000000
+    depends_on:
+      zookeeper:
+        condition: service_healthy
+    networks:
+      - datacendia
+    deploy:
+      resources:
+        limits:
+          memory: 8G
+
+  druid-historical:
+    image: apache/druid:29.0.1
+    container_name: datacendia-druid-historical
+    restart: unless-stopped
+    profiles: ["sovereign", "full"]
+    volumes:
+      - druid_data:/opt/druid/var
+    ports:
+      - "8083:8083"
+    command: historical
+    environment:
+      - druid_zk_service_host=zookeeper
+      - druid_processing_buffer_sizeBytes=256000000
+      - druid_storage_type=local
+      - druid_storage_storageDirectory=/opt/druid/var/druid/segments
+    depends_on:
+      zookeeper:
+        condition: service_healthy
+    networks:
+      - datacendia
+    deploy:
+      resources:
+        limits:
+          memory: 16G
+
+  druid-router:
+    image: apache/druid:29.0.1
+    container_name: datacendia-druid-router
+    restart: unless-stopped
+    profiles: ["sovereign", "full"]
+    volumes:
+      - druid_data:/opt/druid/var
+    ports:
+      - "8888:8888"
+    command: router
+    environment:
+      - druid_zk_service_host=zookeeper
+    depends_on:
+      zookeeper:
+        condition: service_healthy
+    networks:
+      - datacendia
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+
+  # ClickHouse - Fast analytics (simpler alternative to Druid)
+  clickhouse:
+    image: clickhouse/clickhouse-server:latest
+    container_name: datacendia-clickhouse
+    restart: unless-stopped
+    profiles: ["sovereign", "full"]
+    environment:
+      CLICKHOUSE_DB: datacendia
+      CLICKHOUSE_USER: ${CLICKHOUSE_USER:-datacendia}
+      CLICKHOUSE_PASSWORD: ${CLICKHOUSE_PASSWORD:-datacendia_secure_2024}
+      CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT: 1
+    volumes:
+      - clickhouse_data:/var/lib/clickhouse
+      - clickhouse_logs:/var/log/clickhouse-server
+    ports:
+      - "8123:8123"
+      - "9009:9000"
+    networks:
+      - datacendia
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:8123/ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    deploy:
+      resources:
+        limits:
+          memory: 4G
+
+  # MinIO - S3-compatible object storage
+  minio:
+    image: minio/minio:latest
+    container_name: datacendia-minio
+    restart: unless-stopped
+    profiles: ["sovereign", "full"]
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:-datacendia_admin}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:-datacendia_secure_2024}
+    volumes:
+      - minio_data:/data
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    networks:
+      - datacendia
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 30s
+      timeout: 20s
+      retries: 3
+
+  # Meilisearch - Full-text search
+  meilisearch:
+    image: getmeili/meilisearch:latest
+    container_name: datacendia-meilisearch
+    restart: unless-stopped
+    profiles: ["sovereign", "full"]
+    environment:
+      MEILI_MASTER_KEY: ${MEILI_MASTER_KEY:-datacendia_secure_2024}
+      MEILI_ENV: development
+    volumes:
+      - meilisearch_data:/meili_data
+    ports:
+      - "7700:7700"
+    networks:
+      - datacendia
+
+  # Apache Tika - Document extraction
+  tika:
+    image: apache/tika:latest
+    container_name: datacendia-tika
+    restart: unless-stopped
+    profiles: ["sovereign", "full"]
+    ports:
+      - "9998:9998"
+    networks:
+      - datacendia
+    healthcheck:
+      test: ["CMD-SHELL", "wget --spider -q http://localhost:9998/tika || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+
+  # n8n - Workflow automation
+  n8n:
+    image: n8nio/n8n:latest
+    container_name: datacendia-n8n
+    restart: unless-stopped
+    profiles: ["sovereign", "full"]
+    environment:
+      - N8N_BASIC_AUTH_ACTIVE=true
+      - N8N_BASIC_AUTH_USER=${N8N_USER:-admin}
+      - N8N_BASIC_AUTH_PASSWORD=${N8N_PASSWORD:-datacendia_secure_2024}
+      - N8N_HOST=localhost
+      - N8N_PORT=5678
+      - N8N_PROTOCOL=http
+      - WEBHOOK_URL=http://localhost:5678/
+      - GENERIC_TIMEZONE=America/New_York
+    volumes:
+      - n8n_data:/home/node/.n8n
+    ports:
+      - "5678:5678"
+    networks:
+      - datacendia
+
+  # Keycloak - SSO/Identity (uses main postgres)
+  keycloak:
+    image: quay.io/keycloak/keycloak:latest
+    container_name: datacendia-keycloak
+    restart: unless-stopped
+    profiles: ["sovereign", "full"]
+    command: start-dev
+    environment:
+      KEYCLOAK_ADMIN: ${KEYCLOAK_ADMIN:-admin}
+      KEYCLOAK_ADMIN_PASSWORD: ${KEYCLOAK_ADMIN_PASSWORD:-datacendia_secure_2024}
+      KC_DB: postgres
+      KC_DB_URL: jdbc:postgresql://postgres:5432/keycloak
+      KC_DB_USERNAME: ${POSTGRES_USER:-datacendia}
+      KC_DB_PASSWORD: ${POSTGRES_PASSWORD:-datacendia_secure_2024}
+    ports:
+      - "8180:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - datacendia
+
+  # Unleash - Feature flags (uses main postgres)
+  unleash:
+    image: unleashorg/unleash-server:latest
+    container_name: datacendia-unleash
+    restart: unless-stopped
+    profiles: ["sovereign", "full"]
+    environment:
+      DATABASE_URL: "postgres://${POSTGRES_USER:-datacendia}:${POSTGRES_PASSWORD:-datacendia_secure_2024}@postgres:5432/unleash"
+      DATABASE_SSL: "false"
+      INIT_ADMIN_API_TOKENS: "*:*.datacendia-admin-token"
+    ports:
+      - "4242:4242"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - datacendia
+
+  # Vaultwarden - Password vault
+  vaultwarden:
+    image: vaultwarden/server:latest
+    container_name: datacendia-vault
+    restart: unless-stopped
+    profiles: ["sovereign", "full"]
+    environment:
+      WEBSOCKET_ENABLED: "true"
+      SIGNUPS_ALLOWED: "false"
+      INVITATIONS_ALLOWED: "true"
+      ADMIN_TOKEN: ${VAULTWARDEN_ADMIN_TOKEN:-}
+      DOMAIN: ${VAULTWARDEN_DOMAIN:-http://localhost:8005}
+      DATABASE_URL: /data/db.sqlite3
+      ROCKET_PORT: 80
+      LOG_LEVEL: info
+    volumes:
+      - vaultwarden_data:/data
+    ports:
+      - "8005:80"
+      - "3012:3012"
+    networks:
+      - datacendia
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:80/alive"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # MongoDB - For Infisical
+  mongo:
+    image: mongo:6
+    container_name: datacendia-mongo
+    restart: unless-stopped
+    profiles: ["security", "full"]
+    volumes:
+      - infisical_data:/data/db
+    networks:
+      - datacendia
+
+  # Infisical - Secrets management
+  infisical:
+    image: infisical/infisical:latest
+    container_name: datacendia-infisical
+    restart: unless-stopped
+    profiles: ["security", "full"]
+    environment:
+      - ENCRYPTION_KEY=${INFISICAL_ENCRYPTION_KEY:-a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6}
+      - AUTH_SECRET=${INFISICAL_AUTH_SECRET:-datacendia_auth_secret}
+      - DB_CONNECTION_URI=postgres://${POSTGRES_USER:-datacendia}:${POSTGRES_PASSWORD:-datacendia_secure_2024}@postgres:5432/infisical
+      - REDIS_URL=redis://:${REDIS_PASSWORD:-datacendia_redis_2024}@redis:6379
+      - SITE_URL=http://localhost:8090
+      - TELEMETRY_ENABLED=false
+    ports:
+      - "8090:8080"
+    depends_on:
+      - postgres
+      - redis
+      - mongo
+    networks:
+      - datacendia
+
+  # Step-CA - Internal PKI
+  step-ca:
+    image: smallstep/step-ca:latest
+    container_name: datacendia-step-ca
+    restart: unless-stopped
+    profiles: ["security", "full"]
+    environment:
+      DOCKER_STEPCA_INIT_NAME: "Datacendia CA"
+      DOCKER_STEPCA_INIT_DNS_NAMES: "localhost,step-ca"
+      DOCKER_STEPCA_INIT_REMOTE_MANAGEMENT: "true"
+    volumes:
+      - step_ca_data:/home/step
+    ports:
+      - "9002:9000"
+    networks:
+      - datacendia
+
+  # Wazuh - Security monitoring
+  wazuh:
+    image: wazuh/wazuh-manager:4.7.0
+    container_name: datacendia-wazuh
+    restart: unless-stopped
+    profiles: ["security", "full"]
+    hostname: wazuh-manager
+    environment:
+      INDEXER_URL: "https://localhost:9200"
+      INDEXER_USERNAME: "admin"
+      INDEXER_PASSWORD: "SecretPassword"
+      FILEBEAT_SSL_VERIFICATION_MODE: "none"
+      API_USERNAME: "wazuh-wui"
+      API_PASSWORD: "${WAZUH_API_PASSWORD:-DatacendiaWazuh2024!}"
+    volumes:
+      - wazuh_data:/var/ossec/data
+    ports:
+      - "1514:1514/udp"
+      - "1515:1515"
+      - "55000:55000"
+    networks:
+      - datacendia
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+
+  # ===========================================================================
+  # OBSERVABILITY SERVICES
+  # ===========================================================================
+
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: datacendia-prometheus
+    restart: unless-stopped
+    profiles: ["observability", "full"]
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--storage.tsdb.retention.time=30d'
+      - '--web.enable-lifecycle'
+    volumes:
+      - ./infrastructure/config/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - prometheus_data:/prometheus
+    ports:
+      - "9090:9090"
+    networks:
+      - datacendia
+
+  loki:
+    image: grafana/loki:latest
+    container_name: datacendia-loki
+    restart: unless-stopped
+    profiles: ["observability", "full"]
+    command: -config.file=/etc/loki/local-config.yaml
+    volumes:
+      - ./infrastructure/config/loki/loki-config.yml:/etc/loki/local-config.yaml:ro
+      - loki_data:/loki
+    ports:
+      - "3100:3100"
+    networks:
+      - datacendia
+
+  tempo:
+    image: grafana/tempo:latest
+    container_name: datacendia-tempo
+    restart: unless-stopped
+    profiles: ["observability", "full"]
+    command: ["-config.file=/etc/tempo.yaml"]
+    volumes:
+      - ./infrastructure/config/tempo/tempo.yaml:/etc/tempo.yaml:ro
+      - tempo_data:/var/tempo
+    ports:
+      - "3200:3200"
+      - "4317:4317"
+      - "4318:4318"
+    networks:
+      - datacendia
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: datacendia-grafana
+    restart: unless-stopped
+    profiles: ["observability", "full"]
+    environment:
+      GF_SECURITY_ADMIN_USER: ${GRAFANA_USER:-admin}
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_PASSWORD:-datacendia_secure_2024}
+      GF_USERS_ALLOW_SIGN_UP: "false"
+      GF_SERVER_ROOT_URL: "http://localhost:3002"
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./infrastructure/config/grafana/provisioning:/etc/grafana/provisioning:ro
+    ports:
+      - "3002:3000"
+    depends_on:
+      - prometheus
+      - loki
+    networks:
+      - datacendia
+
+  # ===========================================================================
+  # APPLICATION SERVICES (Optional - can run locally instead)
+  # ===========================================================================
+
+  api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: datacendia-api
+    restart: unless-stopped
+    profiles: ["app"]
+    environment:
+      NODE_ENV: development
+      PORT: 3001
+      DATABASE_URL: postgresql://${POSTGRES_USER:-datacendia}:${POSTGRES_PASSWORD:-datacendia_secure_2024}@postgres:5432/datacendia
+      REDIS_URL: redis://:${REDIS_PASSWORD:-datacendia_redis_2024}@redis:6379
+      NEO4J_URI: bolt://neo4j:7687
+      NEO4J_USER: neo4j
+      NEO4J_PASSWORD: ${NEO4J_PASSWORD:-datacendia_graph_2024}
+      OLLAMA_BASE_URL: http://ollama:11434
+      JWT_SECRET: ${JWT_SECRET:-your-super-secret-jwt-key-change-in-production}
+      JWT_REFRESH_SECRET: ${JWT_REFRESH_SECRET:-your-refresh-secret-key-change-in-production}
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+    ports:
+      - "3001:3001"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - datacendia
+    command: npm run dev
+
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: datacendia-frontend
+    restart: unless-stopped
+    profiles: ["app"]
+    environment:
+      VITE_API_URL: http://localhost:3001/api/v1
+      VITE_WS_URL: ws://localhost:3001
+    volumes:
+      - .:/app
+      - /app/node_modules
+    ports:
+      - "5173:5173"
+    depends_on:
+      - api
+    networks:
+      - datacendia
+    command: npm run dev -- --host

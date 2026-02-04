@@ -27,13 +27,13 @@ async function testRealMultiSource() {
   // =========================================================================
   // 1. PostgreSQL (Primary Database)
   // =========================================================================
-  console.log('1. POSTGRESQL (Port 5434)');
+  console.log('1. POSTGRESQL (Port 5433)');
   console.log('-'.repeat(50));
   
   let pgPool: Pool | null = null;
   try {
     pgPool = new Pool({
-      connectionString: 'postgresql://cendia:cendia_sovereign_2025@localhost:5434/datacendia'
+      connectionString: 'postgresql://datacendia:datacendia_secure_2024@localhost:5433/datacendia'
     });
     
     const pgClient = await pgPool.connect();

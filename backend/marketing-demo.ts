@@ -30,7 +30,7 @@ async function runDemo() {
   console.log(`${BOLD}Demo Scenario:${RESET} A Fortune 500 enterprise client wants to see how`);
   console.log(`Datacendia connects to their existing data infrastructure.\n`);
   console.log(`${BOLD}Data Sources Connected:${RESET}`);
-  console.log(`  • PostgreSQL (Port 5434) - Datacendia Platform Database`);
+  console.log(`  • PostgreSQL (Port 5433) - Datacendia Platform Database`);
   console.log(`  • MySQL (Port 3306)      - Client's Salesforce CRM Export`);
   console.log(`  • MariaDB (Port 3307)    - Client's Analytics Data Warehouse`);
   console.log(`  • Redis (Port 6380)      - Real-Time Operational Metrics`);
@@ -40,9 +40,9 @@ async function runDemo() {
   // ==========================================================================
   header('DEMO 1: Strategic Decision Intelligence', GREEN);
   console.log(`${YELLOW}📍 Data Source: PostgreSQL (Datacendia Platform)${RESET}`);
-  console.log(`${YELLOW}   Connection: postgresql://localhost:5434/datacendia${RESET}\n`);
+  console.log(`${YELLOW}   Connection: postgresql://localhost:5433/datacendia${RESET}\n`);
   
-  const pg = new Pool({ connectionString: 'postgresql://cendia:cendia_sovereign_2025@localhost:5434/datacendia' });
+  const pg = new Pool({ connectionString: 'postgresql://datacendia:datacendia_secure_2024@localhost:5433/datacendia' });
   
   section('Active Strategic Decisions');
   const decisions = await pg.query(`

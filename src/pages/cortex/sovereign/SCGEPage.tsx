@@ -10,7 +10,6 @@ import {
   Box,
   Typography,
   Paper,
-  Grid,
   Button,
   Card,
   CardContent,
@@ -36,6 +35,7 @@ import {
   TableHead,
   TableRow,
 } from '@mui/material';
+import Grid from '@mui/material/GridLegacy';
 import {
   PlayArrow as PlayIcon,
   Stop as StopIcon,
@@ -321,7 +321,7 @@ To replay this simulation:
           <Paper sx={{ p: 2, textAlign: 'center' }}>
             <GroupIcon sx={{ fontSize: 40, color: 'primary.main', mb: 1 }} />
             <Typography variant="h5">{populationSize.toLocaleString()}</Typography>
-            <Typography variant="caption" color="text.secondary">
+            <Typography variant="body2" color="text.secondary">
               Synthetic Population
             </Typography>
           </Paper>
@@ -330,7 +330,7 @@ To replay this simulation:
           <Paper sx={{ p: 2, textAlign: 'center' }}>
             <PolicyIcon sx={{ fontSize: 40, color: 'secondary.main', mb: 1 }} />
             <Typography variant="h5">{eventScenarios.length}</Typography>
-            <Typography variant="caption" color="text.secondary">
+            <Typography variant="body2" color="text.secondary">
               Event Scenarios
             </Typography>
           </Paper>
@@ -339,7 +339,7 @@ To replay this simulation:
           <Paper sx={{ p: 2, textAlign: 'center' }}>
             <WarningIcon sx={{ fontSize: 40, color: 'warning.main', mb: 1 }} />
             <Typography variant="h5">{stressors.length}</Typography>
-            <Typography variant="caption" color="text.secondary">
+            <Typography variant="body2" color="text.secondary">
               Stressors Available
             </Typography>
           </Paper>
@@ -348,7 +348,7 @@ To replay this simulation:
           <Paper sx={{ p: 2, textAlign: 'center' }}>
             <AssessmentIcon sx={{ fontSize: 40, color: 'success.main', mb: 1 }} />
             <Typography variant="h5">{completedSimulations.length}</Typography>
-            <Typography variant="caption" color="text.secondary">
+            <Typography variant="body2" color="text.secondary">
               Completed Simulations
             </Typography>
           </Paper>

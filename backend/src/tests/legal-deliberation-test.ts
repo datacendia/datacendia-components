@@ -65,7 +65,7 @@ async function testCaseLawSearch() {
       `Found ${results.length} cases`
     );
     
-    if (results.length > 0) {
+    if (results.length > 0 && results[0]) {
       console.log('\nSample Result:');
       console.log(`  Title: ${results[0].title}`);
       console.log(`  Citation: ${results[0].citation}`);
@@ -94,7 +94,7 @@ async function testRegulationSearch() {
       `Found ${results.length} regulations`
     );
     
-    if (results.length > 0) {
+    if (results.length > 0 && results[0]) {
       console.log('\nSample Result:');
       console.log(`  Title: ${results[0].title}`);
       console.log(`  Citation: ${results[0].citation}`);
@@ -128,10 +128,10 @@ async function testStateBillSearch() {
       `Found ${results.length} bills`
     );
     
-    if (results.length > 0) {
+    if (results.length > 0 && results[0]) {
       console.log('\nSample Result:');
       console.log(`  Title: ${results[0].title}`);
-      console.log(`  State: ${results[0].metadata?.state}`);
+      console.log(`  State: ${results[0].metadata?.['state']}`);
     }
     
     return results;
@@ -157,11 +157,11 @@ async function testFederalRegisterSearch() {
       `Found ${results.length} documents`
     );
     
-    if (results.length > 0) {
+    if (results.length > 0 && results[0]) {
       console.log('\nSample Result:');
       console.log(`  Title: ${results[0].title?.substring(0, 80)}...`);
       console.log(`  Date: ${results[0].date}`);
-      console.log(`  Type: ${results[0].metadata?.type}`);
+      console.log(`  Type: ${results[0].metadata?.['type']}`);
     }
     
     return results;
@@ -187,11 +187,11 @@ async function testSECFilingsSearch() {
       `Found ${results.length} filings`
     );
     
-    if (results.length > 0) {
+    if (results.length > 0 && results[0]) {
       console.log('\nSample Result:');
       console.log(`  Title: ${results[0].title}`);
       console.log(`  Date: ${results[0].date}`);
-      console.log(`  Form: ${results[0].metadata?.form}`);
+      console.log(`  Form: ${results[0].metadata?.['form']}`);
     }
     
     return results;

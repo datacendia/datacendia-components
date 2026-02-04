@@ -6,6 +6,7 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useWebSocket } from '@/hooks/useWebSocket';
+import { api } from '../../../lib/api';
 import {
   Play,
   Pause,
@@ -60,7 +61,23 @@ interface ReplaySession {
 // MOCK DATA
 // =============================================================================
 
-const MOCK_SESSIONS: ReplaySession[] = [
+// TR Demo Session - Petrov Transfer (seeded from backend)
+const TR_DEMO_SESSION: ReplaySession = {
+  id: 'tr-demo-petrov-transfer',
+  title: '$2.5M PEP Transfer to Viktor Petrov - Cyprus',
+  description: 'Basel III compliance deliberation for politically exposed person transfer with formal dissent',
+  duration: 1822000,
+  frameCount: 6,
+  agentCount: 4,
+  outcome: 'ESCALATE_WITH_CONDITIONS',
+  consensusReached: false,
+  createdAt: new Date('2026-01-29T20:15:00Z'),
+  councilMode: 'regulatory-compliance',
+};
+
+// Fallback mock sessions (shown if no API data)
+const FALLBACK_SESSIONS: ReplaySession[] = [
+  TR_DEMO_SESSION,
   {
     id: '1',
     title: 'Q1 2026 Budget Allocation Strategy',
@@ -73,44 +90,25 @@ const MOCK_SESSIONS: ReplaySession[] = [
     createdAt: new Date(Date.now() - 86400000 * 2),
     councilMode: 'strategic-planning',
   },
-  {
-    id: '2',
-    title: 'New Product Launch Risk Assessment',
-    description: 'Comprehensive risk analysis for Project Phoenix',
-    duration: 623000,
-    frameCount: 98,
-    agentCount: 6,
-    outcome: 'Proceed with caution',
-    consensusReached: true,
-    createdAt: new Date(Date.now() - 86400000 * 5),
-    councilMode: 'risk-assessment',
-  },
-  {
-    id: '3',
-    title: 'Vendor Selection: Cloud Infrastructure',
-    description: 'Evaluation of AWS vs Azure vs GCP for enterprise migration',
-    duration: 1245000,
-    frameCount: 234,
-    agentCount: 10,
-    outcome: 'Selected AWS with hybrid approach',
-    consensusReached: false,
-    createdAt: new Date(Date.now() - 86400000 * 7),
-    councilMode: 'vendor-evaluation',
-  },
 ];
 
-const MOCK_FRAMES: ReplayFrame[] = [
+// TR Demo Frames - Petrov Transfer deliberation
+const TR_DEMO_FRAMES: ReplayFrame[] = [
+  { id: 'tr-1', timestamp: 0, type: 'round_change', content: 'Deliberation initiated: $2.5M PEP Transfer to Viktor Petrov' },
+  { id: 'tr-2', timestamp: 90000, type: 'statement', agentName: 'CFO Advisor', agentRole: 'Financial Analysis', content: 'From a financial perspective, this $2.5M transfer represents a routine transaction size for our institutional clients. However, the PEP status of Viktor Petrov introduces enhanced scrutiny requirements under Basel III. Recommendation: Proceed with transfer, but ensure all Basel III documentation requirements are met before execution.', confidence: 78 },
+  { id: 'tr-3', timestamp: 285000, type: 'dissent', agentName: 'Risk Analyzer', agentRole: 'Risk Assessment', content: '**FORMAL OBJECTION FILED** - PEP exposure combined with cross-border jurisdiction creates unacceptable regulatory risk. Risk Factors: PEP Status (+25%), Cross-Border Jurisdiction (+20%), Time Pressure (+15%), Amount Threshold (+7%). Cumulative Score: 67%. This transfer should be BLOCKED until a full 24-hour compliance review is completed.' },
+  { id: 'tr-4', timestamp: 552000, type: 'statement', agentName: 'Legal Counsel', agentRole: 'Legal Analysis', content: 'Legal analysis: Basel III PEP requirements PARTIALLY MET. SEC recordkeeping AT RISK. FINRA AML REQUIRES ATTENTION. I concur with Risk Analyzer that a 24-hour hold is prudent. However, if business necessity requires same-day execution, ensure compliance officer verbal approval is documented.', confidence: 82 },
+  { id: 'tr-5', timestamp: 693000, type: 'statement', agentName: 'Compliance Bot', agentRole: 'Automated Compliance', content: 'AUTOMATED COMPLIANCE CHECK: OFAC Screening ✅ PASS, PEP Database ⚠️ FLAG (Viktor Petrov - Former Deputy Minister of Finance), Jurisdiction Risk ⚠️ FLAG (Cyprus - Medium-High), Amount Threshold ⚠️ FLAG (Exceeds $1M PEP threshold). Basel III Compliance Score: 62/100 (Below 75 threshold). System Recommendation: ESCALATE to human compliance officer.', confidence: 91 },
+  { id: 'tr-6', timestamp: 960000, type: 'statement', agentName: 'CFO Advisor', agentRole: 'Financial Analysis', content: 'Responding to Risk Analyzer: I acknowledge the regulatory concerns, but Petrov Holdings has been a client for 7 years with no compliance incidents. Proposed Compromise: Execute transfer with compliance hold (funds released after 24-hour review), document this deliberation as evidence of due diligence.', confidence: 74 },
+  { id: 'tr-7', timestamp: 1185000, type: 'dissent', agentName: 'Risk Analyzer', agentRole: 'Risk Assessment', content: '**DISSENT MAINTAINED** - I will accept the compromise IF AND ONLY IF: This deliberation is preserved as part of the audit trail, my dissent is formally recorded and acknowledged, compliance officer approval is documented (not just verbal), enhanced monitoring is implemented for 90 days minimum.' },
+  { id: 'tr-8', timestamp: 1620000, type: 'vote', content: 'Voting initiated: APPROVE WITH CONDITIONS vs BLOCK' },
+  { id: 'tr-9', timestamp: 1822000, type: 'consensus', content: 'Decision: ESCALATE_WITH_CONDITIONS - Approve transfer with 24-hour compliance hold, enhanced monitoring for 90 days, documented compliance officer approval. Dissent from Risk Analyzer formally recorded and acknowledged.' },
+];
+
+// Fallback mock frames
+const FALLBACK_FRAMES: ReplayFrame[] = [
   { id: '1', timestamp: 0, type: 'round_change', content: 'Round 1 begins' },
-  { id: '2', timestamp: 5000, type: 'statement', agentName: 'CendiaChief', agentRole: 'Chief Strategist', content: 'Let\'s begin by examining the key factors driving this decision. We need to consider market conditions, resource availability, and competitive positioning.', confidence: 75 },
-  { id: '3', timestamp: 15000, type: 'statement', agentName: 'CendiaCFO', agentRole: 'Financial Advisor', content: 'From a financial perspective, Option A offers better short-term ROI, but Option B has stronger long-term value creation potential.', confidence: 80 },
-  { id: '4', timestamp: 25000, type: 'citation', agentName: 'CendiaCFO', content: 'Added citation: Q3 2025 Financial Analysis Report' },
-  { id: '5', timestamp: 35000, type: 'statement', agentName: 'CendiaCISO', agentRole: 'Security Officer', content: 'I have concerns about the security implications of Option A. The vendor has had two data breaches in the past 18 months.', confidence: 60 },
-  { id: '6', timestamp: 45000, type: 'dissent', agentName: 'CendiaCISO', content: 'Formal dissent: Security risks of Option A are unacceptable' },
-  { id: '7', timestamp: 55000, type: 'statement', agentName: 'CendiaRisk', agentRole: 'Risk Analyst', content: 'Quantifying the risk: Option A carries a 23% probability of significant security incident within 24 months.', confidence: 85 },
-  { id: '8', timestamp: 65000, type: 'round_change', content: 'Round 2 begins' },
-  { id: '9', timestamp: 75000, type: 'statement', agentName: 'CendiaChief', agentRole: 'Chief Strategist', content: 'Given the security concerns, let\'s explore a modified approach that combines the financial benefits of Option A with the security posture of Option B.', confidence: 82 },
-  { id: '10', timestamp: 85000, type: 'vote', content: 'Voting initiated on modified proposal' },
-  { id: '11', timestamp: 95000, type: 'consensus', content: 'Consensus reached: Modified approach approved with 87% agreement' },
+  { id: '2', timestamp: 5000, type: 'statement', agentName: 'CendiaChief', agentRole: 'Chief Strategist', content: 'Let\'s begin by examining the key factors driving this decision.', confidence: 75 },
 ];
 
 // =============================================================================
@@ -140,9 +138,93 @@ const formatTimestamp = (ms: number): string => {
 
 export const DecisionReplayTheaterPage: React.FC = () => {
   const { t } = useTranslation();
-  const [sessions, setSessions] = useState<ReplaySession[]>(MOCK_SESSIONS);
+  const [sessions, setSessions] = useState<ReplaySession[]>([]);
   const [selectedSession, setSelectedSession] = useState<ReplaySession | null>(null);
-  const [frames, setFrames] = useState<ReplayFrame[]>(MOCK_FRAMES);
+  const [frames, setFrames] = useState<ReplayFrame[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  // Load sessions from API on mount
+  useEffect(() => {
+    loadSessions();
+  }, []);
+
+  const loadSessions = async () => {
+    setIsLoading(true);
+    try {
+      // Fetch deliberations from API
+      const res = await api.get<any>('/council/deliberations', { limit: 50 });
+      const payload = res as any;
+      
+      if (payload.success && payload.deliberations && payload.deliberations.length > 0) {
+        const apiSessions: ReplaySession[] = payload.deliberations.map((d: any) => ({
+          id: d.id,
+          title: d.question?.substring(0, 100) || 'Council Deliberation',
+          description: d.question || '',
+          duration: d.duration_ms || (d.completed_at && d.started_at ? 
+            new Date(d.completed_at).getTime() - new Date(d.started_at).getTime() : 600000),
+          frameCount: d.deliberation_messages?.length || d.responses?.length || 1,
+          agentCount: 4,
+          outcome: d.decision ? JSON.parse(d.decision).outcome || 'Completed' : d.status,
+          consensusReached: d.confidence >= 0.7,
+          createdAt: new Date(d.created_at || d.createdAt),
+          councilMode: d.mode || 'deliberation',
+        }));
+        setSessions(apiSessions);
+      } else {
+        // Use fallback with TR demo session first
+        setSessions(FALLBACK_SESSIONS);
+      }
+    } catch (error) {
+      console.error('Failed to load sessions:', error);
+      setSessions(FALLBACK_SESSIONS);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  const loadFramesForSession = async (sessionId: string) => {
+    // Check if this is the TR demo session
+    if (sessionId === 'tr-demo-petrov-transfer') {
+      setFrames(TR_DEMO_FRAMES);
+      return;
+    }
+
+    try {
+      // Fetch deliberation messages from API
+      const res = await api.get<any>(`/council/deliberations/${sessionId}`);
+      const payload = res as any;
+      
+      if (payload.success && payload.deliberation) {
+        const d = payload.deliberation;
+        const messages = d.deliberation_messages || d.responses || [];
+        
+        const apiFrames: ReplayFrame[] = [
+          { id: 'start', timestamp: 0, type: 'round_change', content: 'Deliberation started' },
+          ...messages.map((m: any, i: number) => ({
+            id: m.id || `msg-${i}`,
+            timestamp: (i + 1) * 60000,
+            type: m.phase === 'dissent' ? 'dissent' as const : 'statement' as const,
+            agentName: m.agents?.name || m.agentName || m.agent_id || 'Agent',
+            agentRole: m.agents?.role || m.phase || 'Analysis',
+            content: m.content?.substring(0, 500) || '',
+            confidence: m.confidence,
+          })),
+          ...(d.status === 'COMPLETED' ? [{
+            id: 'end',
+            timestamp: messages.length * 60000 + 60000,
+            type: 'consensus' as const,
+            content: `Decision reached: ${d.decision || d.synthesis || 'Completed'}`,
+          }] : []),
+        ];
+        setFrames(apiFrames);
+      } else {
+        setFrames(FALLBACK_FRAMES);
+      }
+    } catch (error) {
+      console.error('Failed to load frames:', error);
+      setFrames(FALLBACK_FRAMES);
+    }
+  };
   const [currentFrameIndex, setCurrentFrameIndex] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
   const [playbackSpeed, setPlaybackSpeed] = useState(1);
@@ -191,10 +273,11 @@ export const DecisionReplayTheaterPage: React.FC = () => {
     return () => clearInterval(interval);
   }, [isPlaying, playbackSpeed, selectedSession, frames.length]);
 
-  const handleSelectSession = (session: ReplaySession) => {
+  const handleSelectSession = async (session: ReplaySession) => {
     setSelectedSession(session);
     setCurrentFrameIndex(0);
     setIsPlaying(false);
+    await loadFramesForSession(session.id);
   };
 
   const handleSeek = (frameIndex: number) => {
