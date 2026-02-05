@@ -88,6 +88,7 @@ const SovereignEnterpriseIntelligencePage = lazy(
 // Demos
 const RegulatorsReceiptPage = lazy(() => import('./pages/cortex/trust/RegulatorsReceiptPage'));
 const DemoLauncherPage = lazy(() => import('./pages/cortex/demo/DemoLauncherPage'));
+const LegalDemoShowcasePage = lazy(() => import('./pages/cortex/demo/LegalDemoShowcasePage'));
 const ShowcaseDashboard = lazy(() => import('./components/showcase/ShowcaseDashboard'));
 
 // Workflows
@@ -296,6 +297,9 @@ const TrainingPage = lazy(() =>
 const AdversarialRedTeamPage = lazy(() =>
   import('./pages/cortex/enterprise/AdversarialRedTeamPage').then((m) => ({ default: m.default }))
 );
+const CommandPage = lazy(() =>
+  import('./pages/cortex/enterprise/CommandPage').then((m) => ({ default: m.default }))
+);
 
 // WOW Features - Visualization & Replay
 const DeliberationVisualizationPage = lazy(() =>
@@ -316,6 +320,20 @@ const DefenseVerticalPage = lazy(() =>
 // Regulator's Receipt (New)
 const RegulatorsReceiptGeneratorPage = lazy(() =>
   import('./pages/cortex/compliance/RegulatorsReceiptPage').then((m) => ({ default: m.default }))
+);
+
+// Enterprise Platinum Features
+const ConstitutionalCourtPage = lazy(() =>
+  import('./pages/cortex/governance/ConstitutionalCourtPage').then((m) => ({ default: m.default }))
+);
+const RegulatorySandboxPage = lazy(() =>
+  import('./pages/cortex/compliance/RegulatorySandboxPage').then((m) => ({ default: m.default }))
+);
+const ZKPPage = lazy(() =>
+  import('./pages/cortex/security/ZKPPage').then((m) => ({ default: m.default }))
+);
+const AIInsurancePage = lazy(() =>
+  import('./pages/cortex/enterprise/AIInsurancePage').then((m) => ({ default: m.default }))
 );
 
 // Sovereign Tier Pages
@@ -1755,6 +1773,14 @@ export const router = createBrowserRouter([
           </SuspenseWrapper>
         ),
       },
+      {
+        path: 'enterprise/command',
+        element: (
+          <SuspenseWrapper>
+            <CommandPage />
+          </SuspenseWrapper>
+        ),
+      },
 
       // WOW Features - Visualization & Replay
       {
@@ -1790,6 +1816,40 @@ export const router = createBrowserRouter([
         element: (
           <SuspenseWrapper>
             <RegulatorsReceiptGeneratorPage />
+          </SuspenseWrapper>
+        ),
+      },
+
+      // Enterprise Platinum Features
+      {
+        path: 'governance/constitutional-court',
+        element: (
+          <SuspenseWrapper>
+            <ConstitutionalCourtPage />
+          </SuspenseWrapper>
+        ),
+      },
+      {
+        path: 'compliance/regulatory-sandbox',
+        element: (
+          <SuspenseWrapper>
+            <RegulatorySandboxPage />
+          </SuspenseWrapper>
+        ),
+      },
+      {
+        path: 'security/zkp',
+        element: (
+          <SuspenseWrapper>
+            <ZKPPage />
+          </SuspenseWrapper>
+        ),
+      },
+      {
+        path: 'enterprise/ai-insurance',
+        element: (
+          <SuspenseWrapper>
+            <AIInsurancePage />
           </SuspenseWrapper>
         ),
       },
@@ -1975,6 +2035,14 @@ export const router = createBrowserRouter([
         element: (
           <SuspenseWrapper>
             <DemoLauncherPage />
+          </SuspenseWrapper>
+        ),
+      },
+      {
+        path: 'demo/legal',
+        element: (
+          <SuspenseWrapper>
+            <LegalDemoShowcasePage />
           </SuspenseWrapper>
         ),
       },

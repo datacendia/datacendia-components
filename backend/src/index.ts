@@ -155,6 +155,15 @@ import responsibilityRoutes from './routes/responsibility.js';
 import legalServicesRoutes from './routes/legal-services.js';
 import notificationsRoutes from './routes/notifications.js';
 import sportsRoutes from './routes/sports.js';
+import commandRoutes from './routes/command.js';
+import constitutionalCourtRoutes from './routes/constitutional-court.js';
+import regulatorySandboxRoutes from './routes/regulatory-sandbox.js';
+import zkpRoutes from './routes/zkp.js';
+import aiInsuranceRoutes from './routes/ai-insurance.js';
+import postQuantumRoutes from './routes/post-quantum.js';
+import carbonAwareRoutes from './routes/carbon-aware.js';
+import complianceMonitorRoutes from './routes/compliance-monitor.js';
+import crossJurisdictionRoutes from './routes/cross-jurisdiction.js';
 import { registerPlatformServices } from './core/services/PlatformServices.js';
 
 // WebSocket handlers
@@ -459,6 +468,42 @@ app.use('/api/v1/responsibility', responsibilityRoutes);
 // Sports Vertical - Football/Soccer Decision Governance
 // Transfer decisions, contract governance, FFP compliance, agent fee justification
 app.use('/api/v1/sports', sportsRoutes);
+
+// CendiaCommand™ - Vertical-specific AI command interfaces
+// Industry-specific natural language commands, quick actions, compliance-aware routing
+app.use('/api/v1/command', commandRoutes);
+
+// CendiaConstitutionalCourt™ - AI Dispute Resolution with Precedent
+// Formal arbitration when agents disagree, precedent tracking, binding opinions
+app.use('/api/v1/constitutional-court', constitutionalCourtRoutes);
+
+// CendiaRegulatorySandbox™ - Test Against Proposed Regulations
+// Predictive compliance testing, regulatory pipeline tracking, gap analysis
+app.use('/api/v1/regulatory-sandbox', regulatorySandboxRoutes);
+
+// CendiaZKP™ - Zero-Knowledge Proofs for Compliance
+// Prove compliance without revealing proprietary logic
+app.use('/api/v1/zkp', zkpRoutes);
+
+// CendiaInsure™ - AI Insurance Integration
+// Policy generation, risk scoring, coverage certificates, claims management
+app.use('/api/v1/ai-insurance', aiInsuranceRoutes);
+
+// CendiaPostQuantumKMS™ - Quantum-Resistant Cryptography
+// Dilithium, SPHINCS+, Falcon signatures for post-quantum security
+app.use('/api/v1/post-quantum', postQuantumRoutes);
+
+// CendiaCarbonAware™ - Carbon-Aware AI Workload Scheduling
+// Reduce AI carbon footprint with intelligent scheduling
+app.use('/api/v1/carbon-aware', carbonAwareRoutes);
+
+// CendiaContinuousCompliance™ - Real-Time Compliance Monitoring
+// Drift detection, gap analysis, alert escalation
+app.use('/api/v1/compliance-monitor', complianceMonitorRoutes);
+
+// CendiaCrossJurisdiction™ - Multi-Jurisdiction Compliance Engine
+// Conflict detection, data residency, cross-border transfer assessment
+app.use('/api/v1/cross-jurisdiction', crossJurisdictionRoutes);
 
 // Notifications - Unified notification system (in-app, email, Slack, Teams, webhooks)
 app.use('/api/v1/notifications', notificationsRoutes);

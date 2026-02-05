@@ -354,6 +354,38 @@ const trustLayerFeatures = [
     description: 'Synthetic Governance Agent System - 5 agent classes for institutional decision verification at societal scale',
     merged: ['Decision Agents', 'Institutional Agents', 'Adversarial Agents', 'Observer Agents', 'Meta-Governance'],
   },
+  {
+    id: 'constitutional-court',
+    label: 'AI Constitutional Court',
+    icon: '⚖️',
+    path: '/cortex/governance/constitutional-court',
+    description: 'Formal AI dispute resolution with precedent tracking and binding opinions',
+    merged: ['Dispute Filing', 'Precedent Database', 'Constitutional Principles'],
+  },
+  {
+    id: 'regulatory-sandbox',
+    label: 'Regulatory Sandbox',
+    icon: '🧪',
+    path: '/cortex/compliance/regulatory-sandbox',
+    description: 'Test against proposed regulations before they become law',
+    merged: ['EU AI Act', 'Colorado AI Act', 'Gap Analysis', 'Remediation Roadmap'],
+  },
+  {
+    id: 'zkp',
+    label: 'Zero-Knowledge Proofs',
+    icon: '🔐',
+    path: '/cortex/security/zkp',
+    description: 'Prove compliance without revealing proprietary logic or data',
+    merged: ['Compliance Proofs', 'Fairness Proofs', 'Certificates'],
+  },
+  {
+    id: 'ai-insurance',
+    label: 'AI Insurance',
+    icon: '🛡️',
+    path: '/cortex/enterprise/ai-insurance',
+    description: 'Direct liability coverage per AI decision with real-time risk scoring',
+    merged: ['Policy Management', 'Decision Coverage', 'Claims'],
+  },
 ];
 
 // =============================================================================

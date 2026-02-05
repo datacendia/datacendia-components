@@ -40,18 +40,20 @@ export function useWebSocket(options: WebSocketOptions = {}) {
   });
 
   const socketRef = useRef<Socket | null>(null);
+  const errorLoggedRef = useRef(false);
 
   useEffect(() => {
     if (!autoConnect) return;
 
     setState(prev => ({ ...prev, connecting: true }));
+    errorLoggedRef.current = false;
 
     const newSocket = io(url, {
       reconnection,
       reconnectionDelay,
-      reconnectionAttempts,
+      reconnectionAttempts: 3, // Reduced from 5
       transports: ['websocket', 'polling'],
-      timeout: 10000,
+      timeout: 5000, // Reduced from 10000
     });
 
     newSocket.on('connect', () => {
@@ -80,7 +82,11 @@ export function useWebSocket(options: WebSocketOptions = {}) {
         connecting: false,
         error,
       }));
-      console.error('[WebSocket] Connection error:', error.message);
+      // Only log once to avoid spam
+      if (!errorLoggedRef.current) {
+        console.warn('[WebSocket] Connection error:', error.message);
+        errorLoggedRef.current = true;
+      }
     });
 
     newSocket.on('reconnect', (attemptNumber: number) => {
@@ -89,7 +95,7 @@ export function useWebSocket(options: WebSocketOptions = {}) {
 
     newSocket.on('reconnect_attempt', (attemptNumber: number) => {
       setState(prev => ({ ...prev, connecting: true }));
-      console.log(`[WebSocket] Reconnection attempt ${attemptNumber}`);
+      // Silent reconnect - don't spam console
     });
 
     newSocket.on('reconnect_failed', () => {

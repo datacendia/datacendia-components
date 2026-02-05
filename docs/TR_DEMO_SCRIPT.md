@@ -59,8 +59,8 @@ Frontend: http://localhost:5173/cortex/monitor/live
 
 ### Actions to Demonstrate
 1. **Point to** the active agents panel → "Each agent has a specific role - Legal Analyst, Risk Assessor, Compliance Officer"
-2. **Click** on any active deliberation → Opens the deliberation detail view
-3. **Highlight** the "Human Override" button → "At any point, a human can pause, modify, or terminate the AI deliberation"
+2. **Point to** the decision badges (ALLOW/BLOCK/ESCALATE) → "Every action is evaluated in real-time"
+3. **Click** the Pause button (top right) → "At any point, a human can pause the monitoring stream to review"
 
 ### Key Talking Points
 - "This integrates directly with Westlaw for legal citations"

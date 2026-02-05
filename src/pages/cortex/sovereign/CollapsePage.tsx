@@ -11,9 +11,10 @@
  * - Narrative attack simulator
  * - Legitimacy erosion timeline
  * - Replay and verification
+ * - IMPOSSIBLE_DEMO: Full audit bundle export, in-browser verification, human override
  */
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import {
   AlertTriangle,
   Shield,
@@ -33,6 +34,15 @@ import {
   BarChart3,
   Target,
   Scale,
+  Upload,
+  FileCheck,
+  Fingerprint,
+  Package,
+  Rocket,
+  ShieldAlert,
+  UserCheck,
+  FileSignature,
+  Loader2,
 } from 'lucide-react';
 
 const API_BASE = '/api/v1/collapse';
@@ -98,6 +108,41 @@ interface AgentDescription {
   questions: string[];
 }
 
+// Override modal types
+interface HumanAuthority {
+  name: string;
+  title: string;
+  email: string;
+  department: string;
+}
+
+interface OverrideRecord {
+  id: string;
+  deliberationId: string;
+  decisionId: string;
+  timestamp: string;
+  humanAuthority: HumanAuthority;
+  aiRecommendation: string;
+  trustDeltaAtOverride: number;
+  actionTaken: string;
+  justification: string;
+  acceptedRisks: string[];
+  riskAcknowledgment: string;
+  signature: string;
+  signedAt: string;
+}
+
+interface VerificationResult {
+  bundleFormat: boolean;
+  metaValid: boolean;
+  packetValid: boolean;
+  envelopePresent: boolean;
+  checksumValid: boolean;
+  merkleValid: boolean;
+  integrityScore: number;
+  details: string[];
+}
+
 const CollapsePage: React.FC = () => {
   const [loading, setLoading] = useState(false);
   const [agents, setAgents] = useState<AgentDescription[]>([]);
@@ -112,6 +157,26 @@ const CollapsePage: React.FC = () => {
   const [targetPopulation, setTargetPopulation] = useState(100000);
   const [consensusConfidence, setConsensusConfidence] = useState(0.85);
   const [seed, setSeed] = useState<number | undefined>(undefined);
+
+  // IMPOSSIBLE_DEMO state
+  const [showOverrideModal, setShowOverrideModal] = useState(false);
+  const [showVerificationPanel, setShowVerificationPanel] = useState(false);
+  const [overrideRecord, setOverrideRecord] = useState<OverrideRecord | null>(null);
+  const [verificationResult, setVerificationResult] = useState<VerificationResult | null>(null);
+  const [verifyingBundle, setVerifyingBundle] = useState(false);
+  const [uploadedBundle, setUploadedBundle] = useState<any>(null);
+  const fileInputRef = useRef<HTMLInputElement>(null);
+  
+  // Override form state
+  const [overrideAuthority, setOverrideAuthority] = useState<HumanAuthority>({
+    name: '',
+    title: '',
+    email: '',
+    department: '',
+  });
+  const [overrideJustification, setOverrideJustification] = useState('');
+  const [acceptedRisks, setAcceptedRisks] = useState<string[]>([]);
+  const [riskAcknowledgment, setRiskAcknowledgment] = useState(false);
 
   useEffect(() => {
     fetchAgents();
@@ -195,6 +260,140 @@ const CollapsePage: React.FC = () => {
       console.error('Replay failed:', error);
     } finally {
       setLoading(false);
+    }
+  };
+
+  // DEMO SCENARIO FUNCTIONS
+  const loadImpossibleDemo = async () => {
+    setLoading(true);
+    try {
+      const res = await fetch(`${API_BASE}/demo/impossible`);
+      const data = await res.json();
+      if (data.success) {
+        const scenario = data.scenario;
+        setDecisionId('IMPOSSIBLE-DEMO-001');
+        setDecisionText(scenario.decisionText);
+        setPolicyDomain(scenario.context.policyDomain);
+        setTargetPopulation(scenario.context.targetPopulation);
+        setConsensusConfidence(0.85);
+      }
+    } catch (error) {
+      console.error('Failed to load demo scenario:', error);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const loadCloudAIDemo = async () => {
+    setLoading(true);
+    try {
+      const res = await fetch(`${API_BASE}/demo/cloud-ai-disruption`);
+      const data = await res.json();
+      if (data.success) {
+        const scenario = data.scenario;
+        setDecisionId('CLOUD-AI-DISRUPTION-001');
+        setDecisionText(scenario.decisionText);
+        setPolicyDomain(scenario.context.policyDomain);
+        setTargetPopulation(scenario.context.targetPopulation);
+        setConsensusConfidence(0.78);
+      }
+    } catch (error) {
+      console.error('Failed to load Cloud AI demo scenario:', error);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const downloadAuditBundle = async () => {
+    if (!deliberation) return;
+    window.open(`${API_BASE}/deliberation/${deliberation.id}/audit-bundle`, '_blank');
+  };
+
+  const handleBundleUpload = async (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
+    if (!file) return;
+
+    try {
+      const text = await file.text();
+      const bundle = JSON.parse(text);
+      setUploadedBundle(bundle);
+      await verifyBundle(bundle);
+    } catch (error) {
+      console.error('Failed to parse bundle:', error);
+      alert('Invalid bundle file format');
+    }
+  };
+
+  const verifyBundle = async (bundle: any) => {
+    setVerifyingBundle(true);
+    try {
+      const res = await fetch(`${API_BASE}/verify-bundle`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(bundle),
+      });
+      const data = await res.json();
+      if (data.success) {
+        setVerificationResult(data.verification);
+        setShowVerificationPanel(true);
+      }
+    } catch (error) {
+      console.error('Verification failed:', error);
+    } finally {
+      setVerifyingBundle(false);
+    }
+  };
+
+  const submitOverride = async () => {
+    if (!deliberation) return;
+    if (!overrideAuthority.name || !overrideJustification || acceptedRisks.length === 0 || !riskAcknowledgment) {
+      alert('Please fill in all required fields');
+      return;
+    }
+
+    setLoading(true);
+    try {
+      const res = await fetch(`${API_BASE}/deliberation/${deliberation.id}/override`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          humanAuthority: overrideAuthority,
+          justification: overrideJustification,
+          acceptedRisks,
+          riskAcknowledgment: 'I understand and accept institutional responsibility for the accepted risks.',
+        }),
+      });
+      const data = await res.json();
+      if (data.success) {
+        setOverrideRecord(data.overrideRecord);
+        setShowOverrideModal(false);
+        alert('Override recorded with cryptographic signature. The human authority has accepted institutional responsibility.');
+      } else {
+        alert(`Override failed: ${data.error}\n\nViolations: ${data.violations?.join(', ')}`);
+      }
+    } catch (error) {
+      console.error('Override failed:', error);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const getAvailableRisks = (): string[] => {
+    if (!deliberation) return [];
+    const risks: string[] = [];
+    deliberation.collapseTrack.failureEnvelope.failureConditions.forEach((fc) => {
+      if (!risks.includes(fc.category)) {
+        risks.push(fc.category);
+      }
+    });
+    return risks;
+  };
+
+  const toggleRisk = (risk: string) => {
+    if (acceptedRisks.includes(risk)) {
+      setAcceptedRisks(acceptedRisks.filter(r => r !== risk));
+    } else {
+      setAcceptedRisks([...acceptedRisks, risk]);
     }
   };
 
@@ -346,6 +545,35 @@ const CollapsePage: React.FC = () => {
                   )}
                   Run Collapse Analysis
                 </button>
+
+                {/* Demo Scenario Buttons */}
+                <div className="mt-4 pt-4 border-t border-gray-700">
+                  <p className="text-xs text-gray-500 mb-2 text-center font-medium">PRE-LOADED SCENARIOS</p>
+                  
+                  <button
+                    onClick={loadImpossibleDemo}
+                    disabled={loading}
+                    className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 disabled:from-gray-600 disabled:to-gray-600 text-white font-medium py-2.5 rounded-lg flex items-center justify-center gap-2 transition-all text-sm"
+                  >
+                    <Rocket className="w-4 h-4" />
+                    IMPOSSIBLE DEMO
+                  </button>
+                  <p className="text-[10px] text-gray-500 mt-1 text-center mb-3">
+                    Predictive policing policy analysis
+                  </p>
+
+                  <button
+                    onClick={loadCloudAIDemo}
+                    disabled={loading}
+                    className="w-full bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-700 hover:to-blue-700 disabled:from-gray-600 disabled:to-gray-600 text-white font-medium py-2.5 rounded-lg flex items-center justify-center gap-2 transition-all text-sm"
+                  >
+                    <Zap className="w-4 h-4" />
+                    CLOUD AI DISRUPTION
+                  </button>
+                  <p className="text-[10px] text-gray-500 mt-1 text-center">
+                    SaaS vs. AI platform competition
+                  </p>
+                </div>
               </div>
             </div>
 
@@ -395,13 +623,43 @@ const CollapsePage: React.FC = () => {
                         <Download className="w-4 h-4" />
                       </button>
                       <button
+                        onClick={downloadAuditBundle}
+                        className="p-2 bg-purple-700 hover:bg-purple-600 rounded-lg transition-colors"
+                        title="Download Full Audit Bundle"
+                      >
+                        <Package className="w-4 h-4" />
+                      </button>
+                      <button
+                        onClick={() => fileInputRef.current?.click()}
+                        className="p-2 bg-cyan-700 hover:bg-cyan-600 rounded-lg transition-colors"
+                        title="Verify Audit Bundle"
+                      >
+                        <FileCheck className="w-4 h-4" />
+                      </button>
+                      <button
                         onClick={() => replayDeliberation(deliberation.id)}
                         className="p-2 bg-gray-700 hover:bg-gray-600 rounded-lg transition-colors"
                         title="Replay Deliberation"
                       >
                         <Play className="w-4 h-4" />
                       </button>
+                      {deliberation.trustDelta.trustDelta < 0 && (
+                        <button
+                          onClick={() => setShowOverrideModal(true)}
+                          className="p-2 bg-red-700 hover:bg-red-600 rounded-lg transition-colors"
+                          title="Human Override"
+                        >
+                          <UserCheck className="w-4 h-4" />
+                        </button>
+                      )}
                     </div>
+                    <input
+                      ref={fileInputRef}
+                      type="file"
+                      accept=".json"
+                      onChange={handleBundleUpload}
+                      className="hidden"
+                    />
                   </div>
 
                   <div className="grid grid-cols-3 gap-4 mb-4">
@@ -645,6 +903,327 @@ const CollapsePage: React.FC = () => {
               </div>
             )}
           </div>
+        </div>
+
+        {/* IMPOSSIBLE_DEMO Modals */}
+        <OverrideModal
+          isOpen={showOverrideModal}
+          onClose={() => setShowOverrideModal(false)}
+          onSubmit={submitOverride}
+          loading={loading}
+          deliberation={deliberation}
+          authority={overrideAuthority}
+          setAuthority={setOverrideAuthority}
+          justification={overrideJustification}
+          setJustification={setOverrideJustification}
+          acceptedRisks={acceptedRisks}
+          toggleRisk={toggleRisk}
+          availableRisks={getAvailableRisks()}
+          acknowledged={riskAcknowledgment}
+          setAcknowledged={setRiskAcknowledgment}
+        />
+
+        <VerificationPanel
+          isOpen={showVerificationPanel}
+          onClose={() => setShowVerificationPanel(false)}
+          result={verificationResult}
+          bundle={uploadedBundle}
+        />
+
+        {/* Override Record Display */}
+        {overrideRecord && (
+          <div className="fixed bottom-4 right-4 max-w-md bg-gray-900 border border-green-500/50 rounded-xl p-4 shadow-xl z-40">
+            <div className="flex items-center gap-2 mb-2">
+              <FileSignature className="w-5 h-5 text-green-400" />
+              <span className="font-semibold text-green-400">Override Recorded</span>
+              <button
+                onClick={() => setOverrideRecord(null)}
+                className="ml-auto text-gray-400 hover:text-white"
+              >
+                ×
+              </button>
+            </div>
+            <div className="text-xs space-y-1 text-gray-300">
+              <div>ID: <span className="font-mono">{overrideRecord.id}</span></div>
+              <div>Authority: {overrideRecord.humanAuthority.name}</div>
+              <div>Signed: {new Date(overrideRecord.signedAt).toLocaleString()}</div>
+              <div className="font-mono text-[10px] text-gray-500 break-all">
+                Signature: {overrideRecord.signature}
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+};
+
+// Human Override Modal
+const OverrideModal: React.FC<{
+  isOpen: boolean;
+  onClose: () => void;
+  onSubmit: () => void;
+  loading: boolean;
+  deliberation: Deliberation | null;
+  authority: HumanAuthority;
+  setAuthority: (a: HumanAuthority) => void;
+  justification: string;
+  setJustification: (j: string) => void;
+  acceptedRisks: string[];
+  toggleRisk: (r: string) => void;
+  availableRisks: string[];
+  acknowledged: boolean;
+  setAcknowledged: (a: boolean) => void;
+}> = ({
+  isOpen,
+  onClose,
+  onSubmit,
+  loading,
+  deliberation,
+  authority,
+  setAuthority,
+  justification,
+  setJustification,
+  acceptedRisks,
+  toggleRisk,
+  availableRisks,
+  acknowledged,
+  setAcknowledged,
+}) => {
+  if (!isOpen || !deliberation) return null;
+
+  return (
+    <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4">
+      <div className="bg-gray-900 rounded-2xl border border-red-500/50 max-w-2xl w-full max-h-[90vh] overflow-y-auto">
+        <div className="p-6 border-b border-red-500/30">
+          <div className="flex items-center gap-3">
+            <div className="p-2 bg-red-500/20 rounded-lg">
+              <ShieldAlert className="w-6 h-6 text-red-400" />
+            </div>
+            <div>
+              <h2 className="text-xl font-bold text-red-400">Human Override Required</h2>
+              <p className="text-sm text-gray-400">Trust Delta is NEGATIVE. Deployment not recommended.</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="p-6 space-y-6">
+          {/* Warning Banner */}
+          <div className="bg-red-500/10 border border-red-500/30 rounded-lg p-4">
+            <p className="text-sm text-red-300">
+              <strong>Warning:</strong> The AI system recommends <strong>DO NOT DEPLOY</strong>.
+              By proceeding, you accept institutional responsibility for the risks identified.
+            </p>
+          </div>
+
+          {/* Authority Information */}
+          <div>
+            <h3 className="text-lg font-semibold mb-3 flex items-center gap-2">
+              <Fingerprint className="w-5 h-5 text-cyan-400" />
+              Human Authority
+            </h3>
+            <div className="grid grid-cols-2 gap-3">
+              <input
+                type="text"
+                placeholder="Full Name *"
+                value={authority.name}
+                onChange={(e) => setAuthority({ ...authority, name: e.target.value })}
+                className="bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-white"
+              />
+              <input
+                type="text"
+                placeholder="Title *"
+                value={authority.title}
+                onChange={(e) => setAuthority({ ...authority, title: e.target.value })}
+                className="bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-white"
+              />
+              <input
+                type="email"
+                placeholder="Email *"
+                value={authority.email}
+                onChange={(e) => setAuthority({ ...authority, email: e.target.value })}
+                className="bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-white"
+              />
+              <input
+                type="text"
+                placeholder="Department *"
+                value={authority.department}
+                onChange={(e) => setAuthority({ ...authority, department: e.target.value })}
+                className="bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-white"
+              />
+            </div>
+          </div>
+
+          {/* Justification */}
+          <div>
+            <h3 className="text-lg font-semibold mb-3">Override Justification *</h3>
+            <textarea
+              placeholder="Explain why you are overriding the AI recommendation..."
+              value={justification}
+              onChange={(e) => setJustification(e.target.value)}
+              rows={4}
+              className="w-full bg-gray-800 border border-gray-700 rounded-lg px-3 py-2 text-white resize-none"
+            />
+          </div>
+
+          {/* Risk Acceptance */}
+          <div>
+            <h3 className="text-lg font-semibold mb-3">Risks Being Accepted *</h3>
+            <div className="space-y-2">
+              {availableRisks.map((risk) => (
+                <label key={risk} className="flex items-center gap-3 p-3 bg-gray-800 rounded-lg cursor-pointer hover:bg-gray-700">
+                  <input
+                    type="checkbox"
+                    checked={acceptedRisks.includes(risk)}
+                    onChange={() => toggleRisk(risk)}
+                    className="w-4 h-4"
+                  />
+                  <span className="text-sm">{risk.replace(/_/g, ' ')}</span>
+                </label>
+              ))}
+            </div>
+          </div>
+
+          {/* Final Acknowledgment */}
+          <div className="bg-gray-800 rounded-lg p-4">
+            <label className="flex items-start gap-3 cursor-pointer">
+              <input
+                type="checkbox"
+                checked={acknowledged}
+                onChange={(e) => setAcknowledged(e.target.checked)}
+                className="w-5 h-5 mt-0.5"
+              />
+              <span className="text-sm text-gray-300">
+                <strong className="text-red-400">I understand and accept institutional responsibility</strong> for the 
+                risks identified by the Collapse Mode analysis. This decision will be cryptographically signed 
+                and recorded as part of the permanent audit trail.
+              </span>
+            </label>
+          </div>
+        </div>
+
+        <div className="p-6 border-t border-gray-700 flex gap-3">
+          <button
+            onClick={onClose}
+            className="flex-1 px-4 py-3 bg-gray-700 hover:bg-gray-600 rounded-lg font-medium transition-colors"
+          >
+            Cancel
+          </button>
+          <button
+            onClick={onSubmit}
+            disabled={loading || !authority.name || !justification || acceptedRisks.length === 0 || !acknowledged}
+            className="flex-1 px-4 py-3 bg-red-600 hover:bg-red-700 disabled:bg-gray-600 rounded-lg font-medium transition-colors flex items-center justify-center gap-2"
+          >
+            {loading ? <Loader2 className="w-5 h-5 animate-spin" /> : <FileSignature className="w-5 h-5" />}
+            Sign Override
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+// Verification Panel Component
+const VerificationPanel: React.FC<{
+  isOpen: boolean;
+  onClose: () => void;
+  result: VerificationResult | null;
+  bundle: any;
+}> = ({ isOpen, onClose, result, bundle }) => {
+  if (!isOpen || !result) return null;
+
+  const getScoreColor = (score: number) => {
+    if (score === 100) return 'text-green-400';
+    if (score >= 80) return 'text-yellow-400';
+    return 'text-red-400';
+  };
+
+  return (
+    <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4">
+      <div className="bg-gray-900 rounded-2xl border border-cyan-500/50 max-w-2xl w-full max-h-[90vh] overflow-y-auto">
+        <div className="p-6 border-b border-cyan-500/30">
+          <div className="flex items-center gap-3">
+            <div className="p-2 bg-cyan-500/20 rounded-lg">
+              <FileCheck className="w-6 h-6 text-cyan-400" />
+            </div>
+            <div>
+              <h2 className="text-xl font-bold text-cyan-400">Audit Bundle Verification</h2>
+              <p className="text-sm text-gray-400">Independent integrity verification results</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="p-6 space-y-6">
+          {/* Score */}
+          <div className="text-center p-6 bg-gray-800 rounded-xl">
+            <div className={`text-6xl font-bold ${getScoreColor(result.integrityScore)}`}>
+              {result.integrityScore}/100
+            </div>
+            <div className="text-gray-400 mt-2">Integrity Score</div>
+            <div className={`mt-2 text-lg font-medium ${getScoreColor(result.integrityScore)}`}>
+              {result.integrityScore === 100 ? '✓ VERIFIED - Authentic & Untampered' :
+               result.integrityScore >= 80 ? '⚠ PARTIAL - Some checks failed' :
+               '✗ FAILED - Integrity compromised'}
+            </div>
+          </div>
+
+          {/* Checks */}
+          <div className="space-y-2">
+            <h3 className="text-lg font-semibold mb-3">Verification Checks</h3>
+            {[
+              { label: 'Bundle Format', value: result.bundleFormat },
+              { label: 'Metadata Valid', value: result.metaValid },
+              { label: 'Packet Valid', value: result.packetValid },
+              { label: 'Envelope Present', value: result.envelopePresent },
+              { label: 'Checksum Valid', value: result.checksumValid },
+              { label: 'Merkle Root Valid', value: result.merkleValid },
+            ].map((check) => (
+              <div key={check.label} className="flex items-center justify-between p-3 bg-gray-800 rounded-lg">
+                <span>{check.label}</span>
+                {check.value ? (
+                  <CheckCircle className="w-5 h-5 text-green-400" />
+                ) : (
+                  <XCircle className="w-5 h-5 text-red-400" />
+                )}
+              </div>
+            ))}
+          </div>
+
+          {/* Details */}
+          <div className="bg-gray-800 rounded-lg p-4">
+            <h3 className="text-sm font-semibold mb-2 text-gray-400">Verification Log</h3>
+            <div className="font-mono text-xs space-y-1">
+              {result.details.map((detail, i) => (
+                <div key={i} className={detail.startsWith('✓') ? 'text-green-400' : detail.startsWith('✗') ? 'text-red-400' : 'text-gray-300'}>
+                  {detail}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Bundle Info */}
+          {bundle && (
+            <div className="bg-gray-800 rounded-lg p-4">
+              <h3 className="text-sm font-semibold mb-2 text-gray-400">Bundle Information</h3>
+              <div className="grid grid-cols-2 gap-2 text-sm">
+                <span className="text-gray-500">Bundle ID:</span>
+                <span className="font-mono text-xs">{bundle.meta?.bundleId || 'N/A'}</span>
+                <span className="text-gray-500">Generated:</span>
+                <span>{bundle.meta?.generatedAt ? new Date(bundle.meta.generatedAt).toLocaleString() : 'N/A'}</span>
+                <span className="text-gray-500">Decision ID:</span>
+                <span className="font-mono text-xs">{bundle.packet?.decisionId || 'N/A'}</span>
+              </div>
+            </div>
+          )}
+        </div>
+
+        <div className="p-6 border-t border-gray-700">
+          <button
+            onClick={onClose}
+            className="w-full px-4 py-3 bg-cyan-600 hover:bg-cyan-700 rounded-lg font-medium transition-colors"
+          >
+            Close
+          </button>
         </div>
       </div>
     </div>

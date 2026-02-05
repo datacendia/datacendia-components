@@ -326,4 +326,132 @@ router.post('/cache/clear', async (_req: Request, res: Response) => {
   }
 });
 
+// ===========================================================================
+// LEGAL DEMO SCENARIOS (for LEGAL_DEMO_SHOWCASE)
+// ===========================================================================
+
+import { readFileSync } from 'fs';
+import { join, dirname } from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+router.get('/demo/scenarios', (_req: Request, res: Response) => {
+  try {
+    const scenariosPath = join(__dirname, '../data/legal-demo-scenarios.json');
+    const scenariosData = readFileSync(scenariosPath, 'utf-8');
+    const scenarios = JSON.parse(scenariosData);
+    
+    res.json({
+      success: true,
+      scenarios: scenarios.scenarios,
+      quickPrompts: scenarios.quickPrompts,
+      count: scenarios.scenarios.length,
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      error: error instanceof Error ? error.message : 'Failed to load scenarios',
+    });
+  }
+});
+
+router.get('/demo/scenarios/:id', (req: Request, res: Response) => {
+  try {
+    const id = req.params['id'];
+    const scenariosPath = join(__dirname, '../data/legal-demo-scenarios.json');
+    const scenariosData = readFileSync(scenariosPath, 'utf-8');
+    const scenarios = JSON.parse(scenariosData);
+    
+    const scenario = scenarios.scenarios.find((s: any) => s.id === id);
+    
+    if (!scenario) {
+      return res.status(404).json({
+        success: false,
+        error: 'Scenario not found',
+      });
+    }
+    
+    res.json({
+      success: true,
+      scenario,
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      error: error instanceof Error ? error.message : 'Failed to load scenario',
+    });
+  }
+});
+
+router.get('/demo/materials', (_req: Request, res: Response) => {
+  try {
+    const materialsDir = join(__dirname, '../data/legal-demo-materials');
+    const materials = [
+      {
+        id: 'trade-secret-brief',
+        name: 'Trade Secret Misappropriation Brief',
+        filename: 'trade-secret-brief.md',
+        category: 'litigation',
+        description: 'Sample brief for trade secret case analysis',
+      },
+      {
+        id: 'musk-v-openai-brief',
+        name: 'Musk v. OpenAI Analysis',
+        filename: 'musk-v-openai-brief.md',
+        category: 'contract-law',
+        description: 'Real case analysis of Musk v. OpenAI breach of contract claims',
+      },
+    ];
+    
+    res.json({
+      success: true,
+      materials,
+      count: materials.length,
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      error: error instanceof Error ? error.message : 'Failed to load materials',
+    });
+  }
+});
+
+router.get('/demo/materials/:id', (req: Request, res: Response) => {
+  try {
+    const id = req.params['id'];
+    const materialsDir = join(__dirname, '../data/legal-demo-materials');
+    
+    const materialMap: Record<string, string> = {
+      'trade-secret-brief': 'trade-secret-brief.md',
+      'musk-v-openai-brief': 'musk-v-openai-brief.md',
+    };
+    
+    const filename = materialMap[id];
+    if (!filename) {
+      return res.status(404).json({
+        success: false,
+        error: 'Material not found',
+      });
+    }
+    
+    const content = readFileSync(join(materialsDir, filename), 'utf-8');
+    
+    res.json({
+      success: true,
+      material: {
+        id,
+        filename,
+        content,
+      },
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      error: error instanceof Error ? error.message : 'Failed to load material',
+    });
+  }
+});
+
 export default router;

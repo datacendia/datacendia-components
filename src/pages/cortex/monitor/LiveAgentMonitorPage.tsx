@@ -299,14 +299,14 @@ export const LiveAgentMonitorPage: React.FC = () => {
     }, 10000);
 
     const interval = setInterval(() => {
-      const count = Math.floor(Math.random() * 3) + 1;
+      const count = Math.floor(Math.random() * 2) + 1;
       const newActions: AgentAction[] = [];
 
       for (let i = 0; i < count; i++) {
         newActions.push(generateAction());
       }
 
-      setActions(prev => [...newActions, ...prev].slice(0, 100));
+      setActions(prev => [...newActions, ...prev].slice(0, 50));
       setNewActionIds(new Set(newActions.map(a => a.id)));
       actionsPerSecondRef.current += count;
 
@@ -328,7 +328,7 @@ export const LiveAgentMonitorPage: React.FC = () => {
           complianceScore: Math.max(90, 100 - (blocked / total) * 50 - (escalated / total) * 20),
         };
       });
-    }, 200);
+    }, 800);
 
     return () => {
       clearInterval(interval);

@@ -48,7 +48,7 @@ export interface NotificationPreferences {
 }
 
 class NotificationServiceClient {
-  private baseUrl = '/api/v1/notifications';
+  private baseUrl = '/notifications';
 
   /**
    * Get all notifications

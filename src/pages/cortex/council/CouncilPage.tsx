@@ -781,7 +781,9 @@ export const CouncilPage: React.FC = () => {
     contextData?: Record<string, any>;
   } | null>(null);
   const [showModesLibrary, setShowModesLibrary] = useState(false);
+  const [showModeDropdown, setShowModeDropdown] = useState(false);
   const [showWorkflowPicker, setShowWorkflowPicker] = useState(false);
+  const modesLibraryRef = useRef<HTMLDivElement>(null);
 
   // Document attachments for deliberation
   const [attachedFiles, setAttachedFiles] = useState<File[]>([]);
@@ -1734,7 +1736,7 @@ export const CouncilPage: React.FC = () => {
       {/* MODES LIBRARY (Expandable) */}
       {/* ================================================================= */}
       {showModesLibrary && (
-        <div className="mb-6 bg-white rounded-xl border border-neutral-200 overflow-hidden">
+        <div ref={modesLibraryRef} className="mb-6 bg-white rounded-xl border border-neutral-200 overflow-hidden">
           <div className="p-6 border-b border-neutral-100 bg-gradient-to-r from-primary-50 to-purple-50">
             <div className="flex items-center justify-between">
               <div>
@@ -2653,14 +2655,19 @@ export const CouncilPage: React.FC = () => {
           {/* Mode Selector with Dropdown */}
           <div className="flex items-center gap-3">
             <span className="text-sm text-white/70">{t('label.mode')}:</span>
-            <div className="relative group">
-              <button className="flex items-center gap-2 px-3 py-1.5 bg-white/10 border border-white/20 rounded-lg hover:bg-white/20 transition-colors">
+            <div className="relative">
+              <button 
+                type="button"
+                onClick={(e) => { e.preventDefault(); e.stopPropagation(); setShowModeDropdown(!showModeDropdown); }}
+                className="flex items-center gap-2 px-3 py-1.5 bg-white/10 border border-white/20 rounded-lg hover:bg-white/20 transition-colors"
+              >
                 <span className="text-lg">{COUNCIL_MODES[selectedMode]?.emoji}</span>
                 <span className="font-medium">{getModeName(selectedMode)}</span>
                 <span className="text-white/50">▼</span>
               </button>
               {/* Dropdown Menu - Core modes only, with link to full library */}
-              <div className="absolute top-full left-0 mt-1 w-72 bg-neutral-900 border border-neutral-700 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50 max-h-96 overflow-y-auto">
+              {showModeDropdown && (
+              <div className="absolute top-full left-0 mt-1 w-72 bg-neutral-900 border border-neutral-700 rounded-lg shadow-xl z-50 max-h-96 overflow-y-auto">
                 <div className="px-3 py-1.5 text-[10px] text-neutral-500 uppercase tracking-wider border-b border-neutral-800">
                   Core Modes
                 </div>
@@ -2668,8 +2675,14 @@ export const CouncilPage: React.FC = () => {
                   .filter((mode) => mode.isCore)
                   .map((mode) => (
                     <button
+                      type="button"
                       key={mode.id}
-                      onClick={() => setSelectedMode(mode.id)}
+                      onClick={(e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        setSelectedMode(mode.id);
+                        setShowModeDropdown(false);
+                      }}
                       className={cn(
                         'w-full text-left px-3 py-2 flex items-center gap-3 hover:bg-neutral-800 transition-colors',
                         selectedMode === mode.id &&
@@ -2687,7 +2700,14 @@ export const CouncilPage: React.FC = () => {
                   ))}
                 <div className="border-t border-neutral-700 p-2">
                   <button
-                    onClick={() => setShowModesLibrary(true)}
+                    type="button"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      setShowModeDropdown(false);
+                      setShowModesLibrary(true);
+                      setTimeout(() => modesLibraryRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 100);
+                    }}
                     className="w-full text-center text-xs text-primary-400 hover:text-primary-300 py-1.5 bg-neutral-800/50 rounded"
                   >
                     📚 {language === 'es' ? 'Ver Biblioteca Completa' : 'View Full Modes Library'} (
@@ -2695,6 +2715,7 @@ export const CouncilPage: React.FC = () => {
                   </button>
                 </div>
               </div>
+              )}
             </div>
           </div>
         </div>

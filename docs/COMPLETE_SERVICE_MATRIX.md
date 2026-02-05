@@ -1,8 +1,8 @@
 # DATACENDIA COMPLETE SERVICE MATRIX
 ## Cortex Platform, Pillars, Enterprise Suite & Decision Intelligence
 
-**Version:** Enterprise Platinum  
-**Generated:** January 23, 2026
+**Version:** Enterprise Platinum v4.5  
+**Generated:** February 4, 2026
 
 ---
 

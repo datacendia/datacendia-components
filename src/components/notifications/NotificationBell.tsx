@@ -20,28 +20,32 @@ export function NotificationBell({ className }: NotificationBellProps) {
   const [unreadCount, setUnreadCount] = useState(0);
   const [isOpen, setIsOpen] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [failCount, setFailCount] = useState(0);
   const navigate = useNavigate();
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   const fetchNotifications = useCallback(async () => {
+    if (failCount >= 3) return; // Stop polling after 3 failures
     setLoading(true);
     try {
       const [notifs, count] = await Promise.all([
         notificationService.getUnread(20),
         notificationService.getUnreadCount(),
       ]);
-      setNotifications(notifs);
-      setUnreadCount(count);
+      setNotifications(Array.isArray(notifs) ? notifs : []);
+      setUnreadCount(typeof count === 'number' ? count : 0);
+      setFailCount(0); // Reset on success
     } catch (error) {
-      console.error('Failed to fetch notifications:', error);
+      setFailCount(prev => prev + 1);
+      // Silent fail - don't spam console
     } finally {
       setLoading(false);
     }
-  }, []);
+  }, [failCount]);
 
   useEffect(() => {
     fetchNotifications();
-    const interval = setInterval(fetchNotifications, 30000);
+    const interval = setInterval(fetchNotifications, 60000); // 60s instead of 30s
     return () => clearInterval(interval);
   }, [fetchNotifications]);
 
