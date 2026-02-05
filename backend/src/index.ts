@@ -54,116 +54,27 @@ import { policyEngine } from './security/PolicyEngine.js';
 // Initialize OpenTelemetry tracing (must be before other imports that need instrumentation)
 initTracing();
 
-// Route imports
-import authRoutes from './routes/auth.js';
-import userRoutes from './routes/users.js';
-import organizationRoutes from './routes/organizations.js';
-import metricsRoutes from './routes/metrics.js';
-import alertsRoutes from './routes/alerts.js';
-import healthRoutes from './routes/health.js';
-import councilRoutes from './routes/council.js';
-import graphRoutes from './routes/graph.js';
-import workflowRoutes from './routes/workflows.js';
-import forecastRoutes from './routes/forecasts.js';
-import dataSourceRoutes from './routes/dataSources.js';
-import lineageRoutes from './routes/lineage.js';
-import integrationsRoutes from './routes/integrations.js';
-import demoRoutes from './routes/demo.js';
-import platformRoutes from './routes/platform.js';
-import holyShitRoutes from './routes/holyShit.js';
-import deliberationsRoutes from './routes/deliberations.js';
-import deliberationsApiRoutes from './routes/deliberationsApi.js';
-import decisionsRoutes from './routes/decisions.js';
-import uploadRoutes from './routes/upload.js';
-import i18nRoutes from './routes/i18n.js';
-import summaryRoutes from './routes/summaries.js';
-import modelRoutes from './routes/models.js';
-import adminSettingsRoutes from './routes/admin-settings.js';
-import ragRoutes from './routes/rag.js';
-import vetoRoutes from './routes/veto.js';
-import unionRoutes from './routes/union.js';
-import ledgerRoutes from './routes/ledger.js';
-import hrRoutes from './routes/hr.js';
-import salaryRoutes from './routes/salary.js';
-import coreRoutes from './routes/core.js';
-import enterpriseRoutes from './routes/enterprise.js';
-import adminRoutes from './routes/admin.js';
-import settingsRoutes from './routes/settings.js';
-import pillarsRoutes from './routes/pillars.js';
-import complianceRoutes from './routes/compliance.js';
-import crucibleRoutes from './routes/crucible.js';
-import crucibleEnterpriseRoutes from './routes/crucible-enterprise.js';
-import panopticonRoutes from './routes/panopticon.js';
-import aegisRoutes from './routes/aegis.js';
-import eternalRoutes from './routes/eternal.js';
-import symbiontRoutes from './routes/symbiont.js';
-import voxRoutes from './routes/vox.js';
-import sovereignOrgansRoutes from './routes/sovereign-organs.js';
-import sovereignSecurityRoutes from './routes/sovereign-security.js';
-import meshRoutes from './routes/mesh.js';
-import personaRoutes from './routes/persona.js';
-import governRoutes from './routes/govern.js';
-import autopilotRoutes from './routes/autopilot.js';
-import decisionIntelRoutes from './routes/decision-intel.js';
-import errorRoutes from './routes/errors.js';
-import contactRoutes from './routes/contact.js';
-import echoRoutes from './routes/echo.js';
-import redteamRoutes from './routes/redteam.js';
-import gnosisRoutes from './routes/gnosis.js';
-import apotheosisRoutes from './routes/apotheosis.js';
-import dissentRoutes from './routes/dissent.js';
-import sovereignRoutes from './routes/sovereign.js';
-import enterpriseSecurityRoutes from './routes/enterprise.security.js';
-import sovereignArchRoutes from './routes/sovereign-arch.js';
-import evidenceRoutes from './routes/evidence.js';
-import omnitranslateRoutes from './routes/omnitranslate.js';
-import connectorsRoutes from './routes/connectors.js';
-import cascadeRoutes from './routes/cascade.js';
-import adaptersRoutes from './routes/adapters.js';
-import strategicRoutes from './routes/strategic.js';
-import sampleDataRoutes from './routes/sample-data.js';
-import druidRoutes from './routes/druid.js';
-import horizonRoutes from './routes/horizon.js';
-import verticalAgentsRoutes from './routes/vertical-agents.js';
-import verticalConfigRoutes from './routes/vertical-config.js';
-import schemaRoutes from './routes/schema.js';
-import cortexCoreRoutes from './routes/cortex-core.js';
-import schedulerRoutes from './routes/scheduler.js';
-import financialRoutes from './routes/financial.js';
-import healthcareRoutes from './routes/healthcare.js';
-import insuranceRoutes from './routes/insurance.js';
-import energyRoutes from './routes/energy.js';
+// Domain Routers - 14 logical groups replacing 110+ individual route imports
+import {
+  authDomain,
+  councilDomain,
+  dataDomain,
+  governanceDomain,
+  securityDomain,
+  sovereignDomain,
+  enterpriseDomain,
+  legalDomain,
+  verticalsDomain,
+  platformDomain,
+  simulationDomain,
+  workflowsDomain,
+  intelligenceDomain,
+  demoDomain,
+} from './routes/domains/index.js';
+
+// Special routes that need non-standard mounting
 import prometheusRoutes from './routes/prometheus.js';
-import kmsRoutes from './routes/kms.js';
-import vaultRoutes from './routes/vault.js';
-import councilPacketsRoutes from './routes/council-packets.js';
-import auditPackagesRoutes from './routes/audit-packages.js';
-import forecastingRoutes from './routes/forecasting.js';
-import roiMetricsRoutes from './routes/roi-metrics.js';
-import consolidatedRoutes from './routes/consolidated.js';
-import demoSeedRoutes from './routes/demo-seed.js';
-import legalRoutes from './routes/legal.js';
 import legalResearchRoutes from './routes/legal-research.js';
-import defenseRoutes from './routes/defense.js';
-import visualizationRoutes from './routes/visualization.js';
-import adversarialRedteamRoutes from './routes/adversarial-redteam.js';
-import regulatorsReceiptRoutes from './routes/regulators-receipt.js';
-import sgasRoutes from './routes/sgas.js';
-import scgeRoutes from './routes/scge.js';
-import collapseRoutes from './routes/collapse.js';
-import responsibilityRoutes from './routes/responsibility.js';
-import legalServicesRoutes from './routes/legal-services.js';
-import notificationsRoutes from './routes/notifications.js';
-import sportsRoutes from './routes/sports.js';
-import commandRoutes from './routes/command.js';
-import constitutionalCourtRoutes from './routes/constitutional-court.js';
-import regulatorySandboxRoutes from './routes/regulatory-sandbox.js';
-import zkpRoutes from './routes/zkp.js';
-import aiInsuranceRoutes from './routes/ai-insurance.js';
-import postQuantumRoutes from './routes/post-quantum.js';
-import carbonAwareRoutes from './routes/carbon-aware.js';
-import complianceMonitorRoutes from './routes/compliance-monitor.js';
-import crossJurisdictionRoutes from './routes/cross-jurisdiction.js';
 import { registerPlatformServices } from './core/services/PlatformServices.js';
 
 // WebSocket handlers
@@ -312,201 +223,27 @@ if (config.nodeEnv === 'development') {
   logger.info('📚 API Documentation available at /api/docs');
 }
 
-// API Routes
-app.use('/api/v1/auth', authRoutes);
-app.use('/api/v1/users', userRoutes);
-app.use('/api/v1/organizations', organizationRoutes);
-app.use('/api/v1/metrics', metricsRoutes);
-app.use('/api/v1/alerts', alertsRoutes);
-app.use('/api/v1/health', healthRoutes);
-app.use('/api/v1/council/deliberations', deliberationsRoutes); // Must come BEFORE /council
-app.use('/api/v1/council', councilRoutes);
-app.use('/api/v1/graph', graphRoutes);
-app.use('/api/v1/workflows', workflowRoutes);
-app.use('/api/v1/predict', forecastRoutes);
-app.use('/api/v1/data-sources', dataSourceRoutes);
-app.use('/api/v1/lineage', lineageRoutes);
-app.use('/api/v1/integrations', integrationsRoutes);
-app.use('/api/v1/leads', demoRoutes);
-app.use('/api/v1/platform', platformRoutes);
-app.use('/api/v1/premium', holyShitRoutes);
-app.use('/api/v1/deliberations', deliberationsApiRoutes);  // New Prisma-based API
-app.use('/api/v1/decisions', decisionsRoutes);
-app.use('/api/v1/upload', uploadRoutes);
-app.use('/api/v1/i18n', i18nRoutes);
-app.use('/api/v1/summaries', summaryRoutes);
-app.use('/api/v1/models', modelRoutes);
-app.use('/api/v1/admin/settings', adminSettingsRoutes);
-app.use('/api/v1/rag', ragRoutes);
-app.use('/api/v1/veto', vetoRoutes);
-app.use('/api/v1/union', unionRoutes);
-app.use('/api/v1/ledger', ledgerRoutes);
-app.use('/api/v1/hr', hrRoutes);
-app.use('/api/v1/salary', salaryRoutes);
-app.use('/api/v1/core', coreRoutes);
-app.use('/api/v1/enterprise/security', enterpriseSecurityRoutes);
-app.use('/api/v1/enterprise', enterpriseRoutes);
-app.use('/api/v1/admin', adminRoutes);
-app.use('/api/v1/settings', settingsRoutes);
-app.use('/api/v1/pillars', pillarsRoutes);
-app.use('/api/v1/compliance', complianceRoutes);
-app.use('/api/v1/crucible', crucibleRoutes);
-app.use('/api/v1/crucible-enterprise', crucibleEnterpriseRoutes);
-app.use('/api/v1/panopticon', panopticonRoutes);
-app.use('/api/v1/aegis', aegisRoutes);
-app.use('/api/v1/eternal', eternalRoutes);
-app.use('/api/v1/symbiont', symbiontRoutes);
-app.use('/api/v1/vox', voxRoutes);
-app.use('/api/v1/sovereign', sovereignOrgansRoutes);
-app.use('/api/v1/security', sovereignSecurityRoutes);
-app.use('/api/v1/mesh', meshRoutes);
-app.use('/api/v1/persona', personaRoutes);
-app.use('/api/v1/govern', governRoutes);
-app.use('/api/v1/autopilot', autopilotRoutes);
-app.use('/api/v1/decision-intel', decisionIntelRoutes);
-app.use('/api/v1/scheduler', schedulerRoutes);
-app.use('/api/v1/financial', financialRoutes);
-app.use('/api/v1/healthcare', healthcareRoutes);
-app.use('/api/v1/insurance', insuranceRoutes);
-app.use('/api/v1/energy', energyRoutes);
+// =============================================================================
+// API ROUTES - Domain Routers (14 domains, ~110 route modules)
+// All paths remain identical: /api/v1/{original-path}
+// =============================================================================
+app.use('/api/v1', authDomain);        // auth, users, organizations
+app.use('/api/v1', councilDomain);     // council, deliberations, decisions, veto, union, dissent, vox, echo
+app.use('/api/v1', dataDomain);        // metrics, alerts, forecasts, data-sources, lineage, druid, rag, graph, horizon
+app.use('/api/v1', governanceDomain);  // compliance, govern, panopticon, pillars, responsibility, constitutional-court
+app.use('/api/v1', securityDomain);    // crucible, aegis, kms, post-quantum, zkp, adversarial-redteam, redteam
+app.use('/api/v1', sovereignDomain);   // sovereign-organs, sovereign-infra, sovereign-arch, vault, evidence, mesh, eternal
+app.use('/api/v1', enterpriseDomain);  // enterprise, ledger, audit-packages, ai-insurance, cascade, connectors, hr
+app.use('/api/v1', legalDomain);       // legal, legal-research, legal-services
+app.use('/api/v1', verticalsDomain);   // financial, healthcare, insurance, energy, defense, sports, vertical-agents
+app.use('/api/v1', platformDomain);    // platform, core, cortex, admin, settings, health, i18n, notifications, upload
+app.use('/api/v1', simulationDomain);  // sgas, scge, collapse
+app.use('/api/v1', workflowsDomain);   // workflows, integrations, scheduler
+app.use('/api/v1', intelligenceDomain); // persona, autopilot, decision-intel, gnosis, apotheosis, visualization
+app.use('/api/v1', demoDomain);        // leads, premium, demo, consolidated
+
+// Special mounts (non-standard paths)
 app.use('/metrics', prometheusRoutes);
-app.use('/api/v1/errors', errorRoutes);
-app.use('/api/v1/contact', contactRoutes);
-
-// Crown Jewels - Premium Services
-app.use('/api/v1/echo', echoRoutes);
-app.use('/api/v1/redteam', redteamRoutes);
-app.use('/api/v1/gnosis', gnosisRoutes);
-app.use('/api/v1/apotheosis', apotheosisRoutes);
-app.use('/api/v1/dissent', dissentRoutes);
-app.use('/api/v1/sovereign-infra', sovereignRoutes);
-app.use('/api/v1/sovereign-arch', sovereignArchRoutes);
-app.use('/api/v1/evidence', evidenceRoutes);
-app.use('/api/v1/omnitranslate', omnitranslateRoutes);
-app.use('/api/v1/connectors', connectorsRoutes);
-app.use('/api/v1/kms', kmsRoutes);
-app.use('/api/v1/vault', vaultRoutes);
-app.use('/api/v1/council-packets', councilPacketsRoutes);
-app.use('/api/v1/audit-packages', auditPackagesRoutes);
-app.use('/api/v1/forecasting', forecastingRoutes);
-app.use('/api/v1/roi-metrics', roiMetricsRoutes);
-
-// Decision Consequence Engineering
-app.use('/api/v1/cascade', cascadeRoutes);
-app.use('/api/v1/adapters', adaptersRoutes);
-
-// Strategic Services - Investor-Aligned Capabilities
-app.use('/api/v1/strategic', strategicRoutes);
-
-// Sample Data - Auto-populate demo data for data sources
-app.use('/api/v1/sample-data', sampleDataRoutes);
-
-// Demo Mode - Seed data for presentations and demos
-app.use('/api/v1/demo', demoSeedRoutes);
-
-// Druid Analytics - CendiaChronos™, CendiaWitness™, CendiaPulse™
-app.use('/api/v1/druid', druidRoutes);
-
-// CendiaHorizon™ - Predictive Decision Intelligence
-app.use('/api/v1/horizon', horizonRoutes);
-
-// Vertical AI Agents - Industry-Specific Intelligence
-app.use('/api/v1/vertical-agents', verticalAgentsRoutes);
-
-// Vertical Configuration - Service toggles and organization settings
-app.use('/api/v1/vertical-config', verticalConfigRoutes);
-
-// Legal Vertical - Case law, matters, privilege gates, citation enforcement
-app.use('/api/v1/legal', legalRoutes);
-
-// Legal Services - CendiaVeto, CendiaGovern, CendiaBridge
-app.use('/api/v1/legal-services', legalServicesRoutes);
-
-// Defense & National Security Vertical - DIU, FedRAMP High, CMMC, ITAR
-app.use('/api/v1/defense', defenseRoutes);
-
-// WOW Features - Real-time visualization, Replay Theater, Adversarial Red Team, Regulator's Receipt
-app.use('/api/v1/visualization', visualizationRoutes);
-app.use('/api/v1/adversarial-redteam', adversarialRedteamRoutes);
-app.use('/api/v1/regulators-receipt', regulatorsReceiptRoutes);
-
-// Legal Research API - Tools for Council agents (case law, regulations, bills, SEC filings)
-app.use('/api/v1/legal-research', legalResearchRoutes);
-
-// Schema Mapping - Client database schema abstraction
-app.use('/api/v1/schema', schemaRoutes);
-
-// Cortex Core API - Single gateway for all Services
-app.use('/api/v1/cortex', cortexCoreRoutes);
-
-// Consolidated API - Unified endpoints for merged services (Jan 2026 restructure)
-// Council (merged: Autopilot, Voice, Union, Veto, Dissent, Vox)
-// Oversight (merged: Panopticon, Govern, Audit, Regulatory)
-// Decision DNA (merged: Ledger, Evidence Vault)
-// Crucible (merged: RedTeam, Echo, Apotheosis)
-app.use('/api/v1/consolidated', consolidatedRoutes);
-
-// SGAS - Synthetic Governance Agent System
-// Institutional Multi-Agent Decision Verification Architecture
-// 5 Agent Classes: Decision, Institutional, Adversarial, Observer, Meta-Governance
-app.use('/api/v1/sgas', sgasRoutes);
-
-// SCGE - Synthetic Civic Governance Environment
-// Decision verification infrastructure for complex institutions
-// Population, Policies, Events, Stressors, Simulation, Replay
-app.use('/api/v1/scge', scgeRoutes);
-
-// Policy Collapse Mode - Adversarial Policy Stress-Testing
-// "Under what conditions would this decision fail, harm people, or collapse legitimacy?"
-// Dual-track deliberation, Failure Envelopes, Trust Delta calculation
-app.use('/api/v1/collapse', collapseRoutes);
-
-// CendiaResponsibility™ - Human Accountability Layer
-// Explicit liability transfer, TPM-signed accountability records, delegation chains
-app.use('/api/v1/responsibility', responsibilityRoutes);
-
-// Sports Vertical - Football/Soccer Decision Governance
-// Transfer decisions, contract governance, FFP compliance, agent fee justification
-app.use('/api/v1/sports', sportsRoutes);
-
-// CendiaCommand™ - Vertical-specific AI command interfaces
-// Industry-specific natural language commands, quick actions, compliance-aware routing
-app.use('/api/v1/command', commandRoutes);
-
-// CendiaConstitutionalCourt™ - AI Dispute Resolution with Precedent
-// Formal arbitration when agents disagree, precedent tracking, binding opinions
-app.use('/api/v1/constitutional-court', constitutionalCourtRoutes);
-
-// CendiaRegulatorySandbox™ - Test Against Proposed Regulations
-// Predictive compliance testing, regulatory pipeline tracking, gap analysis
-app.use('/api/v1/regulatory-sandbox', regulatorySandboxRoutes);
-
-// CendiaZKP™ - Zero-Knowledge Proofs for Compliance
-// Prove compliance without revealing proprietary logic
-app.use('/api/v1/zkp', zkpRoutes);
-
-// CendiaInsure™ - AI Insurance Integration
-// Policy generation, risk scoring, coverage certificates, claims management
-app.use('/api/v1/ai-insurance', aiInsuranceRoutes);
-
-// CendiaPostQuantumKMS™ - Quantum-Resistant Cryptography
-// Dilithium, SPHINCS+, Falcon signatures for post-quantum security
-app.use('/api/v1/post-quantum', postQuantumRoutes);
-
-// CendiaCarbonAware™ - Carbon-Aware AI Workload Scheduling
-// Reduce AI carbon footprint with intelligent scheduling
-app.use('/api/v1/carbon-aware', carbonAwareRoutes);
-
-// CendiaContinuousCompliance™ - Real-Time Compliance Monitoring
-// Drift detection, gap analysis, alert escalation
-app.use('/api/v1/compliance-monitor', complianceMonitorRoutes);
-
-// CendiaCrossJurisdiction™ - Multi-Jurisdiction Compliance Engine
-// Conflict detection, data residency, cross-border transfer assessment
-app.use('/api/v1/cross-jurisdiction', crossJurisdictionRoutes);
-
-// Notifications - Unified notification system (in-app, email, Slack, Teams, webhooks)
-app.use('/api/v1/notifications', notificationsRoutes);
 
 // 404 handler
 app.use((_req, res) => {

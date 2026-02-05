@@ -1,0 +1,26 @@
+// =============================================================================
+// VERTICALS DOMAIN ROUTER - Industry-Specific Verticals
+// =============================================================================
+
+import { Router } from 'express';
+import financialRoutes from '../financial.js';
+import healthcareRoutes from '../healthcare.js';
+import insuranceRoutes from '../insurance.js';
+import energyRoutes from '../energy.js';
+import defenseRoutes from '../defense.js';
+import sportsRoutes from '../sports.js';
+import verticalAgentsRoutes from '../vertical-agents.js';
+import verticalConfigRoutes from '../vertical-config.js';
+
+const router = Router();
+
+router.use('/financial', financialRoutes);
+router.use('/healthcare', healthcareRoutes);
+router.use('/insurance', insuranceRoutes);
+router.use('/energy', energyRoutes);
+router.use('/defense', defenseRoutes);
+router.use('/sports', sportsRoutes);
+router.use('/vertical-agents', verticalAgentsRoutes);
+router.use('/vertical-config', verticalConfigRoutes);
+
+export default router;
