@@ -59,7 +59,7 @@ services:
     profiles: ["core", "sovereign", "full"]
     environment:
       POSTGRES_USER: ${POSTGRES_USER:-datacendia}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-datacendia_secure_2024}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
       POSTGRES_DB: ${POSTGRES_DB:-datacendia}
     volumes:
       - postgres_data:/var/lib/postgresql/data
@@ -86,7 +86,7 @@ services:
     container_name: datacendia-redis
     restart: unless-stopped
     profiles: ["core", "sovereign", "full"]
-    command: redis-server --appendonly yes --requirepass ${REDIS_PASSWORD:-datacendia_redis_2024} --maxmemory 2gb --maxmemory-policy allkeys-lru
+    command: redis-server --appendonly yes --requirepass ${REDIS_PASSWORD:?Set REDIS_PASSWORD in .env} --maxmemory 2gb --maxmemory-policy allkeys-lru
     volumes:
       - redis_data:/data
     ports:
@@ -94,7 +94,7 @@ services:
     networks:
       - datacendia
     healthcheck:
-      test: ["CMD", "redis-cli", "--pass", "${REDIS_PASSWORD:-datacendia_redis_2024}", "ping"]
+      test: ["CMD", "redis-cli", "--pass", "${REDIS_PASSWORD:?Set REDIS_PASSWORD in .env}", "ping"]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -105,7 +105,7 @@ services:
     restart: unless-stopped
     profiles: ["core", "sovereign", "full"]
     environment:
-      NEO4J_AUTH: neo4j/${NEO4J_PASSWORD:-datacendia_graph_2024}
+      NEO4J_AUTH: neo4j/${NEO4J_PASSWORD:?Set NEO4J_PASSWORD in .env}
       NEO4J_PLUGINS: '["apoc", "graph-data-science"]'
       NEO4J_dbms_security_procedures_unrestricted: apoc.*,gds.*
       NEO4J_dbms_memory_heap_initial__size: 512m
@@ -277,7 +277,7 @@ services:
     environment:
       CLICKHOUSE_DB: datacendia
       CLICKHOUSE_USER: ${CLICKHOUSE_USER:-datacendia}
-      CLICKHOUSE_PASSWORD: ${CLICKHOUSE_PASSWORD:-datacendia_secure_2024}
+      CLICKHOUSE_PASSWORD: ${CLICKHOUSE_PASSWORD:?Set CLICKHOUSE_PASSWORD in .env}
       CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT: 1
     volumes:
       - clickhouse_data:/var/lib/clickhouse
@@ -305,8 +305,8 @@ services:
     profiles: ["sovereign", "full"]
     command: server /data --console-address ":9001"
     environment:
-      MINIO_ROOT_USER: ${MINIO_ROOT_USER:-datacendia_admin}
-      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:-datacendia_secure_2024}
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:?Set MINIO_ROOT_USER in .env}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:?Set MINIO_ROOT_PASSWORD in .env}
     volumes:
       - minio_data:/data
     ports:
@@ -327,7 +327,7 @@ services:
     restart: unless-stopped
     profiles: ["sovereign", "full"]
     environment:
-      MEILI_MASTER_KEY: ${MEILI_MASTER_KEY:-datacendia_secure_2024}
+      MEILI_MASTER_KEY: ${MEILI_MASTER_KEY:?Set MEILI_MASTER_KEY in .env}
       MEILI_ENV: development
     volumes:
       - meilisearch_data:/meili_data
@@ -365,7 +365,7 @@ services:
     environment:
       - N8N_BASIC_AUTH_ACTIVE=true
       - N8N_BASIC_AUTH_USER=${N8N_USER:-admin}
-      - N8N_BASIC_AUTH_PASSWORD=${N8N_PASSWORD:-datacendia_secure_2024}
+      - N8N_BASIC_AUTH_PASSWORD=${N8N_PASSWORD:?Set N8N_PASSWORD in .env}
       - N8N_HOST=localhost
       - N8N_PORT=5678
       - N8N_PROTOCOL=http
@@ -387,11 +387,11 @@ services:
     command: start-dev
     environment:
       KEYCLOAK_ADMIN: ${KEYCLOAK_ADMIN:-admin}
-      KEYCLOAK_ADMIN_PASSWORD: ${KEYCLOAK_ADMIN_PASSWORD:-datacendia_secure_2024}
+      KEYCLOAK_ADMIN_PASSWORD: ${KEYCLOAK_ADMIN_PASSWORD:?Set KEYCLOAK_ADMIN_PASSWORD in .env}
       KC_DB: postgres
       KC_DB_URL: jdbc:postgresql://postgres:5432/keycloak
       KC_DB_USERNAME: ${POSTGRES_USER:-datacendia}
-      KC_DB_PASSWORD: ${POSTGRES_PASSWORD:-datacendia_secure_2024}
+      KC_DB_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
     ports:
       - "8180:8080"
     depends_on:
@@ -407,7 +407,7 @@ services:
     restart: unless-stopped
     profiles: ["sovereign", "full"]
     environment:
-      DATABASE_URL: "postgres://${POSTGRES_USER:-datacendia}:${POSTGRES_PASSWORD:-datacendia_secure_2024}@postgres:5432/unleash"
+      DATABASE_URL: "postgres://${POSTGRES_USER:-datacendia}:${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}@postgres:5432/unleash"
       DATABASE_SSL: "false"
       INIT_ADMIN_API_TOKENS: "*:*.datacendia-admin-token"
     ports:
@@ -464,10 +464,10 @@ services:
     restart: unless-stopped
     profiles: ["security", "full"]
     environment:
-      - ENCRYPTION_KEY=${INFISICAL_ENCRYPTION_KEY:-a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6}
-      - AUTH_SECRET=${INFISICAL_AUTH_SECRET:-datacendia_auth_secret}
-      - DB_CONNECTION_URI=postgres://${POSTGRES_USER:-datacendia}:${POSTGRES_PASSWORD:-datacendia_secure_2024}@postgres:5432/infisical
-      - REDIS_URL=redis://:${REDIS_PASSWORD:-datacendia_redis_2024}@redis:6379
+      - ENCRYPTION_KEY=${INFISICAL_ENCRYPTION_KEY:?Set INFISICAL_ENCRYPTION_KEY in .env}
+      - AUTH_SECRET=${INFISICAL_AUTH_SECRET:?Set INFISICAL_AUTH_SECRET in .env}
+      - DB_CONNECTION_URI=postgres://${POSTGRES_USER:-datacendia}:${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}@postgres:5432/infisical
+      - REDIS_URL=redis://:${REDIS_PASSWORD:?Set REDIS_PASSWORD in .env}@redis:6379
       - SITE_URL=http://localhost:8090
       - TELEMETRY_ENABLED=false
     ports:
@@ -582,7 +582,7 @@ services:
     profiles: ["observability", "full"]
     environment:
       GF_SECURITY_ADMIN_USER: ${GRAFANA_USER:-admin}
-      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_PASSWORD:-datacendia_secure_2024}
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_PASSWORD:?Set GRAFANA_PASSWORD in .env}
       GF_USERS_ALLOW_SIGN_UP: "false"
       GF_SERVER_ROOT_URL: "http://localhost:3002"
     volumes:
@@ -610,11 +610,11 @@ services:
     environment:
       NODE_ENV: development
       PORT: 3001
-      DATABASE_URL: postgresql://${POSTGRES_USER:-datacendia}:${POSTGRES_PASSWORD:-datacendia_secure_2024}@postgres:5432/datacendia
-      REDIS_URL: redis://:${REDIS_PASSWORD:-datacendia_redis_2024}@redis:6379
+      DATABASE_URL: postgresql://${POSTGRES_USER:-datacendia}:${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}@postgres:5432/datacendia
+      REDIS_URL: redis://:${REDIS_PASSWORD:?Set REDIS_PASSWORD in .env}@redis:6379
       NEO4J_URI: bolt://neo4j:7687
       NEO4J_USER: neo4j
-      NEO4J_PASSWORD: ${NEO4J_PASSWORD:-datacendia_graph_2024}
+      NEO4J_PASSWORD: ${NEO4J_PASSWORD:?Set NEO4J_PASSWORD in .env}
       OLLAMA_BASE_URL: http://ollama:11434
       JWT_SECRET: ${JWT_SECRET:-your-super-secret-jwt-key-change-in-production}
       JWT_REFRESH_SECRET: ${JWT_REFRESH_SECRET:-your-refresh-secret-key-change-in-production}

@@ -379,7 +379,7 @@ app.use('/api/v1/redteam', redteamRoutes);
 app.use('/api/v1/gnosis', gnosisRoutes);
 app.use('/api/v1/apotheosis', apotheosisRoutes);
 app.use('/api/v1/dissent', dissentRoutes);
-app.use('/api/v1/sovereign', sovereignRoutes);
+app.use('/api/v1/sovereign-infra', sovereignRoutes);
 app.use('/api/v1/sovereign-arch', sovereignArchRoutes);
 app.use('/api/v1/evidence', evidenceRoutes);
 app.use('/api/v1/omnitranslate', omnitranslateRoutes);

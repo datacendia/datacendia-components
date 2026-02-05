@@ -76,16 +76,18 @@ docker-compose -f docker-compose.unified.yml --profile core --profile sovereign 
 docker-compose -f docker-compose.unified.yml up -d
 ```
 
-### Default Credentials
+### Service URLs
 
 | Service | URL | Credentials |
 |---------|-----|-------------|
-| Frontend | http://localhost:5173 | stuart@datacendia.com / DatacendiaOwner2024! |
+| Frontend | http://localhost:5173 | See `.env` |
 | Backend API | http://localhost:3001 | - |
-| Neo4j Browser | http://localhost:7474 | neo4j / datacendia_graph_2024 |
-| MinIO Console | http://localhost:9001 | datacendia_admin / datacendia_secure_2024 |
-| Grafana | http://localhost:3002 | admin / datacendia_secure_2024 |
-| Keycloak | http://localhost:8180 | admin / datacendia_secure_2024 |
+| Neo4j Browser | http://localhost:7474 | See `.env` (`NEO4J_USER` / `NEO4J_PASSWORD`) |
+| MinIO Console | http://localhost:9001 | See `.env` (`MINIO_ROOT_USER` / `MINIO_ROOT_PASSWORD`) |
+| Grafana | http://localhost:3002 | See `.env` (`GRAFANA_USER` / `GRAFANA_PASSWORD`) |
+| Keycloak | http://localhost:8180 | See `.env` (`KEYCLOAK_ADMIN` / `KEYCLOAK_ADMIN_PASSWORD`) |
+
+> **Security:** Copy `.env.example` to `.env` and set strong, unique passwords before running. Never commit `.env` to version control.
 
 ## 📁 Project Structure
 
