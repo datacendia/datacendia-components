@@ -66,7 +66,7 @@ export const BlogPage: React.FC = () => {
       title: 'Introducing Chronos: See Your Organization Through Time',
       excerpt:
         "Navigate your company's past, present, and future with our new temporal intelligence feature.",
-      date: 'December 2024',
+      date: 'February 2026',
       author: 'Datacendia Team',
       category: 'Product',
       href: '/cortex/intelligence/chronos',

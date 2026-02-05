@@ -319,7 +319,7 @@ const HorizonPage: React.FC = () => {
       ],
       model: {
         version: 'horizon-v2.4.1',
-        lastTrained: '2024-12-01',
+        lastTrained: '2026-01-15',
         calibration: 'weekly',
         accuracy: 0.824,
       },
@@ -1485,10 +1485,10 @@ const HorizonPage: React.FC = () => {
                             <h4 className="text-sm font-medium text-cyan-300 mb-3">Data Sources</h4>
                             <div className="space-y-2">
                               {[
-                                { name: 'Financial Data Warehouse', timestamp: '2024-12-17 14:32:00', freshness: '2h ago' },
-                                { name: 'CRM Pipeline Analytics', timestamp: '2024-12-17 16:00:00', freshness: '15m ago' },
-                                { name: 'Market Intelligence Feed', timestamp: '2024-12-17 15:45:00', freshness: '30m ago' },
-                                { name: 'HR Sentiment Analysis', timestamp: '2024-12-15 09:00:00', freshness: '2d ago' },
+                                { name: 'Financial Data Warehouse', timestamp: '2026-02-05 14:32:00', freshness: '2h ago' },
+                                { name: 'CRM Pipeline Analytics', timestamp: '2026-02-05 16:00:00', freshness: '15m ago' },
+                                { name: 'Market Intelligence Feed', timestamp: '2026-02-05 15:45:00', freshness: '30m ago' },
+                                { name: 'HR Sentiment Analysis', timestamp: '2026-02-03 09:00:00', freshness: '2d ago' },
                               ].map((source, i) => (
                                 <div key={i} className="flex items-center justify-between text-sm">
                                   <span className="text-neutral-300">{source.name}</span>
@@ -1506,7 +1506,7 @@ const HorizonPage: React.FC = () => {
                               </div>
                               <div>
                                 <span className="text-neutral-500">Last Trained:</span>
-                                <span className="text-neutral-300 ml-2">2024-12-01</span>
+                                <span className="text-neutral-300 ml-2">2026-01-15</span>
                               </div>
                               <div>
                                 <span className="text-neutral-500">Calibration:</span>

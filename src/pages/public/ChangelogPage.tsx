@@ -63,7 +63,7 @@ export const ChangelogPage: React.FC = () => {
   const releases = [
     {
       version: '2.4.0',
-      date: 'December 2024',
+      date: 'February 2026',
       type: 'major',
       highlights: [
         { icon: Sparkles, text: 'Chronos temporal intelligence - navigate your org through time' },

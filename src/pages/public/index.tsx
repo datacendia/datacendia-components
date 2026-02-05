@@ -1193,7 +1193,7 @@ export { DownloadsPage } from './DownloadsPage';
 export { LicensePage } from './LicensePage';
 
 // =============================================================================
-// NEW PAGES - December 2024
+// NEW PAGES - February 2026
 // =============================================================================
 
 export { SecurityPage } from './SecurityPage';
