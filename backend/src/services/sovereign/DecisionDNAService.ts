@@ -745,13 +745,28 @@ class DecisionDNAService extends EventEmitter {
     const summary = this.generateSummary(dna);
     fs.writeFileSync(path.join(bundleDir, 'summary.md'), summary);
     
+    // Write trust artifacts reference
+    const trustArtifacts = {
+      iso42001: 'https://datacendia.com/trust/iso-42001-conformance.pdf',
+      nistAIRMF: 'https://datacendia.com/trust/nist-ai-rmf-alignment.pdf',
+      euAIAct: 'https://datacendia.com/trust/eu-ai-act-conformance.pdf',
+      sbom: 'https://datacendia.com/trust/sbom.json',
+      securityPolicy: 'https://datacendia.com/.well-known/security.txt',
+      verificationTools: 'https://github.com/datacendia/verification-tools',
+    };
+    fs.writeFileSync(
+      path.join(bundleDir, 'trust_artifacts.json'),
+      JSON.stringify(trustArtifacts, null, 2)
+    );
+
     // Write integrity manifest
     const manifest = {
       id: dna.id,
       decisionId: dna.decisionId,
       generatedAt: dna.generatedAt,
       integrity: dna.integrity,
-      files: ['decision_dna.json', 'summary.md', 'manifest.json'],
+      trustArtifacts,
+      files: ['decision_dna.json', 'summary.md', 'trust_artifacts.json', 'manifest.json'],
     };
     fs.writeFileSync(
       path.join(bundleDir, 'manifest.json'),

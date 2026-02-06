@@ -475,6 +475,14 @@ export class CouncilDecisionPacketService {
       ...packet,
       exportedAt: new Date().toISOString(),
       exportVersion: '1.0.0',
+      trustArtifacts: {
+        iso42001: 'https://datacendia.com/trust/iso-42001-conformance.pdf',
+        nistAIRMF: 'https://datacendia.com/trust/nist-ai-rmf-alignment.pdf',
+        euAIAct: 'https://datacendia.com/trust/eu-ai-act-conformance.pdf',
+        sbom: 'https://datacendia.com/trust/sbom.json',
+        securityPolicy: 'https://datacendia.com/.well-known/security.txt',
+        verificationTools: 'https://github.com/datacendia/verification-tools',
+      },
     };
     return JSON.stringify(exportData, null, 2);
   }
