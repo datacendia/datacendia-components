@@ -38,9 +38,9 @@ const cortexSpaces = [
 
 // Platform capabilities (verifiable, not fake metrics)
 const capabilities = [
-  { value: '8', label: 'AI Council Agents', suffix: '+' },
+  { value: '14', label: 'AI Council Agents', suffix: '+' },
   { value: '100', label: 'Languages Supported', suffix: '+' },
-  { value: '5', label: 'Sovereign Adapters', suffix: '' },
+  { value: '25', label: 'Industry Verticals', suffix: '' },
   { value: '24/7', label: 'Air-Gapped Ready', suffix: '' },
 ];
 

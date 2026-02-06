@@ -409,7 +409,7 @@ const LandingPage = () => {
               {/* Floating Badge */}
               <div className="absolute -bottom-6 -right-6 bg-slate-800 border border-slate-700 p-4 rounded-lg shadow-xl flex items-center gap-3">
                 <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
-                <span className="font-mono text-xs text-slate-300">8 AGENTS ONLINE</span>
+                <span className="font-mono text-xs text-slate-300">14 AGENTS ONLINE</span>
               </div>
             </div>
           </div>
@@ -424,7 +424,7 @@ const LandingPage = () => {
               Sovereign Pricing
             </h2>
             <p className="text-slate-400 mb-8">
-              Fair, regional pricing accessible to everyone. 16 Languages included.
+              Fair, regional pricing accessible to everyone. 26 Languages included.
             </p>
 
             {/* Region Toggle */}
@@ -506,7 +506,7 @@ const LandingPage = () => {
                   <CheckCircle2 size={16} className="text-amber-500" /> All 6 Apex Packages
                 </li>
                 <li className="flex gap-2 text-sm text-white">
-                  <CheckCircle2 size={16} className="text-amber-500" /> Full Council Access (8
+                  <CheckCircle2 size={16} className="text-amber-500" /> Full Council Access (14
                   Agents)
                 </li>
                 <li className="flex gap-2 text-sm text-white">
