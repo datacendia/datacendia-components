@@ -732,8 +732,7 @@ export const getActiveModelMappings = () => {
 
 | Component | License | Commercial Use | Notes |
 |-----------|---------|----------------|-------|
-| Ollama | MIT | ✅ Yes | Wrapper only |
-| LangChain | MIT | ✅ Yes | No restrictions |
+| Ollama | MIT | ✅ Yes | Local LLM runtime |
 | pgvector | PostgreSQL License | ✅ Yes | No restrictions |
 
 #### LLM Models (Critical for Enterprise)

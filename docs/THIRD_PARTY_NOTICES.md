@@ -11,11 +11,18 @@ This document contains the licenses and notices for third-party software used in
 | React | 18.x | MIT | UI framework |
 | React Router | 6.x | MIT | Client-side routing |
 | TailwindCSS | 3.x | MIT | Utility-first CSS framework |
+| Vite | 7.x | MIT | Build tool & dev server |
+| Zustand | 5.x | MIT | State management |
+| i18next | 25.x | MIT | Internationalization |
+| react-i18next | 16.x | MIT | React i18n integration |
+| Framer Motion | 12.x | MIT | Animation library |
+| Cytoscape.js | 3.x | MIT | Graph visualization |
 | Lucide React | 0.x | ISC | Icon library |
-| Recharts | 2.x | MIT | Charting library |
-| date-fns | 2.x | MIT | Date utilities |
+| Radix UI | Various | MIT | Accessible UI primitives |
+| MUI (Material UI) | 7.x | MIT | UI component library |
 | clsx | 2.x | MIT | Class name utilities |
-| Zod | 3.x | MIT | Schema validation |
+| Socket.io Client | 4.x | MIT | Real-time communication |
+| Leaflet | 1.x | BSD-2 | Map visualization |
 
 ### Backend Dependencies
 
@@ -26,18 +33,22 @@ This document contains the licenses and notices for third-party software used in
 | pg | 8.x | MIT | PostgreSQL client |
 | ioredis | 5.x | MIT | Redis client |
 | neo4j-driver | 5.x | Apache-2.0 | Neo4j client |
-| jsonwebtoken | 9.x | MIT | JWT handling |
-| bcrypt | 5.x | MIT | Password hashing |
+| JOSE | Latest | MIT | JWT handling |
+| bcryptjs | Latest | MIT | Password hashing |
 | winston | 3.x | MIT | Logging |
-| helmet | 7.x | MIT | Security headers |
+| helmet | Latest | MIT | Security headers |
 | cors | 2.x | MIT | CORS middleware |
+| Zod | 3.x | MIT | Schema validation |
+| Socket.io | 4.x | MIT | Real-time communication |
+| Bull/BullMQ | 4.x/5.x | MIT | Job queue |
+| Apollo Server | 5.x | MIT | GraphQL server |
+| prom-client | Latest | Apache-2.0 | Prometheus metrics |
 
 ### AI/ML Components
 
 | Package | Version | License | Description |
 |---------|---------|---------|-------------|
 | Ollama | Latest | MIT | Local LLM runtime |
-| LangChain | 0.x | MIT | LLM orchestration |
 
 ### Infrastructure
 
