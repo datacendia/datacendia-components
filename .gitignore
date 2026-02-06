@@ -11,12 +11,11 @@ out/
 
 # Environment files - NEVER COMMIT THESE
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-*.env
+.env.*
 !.env.example
+!.env.local.example
+!.env.*.example
+*.env
 
 # Logs
 logs/
