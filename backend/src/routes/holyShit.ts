@@ -125,7 +125,7 @@ router.post('/pre-mortem/analyze', async (req: Request, res: Response) => {
     }
 
     const result = await preMortemService.analyze({
-      organizationId: organizationId || 'demo',
+      organizationId: organizationId || req.organizationId!,
       userId: userId || 'demo-user',
       decision,
       context,
@@ -194,7 +194,7 @@ router.post('/ghost-board/session', async (req: Request, res: Response) => {
     }
 
     const result = await ghostBoardService.runSession({
-      organizationId: organizationId || 'demo',
+      organizationId: organizationId || req.organizationId!,
       userId: userId || 'demo-user',
       proposalTitle,
       proposalContent,
@@ -429,7 +429,7 @@ router.post('/live-demo/deliberate', async (req: Request, res: Response) => {
     }
 
     const result = await liveDemoModeService.runLiveDeliberation({
-      organizationId: organizationId || 'demo',
+      organizationId: organizationId || req.organizationId!,
       userId: userId || 'demo-user',
       tier: tier as SubscriptionTier,
       connector,
@@ -468,7 +468,7 @@ router.post('/regulatory/absorb', async (req: Request, res: Response) => {
     }
 
     const result = await regulatoryAbsorbService.absorbDocument({
-      organizationId: organizationId || 'demo',
+      organizationId: organizationId || req.organizationId!,
       userId: userId || 'demo-user',
       tier: tier as SubscriptionTier,
       document,
@@ -564,7 +564,7 @@ router.post('/regulatory/v2/absorb', async (req: Request, res: Response) => {
     }
 
     const result = await regulatoryAbsorbV2Service.absorbDocument({
-      organizationId: organizationId || 'demo',
+      organizationId: organizationId || req.organizationId!,
       userId: userId || 'demo-user',
       tier: tier as SubscriptionTier,
       document,

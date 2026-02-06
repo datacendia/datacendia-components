@@ -128,7 +128,7 @@ router.post('/rlhf/feedback', async (req: Request, res: Response, next: NextFunc
   try {
     const record = await localRLHFService.recordFeedback({
       ...req.body,
-      organizationId: req.organizationId || 'demo',
+      organizationId: req.organizationId!,
       userId: req.user?.id || 'anonymous',
     });
     res.status(201).json({ success: true, data: record });
@@ -138,14 +138,14 @@ router.post('/rlhf/feedback', async (req: Request, res: Response, next: NextFunc
 });
 
 router.get('/rlhf/stats', async (req: Request, res: Response) => {
-  const orgId = req.organizationId || 'demo';
+  const orgId = req.organizationId!;
   res.json({ success: true, data: localRLHFService.getFeedbackStats(orgId) });
 });
 
 router.post('/rlhf/datasets', async (req: Request, res: Response, next: NextFunction) => {
   try {
     const dataset = await localRLHFService.generateDataset({
-      organizationId: req.organizationId || 'demo',
+      organizationId: req.organizationId!,
       ...req.body,
     });
     res.status(201).json({ success: true, data: dataset });
@@ -155,14 +155,14 @@ router.post('/rlhf/datasets', async (req: Request, res: Response, next: NextFunc
 });
 
 router.get('/rlhf/datasets', async (req: Request, res: Response) => {
-  const orgId = req.organizationId || 'demo';
+  const orgId = req.organizationId!;
   res.json({ success: true, data: localRLHFService.getDatasets(orgId) });
 });
 
 router.post('/rlhf/lora', async (req: Request, res: Response, next: NextFunction) => {
   try {
     const config = await localRLHFService.createLoraConfig({
-      organizationId: req.organizationId || 'demo',
+      organizationId: req.organizationId!,
       ...req.body,
     });
     res.status(201).json({ success: true, data: config });
@@ -221,7 +221,7 @@ router.post('/dna/verify', async (req: Request, res: Response) => {
 router.post('/shadow/sessions', async (req: Request, res: Response, next: NextFunction) => {
   try {
     const session = await shadowCouncilService.createSession({
-      organizationId: req.organizationId || 'demo',
+      organizationId: req.organizationId!,
       createdBy: req.user?.id || 'anonymous',
       ...req.body,
     });
@@ -232,7 +232,7 @@ router.post('/shadow/sessions', async (req: Request, res: Response, next: NextFu
 });
 
 router.get('/shadow/sessions', async (req: Request, res: Response) => {
-  const orgId = req.organizationId || 'demo';
+  const orgId = req.organizationId!;
   res.json({ success: true, data: shadowCouncilService.listSessions(orgId, req.user?.id) });
 });
 
@@ -288,7 +288,7 @@ router.post('/shadow/compare', async (req: Request, res: Response, next: NextFun
 router.post('/replay/capture/start', async (req: Request, res: Response, next: NextFunction) => {
   try {
     const stateId = await deterministicReplayService.beginCapture({
-      organizationId: req.organizationId || 'demo',
+      organizationId: req.organizationId!,
       ...req.body,
     });
     res.status(201).json({ success: true, data: { stateId } });
@@ -397,7 +397,7 @@ router.get('/qr/capture/:sessionId/decode', async (req: Request, res: Response) 
 router.post('/canary/deploy', async (req: Request, res: Response, next: NextFunction) => {
   try {
     const canary = await canaryTripwireService.deployCanary({
-      organizationId: req.organizationId || 'demo',
+      organizationId: req.organizationId!,
       ...req.body,
     });
     res.status(201).json({ success: true, data: canary });
@@ -409,7 +409,7 @@ router.post('/canary/deploy', async (req: Request, res: Response, next: NextFunc
 router.post('/canary/deploy-network', async (req: Request, res: Response, next: NextFunction) => {
   try {
     const canaries = await canaryTripwireService.deployCanaryNetwork({
-      organizationId: req.organizationId || 'demo',
+      organizationId: req.organizationId!,
       ...req.body,
     });
     res.status(201).json({ success: true, data: canaries });
@@ -419,17 +419,17 @@ router.post('/canary/deploy-network', async (req: Request, res: Response, next: 
 });
 
 router.get('/canary/list', async (req: Request, res: Response) => {
-  const orgId = req.organizationId || 'demo';
+  const orgId = req.organizationId!;
   res.json({ success: true, data: canaryTripwireService.listCanaries(orgId) });
 });
 
 router.get('/canary/alerts', async (req: Request, res: Response) => {
-  const orgId = req.organizationId || 'demo';
+  const orgId = req.organizationId!;
   res.json({ success: true, data: canaryTripwireService.listAlerts(orgId) });
 });
 
 router.get('/canary/status', async (req: Request, res: Response) => {
-  const orgId = req.organizationId || 'demo';
+  const orgId = req.organizationId!;
   res.json({ success: true, data: canaryTripwireService.getDeploymentStatus(orgId) });
 });
 
@@ -463,7 +463,7 @@ router.get('/tpm/key', async (_req: Request, res: Response) => {
 router.post('/tpm/sign', async (req: Request, res: Response, next: NextFunction) => {
   try {
     const signed = await tpmAttestationService.signDecision({
-      organizationId: req.organizationId || 'demo',
+      organizationId: req.organizationId!,
       ...req.body,
     });
     res.json({ success: true, data: signed });
@@ -484,7 +484,7 @@ router.get('/tpm/verify/:signedId', async (req: Request, res: Response, next: Ne
 });
 
 router.get('/tpm/signatures', async (req: Request, res: Response) => {
-  const orgId = req.organizationId || 'demo';
+  const orgId = req.organizationId!;
   res.json({ success: true, data: tpmAttestationService.listSignedDecisions(orgId) });
 });
 
@@ -506,7 +506,7 @@ router.get('/tpm/export/:signedId', async (req: Request, res: Response, next: Ne
 router.post('/timelock/vaults', async (req: Request, res: Response, next: NextFunction) => {
   try {
     const vault = await timeLockService.createVault({
-      organizationId: req.organizationId || 'demo',
+      organizationId: req.organizationId!,
       createdBy: req.user?.id || 'anonymous',
       ...req.body,
     });
@@ -517,7 +517,7 @@ router.post('/timelock/vaults', async (req: Request, res: Response, next: NextFu
 });
 
 router.get('/timelock/vaults', async (req: Request, res: Response) => {
-  const orgId = req.organizationId || 'demo';
+  const orgId = req.organizationId!;
   res.json({ success: true, data: timeLockService.listVaults(orgId) });
 });
 
@@ -578,7 +578,7 @@ router.post('/timelock/vaults/:id/revoke', async (req: Request, res: Response, n
 router.post('/mesh/initialize', async (req: Request, res: Response, next: NextFunction) => {
   try {
     const node = await federatedMeshService.initializeNode({
-      organizationId: req.organizationId || 'demo',
+      organizationId: req.organizationId!,
       ...req.body,
     });
     res.json({ success: true, data: node });
@@ -667,7 +667,7 @@ router.get('/mesh/statistics', async (_req: Request, res: Response) => {
 router.post('/portable/configs', async (req: Request, res: Response, next: NextFunction) => {
   try {
     const config = await portableInstanceService.createConfig({
-      organizationId: req.organizationId || 'demo',
+      organizationId: req.organizationId!,
       createdBy: req.user?.id || 'anonymous',
       ...req.body,
     });

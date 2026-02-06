@@ -32,7 +32,7 @@ router.get('/history', (req: Request, res: Response) => {
  */
 router.get('/score', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req as any).organizationId || 'demo-org';
+    const organizationId = req.organizationId!;
     const score = await apotheosisService.getApotheosisScore(organizationId);
     res.json(score);
   } catch (error) {
@@ -47,7 +47,7 @@ router.get('/score', async (req: Request, res: Response) => {
  */
 router.get('/latest-run', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req as any).organizationId || 'demo-org';
+    const organizationId = req.organizationId!;
     const run = await apotheosisService.getLatestRun(organizationId);
     res.json(run);
   } catch (error) {
@@ -62,7 +62,7 @@ router.get('/latest-run', async (req: Request, res: Response) => {
  */
 router.get('/run-history', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req as any).organizationId || 'demo-org';
+    const organizationId = req.organizationId!;
     const limit = parseInt(req.query.limit as string) || 30;
     const runs = await apotheosisService.getRunHistory(organizationId, limit);
     res.json(runs);
@@ -82,7 +82,7 @@ router.get('/run-history', async (req: Request, res: Response) => {
  */
 router.get('/escalations', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req as any).organizationId || 'demo-org';
+    const organizationId = req.organizationId!;
     const escalations = await apotheosisService.getPendingEscalations(organizationId);
     res.json(escalations);
   } catch (error) {
@@ -118,7 +118,7 @@ router.post('/escalations/:id/respond', async (req: Request, res: Response) => {
  */
 router.get('/banned-patterns', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req as any).organizationId || 'demo-org';
+    const organizationId = req.organizationId!;
     const patterns = await apotheosisService.getBannedPatterns(organizationId);
     res.json(patterns);
   } catch (error) {
@@ -137,7 +137,7 @@ router.get('/banned-patterns', async (req: Request, res: Response) => {
  */
 router.get('/upskill-assignments', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req as any).organizationId || 'demo-org';
+    const organizationId = req.organizationId!;
     const assignments = await apotheosisService.getUpskillAssignments(organizationId);
     res.json(assignments);
   } catch (error) {
@@ -156,7 +156,7 @@ router.get('/upskill-assignments', async (req: Request, res: Response) => {
  */
 router.get('/config', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req as any).organizationId || 'demo-org';
+    const organizationId = req.organizationId!;
     const config = await apotheosisService.getConfig(organizationId);
     res.json(config);
   } catch (error) {
@@ -171,7 +171,7 @@ router.get('/config', async (req: Request, res: Response) => {
  */
 router.put('/config', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req as any).organizationId || 'demo-org';
+    const organizationId = req.organizationId!;
     const config = await apotheosisService.updateConfig(organizationId, req.body);
     res.json(config);
   } catch (error) {
@@ -190,7 +190,7 @@ router.put('/config', async (req: Request, res: Response) => {
  */
 router.post('/trigger-run', async (req: Request, res: Response) => {
   try {
-    const organizationId = (req as any).organizationId || 'demo-org';
+    const organizationId = req.organizationId!;
     const runId = await apotheosisService.triggerManualRun(organizationId);
     res.json({ runId, message: 'Apotheosis run triggered' });
   } catch (error) {
